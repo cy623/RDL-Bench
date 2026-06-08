@@ -17,6 +17,22 @@ RDL-Bench is a benchmark for task-aware question answering over relational datab
 └── CITATION.cff
 ```
 
+## Data Download
+
+The lightweight repository contains benchmark metadata, instance files, and dataset construction scripts.
+
+Large files are provided through the GitHub Release:
+
+- Release page: [RDL-Bench](https://github.com/cy623/RDL-Bench/releases/tag/v1.0)
+
+Please download the following assets from the release page:
+
+- `dataset.zip`: benchmark instance files
+- `DB.zip`: database files
+- `mysql_csv.zip`: CSV exports
+- `json_cleaned.zip`: cleaned JSON construction files
+
+After downloading, place the files under the corresponding directories described in `DATASET_CARD.md`.
 
 ## Data Format
 
