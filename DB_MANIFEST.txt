@@ -1,0 +1,25 @@
+Archive: DB.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2026-06-08 11:56   DB/
+      263  2026-06-08 11:56   __MACOSX/._DB
+    12288  2026-06-08 11:56   DB/Dallass.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._Dallass.duckdb
+  9711616  2026-06-08 11:56   DB/LDBC_SNB.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._LDBC_SNB.duckdb
+758919168  2026-06-08 11:58   DB/stats.duckdb
+      163  2026-06-08 11:58   __MACOSX/DB/._stats.duckdb
+ 21245952  2026-06-08 11:56   DB/financial.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._financial.duckdb
+ 74461184  2026-06-08 11:56   DB/Airline.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._Airline.duckdb
+  2109440  2026-06-08 11:56   DB/hepatitis.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._hepatitis.duckdb
+ 45625344  2026-06-08 11:56   DB/Olist.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._Olist.duckdb
+  4730880  2026-06-08 11:56   DB/NCAA.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._NCAA.duckdb
+  1323008  2026-06-08 11:56   DB/Dallas.duckdb
+      163  2026-06-08 11:56   __MACOSX/DB/._Dallas.duckdb
+---------                     -------
+918140610                     20 files

@@ -1,0 +1,1041 @@
+{
+  "database_metadata": {
+    "name": "Olist",
+    "description": "A relational e-commerce dataset derived from the Brazilian E-Commerce Public Dataset by Olist. It contains information on about 100,000 orders placed from 2016 to 2018 across multiple marketplaces in Brazil, and supports multi-table analysis of orders, customers, products, sellers, payments, freight performance, geolocation, and customer reviews.",
+    "target_qa_generation_framework": [
+      {
+        "Type": "Retrieval",
+        "Description": "Directly search for entities or records",
+        "Example": "Return the names of all users who have purchased the iPhone 13."
+      },
+      {
+        "Type": "Analytical",
+        "Description": "Aggregation, sorting, statistics",
+        "Example": "Which city had the highest average order value over the past 6 months?"
+      },
+      {
+        "Type": "Relational Reasoning",
+        "Description": "Multi-table joins, multi-hop logic, existence/exclusion relationships",
+        "Example": "Which users have placed orders but never left any product reviews on the platform?"
+      },
+      {
+        "Type": "Predictive",
+        "Description": "Inferring future behavior or state based on historical data",
+        "Example": "Based on historical behavior, which users are unlikely to place another order within the next 30 days?"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table_name": "olist_customers_dataset",
+      "description": "Customer dataset containing customer identifiers and delivery-location attributes. It is used to identify customers in the orders dataset and to describe customer location through zip-code prefix, city, and state.",
+      "schema": {
+        "columns": [
+          {
+            "name": "customer_id",
+            "type": "VARCHAR",
+            "comment": "Primary key of the customers table. In the Olist dataset, each order is assigned to a unique `customer_id`, so the same real-world customer may appear with different `customer_id` values across different orders."
+          },
+          {
+            "name": "customer_unique_id",
+            "type": "VARCHAR",
+            "comment": "Stable customer identifier used to identify repeat purchases by the same customer across different orders."
+          },
+          {
+            "name": "customer_zip_code_prefix",
+            "type": "VARCHAR",
+            "comment": "Prefix of the customer's ZIP code."
+          },
+          {
+            "name": "customer_city",
+            "type": "VARCHAR",
+            "comment": "Customer city name."
+          },
+          {
+            "name": "customer_state",
+            "type": "VARCHAR",
+            "comment": "Customer state abbreviation."
+          }
+        ],
+        "primary_key": [
+          "customer_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 99441,
+        "column_stats": {
+          "customer_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 99441
+          },
+          "customer_unique_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 96096
+          },
+          "customer_zip_code_prefix": {
+            "null_ratio": "0.0%",
+            "distinct_values": 14994
+          },
+          "customer_city": {
+            "null_ratio": "0.0%",
+            "distinct_values": 4119
+          },
+          "customer_state": {
+            "null_ratio": "0.0%",
+            "distinct_values": 27
+          }
+        },
+        "advanced_profiling": {
+          "top_10_customer_states": [
+            {
+              "state": "SP",
+              "customer_count": 41746
+            },
+            {
+              "state": "RJ",
+              "customer_count": 12852
+            },
+            {
+              "state": "MG",
+              "customer_count": 11635
+            },
+            {
+              "state": "RS",
+              "customer_count": 5466
+            },
+            {
+              "state": "PR",
+              "customer_count": 5045
+            },
+            {
+              "state": "SC",
+              "customer_count": 3637
+            },
+            {
+              "state": "BA",
+              "customer_count": 3380
+            },
+            {
+              "state": "DF",
+              "customer_count": 2140
+            },
+            {
+              "state": "ES",
+              "customer_count": 2033
+            },
+            {
+              "state": "GO",
+              "customer_count": 2020
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "olist_geolocation_dataset",
+      "description": "Geolocation dataset relating Brazilian ZIP-code prefixes to latitude/longitude coordinates and location names. It provides geographic reference information for zip-code prefixes, including latitude, longitude, city, and state.",
+      "schema": {
+        "columns": [
+          {
+            "name": "geolocation_zip_code_prefix",
+            "type": "VARCHAR",
+            "comment": "Brazilian ZIP-code prefix used as the geographic reference key."
+          },
+          {
+            "name": "geolocation_lat",
+            "type": "DOUBLE",
+            "comment": "Latitude associated with the ZIP-code prefix."
+          },
+          {
+            "name": "geolocation_lng",
+            "type": "DOUBLE",
+            "comment": "Longitude associated with the ZIP-code prefix."
+          },
+          {
+            "name": "geolocation_city",
+            "type": "VARCHAR",
+            "comment": "City name associated with the ZIP-code prefix."
+          },
+          {
+            "name": "geolocation_state",
+            "type": "VARCHAR",
+            "comment": "State abbreviation associated with the ZIP-code prefix."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 1000163,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "geolocation_zip_code_prefix": "80510",
+            "geolocation_lat": "-25.421019853165294",
+            "geolocation_lng": "-49.28487645253623",
+            "geolocation_city": "curitiba",
+            "geolocation_state": "PR"
+          },
+          {
+            "geolocation_zip_code_prefix": "71901",
+            "geolocation_lat": "-15.831507404965272",
+            "geolocation_lng": "-48.017061172812056",
+            "geolocation_city": "brasilia",
+            "geolocation_state": "DF"
+          },
+          {
+            "geolocation_zip_code_prefix": "08343",
+            "geolocation_lat": "-23.60716789869582",
+            "geolocation_lng": "-46.44735273313524",
+            "geolocation_city": "sao paulo",
+            "geolocation_state": "SP"
+          },
+          {
+            "geolocation_zip_code_prefix": "04144",
+            "geolocation_lat": "-23.622794004991658",
+            "geolocation_lng": "-46.63641274132953",
+            "geolocation_city": "sao paulo",
+            "geolocation_state": "SP"
+          },
+          {
+            "geolocation_zip_code_prefix": "40150",
+            "geolocation_lat": "-12.998032392240315",
+            "geolocation_lng": "-38.52045820577161",
+            "geolocation_city": "salvador",
+            "geolocation_state": "BA"
+          },
+          {
+            "geolocation_zip_code_prefix": "86047",
+            "geolocation_lat": "-23.35194878405928",
+            "geolocation_lng": "-51.171970898506146",
+            "geolocation_city": "londrina",
+            "geolocation_state": "PR"
+          },
+          {
+            "geolocation_zip_code_prefix": "83020",
+            "geolocation_lat": "-25.562239559628093",
+            "geolocation_lng": "-49.196776811882835",
+            "geolocation_city": "são josé dos pinhais",
+            "geolocation_state": "PR"
+          },
+          {
+            "geolocation_zip_code_prefix": "04014",
+            "geolocation_lat": "-23.584469169496362",
+            "geolocation_lng": "-46.643129120263694",
+            "geolocation_city": "sao paulo",
+            "geolocation_state": "SP"
+          },
+          {
+            "geolocation_zip_code_prefix": "01244",
+            "geolocation_lat": "-23.553642289485797",
+            "geolocation_lng": "-46.66319911503841",
+            "geolocation_city": "sao paulo",
+            "geolocation_state": "SP"
+          },
+          {
+            "geolocation_zip_code_prefix": "94465",
+            "geolocation_lat": "-30.11633777207426",
+            "geolocation_lng": "-51.07857694683213",
+            "geolocation_city": "viamao",
+            "geolocation_state": "RS"
+          }
+        ],
+        "note": "Large lookup table (1000163 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "olist_orders_dataset",
+      "description": "Orders dataset containing one row per order and its lifecycle timestamps. It links each order to a customer and records the order status, purchase time, approval time, carrier handoff time, customer delivery time, and estimated delivery date.",
+      "schema": {
+        "columns": [
+          {
+            "name": "order_id",
+            "type": "VARCHAR",
+            "comment": "Primary key of the orders table; unique identifier of the order."
+          },
+          {
+            "name": "customer_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the customer associated with the order; foreign key to `olist_customers_dataset.customer_id`."
+          },
+          {
+            "name": "order_status",
+            "type": "VARCHAR",
+            "comment": "Current status of the order."
+          },
+          {
+            "name": "order_purchase_timestamp",
+            "type": "TIMESTAMP",
+            "comment": "Timestamp when the order was placed."
+          },
+          {
+            "name": "order_approved_at",
+            "type": "TIMESTAMP",
+            "comment": "Timestamp when the payment for the order was approved."
+          },
+          {
+            "name": "order_delivered_carrier_date",
+            "type": "TIMESTAMP",
+            "comment": "Timestamp when the order was handed over to the logistics carrier."
+          },
+          {
+            "name": "order_delivered_customer_date",
+            "type": "TIMESTAMP",
+            "comment": "Timestamp when the order was delivered to the customer."
+          },
+          {
+            "name": "order_estimated_delivery_date",
+            "type": "TIMESTAMP",
+            "comment": "Estimated date when the order was expected to be delivered to the customer."
+          }
+        ],
+        "primary_key": [
+          "order_id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "customer_id",
+            "references": "olist_customers_dataset.customer_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 99441,
+        "column_stats": {
+          "order_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 99441
+          },
+          "customer_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 99441
+          },
+          "order_status": {
+            "null_ratio": "0.0%",
+            "distinct_values": 8
+          },
+          "order_purchase_timestamp": {
+            "null_ratio": "0.0%",
+            "distinct_values": 98875
+          },
+          "order_approved_at": {
+            "null_ratio": "0.2%",
+            "distinct_values": 90733
+          },
+          "order_delivered_carrier_date": {
+            "null_ratio": "1.8%",
+            "distinct_values": 81018
+          },
+          "order_delivered_customer_date": {
+            "null_ratio": "3.0%",
+            "distinct_values": 95664
+          },
+          "order_estimated_delivery_date": {
+            "null_ratio": "0.0%",
+            "distinct_values": 459
+          }
+        },
+        "advanced_profiling": {
+          "order_status_distribution": [
+            {
+              "status": "delivered",
+              "count": 96478,
+              "pct": "97.02%"
+            },
+            {
+              "status": "shipped",
+              "count": 1107,
+              "pct": "1.11%"
+            },
+            {
+              "status": "canceled",
+              "count": 625,
+              "pct": "0.63%"
+            },
+            {
+              "status": "unavailable",
+              "count": 609,
+              "pct": "0.61%"
+            },
+            {
+              "status": "invoiced",
+              "count": 314,
+              "pct": "0.32%"
+            },
+            {
+              "status": "processing",
+              "count": 301,
+              "pct": "0.3%"
+            },
+            {
+              "status": "created",
+              "count": 5,
+              "pct": "0.01%"
+            },
+            {
+              "status": "approved",
+              "count": 2,
+              "pct": "0.0%"
+            }
+          ],
+          "time_coverage": {
+            "first_order": "2016-09-04 21:15:19",
+            "last_order": "2018-10-17 17:30:18"
+          }
+        }
+      }
+    },
+    {
+      "table_name": "olist_order_items_dataset",
+      "description": "Order-items dataset containing one row per item within an order. It links each order item to a product and a seller, and records the shipping deadline, item price, and freight value.",
+      "schema": {
+        "columns": [
+          {
+            "name": "order_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the order to which the item belongs; foreign key to `olist_orders_dataset.order_id`."
+          },
+          {
+            "name": "order_item_id",
+            "type": "BIGINT",
+            "comment": "Sequential number identifying the item within the order."
+          },
+          {
+            "name": "product_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the purchased product; foreign key to `olist_products_dataset.product_id`."
+          },
+          {
+            "name": "seller_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the seller responsible for the item; foreign key to `olist_sellers_dataset.seller_id`."
+          },
+          {
+            "name": "shipping_limit_date",
+            "type": "TIMESTAMP",
+            "comment": "Deadline by which the seller should ship the item."
+          },
+          {
+            "name": "price",
+            "type": "DOUBLE",
+            "comment": "Price of the order item."
+          },
+          {
+            "name": "freight_value",
+            "type": "DOUBLE",
+            "comment": "Freight charge associated with the order item."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "order_id",
+            "references": "olist_orders_dataset.order_id"
+          },
+          {
+            "column": "product_id",
+            "references": "olist_products_dataset.product_id"
+          },
+          {
+            "column": "seller_id",
+            "references": "olist_sellers_dataset.seller_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 112650,
+        "column_stats": {
+          "order_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 98666
+          },
+          "order_item_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 21
+          },
+          "product_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 32951
+          },
+          "seller_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 3095
+          },
+          "shipping_limit_date": {
+            "null_ratio": "0.0%",
+            "distinct_values": 93318
+          },
+          "price": {
+            "null_ratio": "0.0%",
+            "distinct_values": 5968
+          },
+          "freight_value": {
+            "null_ratio": "0.0%",
+            "distinct_values": 6999
+          }
+        },
+        "advanced_profiling": {
+          "financial_metrics": {
+            "price": {
+              "min": 0.85,
+              "max": 6735.0,
+              "avg": 120.65
+            },
+            "freight_value": {
+              "min": 0.0,
+              "max": 409.68,
+              "avg": 19.99
+            }
+          }
+        }
+      }
+    },
+    {
+      "table_name": "olist_order_payments_dataset",
+      "description": "Order-payments dataset containing payment records associated with orders. It records the payment sequence, payment method, number of installments, and payment value for each order payment entry.",
+      "schema": {
+        "columns": [
+          {
+            "name": "order_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the order associated with the payment record; foreign key to `olist_orders_dataset.order_id`."
+          },
+          {
+            "name": "payment_sequential",
+            "type": "BIGINT",
+            "comment": "Sequential number identifying the payment entry for the order."
+          },
+          {
+            "name": "payment_type",
+            "type": "VARCHAR",
+            "comment": "Payment method used for the order payment."
+          },
+          {
+            "name": "payment_installments",
+            "type": "BIGINT",
+            "comment": "Number of installments used in the payment."
+          },
+          {
+            "name": "payment_value",
+            "type": "DOUBLE",
+            "comment": "Monetary value of the payment."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "order_id",
+            "references": "olist_orders_dataset.order_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 103886,
+        "column_stats": {
+          "order_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 99440
+          },
+          "payment_sequential": {
+            "null_ratio": "0.0%",
+            "distinct_values": 29
+          },
+          "payment_type": {
+            "null_ratio": "0.0%",
+            "distinct_values": 5
+          },
+          "payment_installments": {
+            "null_ratio": "0.0%",
+            "distinct_values": 24
+          },
+          "payment_value": {
+            "null_ratio": "0.0%",
+            "distinct_values": 29077
+          }
+        },
+        "advanced_profiling": {
+          "payment_type_distribution": [
+            {
+              "payment_type": "credit_card",
+              "usage_count": 76795,
+              "avg_payment_value": 163.32
+            },
+            {
+              "payment_type": "boleto",
+              "usage_count": 19784,
+              "avg_payment_value": 145.03
+            },
+            {
+              "payment_type": "voucher",
+              "usage_count": 5775,
+              "avg_payment_value": 65.7
+            },
+            {
+              "payment_type": "debit_card",
+              "usage_count": 1529,
+              "avg_payment_value": 142.57
+            },
+            {
+              "payment_type": "not_defined",
+              "usage_count": 3,
+              "avg_payment_value": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "olist_order_reviews_dataset",
+      "description": "Order-reviews dataset containing customer review records associated with orders. It stores the review identifier, linked order, review score, optional review title and message, the review creation date, and the timestamp when the review was answered.",
+      "schema": {
+        "columns": [
+          {
+            "name": "review_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the review record. The public description does not guarantee that this field is globally unique as a table primary key."
+          },
+          {
+            "name": "order_id",
+            "type": "VARCHAR",
+            "comment": "Identifier of the order associated with the review; foreign key to `olist_orders_dataset.order_id`."
+          },
+          {
+            "name": "review_score",
+            "type": "BIGINT",
+            "comment": "Numeric review score given by the customer."
+          },
+          {
+            "name": "review_comment_title",
+            "type": "VARCHAR",
+            "comment": "Title of the review comment, if provided."
+          },
+          {
+            "name": "review_comment_message",
+            "type": "VARCHAR",
+            "comment": "Text message of the review comment, if provided."
+          },
+          {
+            "name": "review_creation_date",
+            "type": "TIMESTAMP",
+            "comment": "Date when the customer satisfaction survey was sent to the customer or when the review became available for creation."
+          },
+          {
+            "name": "review_answer_timestamp",
+            "type": "TIMESTAMP",
+            "comment": "Timestamp when the review was answered."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "order_id",
+            "references": "olist_orders_dataset.order_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 99224,
+        "column_stats": {
+          "review_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 98410
+          },
+          "order_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 98673
+          },
+          "review_score": {
+            "null_ratio": "0.0%",
+            "distinct_values": 5
+          },
+          "review_comment_title": {
+            "null_ratio": "88.3%",
+            "distinct_values": 4527
+          },
+          "review_comment_message": {
+            "null_ratio": "58.7%",
+            "distinct_values": 36159
+          },
+          "review_creation_date": {
+            "null_ratio": "0.0%",
+            "distinct_values": 636
+          },
+          "review_answer_timestamp": {
+            "null_ratio": "0.0%",
+            "distinct_values": 98248
+          }
+        },
+        "advanced_profiling": {
+          "review_score_distribution": [
+            {
+              "score": 5,
+              "count": 57328,
+              "pct": "57.78%"
+            },
+            {
+              "score": 4,
+              "count": 19142,
+              "pct": "19.29%"
+            },
+            {
+              "score": 3,
+              "count": 8179,
+              "pct": "8.24%"
+            },
+            {
+              "score": 2,
+              "count": 3151,
+              "pct": "3.18%"
+            },
+            {
+              "score": 1,
+              "count": 11424,
+              "pct": "11.51%"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "olist_products_dataset",
+      "description": "Products dataset containing product identifiers and product catalog attributes. It records the product category name, textual description lengths, number of photos, weight, and package dimensions.",
+      "schema": {
+        "columns": [
+          {
+            "name": "product_id",
+            "type": "VARCHAR",
+            "comment": "Primary key of the products table; unique identifier of the product."
+          },
+          {
+            "name": "product_category_name",
+            "type": "VARCHAR",
+            "comment": "Product category name."
+          },
+          {
+            "name": "product_name_lenght",
+            "type": "BIGINT",
+            "comment": "Length of the product name."
+          },
+          {
+            "name": "product_description_lenght",
+            "type": "BIGINT",
+            "comment": "Length of the product description."
+          },
+          {
+            "name": "product_photos_qty",
+            "type": "BIGINT",
+            "comment": "Number of product photos."
+          },
+          {
+            "name": "product_weight_g",
+            "type": "BIGINT",
+            "comment": "Product weight in grams."
+          },
+          {
+            "name": "product_length_cm",
+            "type": "BIGINT",
+            "comment": "Product length in centimeters."
+          },
+          {
+            "name": "product_height_cm",
+            "type": "BIGINT",
+            "comment": "Product height in centimeters."
+          },
+          {
+            "name": "product_width_cm",
+            "type": "BIGINT",
+            "comment": "Product width in centimeters."
+          }
+        ],
+        "primary_key": [
+          "product_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 32951,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "product_id": "19d1f95608edf8246e8891c90d9b211a",
+            "product_category_name": "cool_stuff",
+            "product_name_lenght": "51",
+            "product_description_lenght": "458",
+            "product_photos_qty": "4",
+            "product_weight_g": "1100",
+            "product_length_cm": "36",
+            "product_height_cm": "24",
+            "product_width_cm": "16"
+          },
+          {
+            "product_id": "49adae85b53072da0eb9a88c3f0d2c7b",
+            "product_category_name": "papelaria",
+            "product_name_lenght": "60",
+            "product_description_lenght": "391",
+            "product_photos_qty": "3",
+            "product_weight_g": "5900",
+            "product_length_cm": "28",
+            "product_height_cm": "55",
+            "product_width_cm": "37"
+          },
+          {
+            "product_id": "1ed390fc2e1df06251341c288d315eea",
+            "product_category_name": "esporte_lazer",
+            "product_name_lenght": "56",
+            "product_description_lenght": "1236",
+            "product_photos_qty": "1",
+            "product_weight_g": "4350",
+            "product_length_cm": "20",
+            "product_height_cm": "20",
+            "product_width_cm": "20"
+          },
+          {
+            "product_id": "60bc15240c03ba82f305cd923bd93598",
+            "product_category_name": "perfumaria",
+            "product_name_lenght": "53",
+            "product_description_lenght": "693",
+            "product_photos_qty": "1",
+            "product_weight_g": "450",
+            "product_length_cm": "18",
+            "product_height_cm": "18",
+            "product_width_cm": "18"
+          },
+          {
+            "product_id": "6290a17933bbbd6ece996ef6542f4761",
+            "product_category_name": "fashion_bolsas_e_acessorios",
+            "product_name_lenght": "30",
+            "product_description_lenght": "815",
+            "product_photos_qty": "1",
+            "product_weight_g": "100",
+            "product_length_cm": "16",
+            "product_height_cm": "5",
+            "product_width_cm": "16"
+          },
+          {
+            "product_id": "597b41d8d84933e89685ba67a4d595b7",
+            "product_category_name": "esporte_lazer",
+            "product_name_lenght": "24",
+            "product_description_lenght": "827",
+            "product_photos_qty": "2",
+            "product_weight_g": "900",
+            "product_length_cm": "28",
+            "product_height_cm": "25",
+            "product_width_cm": "25"
+          },
+          {
+            "product_id": "56537b99d06c3516aeaaadad438c9f64",
+            "product_category_name": "malas_acessorios",
+            "product_name_lenght": "53",
+            "product_description_lenght": "1793",
+            "product_photos_qty": "4",
+            "product_weight_g": "950",
+            "product_length_cm": "16",
+            "product_height_cm": "50",
+            "product_width_cm": "35"
+          },
+          {
+            "product_id": "2a478a360a293f087e352e88f10af8af",
+            "product_category_name": "cama_mesa_banho",
+            "product_name_lenght": "54",
+            "product_description_lenght": "384",
+            "product_photos_qty": "1",
+            "product_weight_g": "600",
+            "product_length_cm": "16",
+            "product_height_cm": "10",
+            "product_width_cm": "16"
+          },
+          {
+            "product_id": "5cb9696a7256c0bd3fa974570c74a13d",
+            "product_category_name": "papelaria",
+            "product_name_lenght": "60",
+            "product_description_lenght": "210",
+            "product_photos_qty": "4",
+            "product_weight_g": "1700",
+            "product_length_cm": "35",
+            "product_height_cm": "60",
+            "product_width_cm": "40"
+          },
+          {
+            "product_id": "9c3eb520c98b5461454930ccc3c5be7b",
+            "product_category_name": "cama_mesa_banho",
+            "product_name_lenght": "58",
+            "product_description_lenght": "316",
+            "product_photos_qty": "2",
+            "product_weight_g": "2710",
+            "product_length_cm": "44",
+            "product_height_cm": "38",
+            "product_width_cm": "40"
+          }
+        ],
+        "note": "Large lookup table (32951 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "olist_sellers_dataset",
+      "description": "Sellers dataset containing seller identifiers and seller-location attributes. It records the seller's ZIP-code prefix, city, and state.",
+      "schema": {
+        "columns": [
+          {
+            "name": "seller_id",
+            "type": "VARCHAR",
+            "comment": "Primary key of the sellers table; unique identifier of the seller."
+          },
+          {
+            "name": "seller_zip_code_prefix",
+            "type": "VARCHAR",
+            "comment": "Prefix of the seller's ZIP code."
+          },
+          {
+            "name": "seller_city",
+            "type": "VARCHAR",
+            "comment": "Seller city name."
+          },
+          {
+            "name": "seller_state",
+            "type": "VARCHAR",
+            "comment": "Seller state abbreviation."
+          }
+        ],
+        "primary_key": [
+          "seller_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 3095,
+        "column_stats": {
+          "seller_id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 3095
+          },
+          "seller_zip_code_prefix": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2246
+          },
+          "seller_city": {
+            "null_ratio": "0.0%",
+            "distinct_values": 611
+          },
+          "seller_state": {
+            "null_ratio": "0.0%",
+            "distinct_values": 23
+          }
+        },
+        "advanced_profiling": {
+          "top_10_seller_states": [
+            {
+              "state": "SP",
+              "seller_count": 1849
+            },
+            {
+              "state": "PR",
+              "seller_count": 349
+            },
+            {
+              "state": "MG",
+              "seller_count": 244
+            },
+            {
+              "state": "SC",
+              "seller_count": 190
+            },
+            {
+              "state": "RJ",
+              "seller_count": 171
+            },
+            {
+              "state": "RS",
+              "seller_count": 129
+            },
+            {
+              "state": "GO",
+              "seller_count": 40
+            },
+            {
+              "state": "DF",
+              "seller_count": 30
+            },
+            {
+              "state": "ES",
+              "seller_count": 23
+            },
+            {
+              "state": "BA",
+              "seller_count": 19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "product_category_name_translation",
+      "description": "Lookup table translating product category names from Portuguese into English. It maps each original product category name used in the products dataset to its English translation.",
+      "schema": {
+        "columns": [
+          {
+            "name": "product_category_name",
+            "type": "VARCHAR",
+            "comment": "Original product category name in Portuguese, as used in the products dataset."
+          },
+          {
+            "name": "product_category_name_english",
+            "type": "VARCHAR",
+            "comment": "English translation of the product category name."
+          }
+        ],
+        "primary_key": [
+          "product_category_name"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 71,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "product_category_name": "seguros_e_servicos",
+            "product_category_name_english": "security_and_services"
+          },
+          {
+            "product_category_name": "eletrodomesticos_2",
+            "product_category_name_english": "home_appliances_2"
+          },
+          {
+            "product_category_name": "malas_acessorios",
+            "product_category_name_english": "luggage_accessories"
+          },
+          {
+            "product_category_name": "casa_conforto",
+            "product_category_name_english": "home_confort"
+          },
+          {
+            "product_category_name": "artigos_de_festas",
+            "product_category_name_english": "party_supplies"
+          },
+          {
+            "product_category_name": "consoles_games",
+            "product_category_name_english": "consoles_games"
+          },
+          {
+            "product_category_name": "dvds_blu_ray",
+            "product_category_name_english": "dvds_blu_ray"
+          },
+          {
+            "product_category_name": "utilidades_domesticas",
+            "product_category_name_english": "housewares"
+          },
+          {
+            "product_category_name": "audio",
+            "product_category_name_english": "audio"
+          },
+          {
+            "product_category_name": "moveis_decoracao",
+            "product_category_name_english": "furniture_decor"
+          }
+        ],
+        "note": "Large lookup table (71 rows): 10 random samples provided."
+      }
+    }
+  ]
+}

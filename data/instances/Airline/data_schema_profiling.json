@@ -1,0 +1,2901 @@
+{
+  "database_metadata": {
+    "name": "Airline",
+    "description": "Airline on-time data are reported each month to the U.S. Department of Transportation (DOT), Bureau of Transportation Statistics (BTS) by the 16 U.S. air carriers that have at least 1 percent of total domestic scheduled-service passenger revenues, plus two other carriers that report voluntarily. The data cover nonstop scheduled-service flights between points within the United States (including territories) as described in 14 CFR Part 234 of DOT's regulations.",
+    "target_qa_generation_framework": [
+      {
+        "Type": "Retrieval",
+        "Description": "Directly search for entities or records",
+        "Example": "Return the names of all users who have purchased the iPhone 13."
+      },
+      {
+        "Type": "Analytical",
+        "Description": "Aggregation, sorting, statistics",
+        "Example": "Which city had the highest average order value over the past 6 months?"
+      },
+      {
+        "Type": "Relational Reasoning",
+        "Description": "Multi-table joins, multi-hop logic, existence/exclusion relationships",
+        "Example": "Which users have placed orders but never left any product reviews on the platform?"
+      },
+      {
+        "Type": "Predictive",
+        "Description": "Inferring future behavior or state based on historical data",
+        "Example": "Based on historical behavior, which users are unlikely to place another order within the next 30 days?"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table_name": "l_airline_id",
+      "description": "Airline description string, usually in the form 'Carrier Name: Code'. This field combines the airline name and a short carrier code in one text value.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the airline lookup table; a numeric airline/carrier identifier."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the airline entry, typically in the form 'Airline Name: Carrier Code'. This field combines the carrier name and a short airline/carrier code in one string."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 1610,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "21395",
+            "description": "Virgin Blue International Airlines t/a V Australia: VA"
+          },
+          {
+            "code": "19571",
+            "description": "Scandinavian Airlines Sys.: SK"
+          },
+          {
+            "code": "19604",
+            "description": "Northeastern International Airways: QS (1)"
+          },
+          {
+            "code": "19257",
+            "description": "National Air Commuter Inc.: NAC"
+          },
+          {
+            "code": "20363",
+            "description": "Endeavor Air Inc.: 9E"
+          },
+          {
+            "code": "20243",
+            "description": "Valujet Airlines Inc.: J7"
+          },
+          {
+            "code": "20172",
+            "description": "Lanica: NI"
+          },
+          {
+            "code": "19262",
+            "description": "Newair Flight Inc.: NHA"
+          },
+          {
+            "code": "19543",
+            "description": "Air China: CA"
+          },
+          {
+            "code": "19517",
+            "description": "Lineas Aereas Paraguayas: PZ"
+          }
+        ],
+        "note": "Large lookup table (1610 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_airport",
+      "description": "Lookup table for airport codes used in the BTS airline datasets. It maps each airport code to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "VARCHAR",
+            "comment": "Primary key of the airport lookup table; an airport code used in BTS airline data."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 6385,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "YZF",
+            "description": "Yellowknife, Canada: Yellowknife Airport"
+          },
+          {
+            "code": "QC1",
+            "description": "Mont Laurier, Canada: Mont Laurier Airport"
+          },
+          {
+            "code": "BFB",
+            "description": "Blue Fox Bay, AK: Blue Fox Bay Airport"
+          },
+          {
+            "code": "QQV",
+            "description": "Lupin, Canada: Lupin Airport"
+          },
+          {
+            "code": "CHP",
+            "description": "Circle Hot Springs, AK: Circle Hot Springs Airport"
+          },
+          {
+            "code": "UXR",
+            "description": "Monument Valley, UT: Monument Valley Airport"
+          },
+          {
+            "code": "VA3",
+            "description": "Marion/Wytheville, VA: Mountain Empire"
+          },
+          {
+            "code": "FPO",
+            "description": "Freeport, The Bahamas: Grand Bahama International"
+          },
+          {
+            "code": "RCB",
+            "description": "Richards Bay, South Africa: Richards Bay Airport"
+          },
+          {
+            "code": "GXF",
+            "description": "Sayun, Yemen: Sayun International"
+          }
+        ],
+        "note": "Large lookup table (6385 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_airport_id",
+      "description": "Lookup table for U.S. DOT airport identifiers used in the BTS airline datasets. It maps each numeric airport identifier to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the airport-ID lookup table; a U.S. DOT airport identifier corresponding to fields such as `OriginAirportID` or `DestAirportID`. It uniquely identifies an airport across years, even if airport codes change or are reused."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 6370,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "10412",
+            "description": "Arauca, Colombia: Santiago Perez"
+          },
+          {
+            "code": "15987",
+            "description": "Cat Lake, Canada: Cat Lake Airport"
+          },
+          {
+            "code": "11741",
+            "description": "Fire Island, AK: Fire Island Airport"
+          },
+          {
+            "code": "12693",
+            "description": "Kingston, Jamaica: Norman Manley International"
+          },
+          {
+            "code": "12680",
+            "description": "Kaohsiung, Taiwan: Kaohsiung International"
+          },
+          {
+            "code": "11535",
+            "description": "Elim, AK: Elim Airport"
+          },
+          {
+            "code": "11603",
+            "description": "Eugene, OR: Mahlon Sweet Field"
+          },
+          {
+            "code": "12495",
+            "description": "Cambridge, MA: Cambridge Airport"
+          },
+          {
+            "code": "10433",
+            "description": "Avon Park, FL: Avon Park Executive"
+          },
+          {
+            "code": "12778",
+            "description": "Napamute, AK: Napamute Airport"
+          }
+        ],
+        "note": "Large lookup table (6370 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_airport_seq_id",
+      "description": "Lookup table for U.S. DOT airport sequence identifiers used in the BTS airline datasets. It maps each time-specific airport sequence identifier to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the airport-sequence-ID lookup table; a U.S. DOT airport sequence identifier corresponding to fields such as `OriginAirportSeqID` or `DestAirportSeqID`. It identifies a unique airport at a given point in time, allowing airport attributes such as name or coordinates to change over time."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 13295,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "1426402",
+            "description": "Posadas, Argentina: Posadas Airport"
+          },
+          {
+            "code": "1139202",
+            "description": "Anchorage, AK: Lake Hood Strip"
+          },
+          {
+            "code": "1398602",
+            "description": "Bissau, Guinea-Bissau: Bissau Oswaldo Vieira International"
+          },
+          {
+            "code": "1221803",
+            "description": "Chita, Russia: Kadala"
+          },
+          {
+            "code": "1089601",
+            "description": "Calabar, Nigeria: Calabar Airport"
+          },
+          {
+            "code": "1273104",
+            "description": "King Khalid Military City, Saudi Arabia: King Saud AB"
+          },
+          {
+            "code": "1390101",
+            "description": "McDonald Lake, AK: McDonald Lake Airport"
+          },
+          {
+            "code": "1580701",
+            "description": "Willow, AK: Willow Airport"
+          },
+          {
+            "code": "1122703",
+            "description": "Chefornak, AK: Chefornak Airport"
+          },
+          {
+            "code": "1030501",
+            "description": "Ankara, Turkey: Etimesgut"
+          }
+        ],
+        "note": "Large lookup table (13295 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_cancellation",
+      "description": "Lookup table for flight cancellation reasons in the BTS Airline On-Time Performance data. It maps each cancellation code to its corresponding cancellation category.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "VARCHAR",
+            "comment": "Primary key of the cancellation lookup table; a one-letter cancellation reason code used in the flight fact table."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text label of the cancellation reason category. In this dataset, the valid values are: A = Carrier, B = Weather, C = National Air System, and D = Security."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 4,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "A",
+            "description": "Carrier"
+          },
+          {
+            "code": "B",
+            "description": "Weather"
+          },
+          {
+            "code": "C",
+            "description": "National Air System"
+          },
+          {
+            "code": "D",
+            "description": "Security"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_city_market_id",
+      "description": "Lookup table for U.S. DOT city market identifiers used in the BTS airline datasets. It maps each city market identifier to a textual city-market description, typically including city and state/territory.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the city-market lookup table; a U.S. DOT city market identifier corresponding to fields such as `OriginCityMarketID` or `DestCityMarketID`. It is used to consolidate airports serving the same city market."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the city market, typically in the form 'City, State'."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 5762,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "35385",
+            "description": "Twin Hills, AK"
+          },
+          {
+            "code": "31743",
+            "description": "Greens Creek, AK"
+          },
+          {
+            "code": "33294",
+            "description": "Mariehamn, Finland"
+          },
+          {
+            "code": "32401",
+            "description": "Itabuna, Brazil"
+          },
+          {
+            "code": "32334",
+            "description": "Imperatriz, Brazil"
+          },
+          {
+            "code": "35933",
+            "description": "Xuzhou, China"
+          },
+          {
+            "code": "30166",
+            "description": "Adelaide, Australia"
+          },
+          {
+            "code": "32773",
+            "description": "Point Baker, AK"
+          },
+          {
+            "code": "35718",
+            "description": "Warsaw, Poland"
+          },
+          {
+            "code": "31910",
+            "description": "Governors Harbour, The Bahamas"
+          }
+        ],
+        "note": "Large lookup table (5762 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_deparrblk",
+      "description": "Lookup table for scheduled departure and arrival time blocks in the BTS Airline On-Time Performance data. It maps each time-block code to a human-readable hourly time interval description.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "VARCHAR",
+            "comment": "Primary key of the departure/arrival time-block lookup table; a scheduled time-block code such as `0600-0659` or `2300-2359` used by fields like `DepTimeBlk` and `ArrTimeBlk`."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable description of the scheduled time block, typically expressing the corresponding local-time interval, such as `6:00AM to 6:59AM`."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 19,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "0001-0559",
+            "description": "12:00AM to 5:59AM"
+          },
+          {
+            "code": "0600-0659",
+            "description": "6:00AM to 6:59AM"
+          },
+          {
+            "code": "0700-0759",
+            "description": "7:00AM to 7:59AM"
+          },
+          {
+            "code": "0800-0859",
+            "description": "8:00AM to 8:59AM"
+          },
+          {
+            "code": "0900-0959",
+            "description": "9:00AM to 9:59AM"
+          },
+          {
+            "code": "1000-1059",
+            "description": "10:00AM to 10:59AM"
+          },
+          {
+            "code": "1100-1159",
+            "description": "11:00AM to 11:59AM"
+          },
+          {
+            "code": "1200-1259",
+            "description": "12:00PM to 12:59PM"
+          },
+          {
+            "code": "1300-1359",
+            "description": "1:00PM to 1:59PM"
+          },
+          {
+            "code": "1400-1459",
+            "description": "2:00PM to 2:59PM"
+          },
+          {
+            "code": "1500-1559",
+            "description": "3:00PM to 3:59PM"
+          },
+          {
+            "code": "1600-1659",
+            "description": "4:00PM to 4:59PM"
+          },
+          {
+            "code": "1700-1759",
+            "description": "5:00PM to 5:59PM"
+          },
+          {
+            "code": "1800-1859",
+            "description": "6:00PM to 6:59PM"
+          },
+          {
+            "code": "1900-1959",
+            "description": "7:00PM to 7:59PM"
+          },
+          {
+            "code": "2000-2059",
+            "description": "8:00PM to 8:59PM"
+          },
+          {
+            "code": "2100-2159",
+            "description": "9:00PM to 9:59PM"
+          },
+          {
+            "code": "2200-2259",
+            "description": "10:00PM to 10:59PM"
+          },
+          {
+            "code": "2300-2359",
+            "description": "11:00PM to 11:59PM"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_distance_group_250",
+      "description": "Lookup table for flight distance groups in the BTS Airline On-Time Performance data. It maps each distance-group code to a human-readable flight-distance interval based on 250-mile bins.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the distance-group lookup table; an integer code used by the `DistanceGroup` field to represent a flight-distance interval."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable description of the flight-distance interval associated with the distance-group code. The intervals are defined in 250-mile bins, such as '250-499 Miles' or '2500 Miles and Greater'."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 11,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "1",
+            "description": "Less Than 250 Miles"
+          },
+          {
+            "code": "2",
+            "description": "250-499 Miles"
+          },
+          {
+            "code": "3",
+            "description": "500-749 Miles"
+          },
+          {
+            "code": "4",
+            "description": "750-999 Miles"
+          },
+          {
+            "code": "5",
+            "description": "1000-1249 Miles"
+          },
+          {
+            "code": "6",
+            "description": "1250-1499 Miles"
+          },
+          {
+            "code": "7",
+            "description": "1500-1749 Miles"
+          },
+          {
+            "code": "8",
+            "description": "1750-1999 Miles"
+          },
+          {
+            "code": "9",
+            "description": "2000-2249 Miles"
+          },
+          {
+            "code": "10",
+            "description": "2250-2499 Miles"
+          },
+          {
+            "code": "11",
+            "description": "2500 Miles and Greater"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_diversions",
+      "description": "Lookup table for diversion outcomes in the BTS Airline On-Time Performance data. It maps each diversion-related code to a textual description of the number of diverted-airport landings or a special diversion outcome.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the diversion lookup table; a diversion-related code representing the number of diverted airport landings or a special return/cancellation outcome."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Text description of the diversion outcome. Codes 0-5 represent the number of diverted airport landings, while code 9 indicates an air return to the origin airport where the flight was ultimately cancelled."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 7,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "0",
+            "description": "Flight is not Diverted"
+          },
+          {
+            "code": "1",
+            "description": "One Diverted Airport Landing"
+          },
+          {
+            "code": "2",
+            "description": "Two Diverted Airport Landings"
+          },
+          {
+            "code": "3",
+            "description": "Three Diverted Airport Landings"
+          },
+          {
+            "code": "4",
+            "description": "Four Diverted Airport Landings"
+          },
+          {
+            "code": "5",
+            "description": "Five Diverted Airport Landings"
+          },
+          {
+            "code": "9",
+            "description": "Air Return to Origin Airport where the Flight was Ultimately Cancelled"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_months",
+      "description": "Lookup table for calendar months used in the BTS Airline On-Time Performance data. It maps each numeric month code to its corresponding month name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the month lookup table; an integer month code from 1 to 12."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable month name corresponding to the month code, such as `January` for 1 and `December` for 12."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 12,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "1",
+            "description": "January"
+          },
+          {
+            "code": "2",
+            "description": "February"
+          },
+          {
+            "code": "3",
+            "description": "March"
+          },
+          {
+            "code": "4",
+            "description": "April"
+          },
+          {
+            "code": "5",
+            "description": "May"
+          },
+          {
+            "code": "6",
+            "description": "June"
+          },
+          {
+            "code": "7",
+            "description": "July"
+          },
+          {
+            "code": "8",
+            "description": "August"
+          },
+          {
+            "code": "9",
+            "description": "September"
+          },
+          {
+            "code": "10",
+            "description": "October"
+          },
+          {
+            "code": "11",
+            "description": "November"
+          },
+          {
+            "code": "12",
+            "description": "December"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_ontime_delay_groups",
+      "description": "Lookup table for on-time delay groups in the BTS Airline On-Time Performance data. It maps each delay-group code to a human-readable delay interval description used for grouped departure and arrival delay analysis.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the on-time delay-group lookup table; an integer code representing a grouped delay interval used by fields such as `DepartureDelayGroups` and `ArrivalDelayGroups`."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable description of the delay interval associated with the delay-group code. Negative codes represent early departures/arrivals, 0 represents delays from 0 to 14 minutes, and positive codes represent progressively larger delay intervals in 15-minute bins, with 12 meaning delays of 180 minutes or more."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 15,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "-2",
+            "description": "Delay < -15 minutes"
+          },
+          {
+            "code": "-1",
+            "description": "Delay between -15 and -1 minutes"
+          },
+          {
+            "code": "0",
+            "description": "Delay between 0 and 14 minutes"
+          },
+          {
+            "code": "1",
+            "description": "Delay between 15 to 29 minutes"
+          },
+          {
+            "code": "2",
+            "description": "Delay between 30 to 44 minutes"
+          },
+          {
+            "code": "3",
+            "description": "Delay between 45 to 59 minutes"
+          },
+          {
+            "code": "4",
+            "description": "Delay between 60 to 74 minutes"
+          },
+          {
+            "code": "5",
+            "description": "Delay between 75 to 89 minutes"
+          },
+          {
+            "code": "6",
+            "description": "Delay between 90 to 104 minutes"
+          },
+          {
+            "code": "7",
+            "description": "Delay between 105 to 119 minutes"
+          },
+          {
+            "code": "8",
+            "description": "Delay between 120 to 134 minutes"
+          },
+          {
+            "code": "9",
+            "description": "Delay between 135 to 149 minutes"
+          },
+          {
+            "code": "10",
+            "description": "Delay between 150 to 164 minutes"
+          },
+          {
+            "code": "11",
+            "description": "Delay between 165 to 179 minutes"
+          },
+          {
+            "code": "12",
+            "description": "Delay >= 180 minutes"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_quarters",
+      "description": "Lookup table for calendar quarters used in the BTS Airline On-Time Performance data. It maps each numeric quarter code to its corresponding quarter label and calendar date range.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the quarter lookup table; an integer quarter code from 1 to 4 corresponding to the `Quarter` field."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable quarter label and date range corresponding to the quarter code, such as `Quarter1: January 1-March 31`."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 4,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "1",
+            "description": "Quarter1:January 1-March 31"
+          },
+          {
+            "code": "2",
+            "description": "Quarter2:April 1-June 30"
+          },
+          {
+            "code": "3",
+            "description": "Quarter3:July 1-September 30"
+          },
+          {
+            "code": "4",
+            "description": "Quarter4:October 1-December 31"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_state_abr_aviation",
+      "description": "Lookup table for aviation-related state or province abbreviations used in the BTS airline datasets. It maps each two-letter location abbreviation to a human-readable state, district, or Canadian province name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "VARCHAR",
+            "comment": "Primary key of the state-abbreviation lookup table; a two-letter aviation location abbreviation used by fields such as `OriginState` or `DestState`."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable name corresponding to the location abbreviation. The values include U.S. states and districts, and may also include Canadian provinces for aviation-related geographic coding."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 67,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "NE",
+            "description": "Nebraska"
+          },
+          {
+            "code": "DE",
+            "description": "Delaware"
+          },
+          {
+            "code": "MT",
+            "description": "Montana"
+          },
+          {
+            "code": "MA",
+            "description": "Massachusetts"
+          },
+          {
+            "code": "OH",
+            "description": "Ohio"
+          },
+          {
+            "code": "AB",
+            "description": "Alberta, Canada"
+          },
+          {
+            "code": "MB",
+            "description": "Manitoba, Canada"
+          },
+          {
+            "code": "NC",
+            "description": "North Carolina"
+          },
+          {
+            "code": "CO",
+            "description": "Colorado"
+          },
+          {
+            "code": "QC",
+            "description": "Quebec, Canada"
+          }
+        ],
+        "note": "Large lookup table (67 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_state_fips",
+      "description": "Lookup table for state FIPS codes used in the BTS airline datasets. It maps each numeric FIPS location code to its corresponding state or territory name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the state-FIPS lookup table; a numeric FIPS location code used by fields such as `OriginStateFips` or `DestStateFips`."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable name corresponding to the FIPS location code. Values include U.S. states, the District of Columbia, territories, and special values such as `0 = Not Applicable`."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 74,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "21",
+            "description": "Kentucky"
+          },
+          {
+            "code": "4",
+            "description": "Arizona"
+          },
+          {
+            "code": "40",
+            "description": "Oklahoma"
+          },
+          {
+            "code": "95",
+            "description": "Palmyra Atoll"
+          },
+          {
+            "code": "56",
+            "description": "Wyoming"
+          },
+          {
+            "code": "26",
+            "description": "Michigan"
+          },
+          {
+            "code": "42",
+            "description": "Pennsylvania"
+          },
+          {
+            "code": "81",
+            "description": "Baker Island"
+          },
+          {
+            "code": "89",
+            "description": "Kingman Reef"
+          },
+          {
+            "code": "36",
+            "description": "New York"
+          }
+        ],
+        "note": "Large lookup table (74 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_unique_carriers",
+      "description": "Lookup table for BTS unique carrier codes used in the Airline On-Time Performance data. It maps each unique carrier code to the corresponding carrier name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "VARCHAR",
+            "comment": "Primary key of the unique-carrier lookup table; a BTS unique carrier code corresponding to the `Reporting_Airline` field. This code is intended for analysis across years. When the same code has been reused by multiple carriers over time, BTS adds a numeric suffix to earlier users to keep the code unique."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable carrier name corresponding to the unique carrier code."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 1610,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "SXP",
+            "description": "Sierra Expressway"
+          },
+          {
+            "code": "CPA",
+            "description": "Capitol Air Lines"
+          },
+          {
+            "code": "HX",
+            "description": "Hong Kong Airlines Limited"
+          },
+          {
+            "code": "G4",
+            "description": "Allegiant Air"
+          },
+          {
+            "code": "CRN",
+            "description": "Crown Aviaiton Inc."
+          },
+          {
+            "code": "FH",
+            "description": "Frontier Horizon Inc."
+          },
+          {
+            "code": "AMI",
+            "description": "American Inter-Island Inc."
+          },
+          {
+            "code": "SOL",
+            "description": "Soonair Lines Inc."
+          },
+          {
+            "code": "CTH",
+            "description": "Cothron Aviation"
+          },
+          {
+            "code": "EBQ",
+            "description": "Execaire Aviation Ltd."
+          }
+        ],
+        "note": "Large lookup table (1610 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_weekdays",
+      "description": "Lookup table for weekday codes used in the BTS Airline On-Time Performance data. It maps each numeric weekday code to its corresponding weekday name, with an additional code for unknown values.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the weekday lookup table; an integer weekday code used by the `DayOfWeek` field. Codes 1-7 represent Monday through Sunday, and 9 represents an unknown value."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable weekday label corresponding to the weekday code, such as `Monday` for 1 and `Sunday` for 7; `Unknown` is used for code 9."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 8,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "1",
+            "description": "Monday"
+          },
+          {
+            "code": "2",
+            "description": "Tuesday"
+          },
+          {
+            "code": "3",
+            "description": "Wednesday"
+          },
+          {
+            "code": "4",
+            "description": "Thursday"
+          },
+          {
+            "code": "5",
+            "description": "Friday"
+          },
+          {
+            "code": "6",
+            "description": "Saturday"
+          },
+          {
+            "code": "7",
+            "description": "Sunday"
+          },
+          {
+            "code": "9",
+            "description": "Unknown"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "l_world_area_codes",
+      "description": "Lookup table for World Area Codes (WAC) used in the BTS airline datasets. It maps each numeric WAC code to a human-readable geographic area name used by fields such as `OriginWac` and `DestWac`.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the World Area Code lookup table; a numeric WAC code used by fields such as `OriginWac` and `DestWac` to identify a geographic area."
+          },
+          {
+            "name": "description",
+            "type": "VARCHAR",
+            "comment": "Human-readable name corresponding to the World Area Code. Values may represent U.S. states, territories, or other aviation-related geographic areas."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 333,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "code": "441",
+            "description": "Ireland"
+          },
+          {
+            "code": "781",
+            "description": "Taiwan"
+          },
+          {
+            "code": "427",
+            "description": "France"
+          },
+          {
+            "code": "45",
+            "description": "Wisconsin"
+          },
+          {
+            "code": "611",
+            "description": "Cyprus"
+          },
+          {
+            "code": "401",
+            "description": "Albania"
+          },
+          {
+            "code": "131",
+            "description": "Honduras"
+          },
+          {
+            "code": "565",
+            "description": "Zimbabwe"
+          },
+          {
+            "code": "591",
+            "description": "Egypt"
+          },
+          {
+            "code": "475",
+            "description": "Russia (European Part)"
+          }
+        ],
+        "note": "Large lookup table (333 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "l_yesno_resp",
+      "description": "Lookup table for binary yes/no response codes used in the BTS Airline On-Time Performance data. It maps each numeric response code to its corresponding yes/no label.",
+      "schema": {
+        "columns": [
+          {
+            "name": "code",
+            "type": "BIGINT",
+            "comment": "Primary key of the yes/no response lookup table; a binary response code where 0 means `No` and 1 means `Yes`."
+          },
+          {
+            "name": "description",
+            "type": "BOOLEAN",
+            "comment": "Human-readable yes/no label corresponding to the response code."
+          }
+        ],
+        "primary_key": [
+          "code"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 2,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "code": "0",
+            "description": "False"
+          },
+          {
+            "code": "1",
+            "description": "True"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "on_time_on_time_performance_2016_1",
+      "description": "Flight-level fact table for U.S. domestic reporting-carrier on-time performance in January 2016. Each row represents one scheduled nonstop flight operation and includes calendar fields, carrier identifiers, origin and destination attributes, departure and arrival performance, cancellation and diversion indicators, elapsed-time summaries, and delay-cause measures.",
+      "schema": {
+        "columns": [
+          {
+            "name": "year",
+            "type": "BIGINT",
+            "comment": "Calendar year of the flight record."
+          },
+          {
+            "name": "quarter",
+            "type": "BIGINT",
+            "comment": "Calendar quarter of the flight record (1-4)."
+          },
+          {
+            "name": "month",
+            "type": "BIGINT",
+            "comment": "Calendar month of the flight record."
+          },
+          {
+            "name": "dayofmonth",
+            "type": "BIGINT",
+            "comment": "Day of month of the flight record."
+          },
+          {
+            "name": "dayofweek",
+            "type": "BIGINT",
+            "comment": "Day of week of the flight record."
+          },
+          {
+            "name": "flightdate",
+            "type": "DATE",
+            "comment": "Flight date."
+          },
+          {
+            "name": "uniquecarrier",
+            "type": "VARCHAR",
+            "comment": "BTS unique carrier code for the reporting airline. BTS recommends this field for analysis across years because reused carrier codes are disambiguated with suffixes."
+          },
+          {
+            "name": "airlineid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT identifier for the reporting airline (carrier); foreign key to `l_airline_id.code`."
+          },
+          {
+            "name": "carrier",
+            "type": "VARCHAR",
+            "comment": "IATA carrier code assigned to the reporting airline. BTS notes that this code is not always unique across time."
+          },
+          {
+            "name": "tailnum",
+            "type": "VARCHAR",
+            "comment": "Aircraft tail number."
+          },
+          {
+            "name": "flightnum",
+            "type": "BIGINT",
+            "comment": "Flight number reported by the airline."
+          },
+          {
+            "name": "originairportid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT airport identifier for the origin airport; foreign key to `l_airport_id.code`."
+          },
+          {
+            "name": "originairportseqid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT airport sequence identifier for the origin airport at a given point in time; foreign key to `l_airport_seq_id.code`."
+          },
+          {
+            "name": "origincitymarketid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT city market identifier for the origin airport; used to consolidate airports serving the same city market; foreign key to `l_city_market_id.code`."
+          },
+          {
+            "name": "origin",
+            "type": "VARCHAR",
+            "comment": "Origin airport code; foreign key to `l_airport.code`."
+          },
+          {
+            "name": "origincityname",
+            "type": "VARCHAR",
+            "comment": "Origin airport city name."
+          },
+          {
+            "name": "originstate",
+            "type": "VARCHAR",
+            "comment": "Origin airport state or province abbreviation; foreign key to `l_state_abr_aviation.code`."
+          },
+          {
+            "name": "originstatefips",
+            "type": "BIGINT",
+            "comment": "Origin airport state FIPS code; foreign key to `l_state_fips.code`."
+          },
+          {
+            "name": "originstatename",
+            "type": "VARCHAR",
+            "comment": "Origin airport state name."
+          },
+          {
+            "name": "originwac",
+            "type": "BIGINT",
+            "comment": "Origin airport World Area Code; foreign key to `l_world_area_codes.code`."
+          },
+          {
+            "name": "destairportid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT airport identifier for the destination airport; foreign key to `l_airport_id.code`."
+          },
+          {
+            "name": "destairportseqid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT airport sequence identifier for the destination airport at a given point in time; foreign key to `l_airport_seq_id.code`."
+          },
+          {
+            "name": "destcitymarketid",
+            "type": "BIGINT",
+            "comment": "U.S. DOT city market identifier for the destination airport; used to consolidate airports serving the same city market; foreign key to `l_city_market_id.code`."
+          },
+          {
+            "name": "dest",
+            "type": "VARCHAR",
+            "comment": "Destination airport code; foreign key to `l_airport.code`."
+          },
+          {
+            "name": "destcityname",
+            "type": "VARCHAR",
+            "comment": "Destination airport city name."
+          },
+          {
+            "name": "deststate",
+            "type": "VARCHAR",
+            "comment": "Destination airport state or province abbreviation; foreign key to `l_state_abr_aviation.code`."
+          },
+          {
+            "name": "deststatefips",
+            "type": "BIGINT",
+            "comment": "Destination airport state FIPS code; foreign key to `l_state_fips.code`."
+          },
+          {
+            "name": "deststatename",
+            "type": "VARCHAR",
+            "comment": "Destination airport state name."
+          },
+          {
+            "name": "destwac",
+            "type": "BIGINT",
+            "comment": "Destination airport World Area Code; foreign key to `l_world_area_codes.code`."
+          },
+          {
+            "name": "crsdeptime",
+            "type": "BIGINT",
+            "comment": "Scheduled departure time in local hhmm format."
+          },
+          {
+            "name": "deptime",
+            "type": "BIGINT",
+            "comment": "Actual departure time in local hhmm format."
+          },
+          {
+            "name": "depdelay",
+            "type": "DOUBLE",
+            "comment": "Difference in minutes between scheduled and actual departure time; early departures are negative."
+          },
+          {
+            "name": "depdelayminutes",
+            "type": "DOUBLE",
+            "comment": "Difference in minutes between scheduled and actual departure time, with early departures set to 0."
+          },
+          {
+            "name": "depdel15",
+            "type": "BIGINT",
+            "comment": "Departure delay indicator, 15 minutes or more (1 = Yes); foreign key to `l_yesno_resp.code`."
+          },
+          {
+            "name": "departuredelaygroups",
+            "type": "BIGINT",
+            "comment": "Departure delay interval group in 15-minute bins; foreign key to `l_ontime_delay_groups.code`."
+          },
+          {
+            "name": "deptimeblk",
+            "type": "VARCHAR",
+            "comment": "Scheduled departure time block, hourly intervals; foreign key to `l_deparrblk.code`."
+          },
+          {
+            "name": "taxiout",
+            "type": "DOUBLE",
+            "comment": "Taxi-out time, in minutes."
+          },
+          {
+            "name": "wheelsoff",
+            "type": "BIGINT",
+            "comment": "Wheels-off time in local hhmm format."
+          },
+          {
+            "name": "wheelson",
+            "type": "BIGINT",
+            "comment": "Wheels-on time in local hhmm format."
+          },
+          {
+            "name": "taxiin",
+            "type": "DOUBLE",
+            "comment": "Taxi-in time, in minutes."
+          },
+          {
+            "name": "crsarrtime",
+            "type": "BIGINT",
+            "comment": "Scheduled arrival time in local hhmm format."
+          },
+          {
+            "name": "arrtime",
+            "type": "BIGINT",
+            "comment": "Actual arrival time in local hhmm format."
+          },
+          {
+            "name": "arrdelay",
+            "type": "DOUBLE",
+            "comment": "Difference in minutes between scheduled and actual arrival time; early arrivals are negative."
+          },
+          {
+            "name": "arrdelayminutes",
+            "type": "DOUBLE",
+            "comment": "Difference in minutes between scheduled and actual arrival time, with early arrivals set to 0."
+          },
+          {
+            "name": "arrdel15",
+            "type": "BIGINT",
+            "comment": "Arrival delay indicator, 15 minutes or more (1 = Yes); target field; foreign key to `l_yesno_resp.code`."
+          },
+          {
+            "name": "arrivaldelaygroups",
+            "type": "BIGINT",
+            "comment": "Arrival delay interval group in 15-minute bins; foreign key to `l_ontime_delay_groups.code`."
+          },
+          {
+            "name": "arrtimeblk",
+            "type": "VARCHAR",
+            "comment": "Scheduled arrival time block, hourly intervals."
+          },
+          {
+            "name": "cancelled",
+            "type": "BIGINT",
+            "comment": "Cancelled flight indicator (1 = Yes); foreign key to `l_yesno_resp.code`."
+          },
+          {
+            "name": "cancellationcode",
+            "type": "VARCHAR",
+            "comment": "Reason for cancellation; foreign key to `l_cancellation.code`."
+          },
+          {
+            "name": "diverted",
+            "type": "BIGINT",
+            "comment": "Diverted flight indicator (1 = Yes); foreign key to `l_yesno_resp.code`."
+          },
+          {
+            "name": "crselapsedtime",
+            "type": "DOUBLE",
+            "comment": "CRS elapsed time of flight, in minutes."
+          },
+          {
+            "name": "actualelapsedtime",
+            "type": "DOUBLE",
+            "comment": "Elapsed time of flight, in minutes."
+          },
+          {
+            "name": "airtime",
+            "type": "DOUBLE",
+            "comment": "Flight time, in minutes."
+          },
+          {
+            "name": "flights",
+            "type": "DOUBLE",
+            "comment": "Number of flights represented by the record."
+          },
+          {
+            "name": "distance",
+            "type": "DOUBLE",
+            "comment": "Distance between airports, in miles."
+          },
+          {
+            "name": "distancegroup",
+            "type": "BIGINT",
+            "comment": "Distance interval group in 250-mile bins for the flight segment; foreign key to `l_distance_group_250.code`."
+          },
+          {
+            "name": "carrierdelay",
+            "type": "DOUBLE",
+            "comment": "Carrier delay, in minutes."
+          },
+          {
+            "name": "weatherdelay",
+            "type": "DOUBLE",
+            "comment": "Weather delay, in minutes."
+          },
+          {
+            "name": "nasdelay",
+            "type": "DOUBLE",
+            "comment": "National Air System delay, in minutes."
+          },
+          {
+            "name": "securitydelay",
+            "type": "DOUBLE",
+            "comment": "Security delay, in minutes."
+          },
+          {
+            "name": "lateaircraftdelay",
+            "type": "DOUBLE",
+            "comment": "Late aircraft delay, in minutes."
+          },
+          {
+            "name": "firstdeptime",
+            "type": "DOUBLE",
+            "comment": "First gate departure time at the origin airport."
+          },
+          {
+            "name": "totaladdgtime",
+            "type": "DOUBLE",
+            "comment": "Total ground time away from gate for a gate return or cancelled flight."
+          },
+          {
+            "name": "longestaddgtime",
+            "type": "DOUBLE",
+            "comment": "Longest time away from gate for a gate return or cancelled flight."
+          },
+          {
+            "name": "divairportlandings",
+            "type": "BIGINT",
+            "comment": "Number of diverted airport landings; foreign key to `l_diversions.code`."
+          },
+          {
+            "name": "divreacheddest",
+            "type": "DOUBLE",
+            "comment": "Diverted flight reaching scheduled destination indicator (1 = Yes)."
+          },
+          {
+            "name": "divactualelapsedtime",
+            "type": "DOUBLE",
+            "comment": "Elapsed time in minutes of a diverted flight reaching scheduled destination."
+          },
+          {
+            "name": "divarrdelay",
+            "type": "DOUBLE",
+            "comment": "Difference in minutes between scheduled and actual arrival time for a diverted flight reaching scheduled destination."
+          },
+          {
+            "name": "divdistance",
+            "type": "DOUBLE",
+            "comment": "Distance between scheduled destination and final diverted airport, in miles."
+          },
+          {
+            "name": "div1airport",
+            "type": "VARCHAR",
+            "comment": "Code of diverted airport 1."
+          },
+          {
+            "name": "div1airportid",
+            "type": "BIGINT",
+            "comment": "Airport ID of diverted airport 1; foreign key to `l_airport_id.code`."
+          },
+          {
+            "name": "div1airportseqid",
+            "type": "BIGINT",
+            "comment": "Airport sequence ID of diverted airport 1; foreign key to `l_airport_seq_id.code`."
+          },
+          {
+            "name": "div1wheelson",
+            "type": "DOUBLE",
+            "comment": "Wheels-on time at diverted airport 1 in local hhmm format."
+          },
+          {
+            "name": "div1totalgtime",
+            "type": "DOUBLE",
+            "comment": "Total ground time at diverted airport 1."
+          },
+          {
+            "name": "div1longestgtime",
+            "type": "DOUBLE",
+            "comment": "Longest ground time at diverted airport 1."
+          },
+          {
+            "name": "div1wheelsoff",
+            "type": "DOUBLE",
+            "comment": "Wheels-off time from diverted airport 1 in local hhmm format."
+          },
+          {
+            "name": "div1tailnum",
+            "type": "VARCHAR",
+            "comment": "Aircraft tail number for diverted airport 1 segment."
+          },
+          {
+            "name": "div2airport",
+            "type": "VARCHAR",
+            "comment": "Code of diverted airport 2."
+          },
+          {
+            "name": "div2airportid",
+            "type": "VARCHAR",
+            "comment": "Airport ID of diverted airport 2; foreign key to `l_airport_id.code`."
+          },
+          {
+            "name": "div2airportseqid",
+            "type": "VARCHAR",
+            "comment": "Airport sequence ID of diverted airport 2; foreign key to `l_airport_seq_id.code`."
+          },
+          {
+            "name": "div2wheelson",
+            "type": "VARCHAR",
+            "comment": "Wheels-on time at diverted airport 2 in local hhmm format."
+          },
+          {
+            "name": "div2totalgtime",
+            "type": "TIMESTAMP",
+            "comment": "Total ground time at diverted airport 2."
+          },
+          {
+            "name": "div2longestgtime",
+            "type": "TIMESTAMP",
+            "comment": "Longest ground time at diverted airport 2."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "quarter",
+            "references": "l_quarters.code"
+          },
+          {
+            "column": "month",
+            "references": "l_months.code"
+          },
+          {
+            "column": "dayofweek",
+            "references": "l_weekdays.code"
+          },
+          {
+            "column": "uniquecarrier",
+            "references": "l_unique_carriers.code"
+          },
+          {
+            "column": "airlineid",
+            "references": "l_airline_id.code"
+          },
+          {
+            "column": "originairportid",
+            "references": "l_airport_id.code"
+          },
+          {
+            "column": "originairportseqid",
+            "references": "l_airport_seq_id.code"
+          },
+          {
+            "column": "origincitymarketid",
+            "references": "l_city_market_id.code"
+          },
+          {
+            "column": "origin",
+            "references": "l_airport.code"
+          },
+          {
+            "column": "originstate",
+            "references": "l_state_abr_aviation.code"
+          },
+          {
+            "column": "originstatefips",
+            "references": "l_state_fips.code"
+          },
+          {
+            "column": "originwac",
+            "references": "l_world_area_codes.code"
+          },
+          {
+            "column": "destairportid",
+            "references": "l_airport_id.code"
+          },
+          {
+            "column": "destairportseqid",
+            "references": "l_airport_seq_id.code"
+          },
+          {
+            "column": "destcitymarketid",
+            "references": "l_city_market_id.code"
+          },
+          {
+            "column": "dest",
+            "references": "l_airport.code"
+          },
+          {
+            "column": "deststate",
+            "references": "l_state_abr_aviation.code"
+          },
+          {
+            "column": "deststatefips",
+            "references": "l_state_fips.code"
+          },
+          {
+            "column": "destwac",
+            "references": "l_world_area_codes.code"
+          },
+          {
+            "column": "depdel15",
+            "references": "l_yesno_resp.code"
+          },
+          {
+            "column": "departuredelaygroups",
+            "references": "l_ontime_delay_groups.code"
+          },
+          {
+            "column": "deptimeblk",
+            "references": "l_deparrblk.code"
+          },
+          {
+            "column": "arrdel15",
+            "references": "l_yesno_resp.code"
+          },
+          {
+            "column": "arrivaldelaygroups",
+            "references": "l_ontime_delay_groups.code"
+          },
+          {
+            "column": "cancelled",
+            "references": "l_yesno_resp.code"
+          },
+          {
+            "column": "cancellationcode",
+            "references": "l_cancellation.code"
+          },
+          {
+            "column": "diverted",
+            "references": "l_yesno_resp.code"
+          },
+          {
+            "column": "distancegroup",
+            "references": "l_distance_group_250.code"
+          },
+          {
+            "column": "divairportlandings",
+            "references": "l_diversions.code"
+          },
+          {
+            "column": "div1airportid",
+            "references": "l_airport_id.code"
+          },
+          {
+            "column": "div1airportseqid",
+            "references": "l_airport_seq_id.code"
+          },
+          {
+            "column": "div2airportid",
+            "references": "l_airport_id.code"
+          },
+          {
+            "column": "div2airportseqid",
+            "references": "l_airport_seq_id.code"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 445827,
+        "column_stats": {
+          "year": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "quarter": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "month": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "dayofmonth": {
+            "null_ratio": "0.0%",
+            "distinct_values": 31
+          },
+          "dayofweek": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7
+          },
+          "flightdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 31
+          },
+          "uniquecarrier": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "airlineid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "carrier": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "tailnum": {
+            "null_ratio": "1.0%",
+            "distinct_values": 4238
+          },
+          "flightnum": {
+            "null_ratio": "0.0%",
+            "distinct_values": 6659
+          },
+          "originairportid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "originairportseqid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "origincitymarketid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 273
+          },
+          "origin": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "origincityname": {
+            "null_ratio": "0.0%",
+            "distinct_values": 290
+          },
+          "originstate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "originstatefips": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "originstatename": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "originwac": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "destairportid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "destairportseqid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "destcitymarketid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 273
+          },
+          "dest": {
+            "null_ratio": "0.0%",
+            "distinct_values": 294
+          },
+          "destcityname": {
+            "null_ratio": "0.0%",
+            "distinct_values": 290
+          },
+          "deststate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "deststatefips": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "deststatename": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "destwac": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "crsdeptime": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1214
+          },
+          "deptime": {
+            "null_ratio": "2.6%",
+            "distinct_values": 1418
+          },
+          "depdelay": {
+            "null_ratio": "2.6%",
+            "distinct_values": 714
+          },
+          "depdelayminutes": {
+            "null_ratio": "2.6%",
+            "distinct_values": 671
+          },
+          "depdel15": {
+            "null_ratio": "2.6%",
+            "distinct_values": 2
+          },
+          "departuredelaygroups": {
+            "null_ratio": "2.6%",
+            "distinct_values": 15
+          },
+          "deptimeblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 19
+          },
+          "taxiout": {
+            "null_ratio": "2.6%",
+            "distinct_values": 151
+          },
+          "wheelsoff": {
+            "null_ratio": "2.6%",
+            "distinct_values": 1426
+          },
+          "wheelson": {
+            "null_ratio": "2.7%",
+            "distinct_values": 1440
+          },
+          "taxiin": {
+            "null_ratio": "2.7%",
+            "distinct_values": 122
+          },
+          "crsarrtime": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1382
+          },
+          "arrtime": {
+            "null_ratio": "2.7%",
+            "distinct_values": 1440
+          },
+          "arrdelay": {
+            "null_ratio": "2.8%",
+            "distinct_values": 735
+          },
+          "arrdelayminutes": {
+            "null_ratio": "2.8%",
+            "distinct_values": 660
+          },
+          "arrdel15": {
+            "null_ratio": "2.8%",
+            "distinct_values": 2
+          },
+          "arrivaldelaygroups": {
+            "null_ratio": "2.8%",
+            "distinct_values": 15
+          },
+          "arrtimeblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 19
+          },
+          "cancelled": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2
+          },
+          "cancellationcode": {
+            "null_ratio": "97.4%",
+            "distinct_values": 3
+          },
+          "diverted": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2
+          },
+          "crselapsedtime": {
+            "null_ratio": "0.0%",
+            "distinct_values": 448
+          },
+          "actualelapsedtime": {
+            "null_ratio": "2.8%",
+            "distinct_values": 637
+          },
+          "airtime": {
+            "null_ratio": "2.8%",
+            "distinct_values": 613
+          },
+          "flights": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "distance": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1246
+          },
+          "distancegroup": {
+            "null_ratio": "0.0%",
+            "distinct_values": 11
+          },
+          "carrierdelay": {
+            "null_ratio": "84.1%",
+            "distinct_values": 579
+          },
+          "weatherdelay": {
+            "null_ratio": "84.1%",
+            "distinct_values": 314
+          },
+          "nasdelay": {
+            "null_ratio": "84.1%",
+            "distinct_values": 295
+          },
+          "securitydelay": {
+            "null_ratio": "84.1%",
+            "distinct_values": 57
+          },
+          "lateaircraftdelay": {
+            "null_ratio": "84.1%",
+            "distinct_values": 391
+          },
+          "firstdeptime": {
+            "null_ratio": "99.4%",
+            "distinct_values": 976
+          },
+          "totaladdgtime": {
+            "null_ratio": "99.4%",
+            "distinct_values": 149
+          },
+          "longestaddgtime": {
+            "null_ratio": "99.4%",
+            "distinct_values": 147
+          },
+          "divairportlandings": {
+            "null_ratio": "0.0%",
+            "distinct_values": 4
+          },
+          "divreacheddest": {
+            "null_ratio": "99.8%",
+            "distinct_values": 2
+          },
+          "divactualelapsedtime": {
+            "null_ratio": "99.9%",
+            "distinct_values": 347
+          },
+          "divarrdelay": {
+            "null_ratio": "99.9%",
+            "distinct_values": 281
+          },
+          "divdistance": {
+            "null_ratio": "99.8%",
+            "distinct_values": 130
+          },
+          "div1airport": {
+            "null_ratio": "99.8%",
+            "distinct_values": 147
+          },
+          "div1airportid": {
+            "null_ratio": "99.8%",
+            "distinct_values": 147
+          },
+          "div1airportseqid": {
+            "null_ratio": "99.8%",
+            "distinct_values": 147
+          },
+          "div1wheelson": {
+            "null_ratio": "99.8%",
+            "distinct_values": 623
+          },
+          "div1totalgtime": {
+            "null_ratio": "99.8%",
+            "distinct_values": 104
+          },
+          "div1longestgtime": {
+            "null_ratio": "99.8%",
+            "distinct_values": 99
+          },
+          "div1wheelsoff": {
+            "null_ratio": "99.9%",
+            "distinct_values": 471
+          },
+          "div1tailnum": {
+            "null_ratio": "99.9%",
+            "distinct_values": 583
+          },
+          "div2airport": {
+            "null_ratio": "100.0%",
+            "distinct_values": 5
+          },
+          "div2airportid": {
+            "null_ratio": "100.0%",
+            "distinct_values": 5
+          },
+          "div2airportseqid": {
+            "null_ratio": "100.0%",
+            "distinct_values": 5
+          },
+          "div2wheelson": {
+            "null_ratio": "100.0%",
+            "distinct_values": 6
+          },
+          "div2totalgtime": {
+            "null_ratio": "100.0%",
+            "distinct_values": 0
+          },
+          "div2longestgtime": {
+            "null_ratio": "100.0%",
+            "distinct_values": 0
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "year_range": [
+              2016,
+              2016
+            ],
+            "month_range": [
+              1,
+              1
+            ],
+            "flight_date_min": "2016-01-01",
+            "flight_date_max": "2016-01-31"
+          },
+          "monthly_flight_volume": [
+            {
+              "year": 2016,
+              "month": 1,
+              "flight_count": 445827
+            }
+          ],
+          "day_of_week_distribution": [
+            {
+              "dayofweek": 1,
+              "flight_count": 61028,
+              "pct": "13.69%"
+            },
+            {
+              "dayofweek": 2,
+              "flight_count": 58273,
+              "pct": "13.07%"
+            },
+            {
+              "dayofweek": 3,
+              "flight_count": 59036,
+              "pct": "13.24%"
+            },
+            {
+              "dayofweek": 4,
+              "flight_count": 61044,
+              "pct": "13.69%"
+            },
+            {
+              "dayofweek": 5,
+              "flight_count": 74138,
+              "pct": "16.63%"
+            },
+            {
+              "dayofweek": 6,
+              "flight_count": 61654,
+              "pct": "13.83%"
+            },
+            {
+              "dayofweek": 7,
+              "flight_count": 70654,
+              "pct": "15.85%"
+            }
+          ],
+          "delay_statistics": {
+            "departure_delay": {
+              "avg_delay_minutes": 7.79,
+              "avg_delay_nonneg_minutes": 10.77,
+              "del15_rate": "15.94%"
+            },
+            "arrival_delay": {
+              "avg_delay_minutes": 1.53,
+              "avg_delay_nonneg_minutes": 10.56,
+              "del15_rate": "15.9%"
+            },
+            "delay_cause_avg_minutes_when_occurred": {
+              "carrier_delay": 39.14,
+              "weather_delay": 52.76,
+              "nas_delay": 23.88,
+              "security_delay": 19.06,
+              "late_aircraft_delay": 44.23
+            }
+          },
+          "arrival_delay_group_distribution": [
+            {
+              "group_code": -2,
+              "flight_count": 105084,
+              "pct": "24.25%"
+            },
+            {
+              "group_code": -1,
+              "flight_count": 177041,
+              "pct": "40.86%"
+            },
+            {
+              "group_code": 0,
+              "flight_count": 80291,
+              "pct": "18.53%"
+            },
+            {
+              "group_code": 1,
+              "flight_count": 28775,
+              "pct": "6.64%"
+            },
+            {
+              "group_code": 2,
+              "flight_count": 13470,
+              "pct": "3.11%"
+            },
+            {
+              "group_code": 3,
+              "flight_count": 7824,
+              "pct": "1.81%"
+            },
+            {
+              "group_code": 4,
+              "flight_count": 5186,
+              "pct": "1.2%"
+            },
+            {
+              "group_code": 5,
+              "flight_count": 3713,
+              "pct": "0.86%"
+            },
+            {
+              "group_code": 6,
+              "flight_count": 2626,
+              "pct": "0.61%"
+            },
+            {
+              "group_code": 7,
+              "flight_count": 1960,
+              "pct": "0.45%"
+            },
+            {
+              "group_code": 8,
+              "flight_count": 1489,
+              "pct": "0.34%"
+            },
+            {
+              "group_code": 9,
+              "flight_count": 1131,
+              "pct": "0.26%"
+            },
+            {
+              "group_code": 10,
+              "flight_count": 902,
+              "pct": "0.21%"
+            },
+            {
+              "group_code": 11,
+              "flight_count": 715,
+              "pct": "0.17%"
+            },
+            {
+              "group_code": 12,
+              "flight_count": 3091,
+              "pct": "0.71%"
+            }
+          ],
+          "carrier_delay_ranking": [
+            {
+              "carrier": "NK",
+              "total_flights": 11047,
+              "arr_del15_rate": "29.06%",
+              "avg_arr_delay_min": 18.63
+            },
+            {
+              "carrier": "B6",
+              "total_flights": 23018,
+              "arr_del15_rate": "26.49%",
+              "avg_arr_delay_min": 17.28
+            },
+            {
+              "carrier": "VX",
+              "total_flights": 5384,
+              "arr_del15_rate": "22.38%",
+              "avg_arr_delay_min": 15.66
+            },
+            {
+              "carrier": "OO",
+              "total_flights": 47619,
+              "arr_del15_rate": "19.95%",
+              "avg_arr_delay_min": 15.17
+            },
+            {
+              "carrier": "AA",
+              "total_flights": 75580,
+              "arr_del15_rate": "16.46%",
+              "avg_arr_delay_min": 10.7
+            },
+            {
+              "carrier": "EV",
+              "total_flights": 41970,
+              "arr_del15_rate": "15.19%",
+              "avg_arr_delay_min": 10.92
+            },
+            {
+              "carrier": "UA",
+              "total_flights": 39761,
+              "arr_del15_rate": "14.01%",
+              "avg_arr_delay_min": 9.67
+            },
+            {
+              "carrier": "F9",
+              "total_flights": 7099,
+              "arr_del15_rate": "13.78%",
+              "avg_arr_delay_min": 10.65
+            },
+            {
+              "carrier": "WN",
+              "total_flights": 104154,
+              "arr_del15_rate": "13.54%",
+              "avg_arr_delay_min": 7.57
+            },
+            {
+              "carrier": "DL",
+              "total_flights": 69711,
+              "arr_del15_rate": "13.25%",
+              "avg_arr_delay_min": 9.46
+            },
+            {
+              "carrier": "AS",
+              "total_flights": 14205,
+              "arr_del15_rate": "11.65%",
+              "avg_arr_delay_min": 6.98
+            },
+            {
+              "carrier": "HA",
+              "total_flights": 6279,
+              "arr_del15_rate": "8.12%",
+              "avg_arr_delay_min": 4.18
+            }
+          ],
+          "cancellation_diversion": {
+            "overall_cancel_rate": "2.616%",
+            "overall_divert_rate": "0.194%"
+          },
+          "cancellation_reason_distribution": [
+            {
+              "code": "B",
+              "count": 9054,
+              "pct": "77.62%"
+            },
+            {
+              "code": "A",
+              "count": 1423,
+              "pct": "12.2%"
+            },
+            {
+              "code": "C",
+              "count": 1188,
+              "pct": "10.18%"
+            }
+          ],
+          "top_20_routes_by_volume": [
+            {
+              "origin": "SFO",
+              "dest": "LAX",
+              "flight_count": 1450,
+              "avg_distance_miles": 337.0
+            },
+            {
+              "origin": "LAX",
+              "dest": "SFO",
+              "flight_count": 1418,
+              "avg_distance_miles": 337.0
+            },
+            {
+              "origin": "LAS",
+              "dest": "LAX",
+              "flight_count": 975,
+              "avg_distance_miles": 236.0
+            },
+            {
+              "origin": "LAX",
+              "dest": "LAS",
+              "flight_count": 975,
+              "avg_distance_miles": 236.0
+            },
+            {
+              "origin": "LAX",
+              "dest": "JFK",
+              "flight_count": 972,
+              "avg_distance_miles": 2475.0
+            },
+            {
+              "origin": "JFK",
+              "dest": "LAX",
+              "flight_count": 971,
+              "avg_distance_miles": 2475.0
+            },
+            {
+              "origin": "OGG",
+              "dest": "HNL",
+              "flight_count": 783,
+              "avg_distance_miles": 100.0
+            },
+            {
+              "origin": "MCO",
+              "dest": "ATL",
+              "flight_count": 776,
+              "avg_distance_miles": 404.0
+            },
+            {
+              "origin": "LGA",
+              "dest": "ORD",
+              "flight_count": 773,
+              "avg_distance_miles": 733.0
+            },
+            {
+              "origin": "ATL",
+              "dest": "MCO",
+              "flight_count": 772,
+              "avg_distance_miles": 404.0
+            },
+            {
+              "origin": "ORD",
+              "dest": "LGA",
+              "flight_count": 771,
+              "avg_distance_miles": 733.0
+            },
+            {
+              "origin": "SFO",
+              "dest": "LAS",
+              "flight_count": 755,
+              "avg_distance_miles": 414.0
+            },
+            {
+              "origin": "LAS",
+              "dest": "SFO",
+              "flight_count": 752,
+              "avg_distance_miles": 414.0
+            },
+            {
+              "origin": "HNL",
+              "dest": "OGG",
+              "flight_count": 748,
+              "avg_distance_miles": 100.0
+            },
+            {
+              "origin": "LAX",
+              "dest": "PHX",
+              "flight_count": 722,
+              "avg_distance_miles": 370.0
+            },
+            {
+              "origin": "PHX",
+              "dest": "LAX",
+              "flight_count": 718,
+              "avg_distance_miles": 370.0
+            },
+            {
+              "origin": "SEA",
+              "dest": "LAX",
+              "flight_count": 710,
+              "avg_distance_miles": 954.0
+            },
+            {
+              "origin": "LAX",
+              "dest": "SEA",
+              "flight_count": 707,
+              "avg_distance_miles": 954.0
+            },
+            {
+              "origin": "DCA",
+              "dest": "BOS",
+              "flight_count": 687,
+              "avg_distance_miles": 399.0
+            },
+            {
+              "origin": "FLL",
+              "dest": "ATL",
+              "flight_count": 687,
+              "avg_distance_miles": 581.0
+            }
+          ],
+          "top_20_origin_airports": [
+            {
+              "airport": "ATL",
+              "departures": 29870
+            },
+            {
+              "airport": "ORD",
+              "departures": 18610
+            },
+            {
+              "airport": "DEN",
+              "departures": 17519
+            },
+            {
+              "airport": "DFW",
+              "departures": 16565
+            },
+            {
+              "airport": "LAX",
+              "departures": 16427
+            },
+            {
+              "airport": "SFO",
+              "departures": 13207
+            },
+            {
+              "airport": "PHX",
+              "departures": 13024
+            },
+            {
+              "airport": "LAS",
+              "departures": 12246
+            },
+            {
+              "airport": "IAH",
+              "departures": 11660
+            },
+            {
+              "airport": "MCO",
+              "departures": 10739
+            },
+            {
+              "airport": "SEA",
+              "departures": 9749
+            },
+            {
+              "airport": "MSP",
+              "departures": 9581
+            },
+            {
+              "airport": "DTW",
+              "departures": 9489
+            },
+            {
+              "airport": "CLT",
+              "departures": 9213
+            },
+            {
+              "airport": "BOS",
+              "departures": 9088
+            },
+            {
+              "airport": "SLC",
+              "departures": 8684
+            },
+            {
+              "airport": "EWR",
+              "departures": 8526
+            },
+            {
+              "airport": "LGA",
+              "departures": 8028
+            },
+            {
+              "airport": "JFK",
+              "departures": 8027
+            },
+            {
+              "airport": "FLL",
+              "departures": 7678
+            }
+          ],
+          "top_20_dest_airports": [
+            {
+              "airport": "ATL",
+              "arrivals": 29854
+            },
+            {
+              "airport": "ORD",
+              "arrivals": 18605
+            },
+            {
+              "airport": "DEN",
+              "arrivals": 17527
+            },
+            {
+              "airport": "DFW",
+              "arrivals": 16572
+            },
+            {
+              "airport": "LAX",
+              "arrivals": 16406
+            },
+            {
+              "airport": "SFO",
+              "arrivals": 13206
+            },
+            {
+              "airport": "PHX",
+              "arrivals": 13035
+            },
+            {
+              "airport": "LAS",
+              "arrivals": 12245
+            },
+            {
+              "airport": "IAH",
+              "arrivals": 11642
+            },
+            {
+              "airport": "MCO",
+              "arrivals": 10730
+            },
+            {
+              "airport": "SEA",
+              "arrivals": 9739
+            },
+            {
+              "airport": "MSP",
+              "arrivals": 9585
+            },
+            {
+              "airport": "DTW",
+              "arrivals": 9463
+            },
+            {
+              "airport": "CLT",
+              "arrivals": 9224
+            },
+            {
+              "airport": "BOS",
+              "arrivals": 9100
+            },
+            {
+              "airport": "SLC",
+              "arrivals": 8699
+            },
+            {
+              "airport": "EWR",
+              "arrivals": 8536
+            },
+            {
+              "airport": "LGA",
+              "arrivals": 8035
+            },
+            {
+              "airport": "JFK",
+              "arrivals": 8014
+            },
+            {
+              "airport": "FLL",
+              "arrivals": 7665
+            }
+          ],
+          "carrier_flight_volume": [
+            {
+              "carrier": "WN",
+              "total_flights": 104154
+            },
+            {
+              "carrier": "AA",
+              "total_flights": 75580
+            },
+            {
+              "carrier": "DL",
+              "total_flights": 69711
+            },
+            {
+              "carrier": "OO",
+              "total_flights": 47619
+            },
+            {
+              "carrier": "EV",
+              "total_flights": 41970
+            },
+            {
+              "carrier": "UA",
+              "total_flights": 39761
+            },
+            {
+              "carrier": "B6",
+              "total_flights": 23018
+            },
+            {
+              "carrier": "AS",
+              "total_flights": 14205
+            },
+            {
+              "carrier": "NK",
+              "total_flights": 11047
+            },
+            {
+              "carrier": "F9",
+              "total_flights": 7099
+            },
+            {
+              "carrier": "HA",
+              "total_flights": 6279
+            },
+            {
+              "carrier": "VX",
+              "total_flights": 5384
+            }
+          ],
+          "numeric_field_stats": {
+            "distance_miles": {
+              "min": 31.0,
+              "max": 4983.0,
+              "avg": 844.23
+            },
+            "airtime_minutes": {
+              "min": 8.0,
+              "max": 698.0,
+              "avg": 116.4
+            },
+            "crs_elapsed_time_minutes": {
+              "min": 21.0,
+              "max": 705.0,
+              "avg": 146.5
+            },
+            "taxi_out_minutes": {
+              "min": 1.0,
+              "max": 158.0,
+              "avg": 16.45
+            },
+            "taxi_in_minutes": {
+              "min": 1.0,
+              "max": 155.0,
+              "avg": 7.29
+            }
+          },
+          "distance_group_distribution": [
+            {
+              "group_code": 1,
+              "flight_count": 52910,
+              "pct": "11.87%"
+            },
+            {
+              "group_code": 2,
+              "flight_count": 101491,
+              "pct": "22.76%"
+            },
+            {
+              "group_code": 3,
+              "flight_count": 86816,
+              "pct": "19.47%"
+            },
+            {
+              "group_code": 4,
+              "flight_count": 69735,
+              "pct": "15.64%"
+            },
+            {
+              "group_code": 5,
+              "flight_count": 51388,
+              "pct": "11.53%"
+            },
+            {
+              "group_code": 6,
+              "flight_count": 21060,
+              "pct": "4.72%"
+            },
+            {
+              "group_code": 7,
+              "flight_count": 22457,
+              "pct": "5.04%"
+            },
+            {
+              "group_code": 8,
+              "flight_count": 10707,
+              "pct": "2.4%"
+            },
+            {
+              "group_code": 9,
+              "flight_count": 7716,
+              "pct": "1.73%"
+            },
+            {
+              "group_code": 10,
+              "flight_count": 12021,
+              "pct": "2.7%"
+            },
+            {
+              "group_code": 11,
+              "flight_count": 9526,
+              "pct": "2.14%"
+            }
+          ],
+          "departure_timeblock_distribution": [
+            {
+              "timeblock": "0001-0559",
+              "flight_count": 11646,
+              "pct": "2.61%"
+            },
+            {
+              "timeblock": "0600-0659",
+              "flight_count": 30138,
+              "pct": "6.76%"
+            },
+            {
+              "timeblock": "0700-0759",
+              "flight_count": 29511,
+              "pct": "6.62%"
+            },
+            {
+              "timeblock": "0800-0859",
+              "flight_count": 28370,
+              "pct": "6.36%"
+            },
+            {
+              "timeblock": "0900-0959",
+              "flight_count": 27996,
+              "pct": "6.28%"
+            },
+            {
+              "timeblock": "1000-1059",
+              "flight_count": 27382,
+              "pct": "6.14%"
+            },
+            {
+              "timeblock": "1100-1159",
+              "flight_count": 28067,
+              "pct": "6.3%"
+            },
+            {
+              "timeblock": "1200-1259",
+              "flight_count": 27081,
+              "pct": "6.07%"
+            },
+            {
+              "timeblock": "1300-1359",
+              "flight_count": 28401,
+              "pct": "6.37%"
+            },
+            {
+              "timeblock": "1400-1459",
+              "flight_count": 25724,
+              "pct": "5.77%"
+            },
+            {
+              "timeblock": "1500-1559",
+              "flight_count": 28367,
+              "pct": "6.36%"
+            },
+            {
+              "timeblock": "1600-1659",
+              "flight_count": 26070,
+              "pct": "5.85%"
+            },
+            {
+              "timeblock": "1700-1759",
+              "flight_count": 30922,
+              "pct": "6.94%"
+            },
+            {
+              "timeblock": "1800-1859",
+              "flight_count": 25022,
+              "pct": "5.61%"
+            },
+            {
+              "timeblock": "1900-1959",
+              "flight_count": 25538,
+              "pct": "5.73%"
+            },
+            {
+              "timeblock": "2000-2059",
+              "flight_count": 19034,
+              "pct": "4.27%"
+            },
+            {
+              "timeblock": "2100-2159",
+              "flight_count": 13731,
+              "pct": "3.08%"
+            },
+            {
+              "timeblock": "2200-2259",
+              "flight_count": 8992,
+              "pct": "2.02%"
+            },
+            {
+              "timeblock": "2300-2359",
+              "flight_count": 3835,
+              "pct": "0.86%"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

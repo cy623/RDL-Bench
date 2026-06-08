@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: RDL-Bench
+message: If you use this dataset or code, please cite the associated paper.
+authors:
+  - family-names: Cheng
+    given-names: Yao
+  - family-names: Luo
+    given-names: Siqiang

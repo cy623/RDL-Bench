@@ -1,0 +1,66 @@
+{
+  "database_name": "Dallas",
+  "database_description": "A real relational dataset about on-duty officer-involved shootings disclosed by the Dallas Police Department. The CTU Relational Dataset Repository version includes separate tables for incident, officer, and subject/suspect information. ",
+  "tables": {
+    "incidents": {
+      "description": "Incident-level table for Dallas Police Department on-duty officer-involved shootings. Each row represents one shooting incident and records the case number, incident date, location, subject status information, subject weapon information, counts of involved subjects and officers, grand jury disposition, summary links, narrative summary text, and geographic coordinates.",
+      "primary_key": [
+         "case_number"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "case_number": "Primary identifier of the officer-involved shooting incident, recorded as the case number.",
+        "date": "Date of the incident.",
+        "location": "Location where the incident occurred.",
+        "subject_statuses": "Status of the involved subject or subjects, such as deceased, injured, or shoot-and-miss outcome.",
+        "subject_weapon": "Weapon information for the involved subject or subjects.",
+        "subjects": "Text field listing or describing the involved subject or subjects.",
+        "subject_count": "Number of subjects involved in the incident.",
+        "officers": "Text field listing or describing the involved officer or officers.",
+        "officer_count": "Number of officers involved in the incident.",
+        "grand_jury_disposition": "rand jury disposition associated with the incident",
+        "attorney_general_forms_url": "URL to attorney general forms or related official documentation for the incident.",
+        "summary_url": "URL to an incident summary page or document.",
+        "summary_text": "Narrative summary text describing the incident.",
+        "latitude": "Latitude coordinate of the incident location.",
+        "longitude": "Longitude coordinate of the incident location."
+      }
+    },
+    "officers": {
+      "description": "Officer-information table for Dallas Police Department on-duty officer-involved shootings. Each row records officer-identifying information associated with an incident, including case number, race, gender, and officer name fields.",
+      "primary_key": [
+        
+      ],
+      "foreign_keys": [
+        {"column": "case_number", "references": "incidents.case_number"}
+      ],
+      "comments": {
+        "case_number": "Case number of the officer-involved shooting incident; links the officer record to the corresponding incident.",
+        "race": "Race of the officer.",
+        "gender": "Gender of the officer.",
+        "last_name": "Last name of the officer.",
+        "first_name": "First name of the officer.",
+        "full_name": "Full name of the officer."
+      }
+    },
+    "subjects": {
+      "description": "Subject/suspect-information table for Dallas Police Department on-duty officer-involved shootings. Each row records identifying information for a subject or suspect associated with an incident, including case number, race, gender, and name fields.",
+      "primary_key": [
+        
+      ],
+      "foreign_keys": [
+        {"column": "case_number", "references": "incidents.case_number"}
+      ],
+      "comments": {
+      "case_number": "Case number of the officer-involved shooting incident; links the subject/suspect record to the corresponding incident.",
+      "race": "Race of the subject or suspect.",
+      "gender": "Gender of the subject or suspect.",
+      "last_name": "Last name of the subject or suspect.",
+      "first_name": "First name of the subject or suspect.",
+      "full_name": "Full name of the subject or suspect."
+      }
+    }
+  }
+}

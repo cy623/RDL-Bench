@@ -1,0 +1,366 @@
+{
+  "database_name": "Airline",
+  "database_description": "Airline on-time data are reported each month to the U.S. Department of Transportation (DOT), Bureau of Transportation Statistics (BTS) by the 16 U.S. air carriers that have at least 1 percent of total domestic scheduled-service passenger revenues, plus two other carriers that report voluntarily. The data cover nonstop scheduled-service flights between points within the United States (including territories) as described in 14 CFR Part 234 of DOT's regulations.",
+  "tables": {
+    "l_airline_id": {
+      "description": "Airline description string, usually in the form 'Carrier Name: Code'. This field combines the airline name and a short carrier code in one text value.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the airline lookup table; a numeric airline/carrier identifier.",
+        "description": "Text description of the airline entry, typically in the form 'Airline Name: Carrier Code'. This field combines the carrier name and a short airline/carrier code in one string."
+      }
+    },
+    "l_airport": {
+      "description": "Lookup table for airport codes used in the BTS airline datasets. It maps each airport code to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the airport lookup table; an airport code used in BTS airline data.",
+        "description": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+      }
+    },
+    "l_airport_id": {
+      "description": "Lookup table for U.S. DOT airport identifiers used in the BTS airline datasets. It maps each numeric airport identifier to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the airport-ID lookup table; a U.S. DOT airport identifier corresponding to fields such as `OriginAirportID` or `DestAirportID`. It uniquely identifies an airport across years, even if airport codes change or are reused.",
+        "description": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+      }
+    },
+    "l_airport_seq_id": {
+      "description": "Lookup table for U.S. DOT airport sequence identifiers used in the BTS airline datasets. It maps each time-specific airport sequence identifier to a textual airport description, typically including city, state/territory abbreviation, and airport name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the airport-sequence-ID lookup table; a U.S. DOT airport sequence identifier corresponding to fields such as `OriginAirportSeqID` or `DestAirportSeqID`. It identifies a unique airport at a given point in time, allowing airport attributes such as name or coordinates to change over time.",
+        "description": "Text description of the airport entry, typically in the form 'City, State: Airport Name'. This field combines location information and the airport name in one string."
+      }
+    },
+    "l_cancellation": {
+      "description": "Lookup table for flight cancellation reasons in the BTS Airline On-Time Performance data. It maps each cancellation code to its corresponding cancellation category.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+      
+      ],
+      "comments": {
+        "code": "Primary key of the cancellation lookup table; a one-letter cancellation reason code used in the flight fact table.",
+        "description": "Text label of the cancellation reason category. In this dataset, the valid values are: A = Carrier, B = Weather, C = National Air System, and D = Security."
+      }
+    },
+    "l_city_market_id": {
+      "description": "Lookup table for U.S. DOT city market identifiers used in the BTS airline datasets. It maps each city market identifier to a textual city-market description, typically including city and state/territory.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the city-market lookup table; a U.S. DOT city market identifier corresponding to fields such as `OriginCityMarketID` or `DestCityMarketID`. It is used to consolidate airports serving the same city market.",
+        "description": "Text description of the city market, typically in the form 'City, State'."
+      }
+    },
+    "l_deparrblk": {
+      "description": "Lookup table for scheduled departure and arrival time blocks in the BTS Airline On-Time Performance data. It maps each time-block code to a human-readable hourly time interval description.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+  
+      ],
+      "comments": {
+        "code": "Primary key of the departure/arrival time-block lookup table; a scheduled time-block code such as `0600-0659` or `2300-2359` used by fields like `DepTimeBlk` and `ArrTimeBlk`.",
+        "description": "Human-readable description of the scheduled time block, typically expressing the corresponding local-time interval, such as `6:00AM to 6:59AM`."
+      }
+    },
+    "l_distance_group_250": {
+      "description": "Lookup table for flight distance groups in the BTS Airline On-Time Performance data. It maps each distance-group code to a human-readable flight-distance interval based on 250-mile bins.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the distance-group lookup table; an integer code used by the `DistanceGroup` field to represent a flight-distance interval.",
+        "description": "Human-readable description of the flight-distance interval associated with the distance-group code. The intervals are defined in 250-mile bins, such as '250-499 Miles' or '2500 Miles and Greater'."
+      }
+    },
+    "l_diversions": {
+      "description": "Lookup table for diversion outcomes in the BTS Airline On-Time Performance data. It maps each diversion-related code to a textual description of the number of diverted-airport landings or a special diversion outcome.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the diversion lookup table; a diversion-related code representing the number of diverted airport landings or a special return/cancellation outcome.",
+        "description": "Text description of the diversion outcome. Codes 0-5 represent the number of diverted airport landings, while code 9 indicates an air return to the origin airport where the flight was ultimately cancelled."
+      }
+    },
+    "l_months": {
+      "description": "Lookup table for calendar months used in the BTS Airline On-Time Performance data. It maps each numeric month code to its corresponding month name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the month lookup table; an integer month code from 1 to 12.",
+        "description": "Human-readable month name corresponding to the month code, such as `January` for 1 and `December` for 12."
+      }
+    },
+    "l_ontime_delay_groups": {
+      "description": "Lookup table for on-time delay groups in the BTS Airline On-Time Performance data. It maps each delay-group code to a human-readable delay interval description used for grouped departure and arrival delay analysis.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the on-time delay-group lookup table; an integer code representing a grouped delay interval used by fields such as `DepartureDelayGroups` and `ArrivalDelayGroups`.",
+        "description": "Human-readable description of the delay interval associated with the delay-group code. Negative codes represent early departures/arrivals, 0 represents delays from 0 to 14 minutes, and positive codes represent progressively larger delay intervals in 15-minute bins, with 12 meaning delays of 180 minutes or more."
+      }
+    },
+    "l_quarters": {
+      "description": "Lookup table for calendar quarters used in the BTS Airline On-Time Performance data. It maps each numeric quarter code to its corresponding quarter label and calendar date range.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the quarter lookup table; an integer quarter code from 1 to 4 corresponding to the `Quarter` field.",
+        "description": "Human-readable quarter label and date range corresponding to the quarter code, such as `Quarter1: January 1-March 31`."
+      }
+    },
+    "l_state_abr_aviation": {
+      "description": "Lookup table for aviation-related state or province abbreviations used in the BTS airline datasets. It maps each two-letter location abbreviation to a human-readable state, district, or Canadian province name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the state-abbreviation lookup table; a two-letter aviation location abbreviation used by fields such as `OriginState` or `DestState`.",
+        "description": "Human-readable name corresponding to the location abbreviation. The values include U.S. states and districts, and may also include Canadian provinces for aviation-related geographic coding."
+      }
+    },
+    "l_state_fips": {
+      "description": "Lookup table for state FIPS codes used in the BTS airline datasets. It maps each numeric FIPS location code to its corresponding state or territory name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the state-FIPS lookup table; a numeric FIPS location code used by fields such as `OriginStateFips` or `DestStateFips`.",
+        "description": "Human-readable name corresponding to the FIPS location code. Values include U.S. states, the District of Columbia, territories, and special values such as `0 = Not Applicable`."
+      }
+    },
+    "l_unique_carriers": {
+      "description": "Lookup table for BTS unique carrier codes used in the Airline On-Time Performance data. It maps each unique carrier code to the corresponding carrier name.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the unique-carrier lookup table; a BTS unique carrier code corresponding to the `Reporting_Airline` field. This code is intended for analysis across years. When the same code has been reused by multiple carriers over time, BTS adds a numeric suffix to earlier users to keep the code unique.",
+        "description": "Human-readable carrier name corresponding to the unique carrier code."
+      }
+    },
+    "l_weekdays": {
+      "description": "Lookup table for weekday codes used in the BTS Airline On-Time Performance data. It maps each numeric weekday code to its corresponding weekday name, with an additional code for unknown values.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the weekday lookup table; an integer weekday code used by the `DayOfWeek` field. Codes 1-7 represent Monday through Sunday, and 9 represents an unknown value.",
+        "description": "Human-readable weekday label corresponding to the weekday code, such as `Monday` for 1 and `Sunday` for 7; `Unknown` is used for code 9."
+      }
+    },
+    "l_world_area_codes": {
+      "description": "Lookup table for World Area Codes (WAC) used in the BTS airline datasets. It maps each numeric WAC code to a human-readable geographic area name used by fields such as `OriginWac` and `DestWac`.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "code": "Primary key of the World Area Code lookup table; a numeric WAC code used by fields such as `OriginWac` and `DestWac` to identify a geographic area.",
+        "description": "Human-readable name corresponding to the World Area Code. Values may represent U.S. states, territories, or other aviation-related geographic areas."
+      }
+    },
+    "l_yesno_resp": {
+      "description": "Lookup table for binary yes/no response codes used in the BTS Airline On-Time Performance data. It maps each numeric response code to its corresponding yes/no label.",
+      "primary_key": [
+        "code"
+      ],
+      "foreign_keys": [
+       
+      ],
+      "comments": {
+        "code": "Primary key of the yes/no response lookup table; a binary response code where 0 means `No` and 1 means `Yes`.",
+        "description": "Human-readable yes/no label corresponding to the response code."
+      }
+    },
+    "on_time_on_time_performance_2016_1": {
+      "description": "Flight-level fact table for U.S. domestic reporting-carrier on-time performance in January 2016. Each row represents one scheduled nonstop flight operation and includes calendar fields, carrier identifiers, origin and destination attributes, departure and arrival performance, cancellation and diversion indicators, elapsed-time summaries, and delay-cause measures.",
+      "primary_key": [
+       
+      ],
+      "foreign_keys": [
+        {"column": "quarter", "references": "l_quarters.code"},
+        {"column": "month", "references": "l_months.code"},
+        {"column": "dayofweek", "references": "l_weekdays.code"},
+        {"column": "uniquecarrier", "references": "l_unique_carriers.code"},
+        {"column": "airlineid", "references": "l_airline_id.code"},
+        {"column": "originairportid", "references": "l_airport_id.code"},
+        {"column": "originairportseqid", "references": "l_airport_seq_id.code"},
+        {"column": "origincitymarketid", "references": "l_city_market_id.code"},
+        {"column": "origin", "references": "l_airport.code"},
+        {"column": "originstate", "references": "l_state_abr_aviation.code"},
+        {"column": "originstatefips", "references": "l_state_fips.code"},
+        {"column": "originwac", "references": "l_world_area_codes.code"},
+        {"column": "destairportid", "references": "l_airport_id.code"},
+        {"column": "destairportseqid", "references": "l_airport_seq_id.code"},
+        {"column": "destcitymarketid", "references": "l_city_market_id.code"},
+        {"column": "dest", "references": "l_airport.code"},
+        {"column": "deststate", "references": "l_state_abr_aviation.code"},
+        {"column": "deststatefips", "references": "l_state_fips.code"},
+        {"column": "destwac", "references": "l_world_area_codes.code"},
+        {"column": "depdel15", "references": "l_yesno_resp.code"},
+        {"column": "departuredelaygroups", "references": "l_ontime_delay_groups.code"},
+        {"column": "deptimeblk", "references": "l_deparrblk.code"},
+        {"column": "arrdel15", "references": "l_yesno_resp.code"},
+        {"column": "arrivaldelaygroups", "references": "l_ontime_delay_groups.code"},
+        {"column": "cancelled", "references": "l_yesno_resp.code"},
+        {"column": "cancellationcode", "references": "l_cancellation.code"},
+        {"column": "diverted", "references": "l_yesno_resp.code"},
+        {"column": "distancegroup", "references": "l_distance_group_250.code"},
+        {"column": "divairportlandings", "references": "l_diversions.code"},
+        {"column": "div1airportid", "references": "l_airport_id.code"},
+        {"column": "div1airportseqid", "references": "l_airport_seq_id.code"},
+        {"column": "div2airportid", "references": "l_airport_id.code"},
+        {"column": "div2airportseqid", "references": "l_airport_seq_id.code"}
+      ],
+      "comments": {
+        "year": "Calendar year of the flight record.",
+        "quarter": "Calendar quarter of the flight record (1-4).",
+        "month": "Calendar month of the flight record.",
+        "dayofmonth": "Day of month of the flight record.",
+        "dayofweek": "Day of week of the flight record.",
+        "flightdate": "Flight date.",
+        "uniquecarrier": "BTS unique carrier code for the reporting airline. BTS recommends this field for analysis across years because reused carrier codes are disambiguated with suffixes.",
+        "airlineid": "U.S. DOT identifier for the reporting airline (carrier); foreign key to `l_airline_id.code`.",
+        "carrier": "IATA carrier code assigned to the reporting airline. BTS notes that this code is not always unique across time.",
+        "tailnum": "Aircraft tail number.",
+        "flightnum": "Flight number reported by the airline.",
+        "originairportid": "U.S. DOT airport identifier for the origin airport; foreign key to `l_airport_id.code`.",
+        "originairportseqid": "U.S. DOT airport sequence identifier for the origin airport at a given point in time; foreign key to `l_airport_seq_id.code`.",
+        "origincitymarketid": "U.S. DOT city market identifier for the origin airport; used to consolidate airports serving the same city market; foreign key to `l_city_market_id.code`.",
+        "origin": "Origin airport code; foreign key to `l_airport.code`.",
+        "origincityname": "Origin airport city name.",
+        "originstate": "Origin airport state or province abbreviation; foreign key to `l_state_abr_aviation.code`.",
+        "originstatefips": "Origin airport state FIPS code; foreign key to `l_state_fips.code`.",
+        "originstatename": "Origin airport state name.",
+        "originwac": "Origin airport World Area Code; foreign key to `l_world_area_codes.code`.",
+        "destairportid": "U.S. DOT airport identifier for the destination airport; foreign key to `l_airport_id.code`.",
+        "destairportseqid": "U.S. DOT airport sequence identifier for the destination airport at a given point in time; foreign key to `l_airport_seq_id.code`.",
+        "destcitymarketid": "U.S. DOT city market identifier for the destination airport; used to consolidate airports serving the same city market; foreign key to `l_city_market_id.code`.",
+        "dest": "Destination airport code; foreign key to `l_airport.code`.",
+        "destcityname": "Destination airport city name.",
+        "deststate": "Destination airport state or province abbreviation; foreign key to `l_state_abr_aviation.code`.",
+        "deststatefips": "Destination airport state FIPS code; foreign key to `l_state_fips.code`.",
+        "deststatename": "Destination airport state name.",
+        "destwac": "Destination airport World Area Code; foreign key to `l_world_area_codes.code`.",
+        "crsdeptime": "Scheduled departure time in local hhmm format.",
+        "deptime": "Actual departure time in local hhmm format.",
+        "depdelay": "Difference in minutes between scheduled and actual departure time; early departures are negative.",
+        "depdelayminutes": "Difference in minutes between scheduled and actual departure time, with early departures set to 0.",
+        "depdel15": "Departure delay indicator, 15 minutes or more (1 = Yes); foreign key to `l_yesno_resp.code`.",
+        "departuredelaygroups": "Departure delay interval group in 15-minute bins; foreign key to `l_ontime_delay_groups.code`.",
+        "deptimeblk": "Scheduled departure time block, hourly intervals; foreign key to `l_deparrblk.code`.",
+        "taxiout": "Taxi-out time, in minutes.",
+        "wheelsoff": "Wheels-off time in local hhmm format.",
+        "wheelson": "Wheels-on time in local hhmm format.",
+        "taxiin": "Taxi-in time, in minutes.",
+        "crsarrtime": "Scheduled arrival time in local hhmm format.",
+        "arrtime": "Actual arrival time in local hhmm format.",
+        "arrdelay": "Difference in minutes between scheduled and actual arrival time; early arrivals are negative.",
+        "arrdelayminutes": "Difference in minutes between scheduled and actual arrival time, with early arrivals set to 0.",
+        "arrdel15": "Arrival delay indicator, 15 minutes or more (1 = Yes); target field; foreign key to `l_yesno_resp.code`.",
+        "arrivaldelaygroups": "Arrival delay interval group in 15-minute bins; foreign key to `l_ontime_delay_groups.code`.",
+        "arrtimeblk": "Scheduled arrival time block, hourly intervals.",
+        "cancelled": "Cancelled flight indicator (1 = Yes); foreign key to `l_yesno_resp.code`.",
+        "cancellationcode": "Reason for cancellation; foreign key to `l_cancellation.code`.",
+        "diverted": "Diverted flight indicator (1 = Yes); foreign key to `l_yesno_resp.code`.",
+        "crselapsedtime": "CRS elapsed time of flight, in minutes.",
+        "actualelapsedtime": "Elapsed time of flight, in minutes.",
+        "airtime": "Flight time, in minutes.",
+        "flights": "Number of flights represented by the record.",
+        "distance": "Distance between airports, in miles.",
+        "distancegroup": "Distance interval group in 250-mile bins for the flight segment; foreign key to `l_distance_group_250.code`.",
+        "carrierdelay": "Carrier delay, in minutes.",
+        "weatherdelay": "Weather delay, in minutes.",
+        "nasdelay": "National Air System delay, in minutes.",
+        "securitydelay": "Security delay, in minutes.",
+        "lateaircraftdelay": "Late aircraft delay, in minutes.",
+        "firstdeptime": "First gate departure time at the origin airport.",
+        "totaladdgtime": "Total ground time away from gate for a gate return or cancelled flight.",
+        "longestaddgtime": "Longest time away from gate for a gate return or cancelled flight.",
+        "divairportlandings": "Number of diverted airport landings; foreign key to `l_diversions.code`.",
+        "divreacheddest": "Diverted flight reaching scheduled destination indicator (1 = Yes).",
+        "divactualelapsedtime": "Elapsed time in minutes of a diverted flight reaching scheduled destination.",
+        "divarrdelay": "Difference in minutes between scheduled and actual arrival time for a diverted flight reaching scheduled destination.",
+        "divdistance": "Distance between scheduled destination and final diverted airport, in miles.",
+        "div1airport": "Code of diverted airport 1.",
+        "div1airportid": "Airport ID of diverted airport 1; foreign key to `l_airport_id.code`.",
+        "div1airportseqid": "Airport sequence ID of diverted airport 1; foreign key to `l_airport_seq_id.code`.",
+        "div1wheelson": "Wheels-on time at diverted airport 1 in local hhmm format.",
+        "div1totalgtime": "Total ground time at diverted airport 1.",
+        "div1longestgtime": "Longest ground time at diverted airport 1.",
+        "div1wheelsoff": "Wheels-off time from diverted airport 1 in local hhmm format.",
+        "div1tailnum": "Aircraft tail number for diverted airport 1 segment.",
+        "div2airport": "Code of diverted airport 2.",
+        "div2airportid": "Airport ID of diverted airport 2; foreign key to `l_airport_id.code`.",
+        "div2airportseqid": "Airport sequence ID of diverted airport 2; foreign key to `l_airport_seq_id.code`.",
+        "div2wheelson": "Wheels-on time at diverted airport 2 in local hhmm format.",
+        "div2totalgtime": "Total ground time at diverted airport 2.",
+        "div2longestgtime": "Longest ground time at diverted airport 2."
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "database_name": "Olist",
+  "database_description": "A relational e-commerce dataset derived from the Brazilian E-Commerce Public Dataset by Olist. It contains information on about 100,000 orders placed from 2016 to 2018 across multiple marketplaces in Brazil, and supports multi-table analysis of orders, customers, products, sellers, payments, freight performance, geolocation, and customer reviews.",
+  "tables": {
+    "olist_customers_dataset": {
+      "description": "Customer dataset containing customer identifiers and delivery-location attributes. It is used to identify customers in the orders dataset and to describe customer location through zip-code prefix, city, and state.",
+      "primary_key": [
+        "customer_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "customer_id": "Primary key of the customers table. In the Olist dataset, each order is assigned to a unique `customer_id`, so the same real-world customer may appear with different `customer_id` values across different orders.",
+        "customer_unique_id": "Stable customer identifier used to identify repeat purchases by the same customer across different orders.",
+        "customer_zip_code_prefix": "Prefix of the customer's ZIP code.",
+        "customer_city": "Customer city name.",
+        "customer_state": "Customer state abbreviation."
+      }
+    },
+    "olist_geolocation_dataset": {
+      "description": "Geolocation dataset relating Brazilian ZIP-code prefixes to latitude/longitude coordinates and location names. It provides geographic reference information for zip-code prefixes, including latitude, longitude, city, and state.",
+      "primary_key": [],
+      "foreign_keys": [],
+      "comments": {
+        "geolocation_zip_code_prefix": "Brazilian ZIP-code prefix used as the geographic reference key.",
+        "geolocation_lat": "Latitude associated with the ZIP-code prefix.",
+        "geolocation_lng": "Longitude associated with the ZIP-code prefix.",
+        "geolocation_city": "City name associated with the ZIP-code prefix.",
+        "geolocation_state": "State abbreviation associated with the ZIP-code prefix."
+      }
+    },
+    "olist_orders_dataset": {
+      "description": "Orders dataset containing one row per order and its lifecycle timestamps. It links each order to a customer and records the order status, purchase time, approval time, carrier handoff time, customer delivery time, and estimated delivery date.",
+      "primary_key": [
+        "order_id"
+      ],
+      "foreign_keys": [
+        {"column": "customer_id", "references": "olist_customers_dataset.customer_id"}
+      ],
+      "comments": {
+        "order_id": "Primary key of the orders table; unique identifier of the order.",
+        "customer_id": "Identifier of the customer associated with the order; foreign key to `olist_customers_dataset.customer_id`.",
+        "order_status": "Current status of the order.",
+        "order_purchase_timestamp": "Timestamp when the order was placed.",
+        "order_approved_at": "Timestamp when the payment for the order was approved.",
+        "order_delivered_carrier_date": "Timestamp when the order was handed over to the logistics carrier.",
+        "order_delivered_customer_date": "Timestamp when the order was delivered to the customer.",
+        "order_estimated_delivery_date": "Estimated date when the order was expected to be delivered to the customer."
+      }
+    },
+    "olist_order_items_dataset": {
+      "description": "Order-items dataset containing one row per item within an order. It links each order item to a product and a seller, and records the shipping deadline, item price, and freight value.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "order_id", "references": "olist_orders_dataset.order_id"},
+        {"column": "product_id", "references": "olist_products_dataset.product_id"},
+        {"column": "seller_id", "references": "olist_sellers_dataset.seller_id"}
+      ],
+      "comments": {
+        "order_id": "Identifier of the order to which the item belongs; foreign key to `olist_orders_dataset.order_id`.",
+        "order_item_id": "Sequential number identifying the item within the order.",
+        "product_id": "Identifier of the purchased product; foreign key to `olist_products_dataset.product_id`.",
+        "seller_id": "Identifier of the seller responsible for the item; foreign key to `olist_sellers_dataset.seller_id`.",
+        "shipping_limit_date": "Deadline by which the seller should ship the item.",
+        "price": "Price of the order item.",
+        "freight_value": "Freight charge associated with the order item."
+      }
+    },
+    "olist_order_payments_dataset": {
+      "description": "Order-payments dataset containing payment records associated with orders. It records the payment sequence, payment method, number of installments, and payment value for each order payment entry.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "order_id", "references": "olist_orders_dataset.order_id"}
+      ],
+      "comments": {
+        "order_id": "Identifier of the order associated with the payment record; foreign key to `olist_orders_dataset.order_id`.",
+        "payment_sequential": "Sequential number identifying the payment entry for the order.",
+        "payment_type": "Payment method used for the order payment.",
+        "payment_installments": "Number of installments used in the payment.",
+        "payment_value": "Monetary value of the payment."
+      }
+    },
+    "olist_order_reviews_dataset": {
+      "description": "Order-reviews dataset containing customer review records associated with orders. It stores the review identifier, linked order, review score, optional review title and message, the review creation date, and the timestamp when the review was answered.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "order_id", "references": "olist_orders_dataset.order_id"}
+      ],
+      "comments": {
+        "review_id": "Identifier of the review record. The public description does not guarantee that this field is globally unique as a table primary key.",
+        "order_id": "Identifier of the order associated with the review; foreign key to `olist_orders_dataset.order_id`.",
+        "review_score": "Numeric review score given by the customer.",
+        "review_comment_title": "Title of the review comment, if provided.",
+        "review_comment_message": "Text message of the review comment, if provided.",
+        "review_creation_date": "Date when the customer satisfaction survey was sent to the customer or when the review became available for creation.",
+        "review_answer_timestamp": "Timestamp when the review was answered."
+      }
+    },
+    "olist_products_dataset": {
+      "description": "Products dataset containing product identifiers and product catalog attributes. It records the product category name, textual description lengths, number of photos, weight, and package dimensions.",
+      "primary_key": [
+        "product_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "product_id": "Primary key of the products table; unique identifier of the product.",
+        "product_category_name": "Product category name.",
+        "product_name_lenght": "Length of the product name.",
+        "product_description_lenght": "Length of the product description.",
+        "product_photos_qty": "Number of product photos.",
+        "product_weight_g": "Product weight in grams.",
+        "product_length_cm": "Product length in centimeters.",
+        "product_height_cm": "Product height in centimeters.",
+        "product_width_cm": "Product width in centimeters."
+      }
+    },
+    "olist_sellers_dataset": {
+      "description": "Sellers dataset containing seller identifiers and seller-location attributes. It records the seller's ZIP-code prefix, city, and state.",
+      "primary_key": [
+        "seller_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "seller_id": "Primary key of the sellers table; unique identifier of the seller.",
+        "seller_zip_code_prefix": "Prefix of the seller's ZIP code.",
+        "seller_city": "Seller city name.",
+        "seller_state": "Seller state abbreviation."
+      }
+    },
+    "product_category_name_translation": {
+      "description": "Lookup table translating product category names from Portuguese into English. It maps each original product category name used in the products dataset to its English translation.",
+      "primary_key": [
+        "product_category_name"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "product_category_name": "Original product category name in Portuguese, as used in the products dataset.",
+        "product_category_name_english": "English translation of the product category name."
+      }
+    }
+  }
+}

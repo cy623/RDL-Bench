@@ -1,0 +1,1188 @@
+{
+  "database_metadata": {
+    "name": "Stats",
+    "description": "This is an anonymized dump of all user-contributed content on the Stack Exchange network. Each site archive includes Posts, Users, Votes, Comments, Badges, Tags,  PostHistory, and PostLinks."
+  },
+  "tables": [
+    {
+      "table_name": "badges",
+      "description": "\"Achievement tags\" are used to record user behavior and contributions.",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "userid",
+            "type": "BIGINT",
+            "comment": "User ID"
+          },
+          {
+            "name": "name",
+            "type": "VARCHAR",
+            "comment": "Name of the badge"
+          },
+          {
+            "name": "date",
+            "type": "TIMESTAMP",
+            "comment": "Gain Time"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "userid",
+            "references": "users.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 79851,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 79851
+          },
+          "userid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 25078
+          },
+          "name": {
+            "null_ratio": "0.0%",
+            "distinct_values": 153,
+            "random_samples": [
+              "Populist",
+              "residuals",
+              "Nice Question",
+              "Promoter",
+              "Reviewer"
+            ]
+          },
+          "date": {
+            "null_ratio": "0.0%",
+            "distinct_values": 65586,
+            "min_date": "2010-07-19 19:39:07",
+            "max_date": "2014-09-14 02:31:28"
+          }
+        }
+      }
+    },
+    {
+      "table_name": "comments",
+      "description": "Lightweight interactive text attached to questions/answers.",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "postid",
+            "type": "BIGINT",
+            "comment": "Post ID, related question or answer"
+          },
+          {
+            "name": "score",
+            "type": "BIGINT",
+            "comment": "Number of likes"
+          },
+          {
+            "name": "text",
+            "type": "VARCHAR",
+            "comment": "Comment content"
+          },
+          {
+            "name": "creationdate",
+            "type": "TIMESTAMP",
+            "comment": "Creation Date"
+          },
+          {
+            "name": "userid",
+            "type": "BIGINT",
+            "comment": "User ID, commenting users"
+          },
+          {
+            "name": "userdisplayname",
+            "type": "VARCHAR",
+            "comment": "User Display Name"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "postid",
+            "references": "posts.id"
+          },
+          {
+            "column": "userid",
+            "references": "users.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 174305,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 174305
+          },
+          "postid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 53418
+          },
+          "score": {
+            "null_ratio": "0.0%",
+            "distinct_values": 36,
+            "top_distribution": {
+              "0": "77.4%",
+              "1": "14.3%",
+              "2": "4.8%",
+              "3": "1.8%",
+              "4": "0.8%",
+              "5": "0.4%",
+              "6": "0.2%",
+              "7": "0.1%"
+            }
+          },
+          "text": {
+            "null_ratio": "0.0%",
+            "distinct_values": 173664,
+            "note": "Long text field, skipped distribution profiling."
+          },
+          "creationdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 174119,
+            "min_date": "2009-02-02 14:45:19",
+            "max_date": "2014-09-14 02:04:27"
+          },
+          "userid": {
+            "null_ratio": "1.6%",
+            "distinct_values": 13647
+          },
+          "userdisplayname": {
+            "null_ratio": "98.4%",
+            "distinct_values": 926,
+            "random_samples": [
+              "lukeA",
+              "Bort",
+              "user7144",
+              "user10265",
+              "user2094378"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "table_name": "posthistory",
+      "description": "Full edit and status change log for posts (questions/answers).",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "posthistorytypeid",
+            "type": "BIGINT",
+            "comment": [
+              "Post History Type:",
+              "1 = Initial Title - initial title (questions only)",
+              "2 = Initial Body - initial post raw body text",
+              "3 = Initial Tags - initial list of tags (questions only)",
+              "4 = Edit Title - modified title (questions only)",
+              "5 = Edit Body - modified post body (raw markdown)",
+              "6 = Edit Tags - modified list of tags (questions only)",
+              "7 = Rollback Title - reverted title (questions only)",
+              "8 = Rollback Body - reverted body (raw markdown)",
+              "9 = Rollback Tags - reverted list of tags (questions only)",
+              "10 = Post Closed - post voted to be closed",
+              "11 = Post Reopened - post voted to be reopened",
+              "12 = Post Deleted - post voted to be removed",
+              "13 = Post Undeleted - post voted to be restored",
+              "14 = Post Locked - post locked by moderator",
+              "15 = Post Unlocked - post unlocked by moderator",
+              "16 = Community Owned - post now community owned",
+              "17 = Post Migrated - post migrated - now replaced by 35/36 (away/here)",
+              "18 = Question Merged - question merged with deleted question",
+              "19 = Question Protected - question was protected by a moderator.",
+              "20 = Question Unprotected - question was unprotected by a moderator.",
+              "21 = Post Disassociated - OwnerUserId removed from post by admin",
+              "22 = Question Unmerged - answers/votes restored to previously merged question",
+              "24 = Suggested Edit Applied",
+              "25 = Post Tweeted",
+              "31 = Comment discussion moved to chat",
+              "33 = Post notice added - comment contains foreign key to PostNotices",
+              "34 = Post notice removed - comment contains foreign key to PostNotices",
+              "35 = Post migrated away - replaces id 17",
+              "36 = Post migrated here - replaces id 17",
+              "37 = Post merge source - post was source of a merge",
+              "38 = Post merge destination - post was destination of a merge",
+              "50 = Bumped by Community User - post was bumped by the Community user",
+              "52 = Question became hot network question (main) / Hot Meta question (meta)",
+              "53 = Question removed from hot network/meta questions by a moderator",
+              "66 = Created from Ask Wizard - post was created from the Ask Question Wizard"
+            ]
+          },
+          {
+            "name": "postid",
+            "type": "BIGINT",
+            "comment": "Post ID, which question/answer corresponds to"
+          },
+          {
+            "name": "revisionguid",
+            "type": "VARCHAR",
+            "comment": "At times more than one type of history record can be recorded by a single action. All of these will be grouped using the same RevisionGUID"
+          },
+          {
+            "name": "creationdate",
+            "type": "TIMESTAMP",
+            "comment": "Creation time"
+          },
+          {
+            "name": "userid",
+            "type": "BIGINT",
+            "comment": "User ID, Who did this"
+          },
+          {
+            "name": "text",
+            "type": "VARCHAR",
+            "comment": [
+              "A raw version of the new value for a given revision",
+              "If PostHistoryTypeId in (10,11,12,13,14,15,19,20,35) this column will contain a JSON encoded string with all users who have voted for the PostHistoryTypeId",
+              "If it is a duplicate close vote, the JSON string will contain an array of original questions as OriginalQuestionIds",
+              "If PostHistoryTypeId = 17 this column will contain migration details of either from <url> or to <url>"
+            ]
+          },
+          {
+            "name": "comment",
+            "type": "VARCHAR",
+            "comment": [
+              "This field will contain the comment made by the user who edited a post.",
+              "If PostHistoryTypeId = 10, this field contains the CloseReasonId of the close reason (listed in CloseReasonTypes):",
+              "Old close reasons:",
+              "1 = Exact Duplicate",
+              "2 = Off-topic",
+              "3 = Subjective and argumentative",
+              "4 = Not a real question",
+              "7 = Too localized",
+              "10 = General reference",
+              "20 = Noise or pointless (Meta sites only)",
+              "Current close reasons:",
+              "101 = Duplicate",
+              "102 = Off-topic",
+              "103 = Unclear what you're asking",
+              "104 = Too broad",
+              "105 = Primarily opinion-based",
+              "If PostHistoryTypeId in (33,34) this field contains the PostNoticeId of the PostNotice"
+            ]
+          },
+          {
+            "name": "userdisplayname",
+            "type": "VARCHAR",
+            "comment": "populated if a user has been removed and no longer referenced by user Id; also happens to the author of a migrated post"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "postid",
+            "references": "posts.id"
+          },
+          {
+            "column": "userid",
+            "references": "users.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 303187,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 303187
+          },
+          "posthistorytypeid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 25,
+            "top_distribution": {
+              "2": "30.3%",
+              "5": "22.9%",
+              "1": "14.2%",
+              "3": "14.2%",
+              "4": "5.3%",
+              "6": "4.2%",
+              "25": "3.4%",
+              "24": "2.3%"
+            }
+          },
+          "postid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 91976
+          },
+          "revisionguid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 193965
+          },
+          "creationdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 189972,
+            "min_date": "2009-02-02 14:21:12",
+            "max_date": "2014-09-14 02:54:13"
+          },
+          "userid": {
+            "null_ratio": "7.0%",
+            "distinct_values": 22107
+          },
+          "text": {
+            "null_ratio": "8.1%",
+            "distinct_values": 254594,
+            "note": "Long text field, skipped distribution profiling."
+          },
+          "comment": {
+            "null_ratio": "59.8%",
+            "distinct_values": 43362,
+            "random_samples": [
+              "simplification, tags",
+              "http://twitter.com/#!/StackStats/status/148317588676558848",
+              "deleted 1264 characters in body",
+              "130",
+              "http://twitter.com/#!/StackStats/status/103234149246181376"
+            ]
+          },
+          "userdisplayname": {
+            "null_ratio": "98.4%",
+            "distinct_values": 1161,
+            "random_samples": [
+              "adharris",
+              "mjn",
+              "Dvir Adler",
+              "Giovanni Petris",
+              "Benoit B."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "table_name": "postlinks",
+      "description": "Structured record of \"explicit relationships\" between posts",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "creationdate",
+            "type": "TIMESTAMP",
+            "comment": "when the link was created"
+          },
+          {
+            "name": "postid",
+            "type": "BIGINT",
+            "comment": "id of source post"
+          },
+          {
+            "name": "relatedpostid",
+            "type": "BIGINT",
+            "comment": "id of target/related post"
+          },
+          {
+            "name": "linktypeid",
+            "type": "BIGINT",
+            "comment": [
+              "type of link",
+              "1 = Linked (PostId contains a link to RelatedPostId)",
+              "3 = Duplicate (PostId is a duplicate of RelatedPostId)"
+            ]
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "postid",
+            "references": "posts.id"
+          },
+          {
+            "column": "relatedpostid",
+            "references": "posts.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 11102,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 11102
+          },
+          "creationdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 9450,
+            "min_date": "2010-07-21 14:47:33",
+            "max_date": "2014-09-13 20:54:31"
+          },
+          "postid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7604
+          },
+          "relatedpostid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 5177
+          },
+          "linktypeid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2,
+            "top_distribution": {
+              "1": "91.7%",
+              "3": "8.3%"
+            }
+          }
+        }
+      }
+    },
+    {
+      "table_name": "posts",
+      "description": "You find in Posts all non-deleted posts.",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "posttypeid",
+            "type": "BIGINT",
+            "comment": [
+              "type of post",
+              "1 = Question",
+              "2 = Answer",
+              "3 = Orphaned tag wiki",
+              "4 = Tag wiki excerpt",
+              "5 = Tag wiki",
+              "6 = Moderator nomination",
+              "7 = \"Wiki placeholder\" (Appears to include auxiliary site content like the help center introduction, election description, and the tour page's introduction, ask, and don't ask sections)",
+              "8 = Privilege wiki",
+              "9 = Article",
+              "10 = HelpArticle",
+              "12 = Collection",
+              "13 = ModeratorQuestionnaireResponse",
+              "14 = Announcement",
+              "15 = CollectiveDiscussion",
+              "17 = CollectiveCollection"
+            ]
+          },
+          {
+            "name": "acceptedanswerid",
+            "type": "BIGINT",
+            "comment": "id of the accepted answer"
+          },
+          {
+            "name": "creaiondate",
+            "type": "TIMESTAMP",
+            "comment": "when the post was created"
+          },
+          {
+            "name": "score",
+            "type": "BIGINT",
+            "comment": "Total Likes/Dislikes, generally non-zero for only Questions, Answers, and Moderator Nominations"
+          },
+          {
+            "name": "viewcount",
+            "type": "BIGINT",
+            "comment": "Pageviews"
+          },
+          {
+            "name": "body",
+            "type": "VARCHAR",
+            "comment": "Post body in HTML format"
+          },
+          {
+            "name": "owneruserid",
+            "type": "BIGINT",
+            "comment": "User Information"
+          },
+          {
+            "name": "lastactivitydate",
+            "type": "TIMESTAMP",
+            "comment": "datetime of the post's most recent activity"
+          },
+          {
+            "name": "title",
+            "type": "VARCHAR",
+            "comment": "question title, or on Stack Overflow, the tag name for some tag wikis and excerpts"
+          },
+          {
+            "name": "tags",
+            "type": "VARCHAR",
+            "comment": "question tags, or on Stack Overflow, the subject tag of some tag wikis and excerpts"
+          },
+          {
+            "name": "answercount",
+            "type": "BIGINT",
+            "comment": "the number of undeleted answers"
+          },
+          {
+            "name": "commentcount",
+            "type": "BIGINT",
+            "comment": "How many comments are there under this post"
+          },
+          {
+            "name": "favoritecount",
+            "type": "BIGINT",
+            "comment": "How many users have added this question to their \"favorites\" list"
+          },
+          {
+            "name": "lasteditoruserid",
+            "type": "BIGINT",
+            "comment": "Who last edited this post"
+          },
+          {
+            "name": "lasteditdate",
+            "type": "TIMESTAMP",
+            "comment": "the date and time of the most recent edit to the post"
+          },
+          {
+            "name": "communityowneddate",
+            "type": "TIMESTAMP",
+            "comment": "The point in time when a post changed from \"personally owned\" to \"community owned\""
+          },
+          {
+            "name": "parentid",
+            "type": "BIGINT",
+            "comment": "The corresponding question for answer"
+          },
+          {
+            "name": "closeddate",
+            "type": "TIMESTAMP",
+            "comment": "The date when the question was closed"
+          },
+          {
+            "name": "ownerdisplayname",
+            "type": "VARCHAR",
+            "comment": "If no user ID is available, record the \"author's name\" as a text file."
+          },
+          {
+            "name": "lasteditordisplayname",
+            "type": "VARCHAR",
+            "comment": "The last editor's \"display name\" (when there is no UserId)"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "acceptedanswerid",
+            "references": "posts.id"
+          },
+          {
+            "column": "owneruserid",
+            "references": "users.id"
+          },
+          {
+            "column": "lasteditoruserid",
+            "references": "users.id"
+          },
+          {
+            "column": "parentid",
+            "references": "posts.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 91976,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 91976
+          },
+          "posttypeid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7,
+            "top_distribution": {
+              "2": "51.9%",
+              "1": "46.7%",
+              "4": "0.7%",
+              "5": "0.7%",
+              "6": "0.0%",
+              "3": "0.0%",
+              "7": "0.0%"
+            }
+          },
+          "acceptedanswerid": {
+            "null_ratio": "84.0%",
+            "distinct_values": 14700
+          },
+          "creaiondate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 91264,
+            "min_date": "2009-02-02 14:21:12",
+            "max_date": "2014-09-14 02:09:23"
+          },
+          "score": {
+            "null_ratio": "0.0%",
+            "distinct_values": 130,
+            "min": -19,
+            "max": 192,
+            "avg": 2.79
+          },
+          "viewcount": {
+            "null_ratio": "53.3%",
+            "distinct_values": 3714,
+            "min": 1,
+            "max": 175495,
+            "avg": 565.75
+          },
+          "body": {
+            "null_ratio": "0.2%",
+            "distinct_values": 91742,
+            "note": "Long text field, skipped distribution profiling."
+          },
+          "owneruserid": {
+            "null_ratio": "1.5%",
+            "distinct_values": 21983
+          },
+          "lastactivitydate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 72655,
+            "min_date": "2009-02-02 14:24:31",
+            "max_date": "2014-09-14 02:54:13"
+          },
+          "title": {
+            "null_ratio": "53.3%",
+            "distinct_values": 42886,
+            "random_samples": [
+              "LME Relevelling Issue",
+              "Comparing transaction counts between samples",
+              "Degrees of freedom of J-Test distribution",
+              "Simulating longitudinal lognormal data in R",
+              "Optimizing Dynamic Regression in R"
+            ]
+          },
+          "tags": {
+            "null_ratio": "53.3%",
+            "distinct_values": 28534,
+            "random_samples": [
+              "<probability><power-analysis><power><dice>",
+              "<classification><nonparametric><outliers><naive-bayes>",
+              "<regression><self-study><multiple-regression><linear-model>",
+              "<glmm><non-independent><social-network>",
+              "<data-mining><database><clustering>"
+            ]
+          },
+          "answercount": {
+            "null_ratio": "53.3%",
+            "distinct_values": 31,
+            "top_distribution": {
+              "1": "41.6%",
+              "0": "32.4%",
+              "2": "17.0%",
+              "3": "5.5%",
+              "4": "1.9%",
+              "5": "0.7%",
+              "6": "0.3%",
+              "7": "0.2%"
+            }
+          },
+          "commentcount": {
+            "null_ratio": "0.0%",
+            "distinct_values": 39,
+            "top_distribution": {
+              "0": "41.9%",
+              "1": "16.4%",
+              "2": "13.9%",
+              "3": "8.7%",
+              "4": "6.1%",
+              "5": "4.0%",
+              "6": "2.9%",
+              "7": "1.9%"
+            }
+          },
+          "favoritecount": {
+            "null_ratio": "85.6%",
+            "distinct_values": 77,
+            "min": 0,
+            "max": 233,
+            "avg": 2.54
+          },
+          "lasteditoruserid": {
+            "null_ratio": "51.5%",
+            "distinct_values": 6578
+          },
+          "lasteditdate": {
+            "null_ratio": "51.0%",
+            "distinct_values": 44931,
+            "min_date": "2010-07-19 19:21:15",
+            "max_date": "2014-09-14 02:54:13"
+          },
+          "communityowneddate": {
+            "null_ratio": "97.3%",
+            "distinct_values": 1938,
+            "min_date": "2010-07-19 19:13:28",
+            "max_date": "2014-09-11 14:06:19"
+          },
+          "parentid": {
+            "null_ratio": "48.1%",
+            "distinct_values": 29006
+          },
+          "closeddate": {
+            "null_ratio": "98.2%",
+            "distinct_values": 1610,
+            "min_date": "2010-07-19 20:19:46",
+            "max_date": "2014-09-13 19:29:33"
+          },
+          "ownerdisplayname": {
+            "null_ratio": "97.3%",
+            "distinct_values": 1613,
+            "random_samples": [
+              "user9410",
+              "Kaoukkos",
+              "maple_shaft",
+              "user4287",
+              "James"
+            ]
+          },
+          "lasteditordisplayname": {
+            "null_ratio": "99.5%",
+            "distinct_values": 59,
+            "random_samples": [
+              "sjcockell",
+              "user16603",
+              "Bluey The Dog",
+              "user20914",
+              "user13253"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "table_name": "tags",
+      "description": "Statistical information and metadata for each topic",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "tagname",
+            "type": "VARCHAR",
+            "comment": "Tag Name"
+          },
+          {
+            "name": "count",
+            "type": "BIGINT",
+            "comment": "How many times has this tag been used"
+          },
+          {
+            "name": "excerptpostid",
+            "type": "BIGINT",
+            "comment": "Id of Post that holds the excerpt text of the tag"
+          },
+          {
+            "name": "wikipostid",
+            "type": "BIGINT",
+            "comment": "Id of Post that holds the wiki text of the tag"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "owneruserid",
+            "references": "users.id"
+          },
+          {
+            "column": "lasteditoruserid",
+            "references": "users.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 1032,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1032
+          },
+          "tagname": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1032,
+            "random_samples": [
+              "gis",
+              "competing-risks",
+              "pls",
+              "quasi-monte-carlo",
+              "social-science"
+            ]
+          },
+          "count": {
+            "null_ratio": "0.0%",
+            "distinct_values": 272,
+            "min": 1,
+            "max": 7244,
+            "avg": 114.01
+          },
+          "excerptpostid": {
+            "null_ratio": "42.2%",
+            "distinct_values": 596
+          },
+          "wikipostid": {
+            "null_ratio": "42.2%",
+            "distinct_values": 596
+          }
+        }
+      }
+    },
+    {
+      "table_name": "users",
+      "description": "User static profiles and behavioral statistics",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "reputation",
+            "type": "BIGINT",
+            "comment": "Reputation value"
+          },
+          {
+            "name": "creationdate",
+            "type": "TIMESTAMP",
+            "comment": "User registration time"
+          },
+          {
+            "name": "displayname",
+            "type": "VARCHAR",
+            "comment": "User Display Name"
+          },
+          {
+            "name": "lastaccessdate",
+            "type": "TIMESTAMP",
+            "comment": "Datetime user last loaded a page; updated every 30 min at most"
+          },
+          {
+            "name": "websiteurl",
+            "type": "VARCHAR",
+            "comment": "TODUser-entered personal website linkO"
+          },
+          {
+            "name": "location",
+            "type": "VARCHAR",
+            "comment": "User-entered location"
+          },
+          {
+            "name": "aboutme",
+            "type": "VARCHAR",
+            "comment": "Personal Profile (HTML)"
+          },
+          {
+            "name": "views",
+            "type": "BIGINT",
+            "comment": "Number of times the profile is viewed"
+          },
+          {
+            "name": "upvotes",
+            "type": "BIGINT",
+            "comment": "How many upvotes the user has cast"
+          },
+          {
+            "name": "downvotes",
+            "type": "BIGINT",
+            "comment": "How many downvotes the user has cast"
+          },
+          {
+            "name": "accountid",
+            "type": "BIGINT",
+            "comment": "User's Stack Exchange Network profile ID); NULL if the user has hidden this community in their profile"
+          },
+          {
+            "name": "age",
+            "type": "BIGINT",
+            "comment": "User's age"
+          },
+          {
+            "name": "profileimageurl",
+            "type": "VARCHAR",
+            "comment": "User avatar image link"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 40325,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40325
+          },
+          "reputation": {
+            "null_ratio": "0.0%",
+            "distinct_values": 965,
+            "min": 1,
+            "max": 87393,
+            "avg": 84.08
+          },
+          "creationdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40315,
+            "min_date": "2010-07-19 06:55:26",
+            "max_date": "2014-09-14 01:01:44"
+          },
+          "displayname": {
+            "null_ratio": "0.0%",
+            "distinct_values": 35644,
+            "random_samples": [
+              "hesaguy",
+              "Alien",
+              "mubashara hussain",
+              "Shluffer",
+              "appletree"
+            ]
+          },
+          "lastaccessdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40287,
+            "min_date": "2010-07-19 06:55:26",
+            "max_date": "2014-09-14 03:05:57"
+          },
+          "websiteurl": {
+            "null_ratio": "79.9%",
+            "distinct_values": 7787,
+            "random_samples": [
+              "http://twitter.com/mrtheTrain",
+              "http://sidmitra.com",
+              "http://luispedro.org",
+              "http://www.brennonbortz.com",
+              "http://netj.org"
+            ]
+          },
+          "location": {
+            "null_ratio": "71.0%",
+            "distinct_values": 2464,
+            "random_samples": [
+              "Collegeville, PA",
+              "Santa Barbara",
+              "Navi Mumbai, India",
+              "Jaipur",
+              "Berkeley"
+            ]
+          },
+          "aboutme": {
+            "null_ratio": "76.7%",
+            "distinct_values": 9140,
+            "note": "Long text field, skipped distribution profiling."
+          },
+          "views": {
+            "null_ratio": "0.0%",
+            "distinct_values": 362,
+            "min": 0,
+            "max": 20932,
+            "avg": 8.91
+          },
+          "upvotes": {
+            "null_ratio": "0.0%",
+            "distinct_values": 332,
+            "min": 0,
+            "max": 11442,
+            "avg": 6.59
+          },
+          "downvotes": {
+            "null_ratio": "0.0%",
+            "distinct_values": 76,
+            "min": 0,
+            "max": 1920,
+            "avg": 0.26
+          },
+          "accountid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40325
+          },
+          "age": {
+            "null_ratio": "79.4%",
+            "distinct_values": 70,
+            "min": 13,
+            "max": 94,
+            "avg": 31.64
+          },
+          "profileimageurl": {
+            "null_ratio": "59.1%",
+            "distinct_values": 13115,
+            "random_samples": [
+              "https://www.gravatar.com/avatar/383d06617473357c57247e120696a279?s=128&d=identicon&r=PG",
+              "https://www.gravatar.com/avatar/33bf9e8e72a93f7481374b8eee10e39b?s=128&d=identicon&r=PG&f=1",
+              "https://www.gravatar.com/avatar/cea3490e31b8204334b28a483485363d?s=128&d=identicon&r=PG",
+              "http://graph.facebook.com/100005519381285/picture?type=large",
+              "https://www.gravatar.com/avatar/c9414b15cfad914b3e8af1bf40f01c13?s=128&d=identicon&r=PG"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "table_name": "votes",
+      "description": "User ratings and decision records for posts (questions/answers).",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "BIGINT",
+            "comment": "record identifier"
+          },
+          {
+            "name": "postid",
+            "type": "BIGINT",
+            "comment": "Posts that were voted"
+          },
+          {
+            "name": "votetypeid",
+            "type": "BIGINT",
+            "comment": [
+              "What kind of vote was cast",
+              "1 = InformModerator",
+              "0 = UndoMod",
+              "1 = AcceptedByOriginator",
+              "2 = UpMod (AKA upvote)",
+              "3 = DownMod (AKA downvote)",
+              "4 = Offensive",
+              "5 = Favorite (AKA bookmark; UserId will also be populated) feature removed after October 2022 / replaced by Saves",
+              "6 = Close (effective 2013-06-25: Close votes are only stored in table: PostHistory)",
+              "7 = Reopen",
+              "8 = BountyStart (UserId and BountyAmount will also be populated)",
+              "9 = BountyClose (BountyAmount will also be populated)",
+              "10 = Deletion",
+              "11 = Undeletion",
+              "12 = Spam",
+              "15 = ModeratorReview (i.e., a moderator looking at a flagged post)",
+              "16 = ApproveEditSuggestion",
+              "17 = Reaction1 (Teams: celebrate)",
+              "18 = Helpful",
+              "19 = ThankYou (see Thank You reaction test)",
+              "20 = WellWritten",
+              "21 = Follow",
+              "22 = Reaction2 (Teams: smile)",
+              "23 = Reaction3 (Teams: mind blown)",
+              "24 = Reaction4 (Teams: clap)",
+              "25 = Reaction5 (Teams: heart)",
+              "26 = Reaction6 (Teams: fire)",
+              "27 = Reaction7 (Teams: trophy)",
+              "28 = Reaction8 (Teams: wave)",
+              "29 = Outdated (see Outdated Answers project)",
+              "30 = NotOutdated",
+              "31 = PreVote",
+              "32 = CollectiveDiscussionUpvote",
+              "33 = CollectiveDiscussionDownvote (no longer used)",
+              "35 = privateAiAnswerCorrect (see Answer Bot experiment)",
+              "36 = privateAiAnswerIncorrect",
+              "37 = privateAiAnswerPartiallyCorrect"
+            ]
+          },
+          {
+            "name": "creationdate",
+            "type": "DATE",
+            "comment": "Voting time"
+          },
+          {
+            "name": "userid",
+            "type": "BIGINT",
+            "comment": "Who voted"
+          },
+          {
+            "name": "bountyamount",
+            "type": "BIGINT",
+            "comment": "Bounty Points"
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "postid",
+            "references": "posts.id"
+          },
+          {
+            "column": "userid",
+            "references": "users.id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 328064,
+        "column_stats": {
+          "id": {
+            "null_ratio": "0.0%",
+            "distinct_values": 328064
+          },
+          "postid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 76833
+          },
+          "votetypeid": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12,
+            "top_distribution": {
+              "2": "79.9%",
+              "5": "10.3%",
+              "1": "4.5%",
+              "16": "2.1%",
+              "3": "1.6%",
+              "15": "0.7%",
+              "8": "0.3%",
+              "9": "0.3%"
+            }
+          },
+          "creationdate": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1542,
+            "min_date": "2009-02-02",
+            "max_date": "2014-09-14"
+          },
+          "userid": {
+            "null_ratio": "89.4%",
+            "distinct_values": 5543
+          },
+          "bountyamount": {
+            "null_ratio": "99.5%",
+            "distinct_values": 13,
+            "top_distribution": {
+              "50": "70.2%",
+              "100": "20.1%",
+              "25": "4.2%",
+              "150": "2.1%",
+              "200": "2.0%",
+              "300": "0.3%",
+              "250": "0.3%",
+              "500": "0.2%"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

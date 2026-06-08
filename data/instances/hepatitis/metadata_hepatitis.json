@@ -1,0 +1,108 @@
+{
+  "database_name": "hepatitis",
+  "database_description": "TODThis data is a modified version of the PKDD02 Discovery Challenge database which includes removing tests with null values. It contains data on the laboratory examinations of hepatitis B and C infected patients. The examinations were realized between 1982 and 2001 on 771 patients. The data are organized in 7 tables (4 entity tables, 3 relationship tables and 16 descriptive attributes). They contain basic information about the patients, results of biopsy, information on interferon therapy, results of out-hospital examinations, results of in-hospital examinations.",
+  "tables": {
+    "bio": {
+      "description": "Biopsy-related table containing histological findings for hepatitis cases, including fibrosis stage and inflammatory activity.",
+      "primary_key": [
+        "b_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "fibros": "Liver fibrosis stage stored as a discretized categorical value. It has 5 ordered levels with range 0-4, corresponding to fibrosis stages F0-F4.",
+        "activity": "Histological inflammatory activity grade stored as a discretized categorical value. In this standardized version it is represented as 5 ordered levels with range 0-4; ",
+        "b_id": "Primary key of the Bio table, representing the biopsy record ID."
+      }
+    },
+    "dispat": {
+      "description": "TODOCentral patient/case table containing the main entity for hepatitis classification, including patient identifier, demographic attributes, and the target label.",
+      "primary_key": [
+        "m_id"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "m_id": "Primary key of the dispat table and target ID of the dataset. ",
+        "sex": "Sex of the patient, stored as a categorical varchar value.Usually: 1 = Male, 2 = Female",
+        "age": "Age of the patient, stored as a discretized categorical varchar value rather than a continuous number.Mapping relationships: 0: <20 years old, 1: 20-29 years old, 2: 30-39 years old, 3: 40-49 years old, 4: 50-59 years old, 5: 60-69 years old, 6: 70+ years old",
+        "type": "Target label of the dataset, representing the hepatitis type classification.0 = Hepatitis B (B), 1 = Hepatitis C (C)"
+      }
+    },
+    "indis": {
+      "description": "In-hospital examination table containing discretized laboratory test results for hepatitis cases.",
+      "primary_key": [
+        "in_id"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "got": "Serum GOT/AST (aspartate aminotransferase), stored as an ordered discretized categorical value. It has 5 levels with range 0-4, where larger values indicate higher enzyme levels.",
+        "gpt": "Serum GPT/ALT (alanine aminotransferase), stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate higher enzyme levels.",
+      "alb": "Albumin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher albumin level.",
+      "tbil": "Total bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher total bilirubin level.",
+      "dbil": "Direct bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher direct bilirubin level.",
+      "che": "Cholinesterase, stored as an ordered discretized categorical value. It has 10 levels with range 0-9, where larger values indicate a higher cholinesterase level.",
+      "ttt": "Thymol turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result.",
+      "ztt": "Zinc sulfate turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result.",
+      "tcho": "Total cholesterol, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher cholesterol level.",
+      "tp": "Total protein, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher total protein level.",
+      "in_id": "Primary key of the indis table, representing the in-hospital examination record ID."
+      }
+    },
+    "inf": {
+      "description": "Interferon-therapy table containing treatment-related information for hepatitis cases.",
+      "primary_key": [
+        "a_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "dur": "Duration of interferon therapy, stored as an ordered discretized categorical value. It has 5 levels with range 0-4; larger values indicate a longer treatment duration.",
+        "a_id": "Primary key of the inf table, representing the interferon-treatment record ID. "
+      }
+    },
+    "rel11": {
+      "description": "Relation table linking hepatitis cases in `dispat` to biopsy records in `bio`.",
+      "primary_key": [
+       
+      ],
+      "foreign_keys": [
+        {"column": "b_id", "references": "bio.b_id"},
+        {"column": "m_id", "references": "dispat.m_id"}
+      ],
+      "comments": {
+        "b_id": "Foreign key referencing `bio.b_id`, identifying the biopsy record linked to a hepatitis case.",
+        "m_id": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a biopsy record."
+      }
+    },
+    "rel12": {
+      "description": "Relation table linking hepatitis cases in `dispat` to in-hospital examination records in `indis`.",
+      "primary_key": [
+        
+      ],
+      "foreign_keys": [
+        {"column": "in_id", "references": "indis.in_id"},
+        {"column": "m_id", "references": "dispat.m_id"}
+      ],
+      "comments": {
+        "in_id": "Foreign key referencing `indis.in_id`, identifying the in-hospital examination record linked to a hepatitis case.",
+        "m_id": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to an examination record."
+      }
+    },
+    "rel13": {
+      "description": "Relation table linking hepatitis cases in `dispat` to interferon-therapy records in `inf`.",
+      "primary_key": [
+       
+      ],
+      "foreign_keys": [
+        {"column": "a_id", "references": "inf.a_id"},
+        {"column": "m_id", "references": "dispat.m_id"}
+      ],
+      "comments": {
+        "a_id": "Foreign key referencing `inf.a_id`, identifying the interferon-therapy record linked to a hepatitis case.",
+        "m_id": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a therapy record."
+      }
+    }
+  }
+}

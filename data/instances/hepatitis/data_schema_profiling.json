@@ -1,0 +1,968 @@
+{
+  "database_metadata": {
+    "name": "hepatitis",
+    "description": "TODThis data is a modified version of the PKDD02 Discovery Challenge database which includes removing tests with null values. It contains data on the laboratory examinations of hepatitis B and C infected patients. The examinations were realized between 1982 and 2001 on 771 patients. The data are organized in 7 tables (4 entity tables, 3 relationship tables and 16 descriptive attributes). They contain basic information about the patients, results of biopsy, information on interferon therapy, results of out-hospital examinations, results of in-hospital examinations."
+  },
+  "tables": [
+    {
+      "table_name": "bio",
+      "description": "Biopsy-related table containing histological findings for hepatitis cases, including fibrosis stage and inflammatory activity.",
+      "schema": {
+        "columns": [
+          {
+            "name": "fibros",
+            "type": "BIGINT",
+            "comment": "Liver fibrosis stage stored as a discretized categorical value. It has 5 ordered levels with range 0-4, corresponding to fibrosis stages F0-F4."
+          },
+          {
+            "name": "activity",
+            "type": "BIGINT",
+            "comment": "Histological inflammatory activity grade stored as a discretized categorical value. In this standardized version it is represented as 5 ordered levels with range 0-4; "
+          },
+          {
+            "name": "b_id",
+            "type": "BIGINT",
+            "comment": "Primary key of the Bio table, representing the biopsy record ID."
+          }
+        ],
+        "primary_key": [
+          "b_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 32,
+        "sample_rows": [
+          {
+            "fibros": 1,
+            "activity": 1,
+            "b_id": 1
+          },
+          {
+            "fibros": 2,
+            "activity": 2,
+            "b_id": 2
+          },
+          {
+            "fibros": 3,
+            "activity": 3,
+            "b_id": 3
+          },
+          {
+            "fibros": 1,
+            "activity": 0,
+            "b_id": 4
+          },
+          {
+            "fibros": 1,
+            "activity": 1,
+            "b_id": 5
+          }
+        ],
+        "column_stats": {
+          "fibros": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 4.0,
+            "avg": 2.2188,
+            "std": 1.3133,
+            "q1": 1.0,
+            "median": 2.0,
+            "q3": 3.0
+          },
+          "activity": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 4.0,
+            "avg": 2.1562,
+            "std": 1.1943,
+            "q1": 1.0,
+            "median": 2.0,
+            "q3": 3.0
+          },
+          "b_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 32,
+            "sample_values": [
+              "16",
+              "23",
+              "32",
+              "2",
+              "4"
+            ]
+          }
+        },
+        "primary_key_profile": {
+          "columns": [
+            "b_id"
+          ],
+          "is_unique": true,
+          "duplicate_row_count": 0,
+          "null_in_pk_row_count": 0
+        },
+        "foreign_key_profiles": []
+      },
+      "qa_hints": {
+        "table_summary": "Table `bio` has 32 rows. Biopsy-related table containing histological findings for hepatitis cases, including fibrosis stage and inflammatory activity.",
+        "column_summaries": [
+          "fibros (BIGINT): Liver fibrosis stage stored as a discretized categorical value. It has 5 ordered levels with range 0-4, corresponding to fibrosis stages F0-F4. Range [0.0, 4.0], avg=2.2188, median=2.0.",
+          "activity (BIGINT): Histological inflammatory activity grade stored as a discretized categorical value. In this standardized version it is represented as 5 ordered levels with range 0-4;  Range [0.0, 4.0], avg=2.1562, median=2.0.",
+          "b_id (BIGINT): Primary key of the Bio table, representing the biopsy record ID."
+        ]
+      }
+    },
+    {
+      "table_name": "dispat",
+      "description": "TODOCentral patient/case table containing the main entity for hepatitis classification, including patient identifier, demographic attributes, and the target label.",
+      "schema": {
+        "columns": [
+          {
+            "name": "m_id",
+            "type": "BIGINT",
+            "comment": "Primary key of the dispat table and target ID of the dataset. "
+          },
+          {
+            "name": "sex",
+            "type": "BIGINT",
+            "comment": "Sex of the patient, stored as a categorical varchar value.Usually: 1 = Male, 2 = Female"
+          },
+          {
+            "name": "age",
+            "type": "BIGINT",
+            "comment": "Age of the patient, stored as a discretized categorical varchar value rather than a continuous number.Mapping relationships: 0: <20 years old, 1: 20-29 years old, 2: 30-39 years old, 3: 40-49 years old, 4: 50-59 years old, 5: 60-69 years old, 6: 70+ years old"
+          },
+          {
+            "name": "type",
+            "type": "BIGINT",
+            "comment": "Target label of the dataset, representing the hepatitis type classification.0 = Hepatitis B (B), 1 = Hepatitis C (C)"
+          }
+        ],
+        "primary_key": [
+          "m_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 500,
+        "sample_rows": [
+          {
+            "m_id": 1,
+            "sex": 0,
+            "age": 4,
+            "type": 0
+          },
+          {
+            "m_id": 2,
+            "sex": 0,
+            "age": 3,
+            "type": 1
+          },
+          {
+            "m_id": 3,
+            "sex": 0,
+            "age": 5,
+            "type": 0
+          },
+          {
+            "m_id": 4,
+            "sex": 0,
+            "age": 5,
+            "type": 1
+          },
+          {
+            "m_id": 5,
+            "sex": 1,
+            "age": 5,
+            "type": 1
+          }
+        ],
+        "column_stats": {
+          "m_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 500,
+            "sample_values": [
+              "1",
+              "12",
+              "17",
+              "27",
+              "56"
+            ]
+          },
+          "sex": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 2,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 1.0,
+            "avg": 0.29,
+            "std": 0.4542,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 1.0
+          },
+          "age": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 7,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 6.0,
+            "avg": 4.4,
+            "std": 1.4283,
+            "q1": 4.0,
+            "median": 5.0,
+            "q3": 5.0
+          },
+          "type": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 2,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 1.0,
+            "avg": 0.588,
+            "std": 0.4927,
+            "q1": 0.0,
+            "median": 1.0,
+            "q3": 1.0
+          }
+        },
+        "primary_key_profile": {
+          "columns": [
+            "m_id"
+          ],
+          "is_unique": true,
+          "duplicate_row_count": 0,
+          "null_in_pk_row_count": 0
+        },
+        "foreign_key_profiles": []
+      },
+      "qa_hints": {
+        "table_summary": "Table `dispat` has 500 rows. TODOCentral patient/case table containing the main entity for hepatitis classification, including patient identifier, demographic attributes, and the target label.",
+        "column_summaries": [
+          "m_id (BIGINT): Primary key of the dispat table and target ID of the dataset. ",
+          "sex (BIGINT): Sex of the patient, stored as a categorical varchar value.Usually: 1 = Male, 2 = Female Range [0.0, 1.0], avg=0.29, median=0.0.",
+          "age (BIGINT): Age of the patient, stored as a discretized categorical varchar value rather than a continuous number.Mapping relationships: 0: <20 years old, 1: 20-29 years old, 2: 30-39 years old, 3: 40-49 years old, 4: 50-59 years old, 5: 60-69 years old, 6: 70+ years old Range [0.0, 6.0], avg=4.4, median=5.0.",
+          "type (BIGINT): Target label of the dataset, representing the hepatitis type classification.0 = Hepatitis B (B), 1 = Hepatitis C (C) Range [0.0, 1.0], avg=0.588, median=1.0."
+        ]
+      }
+    },
+    {
+      "table_name": "indis",
+      "description": "In-hospital examination table containing discretized laboratory test results for hepatitis cases.",
+      "schema": {
+        "columns": [
+          {
+            "name": "got",
+            "type": "BIGINT",
+            "comment": "Serum GOT/AST (aspartate aminotransferase), stored as an ordered discretized categorical value. It has 5 levels with range 0-4, where larger values indicate higher enzyme levels."
+          },
+          {
+            "name": "gpt",
+            "type": "BIGINT",
+            "comment": "Serum GPT/ALT (alanine aminotransferase), stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate higher enzyme levels."
+          },
+          {
+            "name": "alb",
+            "type": "BIGINT",
+            "comment": "Albumin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher albumin level."
+          },
+          {
+            "name": "tbil",
+            "type": "BIGINT",
+            "comment": "Total bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher total bilirubin level."
+          },
+          {
+            "name": "dbil",
+            "type": "BIGINT",
+            "comment": "Direct bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher direct bilirubin level."
+          },
+          {
+            "name": "che",
+            "type": "BIGINT",
+            "comment": "Cholinesterase, stored as an ordered discretized categorical value. It has 10 levels with range 0-9, where larger values indicate a higher cholinesterase level."
+          },
+          {
+            "name": "ttt",
+            "type": "BIGINT",
+            "comment": "Thymol turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result."
+          },
+          {
+            "name": "ztt",
+            "type": "BIGINT",
+            "comment": "Zinc sulfate turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result."
+          },
+          {
+            "name": "tcho",
+            "type": "BIGINT",
+            "comment": "Total cholesterol, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher cholesterol level."
+          },
+          {
+            "name": "tp",
+            "type": "BIGINT",
+            "comment": "Total protein, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher total protein level."
+          },
+          {
+            "name": "in_id",
+            "type": "BIGINT",
+            "comment": "Primary key of the indis table, representing the in-hospital examination record ID."
+          }
+        ],
+        "primary_key": [
+          "in_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 5691,
+        "sample_rows": [
+          {
+            "got": 3,
+            "gpt": 2,
+            "alb": 1,
+            "tbil": 1,
+            "dbil": 1,
+            "che": 5,
+            "ttt": 3,
+            "ztt": 1,
+            "tcho": 3,
+            "tp": 2,
+            "in_id": 1
+          },
+          {
+            "got": 3,
+            "gpt": 2,
+            "alb": 1,
+            "tbil": 1,
+            "dbil": 1,
+            "che": 5,
+            "ttt": 4,
+            "ztt": 1,
+            "tcho": 3,
+            "tp": 2,
+            "in_id": 2
+          },
+          {
+            "got": 3,
+            "gpt": 2,
+            "alb": 1,
+            "tbil": 1,
+            "dbil": 1,
+            "che": 5,
+            "ttt": 3,
+            "ztt": 1,
+            "tcho": 3,
+            "tp": 3,
+            "in_id": 3
+          },
+          {
+            "got": 3,
+            "gpt": 2,
+            "alb": 1,
+            "tbil": 1,
+            "dbil": 1,
+            "che": 5,
+            "ttt": 5,
+            "ztt": 1,
+            "tcho": 3,
+            "tp": 3,
+            "in_id": 4
+          },
+          {
+            "got": 3,
+            "gpt": 2,
+            "alb": 1,
+            "tbil": 1,
+            "dbil": 1,
+            "che": 5,
+            "ttt": 5,
+            "ztt": 1,
+            "tcho": 3,
+            "tp": 3,
+            "in_id": 5
+          }
+        ],
+        "column_stats": {
+          "got": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 4.0,
+            "avg": 1.8608,
+            "std": 0.96,
+            "q1": 1.0,
+            "median": 2.0,
+            "q3": 3.0
+          },
+          "gpt": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 4,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 3.0,
+            "avg": 1.4521,
+            "std": 0.647,
+            "q1": 1.0,
+            "median": 1.0,
+            "q3": 2.0
+          },
+          "alb": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 2,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 1.0,
+            "avg": 0.3024,
+            "std": 0.4593,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 1.0
+          },
+          "tbil": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 2,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 1.0,
+            "avg": 0.8512,
+            "std": 0.356,
+            "q1": 1.0,
+            "median": 1.0,
+            "q3": 1.0
+          },
+          "dbil": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 2,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 1.0,
+            "avg": 0.4157,
+            "std": 0.4929,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 1.0
+          },
+          "che": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 10,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 9.0,
+            "avg": 5.8419,
+            "std": 1.0857,
+            "q1": 6.0,
+            "median": 6.0,
+            "q3": 6.0
+          },
+          "ttt": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 6,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 5.0,
+            "avg": 3.5758,
+            "std": 1.559,
+            "q1": 2.0,
+            "median": 4.0,
+            "q3": 5.0
+          },
+          "ztt": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 6,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 5.0,
+            "avg": 3.1186,
+            "std": 1.5973,
+            "q1": 2.0,
+            "median": 3.0,
+            "q3": 5.0
+          },
+          "tcho": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 4,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 3.0,
+            "avg": 1.3217,
+            "std": 0.8476,
+            "q1": 1.0,
+            "median": 1.0,
+            "q3": 2.0
+          },
+          "tp": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 4,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 3.0,
+            "avg": 1.4767,
+            "std": 0.9649,
+            "q1": 1.0,
+            "median": 1.0,
+            "q3": 2.0
+          },
+          "in_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5691,
+            "sample_values": [
+              "36",
+              "38",
+              "55",
+              "63",
+              "65"
+            ]
+          }
+        },
+        "primary_key_profile": {
+          "columns": [
+            "in_id"
+          ],
+          "is_unique": true,
+          "duplicate_row_count": 0,
+          "null_in_pk_row_count": 0
+        },
+        "foreign_key_profiles": []
+      },
+      "qa_hints": {
+        "table_summary": "Table `indis` has 5691 rows. In-hospital examination table containing discretized laboratory test results for hepatitis cases.",
+        "column_summaries": [
+          "got (BIGINT): Serum GOT/AST (aspartate aminotransferase), stored as an ordered discretized categorical value. It has 5 levels with range 0-4, where larger values indicate higher enzyme levels. Range [0.0, 4.0], avg=1.8608, median=2.0.",
+          "gpt (BIGINT): Serum GPT/ALT (alanine aminotransferase), stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate higher enzyme levels. Range [0.0, 3.0], avg=1.4521, median=1.0.",
+          "alb (BIGINT): Albumin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher albumin level. Range [0.0, 1.0], avg=0.3024, median=0.0.",
+          "tbil (BIGINT): Total bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher total bilirubin level. Range [0.0, 1.0], avg=0.8512, median=1.0.",
+          "dbil (BIGINT): Direct bilirubin, stored as an ordered discretized categorical value. It has 2 levels with range 0-1, where larger values indicate a higher direct bilirubin level. Range [0.0, 1.0], avg=0.4157, median=0.0.",
+          "che (BIGINT): Cholinesterase, stored as an ordered discretized categorical value. It has 10 levels with range 0-9, where larger values indicate a higher cholinesterase level. Range [0.0, 9.0], avg=5.8419, median=6.0.",
+          "ttt (BIGINT): Thymol turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result. Range [0.0, 5.0], avg=3.5758, median=4.0.",
+          "ztt (BIGINT): Zinc sulfate turbidity test, stored as an ordered discretized categorical value. It has 6 levels with range 0-5, where larger values indicate a higher test result. Range [0.0, 5.0], avg=3.1186, median=3.0.",
+          "tcho (BIGINT): Total cholesterol, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher cholesterol level. Range [0.0, 3.0], avg=1.3217, median=1.0.",
+          "tp (BIGINT): Total protein, stored as an ordered discretized categorical value. It has 4 levels with range 0-3, where larger values indicate a higher total protein level. Range [0.0, 3.0], avg=1.4767, median=1.0.",
+          "in_id (BIGINT): Primary key of the indis table, representing the in-hospital examination record ID."
+        ]
+      }
+    },
+    {
+      "table_name": "inf",
+      "description": "Interferon-therapy table containing treatment-related information for hepatitis cases.",
+      "schema": {
+        "columns": [
+          {
+            "name": "dur",
+            "type": "BIGINT",
+            "comment": "Duration of interferon therapy, stored as an ordered discretized categorical value. It has 5 levels with range 0-4; larger values indicate a longer treatment duration."
+          },
+          {
+            "name": "a_id",
+            "type": "BIGINT",
+            "comment": "Primary key of the inf table, representing the interferon-treatment record ID. "
+          }
+        ],
+        "primary_key": [
+          "a_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 196,
+        "sample_rows": [
+          {
+            "dur": 0,
+            "a_id": 2
+          },
+          {
+            "dur": 0,
+            "a_id": 6
+          },
+          {
+            "dur": 0,
+            "a_id": 8
+          },
+          {
+            "dur": 0,
+            "a_id": 9
+          },
+          {
+            "dur": 0,
+            "a_id": 14
+          }
+        ],
+        "column_stats": {
+          "dur": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5,
+            "semantic_type": "numeric",
+            "min": 0.0,
+            "max": 4.0,
+            "avg": 2.0102,
+            "std": 1.4214,
+            "q1": 1.0,
+            "median": 2.0,
+            "q3": 3.0
+          },
+          "a_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 196,
+            "sample_values": [
+              "169",
+              "36",
+              "63",
+              "97",
+              "86"
+            ]
+          }
+        },
+        "primary_key_profile": {
+          "columns": [
+            "a_id"
+          ],
+          "is_unique": true,
+          "duplicate_row_count": 0,
+          "null_in_pk_row_count": 0
+        },
+        "foreign_key_profiles": []
+      },
+      "qa_hints": {
+        "table_summary": "Table `inf` has 196 rows. Interferon-therapy table containing treatment-related information for hepatitis cases.",
+        "column_summaries": [
+          "dur (BIGINT): Duration of interferon therapy, stored as an ordered discretized categorical value. It has 5 levels with range 0-4; larger values indicate a longer treatment duration. Range [0.0, 4.0], avg=2.0102, median=2.0.",
+          "a_id (BIGINT): Primary key of the inf table, representing the interferon-treatment record ID. "
+        ]
+      }
+    },
+    {
+      "table_name": "rel11",
+      "description": "Relation table linking hepatitis cases in `dispat` to biopsy records in `bio`.",
+      "schema": {
+        "columns": [
+          {
+            "name": "b_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `bio.b_id`, identifying the biopsy record linked to a hepatitis case."
+          },
+          {
+            "name": "m_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a biopsy record."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "b_id",
+            "references": "bio.b_id"
+          },
+          {
+            "column": "m_id",
+            "references": "dispat.m_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 621,
+        "sample_rows": [
+          {
+            "b_id": 1,
+            "m_id": 1
+          },
+          {
+            "b_id": 1,
+            "m_id": 18
+          },
+          {
+            "b_id": 1,
+            "m_id": 26
+          },
+          {
+            "b_id": 1,
+            "m_id": 29
+          },
+          {
+            "b_id": 1,
+            "m_id": 39
+          }
+        ],
+        "column_stats": {
+          "b_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 32,
+            "sample_values": [
+              "1",
+              "12",
+              "17",
+              "27",
+              "16"
+            ]
+          },
+          "m_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 500,
+            "sample_values": [
+              "82",
+              "184",
+              "254",
+              "93",
+              "250"
+            ]
+          }
+        },
+        "primary_key_profile": {},
+        "foreign_key_profiles": [
+          {
+            "foreign_key": {
+              "column": "b_id",
+              "references": "bio.b_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          },
+          {
+            "foreign_key": {
+              "column": "m_id",
+              "references": "dispat.m_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          }
+        ]
+      },
+      "qa_hints": {
+        "table_summary": "Table `rel11` has 621 rows. Relation table linking hepatitis cases in `dispat` to biopsy records in `bio`.",
+        "column_summaries": [
+          "b_id (BIGINT): Foreign key referencing `bio.b_id`, identifying the biopsy record linked to a hepatitis case.",
+          "m_id (BIGINT): Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a biopsy record."
+        ]
+      }
+    },
+    {
+      "table_name": "rel12",
+      "description": "Relation table linking hepatitis cases in `dispat` to in-hospital examination records in `indis`.",
+      "schema": {
+        "columns": [
+          {
+            "name": "in_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `indis.in_id`, identifying the in-hospital examination record linked to a hepatitis case."
+          },
+          {
+            "name": "m_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to an examination record."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "in_id",
+            "references": "indis.in_id"
+          },
+          {
+            "column": "m_id",
+            "references": "dispat.m_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 5691,
+        "sample_rows": [
+          {
+            "in_id": 1,
+            "m_id": 1
+          },
+          {
+            "in_id": 2,
+            "m_id": 1
+          },
+          {
+            "in_id": 3,
+            "m_id": 1
+          },
+          {
+            "in_id": 4,
+            "m_id": 1
+          },
+          {
+            "in_id": 5,
+            "m_id": 1
+          }
+        ],
+        "column_stats": {
+          "in_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 5691,
+            "sample_values": [
+              "1",
+              "12",
+              "17",
+              "27",
+              "56"
+            ]
+          },
+          "m_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 496,
+            "sample_values": [
+              "36",
+              "38",
+              "55",
+              "63",
+              "65"
+            ]
+          }
+        },
+        "primary_key_profile": {},
+        "foreign_key_profiles": [
+          {
+            "foreign_key": {
+              "column": "in_id",
+              "references": "indis.in_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          },
+          {
+            "foreign_key": {
+              "column": "m_id",
+              "references": "dispat.m_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          }
+        ]
+      },
+      "qa_hints": {
+        "table_summary": "Table `rel12` has 5691 rows. Relation table linking hepatitis cases in `dispat` to in-hospital examination records in `indis`.",
+        "column_summaries": [
+          "in_id (BIGINT): Foreign key referencing `indis.in_id`, identifying the in-hospital examination record linked to a hepatitis case.",
+          "m_id (BIGINT): Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to an examination record."
+        ]
+      }
+    },
+    {
+      "table_name": "rel13",
+      "description": "Relation table linking hepatitis cases in `dispat` to interferon-therapy records in `inf`.",
+      "schema": {
+        "columns": [
+          {
+            "name": "a_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `inf.a_id`, identifying the interferon-therapy record linked to a hepatitis case."
+          },
+          {
+            "name": "m_id",
+            "type": "BIGINT",
+            "comment": "Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a therapy record."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "a_id",
+            "references": "inf.a_id"
+          },
+          {
+            "column": "m_id",
+            "references": "dispat.m_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 196,
+        "sample_rows": [
+          {
+            "a_id": 1,
+            "m_id": 2
+          },
+          {
+            "a_id": 2,
+            "m_id": 5
+          },
+          {
+            "a_id": 3,
+            "m_id": 6
+          },
+          {
+            "a_id": 4,
+            "m_id": 9
+          },
+          {
+            "a_id": 5,
+            "m_id": 10
+          }
+        ],
+        "column_stats": {
+          "a_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 196,
+            "sample_values": [
+              "3",
+              "29",
+              "40",
+              "61",
+              "64"
+            ]
+          },
+          "m_id": {
+            "null_count": 0,
+            "null_ratio": 0.0,
+            "distinct_count": 196,
+            "sample_values": [
+              "94",
+              "134",
+              "185",
+              "357",
+              "360"
+            ]
+          }
+        },
+        "primary_key_profile": {},
+        "foreign_key_profiles": [
+          {
+            "foreign_key": {
+              "column": "a_id",
+              "references": "inf.a_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          },
+          {
+            "foreign_key": {
+              "column": "m_id",
+              "references": "dispat.m_id"
+            },
+            "error": "'dict' object has no attribute 'split'"
+          }
+        ]
+      },
+      "qa_hints": {
+        "table_summary": "Table `rel13` has 196 rows. Relation table linking hepatitis cases in `dispat` to interferon-therapy records in `inf`.",
+        "column_summaries": [
+          "a_id (BIGINT): Foreign key referencing `inf.a_id`, identifying the interferon-therapy record linked to a hepatitis case.",
+          "m_id (BIGINT): Foreign key referencing `dispat.m_id`, identifying the hepatitis case linked to a therapy record."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1211 @@
+{
+  "database_metadata": {
+    "name": "Dallas",
+    "description": "A real relational dataset about on-duty officer-involved shootings disclosed by the Dallas Police Department. The CTU Relational Dataset Repository version includes separate tables for incident, officer, and subject/suspect information. ",
+    "target_qa_generation_framework": [
+      {
+        "Type": "Retrieval",
+        "Description": "Direct lookup of records, entities, or attributes.",
+        "Example": "What was the grand jury disposition for a given case number?"
+      },
+      {
+        "Type": "Analytical",
+        "Description": "Aggregation, ranking, distribution, and statistical summaries.",
+        "Example": "Which subject status appears most frequently across incidents?"
+      },
+      {
+        "Type": "Relational Reasoning",
+        "Description": "Questions requiring joins or multi-table reasoning across incidents, officers, and subjects.",
+        "Example": "Which incidents involved multiple officers and multiple subjects?"
+      },
+      {
+        "Type": "Predictive",
+        "Description": "Questions that infer possible future or hidden patterns from historical records.",
+        "Example": "Based on past patterns, which incident characteristics are associated with certain dispositions?"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table_name": "incidents",
+      "description": "Incident-level table for Dallas Police Department on-duty officer-involved shootings. Each row represents one shooting incident and records the case number, incident date, location, subject status information, subject weapon information, counts of involved subjects and officers, grand jury disposition, summary links, narrative summary text, and geographic coordinates.",
+      "schema": {
+        "columns": [
+          {
+            "name": "case_number",
+            "type": "VARCHAR",
+            "comment": "Primary identifier of the officer-involved shooting incident, recorded as the case number."
+          },
+          {
+            "name": "date",
+            "type": "DATE",
+            "comment": "Date of the incident."
+          },
+          {
+            "name": "location",
+            "type": "VARCHAR",
+            "comment": "Location where the incident occurred."
+          },
+          {
+            "name": "subject_statuses",
+            "type": "VARCHAR",
+            "comment": "Status of the involved subject or subjects, such as deceased, injured, or shoot-and-miss outcome."
+          },
+          {
+            "name": "subject_weapon",
+            "type": "VARCHAR",
+            "comment": "Weapon information for the involved subject or subjects."
+          },
+          {
+            "name": "subjects",
+            "type": "VARCHAR",
+            "comment": "Text field listing or describing the involved subject or subjects."
+          },
+          {
+            "name": "subject_count",
+            "type": "BIGINT",
+            "comment": "Number of subjects involved in the incident."
+          },
+          {
+            "name": "officers",
+            "type": "VARCHAR",
+            "comment": "Text field listing or describing the involved officer or officers."
+          },
+          {
+            "name": "officer_count",
+            "type": "BIGINT",
+            "comment": "Number of officers involved in the incident."
+          },
+          {
+            "name": "grand_jury_disposition",
+            "type": "VARCHAR",
+            "comment": "rand jury disposition associated with the incident"
+          },
+          {
+            "name": "attorney_general_forms_url",
+            "type": "VARCHAR",
+            "comment": "URL to attorney general forms or related official documentation for the incident."
+          },
+          {
+            "name": "summary_url",
+            "type": "VARCHAR",
+            "comment": "URL to an incident summary page or document."
+          },
+          {
+            "name": "summary_text",
+            "type": "VARCHAR",
+            "comment": "Narrative summary text describing the incident."
+          },
+          {
+            "name": "latitude",
+            "type": "DOUBLE",
+            "comment": "Latitude coordinate of the incident location."
+          },
+          {
+            "name": "longitude",
+            "type": "DOUBLE",
+            "comment": "Longitude coordinate of the incident location."
+          }
+        ],
+        "primary_key": [
+          "case_number"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 219,
+        "column_stats": {
+          "case_number": {
+            "null_ratio": "0.0%",
+            "distinct_values": 219
+          },
+          "date": {
+            "null_ratio": "0.0%",
+            "distinct_values": 213,
+            "min": "2003-01-11",
+            "max": "2016-08-25"
+          },
+          "location": {
+            "null_ratio": "0.0%",
+            "distinct_values": 219
+          },
+          "subject_statuses": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7,
+            "top_distribution": [
+              {
+                "value": "Shoot and Miss",
+                "count": 83,
+                "pct": "37.9%"
+              },
+              {
+                "value": "Deceased",
+                "count": 68,
+                "pct": "31.05%"
+              },
+              {
+                "value": "Injured",
+                "count": 62,
+                "pct": "28.31%"
+              },
+              {
+                "value": "Other",
+                "count": 3,
+                "pct": "1.37%"
+              },
+              {
+                "value": "1 Deceased 1 Injured",
+                "count": 1,
+                "pct": "0.46%"
+              },
+              {
+                "value": "2 Injured",
+                "count": 1,
+                "pct": "0.46%"
+              },
+              {
+                "value": "Deceased Injured",
+                "count": 1,
+                "pct": "0.46%"
+              }
+            ]
+          },
+          "subject_weapon": {
+            "null_ratio": "0.0%",
+            "distinct_values": 21,
+            "top_distribution": [
+              {
+                "value": "Handgun",
+                "count": 99,
+                "pct": "45.21%"
+              },
+              {
+                "value": "Vehicle",
+                "count": 34,
+                "pct": "15.53%"
+              },
+              {
+                "value": "Unarmed",
+                "count": 32,
+                "pct": "14.61%"
+              },
+              {
+                "value": "Hands",
+                "count": 10,
+                "pct": "4.57%"
+              },
+              {
+                "value": "Knife",
+                "count": 10,
+                "pct": "4.57%"
+              },
+              {
+                "value": "Shotgun",
+                "count": 10,
+                "pct": "4.57%"
+              },
+              {
+                "value": "Assault Rifle",
+                "count": 4,
+                "pct": "1.83%"
+              },
+              {
+                "value": "Rifle",
+                "count": 4,
+                "pct": "1.83%"
+              },
+              {
+                "value": "BB Rifle",
+                "count": 2,
+                "pct": "0.91%"
+              },
+              {
+                "value": "Pellet Gun",
+                "count": 2,
+                "pct": "0.91%"
+              }
+            ]
+          },
+          "subjects": {
+            "null_ratio": "0.0%",
+            "distinct_values": 205
+          },
+          "subject_count": {
+            "null_ratio": "0.0%",
+            "distinct_values": 4,
+            "min": 0,
+            "max": 3,
+            "avg": 1.02
+          },
+          "officers": {
+            "null_ratio": "0.0%",
+            "distinct_values": 211
+          },
+          "officer_count": {
+            "null_ratio": "0.0%",
+            "distinct_values": 10,
+            "min": 1,
+            "max": 15,
+            "avg": 1.69
+          },
+          "grand_jury_disposition": {
+            "null_ratio": "38.8%",
+            "distinct_values": 5,
+            "top_distribution": [
+              {
+                "value": "No Bill",
+                "count": 115,
+                "pct": "52.51%"
+              },
+              {
+                "value": "Pending",
+                "count": 11,
+                "pct": "5.02%"
+              },
+              {
+                "value": "See Summary",
+                "count": 5,
+                "pct": "2.28%"
+              },
+              {
+                "value": "True Bill",
+                "count": 2,
+                "pct": "0.91%"
+              },
+              {
+                "value": "Redden, Craig W/M",
+                "count": 1,
+                "pct": "0.46%"
+              }
+            ]
+          },
+          "attorney_general_forms_url": {
+            "null_ratio": "99.1%",
+            "distinct_values": 2,
+            "top_distribution": [
+              {
+                "value": "http://dallaspolice.net/reports/OIS/ag_forms/AGF_219229-2015.pdf",
+                "count": 1,
+                "pct": "0.46%"
+              },
+              {
+                "value": "http://dallaspolice.net/reports/OIS/ag_forms/AGF_260896-2015.pdf",
+                "count": 1,
+                "pct": "0.46%"
+              }
+            ]
+          },
+          "summary_url": {
+            "null_ratio": "1.4%",
+            "distinct_values": 216
+          },
+          "summary_text": {
+            "null_ratio": "1.4%",
+            "distinct_values": 216
+          },
+          "latitude": {
+            "null_ratio": "3.2%",
+            "distinct_values": 209,
+            "min": 32.64723,
+            "max": 33.0073,
+            "avg": 32.79
+          },
+          "longitude": {
+            "null_ratio": "3.2%",
+            "distinct_values": 210,
+            "min": -96.92265,
+            "max": -96.60936,
+            "avg": -96.79
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "first_incident_date": "2003-01-11",
+            "last_incident_date": "2016-08-25"
+          },
+          "subject_status_distribution": [
+            {
+              "subject_statuses": "Shoot and Miss",
+              "count": 83,
+              "pct": "37.9%"
+            },
+            {
+              "subject_statuses": "Deceased",
+              "count": 68,
+              "pct": "31.05%"
+            },
+            {
+              "subject_statuses": "Injured",
+              "count": 62,
+              "pct": "28.31%"
+            },
+            {
+              "subject_statuses": "Other",
+              "count": 3,
+              "pct": "1.37%"
+            },
+            {
+              "subject_statuses": "1 Deceased 1 Injured",
+              "count": 1,
+              "pct": "0.46%"
+            },
+            {
+              "subject_statuses": "2 Injured",
+              "count": 1,
+              "pct": "0.46%"
+            },
+            {
+              "subject_statuses": "Deceased Injured",
+              "count": 1,
+              "pct": "0.46%"
+            }
+          ],
+          "top_subject_weapons": [
+            {
+              "subject_weapon": "Handgun",
+              "count": 99,
+              "pct": "45.21%"
+            },
+            {
+              "subject_weapon": "Vehicle",
+              "count": 34,
+              "pct": "15.53%"
+            },
+            {
+              "subject_weapon": "Unarmed",
+              "count": 32,
+              "pct": "14.61%"
+            },
+            {
+              "subject_weapon": "Hands",
+              "count": 10,
+              "pct": "4.57%"
+            },
+            {
+              "subject_weapon": "Knife",
+              "count": 10,
+              "pct": "4.57%"
+            },
+            {
+              "subject_weapon": "Shotgun",
+              "count": 10,
+              "pct": "4.57%"
+            },
+            {
+              "subject_weapon": "Assault Rifle",
+              "count": 4,
+              "pct": "1.83%"
+            },
+            {
+              "subject_weapon": "Rifle",
+              "count": 4,
+              "pct": "1.83%"
+            },
+            {
+              "subject_weapon": "BB Rifle",
+              "count": 2,
+              "pct": "0.91%"
+            },
+            {
+              "subject_weapon": "Pellet Gun",
+              "count": 2,
+              "pct": "0.91%"
+            },
+            {
+              "subject_weapon": "Taser",
+              "count": 2,
+              "pct": "0.91%"
+            },
+            {
+              "subject_weapon": "BB Gun",
+              "count": 1,
+              "pct": "0.46%"
+            },
+            {
+              "subject_weapon": "Box Cutter",
+              "count": 1,
+              "pct": "0.46%"
+            },
+            {
+              "subject_weapon": "OC Spray",
+              "count": 1,
+              "pct": "0.46%"
+            },
+            {
+              "subject_weapon": "Paint Ball Rifle",
+              "count": 1,
+              "pct": "0.46%"
+            }
+          ],
+          "grand_jury_disposition_distribution": [
+            {
+              "grand_jury_disposition": "No Bill",
+              "count": 115,
+              "pct": "52.51%"
+            },
+            {
+              "grand_jury_disposition": "Pending",
+              "count": 11,
+              "pct": "5.02%"
+            },
+            {
+              "grand_jury_disposition": "See Summary",
+              "count": 5,
+              "pct": "2.28%"
+            },
+            {
+              "grand_jury_disposition": "True Bill",
+              "count": 2,
+              "pct": "0.91%"
+            },
+            {
+              "grand_jury_disposition": "Redden, Craig W/M",
+              "count": 1,
+              "pct": "0.46%"
+            }
+          ],
+          "subject_count_stats": {
+            "min": 0,
+            "max": 3,
+            "avg": 1.02
+          },
+          "officer_count_stats": {
+            "min": 1,
+            "max": 15,
+            "avg": 1.69
+          },
+          "summary_text_length_stats": {
+            "min_length": 545,
+            "max_length": 2073,
+            "avg_length": 871.31
+          },
+          "geo_coverage": {
+            "latitude_min": 32.64723,
+            "latitude_max": 33.0073,
+            "longitude_min": -96.92265,
+            "longitude_max": -96.60936,
+            "non_null_coordinate_rows": 212
+          }
+        },
+        "random_samples": [
+          {
+            "case_number": "174404Z",
+            "date": "2012-07-15",
+            "location": "200 S. Pearl Street",
+            "subject_statuses": "Shoot and Miss",
+            "subject_weapon": "Handgun",
+            "subjects": "Cortez, Daniel L/M",
+            "subject_count": "1",
+            "officers": "Vanderslice, Christopher W/M",
+            "officer_count": "1",
+            "grand_jury_disposition": null,
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2012/OIS_2012_174404Z.pdf",
+            "summary_text": "On Sunday, July 15, 2012, at approximately 2:22 A.M., uniformed patrol officers driving marked vehicles\nresponded to the area of Commerce and Pearl streets to break up a large crowd. While at the\nintersection an officer observed a white Chevy Avalanche traveling southbound at 200 S. Pearl Street\nwith the L/M/28 subject driver firing shots into the air. The subject then stopped the vehicle and\npointed the handgun at the officers and the crowd of people. One officer fired several times at the\nsubject. The subject fled the location in the vehicle, but was apprehended a short time later.\n\nThe subject was not injured.\n\nThe subject was arrested for Aggravated Assault Public Servant.\n\nSubject weapon was a .380 caliber handgun. Fired 4 shots, no live rounds in weapon.\n\nNo officer or citizen was injured.\n\nOne officer fired 6 rounds. Involved Officer: W/M 2 years, 8 months service.",
+            "latitude": "32.78136",
+            "longitude": "-96.79226"
+          },
+          {
+            "case_number": "141404P",
+            "date": "2005-02-23",
+            "location": "8600 Cherry Brook Street",
+            "subject_statuses": "Shoot and Miss",
+            "subject_weapon": "Handgun",
+            "subjects": "Lopez, Luis L/M",
+            "subject_count": "1",
+            "officers": "White, Phillip NA/M",
+            "officer_count": "1",
+            "grand_jury_disposition": null,
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2005/OIS_2005_141404P.pdf",
+            "summary_text": "On Wednesday, February 23, 2005, at approximately 11:40 A.M., uniformed patrol officers in a marked\nvehicle attempted to make a traffic stop in a high crime area. The subject vehicle fled and a vehicle\npursuit ensued. The pursuit ended and the L/M/19 subject exited the vehicle at 8600 Cherry Brook\nStreet and fled on foot through the neighborhood. The officer chased the subject on foot. As the officer\nturned a corner, he encountered the subject pointing a pistol at him. The officer fired his weapon at the\nsubject, but did not strike him.\n\nThe subject was not injured.\n\nSubject weapon was a handgun.\n\nSubject was charged with Aggravated Assault Peace Officer.\n\nNo officer was injured.\n\nOne officer fired 1 round. Involved Officer : NA/M 12 years, 6 months service.",
+            "latitude": "32.7387",
+            "longitude": "-96.673222"
+          },
+          {
+            "case_number": "871096R",
+            "date": "2006-11-18",
+            "location": "1700 Martin Luther King Jr. Boulevard",
+            "subject_statuses": "Injured",
+            "subject_weapon": "Handgun",
+            "subjects": "Turner, James B/M",
+            "subject_count": "1",
+            "officers": "Nelson, Barrett B/M; Bridges, Christopher B/M; Sanders, Curtis B/M; Quezada, Victor L/M; Lockett, Clarence B/M",
+            "officer_count": "5",
+            "grand_jury_disposition": "No Bill",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2006/OIS_2006_871096R.pdf",
+            "summary_text": "On Saturday, November 18, 2006, at approximately 2:45 P.M., uniformed patrol officers in a marked\nvehicle conducted a traffic stop on a vehicle in which the B/M/29 subject was a passenger in the vehicle.\nThe subject exited and fled on foot and was pursued by the officers. The subject produced a handgun\nfrom his waistband and attempted to discard it twice by throwing it, but both times it bounced back to\nhim. The subject picked up the handgun a third time and looked at the officer who gave verbal\ncommands to drop the weapon. The subject refused to comply and one officer fired his weapon at the\nsubject striking him two times.\n\nThe subject was injured and transported to Baylor Hospital.\n\nSubject weapon was a 9 mm semi-automatic handgun, 8 live rounds.\n\nNo officer was injured.\n\nOne officer fired two rounds. Involved Officer : L/M/ 16 years, 3 months service.",
+            "latitude": "32.76197",
+            "longitude": "-96.776719"
+          },
+          {
+            "case_number": "203348T",
+            "date": "2007-03-23",
+            "location": "4023 Bernal Drive",
+            "subject_statuses": "Injured",
+            "subject_weapon": "Rifle",
+            "subjects": "Ruiz, Wesley L/M",
+            "subject_count": "1",
+            "officers": "Starr, Patrick W/M; Jarc, Jason W/M; Haecker, Todd W/M; Borchardt, Jeremy W/M",
+            "officer_count": "4",
+            "grand_jury_disposition": "No Bill",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2007/OIS_2007_203348T.pdf",
+            "summary_text": "On Friday, March 23, 2007, at approximately 5:30 P.M., plainclothes deployment officers located a\nvehicle that was possibly involved in a homicide. The deployment officers followed the vehicle until\nuniformed patrol officers driving marked vehicles could conduct a traffic stop on the vehicle. Upon\narrival, uniformed officers attempted to stop the vehicle which then fled and a brief pursuit ensued. The\nL/M/27 subject lost control of his vehicle and came to a stop at 4023 Bernal Drive. One uniformed\nofficer approached the subject’s vehicle and attempted to gain entry through the passenger door. The\nsubject fired one round, which fatally wounded the officer. Other officers fired their weapons striking\nthe subject.\n\nThe subject was injured and treated at Parkland Hospital.\n\nSubject weapon was a .223 caliber rifle, 1 fired round, 29 live rounds. Marijuana and amphetamines\nwere also seized from the subject.\n\nThe subject was charged with Capital Murder, Aggravated Assault (four cases).\n\nThe officer was pronounced deceased from gunshot wounds at Parkland Hospital.\n\nFour officers fired a combined 57 rounds. Involved Officers: W/M 11 years, 4 months service, W/M 7\nyears, 2 months service, W/M 6 years, 2 months service, W/M 7 years, 8 months service.",
+            "latitude": "32.7915",
+            "longitude": "-96.886832"
+          },
+          {
+            "case_number": "132104Z",
+            "date": "2012-05-29",
+            "location": "7100 Valley View Lane",
+            "subject_statuses": "Injured",
+            "subject_weapon": "Vehicle",
+            "subjects": "Johnson, Camilia B/F",
+            "subject_count": "1",
+            "officers": "Dayton, Scott W/M",
+            "officer_count": "1",
+            "grand_jury_disposition": "See Summary",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2012/OIS_2012_132104Z.pdf",
+            "summary_text": "On Tuesday May 29, 2012, at approximately 10:50 P.M., uniformed patrol officers in a marked vehicle\nobserved a stolen vehicle parked at 7100 Valley View Lane with the W/M/33 subject inside. Officers\napproached the vehicle and gave loud verbal commands for the subject to exit the vehicle. The subject\nput the car into drive and accelerated towards the officers. Both officers fired their weapons missing\nthe subject.\n\nThe subject received minor injuries from shrapnel.\n\nThe subject was charged with two counts of Aggravated Assault on a Public Servant.\n\nSubject vehicle was used as a weapon.\n\nNo officer was injured.\n\nTwo officers fired a combined 10 rounds. Involved Officers: B/M 3 years, 2 months service, W/M 2\nyears, 10 months service.",
+            "latitude": "32.9275",
+            "longitude": "-96.782904"
+          },
+          {
+            "case_number": "143229-2014",
+            "date": "2014-06-14",
+            "location": "8124 Forest Lane",
+            "subject_statuses": "Shoot and Miss",
+            "subject_weapon": "Vehicle",
+            "subjects": "Harrison, Jason B/M",
+            "subject_count": "1",
+            "officers": "Rogers, John W/M; Hutchins, Andrew W/M",
+            "officer_count": "2",
+            "grand_jury_disposition": "No Bill",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2014/OIS_2014_143229-2014.pdf",
+            "summary_text": "On Saturday, June 14, 2014, at approximately 2:45 A.M., uniformed patrol officers in marked vehicles\nresponded to a call regarding an erratic driver at the RaceTrac gas station at 8124 Forest Lane. Officers\narrived and observed the B/F/36 subject attempting to run over a male pedestrian with her vehicle. An\nofficer fired his weapon at the subject. The subject was not struck, however she collided with a parked\nvehicle and a utility pole bringing her vehicle to rest.\n\nThe subject was not injured.\n\nSubject used a motor vehicle as a weapon.\n\nThe subject was charged with Aggravated Assault (Motor Vehicle) Family Violence and Evading Arrest.\n\nNo officer was injured.\n\nOne officer fired 3 rounds. Involved Officer: B/M 18 years, 6 months service.",
+            "latitude": "32.90915",
+            "longitude": "-96.763977"
+          },
+          {
+            "case_number": "345748R",
+            "date": "2006-05-09",
+            "location": "5500 Bernal Drive",
+            "subject_statuses": "Shoot and Miss",
+            "subject_weapon": "Handgun",
+            "subjects": "Rodriguez, Robert Jr. L/M",
+            "subject_count": "1",
+            "officers": "Lopez, Antonio L/M",
+            "officer_count": "1",
+            "grand_jury_disposition": null,
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2006/OIS_2006_345748R.pdf",
+            "summary_text": "On Tuesday, May 9, 2006, at approximately 12:33 A.M., a uniformed officer in a marked vehicle was\ndispatched on a call involving two individuals damaging property at 5500 Bernal Drive. The officer drove\nthrough the area and observed a suspicious vehicle driving behind the park with no headlights\nilluminated. The officer stopped the vehicle and a L/M/17 subject fled the vehicle on foot. As the\nofficer pursued the subject, the subject pointed a handgun at the officer. The officer fired his weapon at\nthe subject, but did not strike the subject.\n\nThe subject was not injured.\n\nSubject weapon was a semi-automatic handgun.\n\nSubject was charged with Aggravated Assault Public Servant.\n\nNo officer was injured.\n\nOne officer fired 3 rounds. Involved Officer: L/M 6 years, 10 months service.",
+            "latitude": "32.77597",
+            "longitude": "-96.911343"
+          },
+          {
+            "case_number": "670242T",
+            "date": "2007-09-27",
+            "location": "4800 Monarch Street",
+            "subject_statuses": "Injured",
+            "subject_weapon": "Handgun",
+            "subjects": "Washington, Ray B/M",
+            "subject_count": "1",
+            "officers": "Contreras, Juan L/M",
+            "officer_count": "1",
+            "grand_jury_disposition": "No Bill",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2007/OIS_2007_670242T.pdf",
+            "summary_text": "On Thursday, September 27, 2007, at approximately 12:20 P.M., a uniformed patrol officer in marked\nvehicle was on routine patrol at 4800 Monarch Street when he observed a B/M/29 subject walking with\na black ski mask in his hand. The subject entered a vehicle but did not leave the parking area. The\nofficer called for cover officers to assist in the investigation of the subject. The officers approached the\nsubject and observed that the subject was acting nervous and grabbing at his waistband. The subject\npulled out a handgun and pointed it at one officer. The officer fired his weapon at the subject striking\nhim one time.\n\nThe subject was injured and transported to Baylor Hospital.\n\nSubject weapon was a .38 caliber revolver, 5 live rounds.\n\nSubject was charged with Aggravated Assault Public Servant.\n\nNo officer was injured.\n\nOne officer fired 1 round. Involved Officer: L/M 3 years, 2 months service.",
+            "latitude": "32.80756",
+            "longitude": "-96.779622"
+          },
+          {
+            "case_number": "253345A",
+            "date": "2013-10-02",
+            "location": "1339 Morrell Avenue",
+            "subject_statuses": "Shoot and Miss",
+            "subject_weapon": "Handgun",
+            "subjects": "Blair, David B/M",
+            "subject_count": "1",
+            "officers": "Cantu, Richard L/M; Aquino, Jesse L/M",
+            "officer_count": "2",
+            "grand_jury_disposition": null,
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2013/OIS_2013_253345A.pdf",
+            "summary_text": "On Wednesday, October 2, 2013, at approximately 10:30 P.M., uniformed officers in a marked squad car\nwere working a Prostitute Diversionary Initiative in the area of 1339 Morrell. As officers drove through\nthe area they were using their spot light which was shone on the B/M/41 subject. The subject stated\nthat he would “get a light”. The subject entered a nearby apartment. The officers pulled their squad car\ninto the parking lot to further investigate and observed the subject step out of the apartment and shine\na light at the officers. Officers then saw the muzzle flash of a gun firing and heard the gunshot. Both\nofficers returned fire, but did not strike the subject.\n\nThe subject was not injured.\n\nTwo handguns were recovered from the subject’s apartment.\n\nThe subject was no-billed by a Grand Jury.\n\nNo officer was injured.\n\nTwo officers fired 11 rounds. Involved Officers: L/M 3 years, 11 months service, L/M 3 years, 11 months\nservice.",
+            "latitude": "32.73914",
+            "longitude": "-96.803885"
+          },
+          {
+            "case_number": "298185-2014",
+            "date": "2014-12-16",
+            "location": "6185 Retail Road",
+            "subject_statuses": "Injured",
+            "subject_weapon": "Knife",
+            "subjects": "Puckett, Jonathan W/M",
+            "subject_count": "1",
+            "officers": "Moody, Larry B/M",
+            "officer_count": "1",
+            "grand_jury_disposition": "Pending",
+            "attorney_general_forms_url": null,
+            "summary_url": "http://dallaspolice.net/reports/OIS/narrative/2014/OIS_2014_298185-2014.pdf",
+            "summary_text": "On December 16, 2014, at approximately 12:05 a.m., a uniformed officer was working off-duty at 6185\nRetail Road. The officer was assisting a loss prevention officer with detaining a W/M/32 subject. When\nthe subject attempted to escape, a struggle ensued between the officer and the subject. The subject\nproduced a knife and cut the officer on the hand. The officer drew his weapon, issued loud verbal\ncommands and fired multiple times, striking the subject in the torso and leg.\n\nSubject was armed with a knife.\n\nThe subject was charged with Aggravated Assault on a Public Servant and Parole Violation.\n\nThe officer was treated for knife wounds to his fingers.\n\nThe officer fired 2 rounds. Involved Officer: B/M 7 years service.",
+            "latitude": "32.86166",
+            "longitude": "-96.754391"
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "officers",
+      "description": "Officer-information table for Dallas Police Department on-duty officer-involved shootings. Each row records officer-identifying information associated with an incident, including case number, race, gender, and officer name fields.",
+      "schema": {
+        "columns": [
+          {
+            "name": "case_number",
+            "type": "VARCHAR",
+            "comment": "Case number of the officer-involved shooting incident; links the officer record to the corresponding incident."
+          },
+          {
+            "name": "race",
+            "type": "VARCHAR",
+            "comment": "Race of the officer."
+          },
+          {
+            "name": "gender",
+            "type": "VARCHAR",
+            "comment": "Gender of the officer."
+          },
+          {
+            "name": "last_name",
+            "type": "VARCHAR",
+            "comment": "Last name of the officer."
+          },
+          {
+            "name": "first_name",
+            "type": "VARCHAR",
+            "comment": "First name of the officer."
+          },
+          {
+            "name": "full_name",
+            "type": "VARCHAR",
+            "comment": "Full name of the officer."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "case_number",
+            "references": "incidents.case_number"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 370,
+        "column_stats": {
+          "case_number": {
+            "null_ratio": "0.0%",
+            "distinct_values": 219
+          },
+          "race": {
+            "null_ratio": "1.1%",
+            "distinct_values": 4,
+            "top_distribution": [
+              {
+                "value": "W",
+                "count": 207,
+                "pct": "55.95%"
+              },
+              {
+                "value": "L",
+                "count": 79,
+                "pct": "21.35%"
+              },
+              {
+                "value": "B",
+                "count": 68,
+                "pct": "18.38%"
+              },
+              {
+                "value": "A",
+                "count": 12,
+                "pct": "3.24%"
+              }
+            ]
+          },
+          "gender": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2,
+            "top_distribution": [
+              {
+                "value": "M",
+                "count": 351,
+                "pct": "94.86%"
+              },
+              {
+                "value": "F",
+                "count": 19,
+                "pct": "5.14%"
+              }
+            ]
+          },
+          "last_name": {
+            "null_ratio": "0.0%",
+            "distinct_values": 307
+          },
+          "first_name": {
+            "null_ratio": "0.8%",
+            "distinct_values": 199
+          },
+          "full_name": {
+            "null_ratio": "0.0%",
+            "distinct_values": 344
+          }
+        },
+        "advanced_profiling": {
+          "race_distribution": [
+            {
+              "race": "W",
+              "count": 207,
+              "pct": "55.95%"
+            },
+            {
+              "race": "L",
+              "count": 79,
+              "pct": "21.35%"
+            },
+            {
+              "race": "B",
+              "count": 68,
+              "pct": "18.38%"
+            },
+            {
+              "race": "A",
+              "count": 12,
+              "pct": "3.24%"
+            }
+          ],
+          "gender_distribution": [
+            {
+              "gender": "M",
+              "count": 351,
+              "pct": "94.86%"
+            },
+            {
+              "gender": "F",
+              "count": 19,
+              "pct": "5.14%"
+            }
+          ],
+          "incident_linkage": {
+            "distinct_case_numbers": 219,
+            "avg_records_per_case": 1.69,
+            "role": "officer"
+          },
+          "top_full_names": [
+            {
+              "full_name": "Banes, Matthew",
+              "count": 3
+            },
+            {
+              "full_name": "Crow, Jason",
+              "count": 3
+            },
+            {
+              "full_name": "Borchardt, Jeremy",
+              "count": 2
+            },
+            {
+              "full_name": "Bowling, Joseph",
+              "count": 2
+            },
+            {
+              "full_name": "Bridges, Christopher",
+              "count": 2
+            },
+            {
+              "full_name": "Burns, Joshua",
+              "count": 2
+            },
+            {
+              "full_name": "Canete, Daniel",
+              "count": 2
+            },
+            {
+              "full_name": "Gaitonde, Nekheel",
+              "count": 2
+            },
+            {
+              "full_name": "Hayden, Kevin",
+              "count": 2
+            },
+            {
+              "full_name": "Hughes, Thomas",
+              "count": 2
+            }
+          ]
+        },
+        "random_samples": [
+          {
+            "case_number": "667539P",
+            "race": "W",
+            "gender": "M",
+            "last_name": "Griffin",
+            "first_name": "Sam",
+            "full_name": "Griffin, Sam"
+          },
+          {
+            "case_number": "148546W",
+            "race": "W",
+            "gender": "M",
+            "last_name": "Sigler",
+            "first_name": "Clinton",
+            "full_name": "Sigler, Clinton"
+          },
+          {
+            "case_number": "816576M",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Carballo",
+            "first_name": "Rolando",
+            "full_name": "Carballo, Rolando"
+          },
+          {
+            "case_number": "266130-2015",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Hayden",
+            "first_name": "Kevin",
+            "full_name": "Hayden, Kevin"
+          },
+          {
+            "case_number": "280895N;  291418N",
+            "race": "W",
+            "gender": "M",
+            "last_name": "Owens",
+            "first_name": "James",
+            "full_name": "Owens, James"
+          },
+          {
+            "case_number": "27843Z",
+            "race": "W",
+            "gender": "M",
+            "last_name": "Hughes",
+            "first_name": "Thomas",
+            "full_name": "Hughes, Thomas"
+          },
+          {
+            "case_number": "79223B",
+            "race": "W",
+            "gender": "F",
+            "last_name": "Moore",
+            "first_name": "Jacqueline",
+            "full_name": "Moore, Jacqueline"
+          },
+          {
+            "case_number": "380792W",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Spencer",
+            "first_name": "Cardan",
+            "full_name": "Spencer, Cardan"
+          },
+          {
+            "case_number": "260599A",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Simonds",
+            "first_name": "Brian",
+            "full_name": "Simonds, Brian"
+          },
+          {
+            "case_number": "56177Z",
+            "race": "W",
+            "gender": "M",
+            "last_name": "Rudloff",
+            "first_name": "Roger",
+            "full_name": "Rudloff, Roger"
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "subjects",
+      "description": "Subject/suspect-information table for Dallas Police Department on-duty officer-involved shootings. Each row records identifying information for a subject or suspect associated with an incident, including case number, race, gender, and name fields.",
+      "schema": {
+        "columns": [
+          {
+            "name": "case_number",
+            "type": "VARCHAR",
+            "comment": "Case number of the officer-involved shooting incident; links the subject/suspect record to the corresponding incident."
+          },
+          {
+            "name": "race",
+            "type": "VARCHAR",
+            "comment": "Race of the subject or suspect."
+          },
+          {
+            "name": "gender",
+            "type": "VARCHAR",
+            "comment": "Gender of the subject or suspect."
+          },
+          {
+            "name": "last_name",
+            "type": "VARCHAR",
+            "comment": "Last name of the subject or suspect."
+          },
+          {
+            "name": "first_name",
+            "type": "VARCHAR",
+            "comment": "First name of the subject or suspect."
+          },
+          {
+            "name": "full_name",
+            "type": "VARCHAR",
+            "comment": "Full name of the subject or suspect."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "case_number",
+            "references": "incidents.case_number"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 223,
+        "column_stats": {
+          "case_number": {
+            "null_ratio": "0.0%",
+            "distinct_values": 216
+          },
+          "race": {
+            "null_ratio": "0.0%",
+            "distinct_values": 4,
+            "top_distribution": [
+              {
+                "value": "B",
+                "count": 111,
+                "pct": "49.78%"
+              },
+              {
+                "value": "L",
+                "count": 72,
+                "pct": "32.29%"
+              },
+              {
+                "value": "W",
+                "count": 38,
+                "pct": "17.04%"
+              },
+              {
+                "value": "A",
+                "count": 2,
+                "pct": "0.9%"
+              }
+            ]
+          },
+          "gender": {
+            "null_ratio": "0.0%",
+            "distinct_values": 2,
+            "top_distribution": [
+              {
+                "value": "M",
+                "count": 215,
+                "pct": "96.41%"
+              },
+              {
+                "value": "F",
+                "count": 8,
+                "pct": "3.59%"
+              }
+            ]
+          },
+          "last_name": {
+            "null_ratio": "0.0%",
+            "distinct_values": 182
+          },
+          "first_name": {
+            "null_ratio": "8.1%",
+            "distinct_values": 158
+          },
+          "full_name": {
+            "null_ratio": "0.0%",
+            "distinct_values": 208
+          }
+        },
+        "advanced_profiling": {
+          "race_distribution": [
+            {
+              "race": "B",
+              "count": 111,
+              "pct": "49.78%"
+            },
+            {
+              "race": "L",
+              "count": 72,
+              "pct": "32.29%"
+            },
+            {
+              "race": "W",
+              "count": 38,
+              "pct": "17.04%"
+            },
+            {
+              "race": "A",
+              "count": 2,
+              "pct": "0.9%"
+            }
+          ],
+          "gender_distribution": [
+            {
+              "gender": "M",
+              "count": 215,
+              "pct": "96.41%"
+            },
+            {
+              "gender": "F",
+              "count": 8,
+              "pct": "3.59%"
+            }
+          ],
+          "incident_linkage": {
+            "distinct_case_numbers": 216,
+            "avg_records_per_case": 1.03,
+            "role": "subject"
+          },
+          "top_full_names": [
+            {
+              "full_name": "Unknown",
+              "count": 16
+            },
+            {
+              "full_name": "Abdel, Aziz",
+              "count": 1
+            },
+            {
+              "full_name": "Abdulkarim, Ismail",
+              "count": 1
+            },
+            {
+              "full_name": "Acosta-Serrano, Jose",
+              "count": 1
+            },
+            {
+              "full_name": "Adams, Robert",
+              "count": 1
+            },
+            {
+              "full_name": "Alardin, Mark",
+              "count": 1
+            },
+            {
+              "full_name": "Alexander, Gaylon",
+              "count": 1
+            },
+            {
+              "full_name": "Alford, Joseph",
+              "count": 1
+            },
+            {
+              "full_name": "Allen, Joel",
+              "count": 1
+            },
+            {
+              "full_name": "Allen, Tyrone",
+              "count": 1
+            }
+          ]
+        },
+        "random_samples": [
+          {
+            "case_number": "128833Z",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Wilson",
+            "first_name": "Terry",
+            "full_name": "Wilson, Terry"
+          },
+          {
+            "case_number": "226455N",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Aranda",
+            "first_name": "Orlando",
+            "full_name": "Aranda, Orlando"
+          },
+          {
+            "case_number": "84022A",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Solis",
+            "first_name": "Eduardo",
+            "full_name": "Solis, Eduardo"
+          },
+          {
+            "case_number": "86771W",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Nazareno",
+            "first_name": "Rosendo",
+            "full_name": "Nazareno, Rosendo"
+          },
+          {
+            "case_number": "160390V",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Ross",
+            "first_name": "Daniel Jr.",
+            "full_name": "Ross, Daniel Jr."
+          },
+          {
+            "case_number": "125236B",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Calderon",
+            "first_name": "Richard",
+            "full_name": "Calderon, Richard"
+          },
+          {
+            "case_number": "140172-2016",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Diamond",
+            "first_name": "Shawn",
+            "full_name": "Diamond, Shawn"
+          },
+          {
+            "case_number": "384832T",
+            "race": "B",
+            "gender": "M",
+            "last_name": "Spearman",
+            "first_name": "Damion",
+            "full_name": "Spearman, Damion"
+          },
+          {
+            "case_number": "56177Z",
+            "race": "L",
+            "gender": "M",
+            "last_name": "Escalante",
+            "first_name": "Luis",
+            "full_name": "Escalante, Luis"
+          },
+          {
+            "case_number": "155523Z",
+            "race": "B",
+            "gender": "M",
+            "last_name": "McDaniel",
+            "first_name": "Kendrick",
+            "full_name": "McDaniel, Kendrick"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "database_name": "NCAA",
+  "database_description": "A relationalized version of the Kaggle March Machine Learning Mania 2015 dataset for predicting the 2015 NCAA men's basketball tournament. The source data include season metadata, team identifiers, tournament seeds and bracket slots, historical regular-season and tournament game results in compact and detailed forms, plus 2015-specific tournament seed/slot and regular-season result files for prediction and submission.",
+  "tables": {
+    "regular_season_compact_results": {
+      "description": "Game-level regular-season results table in compact form. Each row represents one completed regular-season NCAA men's basketball game, recording the season, the day number within the season, the winning team and score, the losing team and score, the winner's game location, and the number of overtime periods.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"},
+        {"column": "wteam", "references": "teams.team_id"},
+        {"column": "lteam", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "season": "Season identifier for the game.",
+        "daynum": "Day number within the season on which the game was played.",
+        "wteam": "Team ID of the winning team.",
+        "wscore": "Points scored by the winning team.",
+        "lteam": "Team ID of the losing team.",
+        "lscore": "Points scored by the losing team.",
+        "wloc": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site.",
+        "numot": "Number of overtime periods in the game."
+      }
+    },
+    "regular_season_detailed_results": {
+      "description": "Game-level regular-season results table in detailed form. Each row represents one completed regular-season NCAA men's basketball game, recording the season, the day number within the season, the winning and losing teams and scores, the winner's game location, the number of overtime periods, and box-score statistics for both teams.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"},
+        {"column": "wteam", "references": "teams.team_id"},
+        {"column": "lteam", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "season": "Season identifier for the game.",
+        "daynum": "Day number within the season on which the game was played. This integer ranges from 0 to 132 and represents the offset in days from that season's `dayzero` date.",
+        "wteam": "Team ID of the winning team.",
+        "wscore": "Points scored by the winning team.",
+        "lteam": "Team ID of the losing team.",
+        "lscore": "Points scored by the losing team.",
+        "wloc": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site.",
+        "numot": "Number of overtime periods in the game.",
+        "wfgm": "Field goals made by the winning team.",
+        "wfga": "Field goals attempted by the winning team.",
+        "wfgm3": "Three-point field goals made by the winning team.",
+        "wfga3": "Three-point field goals attempted by the winning team.",
+        "wftm": "Free throws made by the winning team.",
+        "wfta": "Free throws attempted by the winning team.",
+        "wor": "Offensive rebounds by the winning team.",
+        "wdr": "Defensive rebounds by the winning team.",
+        "wast": "Assists by the winning team.",
+        "wto": "Turnovers by the winning team.",
+        "wstl": "Steals by the winning team.",
+        "wblk": "Blocks by the winning team.",
+        "wpf": "Personal fouls committed by the winning team.",
+        "lfgm": "Field goals made by the losing team.",
+        "lfga": "Field goals attempted by the losing team.",
+        "lfgm3": "Three-point field goals made by the losing team.",
+        "lfga3": "Three-point field goals attempted by the losing team.",
+        "lftm": "Free throws made by the losing team.",
+        "lfta": "Free throws attempted by the losing team.",
+        "lor": "Offensive rebounds by the losing team.",
+        "ldr": "Defensive rebounds by the losing team.",
+        "last": "Assists by the losing team.",
+        "lto": "Turnovers by the losing team.",
+        "lstl": "Steals by the losing team.",
+        "lblk": "Blocks by the losing team.",
+        "lpf": "Personal fouls committed by the losing team."
+      }
+    },
+    "seasons": {
+      "description": "Season metadata table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one NCAA tournament season and records the season identifier, the season's `dayzero` reference date, and the names of the four tournament regions standardized as Region W, Region X, Region Y, and Region Z.",
+      "primary_key": [
+        "season"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "season": "Primary key of the seasons table; the season identifier.",
+        "dayzero": "Reference start date for the season. Game `daynum` values are measured as day offsets from this date.",
+        "regionw": "Name of tournament Region W for the season.",
+        "regionx": "Name of tournament Region X for the season. In the Kaggle convention, the region paired with Region W in the national semifinals is assigned to Region X.",
+        "regiony": "Name of tournament Region Y for the season. Of the two remaining regions, the one whose name comes first alphabetically is assigned to Region Y.",
+        "regionz": "Name of tournament Region Z for the season. Of the two remaining regions, the one not assigned to Region Y is assigned to Region Z."
+      }
+    },
+    "target": {
+      "description": "Prediction target table for the Kaggle March Machine Learning Mania 2015 competition. Each row represents one hypothetical 2015 tournament matchup between two teams, identified by season and team IDs, together with the predicted probability that `team_id1` beats `team_id2` and optional binary win indicators for either team.",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "team_id1", "references": "teams.team_id"},
+        {"column": "team_id2", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "id": "Primary key of the target table. In the Kaggle submission format, this identifier is typically constructed from the season and the two team IDs for a matchup.",
+        "season": "Season identifier for the matchup, corresponding to the tournament season being predicted.",
+        "team_id1": "Team ID of the first team in the matchup.",
+        "team_id2": "Team ID of the second team in the matchup.",
+        "pred": "Predicted probability that `team_id1` defeats `team_id2` in the matchup.",
+        "team_id1_wins": "Binary indicator showing that `team_id1` wins the matchup.",
+        "team_id2_wins": "Binary indicator showing that `team_id2` wins the matchup."
+      }
+    },
+    "teams": {
+      "description": "Team lookup table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one NCAA men's basketball team and maps a unique team identifier to its team name.",
+      "primary_key": [
+        "team_id"
+      ],
+      "foreign_keys": [],
+      "comments": {
+        "team_id": "Primary key of the teams table; unique identifier for a team.",
+        "team_name": "Human-readable team name corresponding to the team ID."
+      }
+    },
+    "tourney_compact_results": {
+      "description": "Game-level NCAA tournament results table in compact form. Each row represents one completed tournament game and records the season, the day number within the season, the winning team and score, the losing team and score, the winner's game location, and the number of overtime periods.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"},
+        {"column": "wteam", "references": "teams.team_id"},
+        {"column": "lteam", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "season": "Season identifier for the tournament game.",
+        "daynum": "Day number within the season on which the tournament game was played. This is a season-relative day index rather than a calendar day-of-month.",
+        "wteam": "Team ID of the winning team.",
+        "wscore": "Points scored by the winning team.",
+        "lteam": "Team ID of the losing team.",
+        "lscore": "Points scored by the losing team.",
+        "wloc": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site.",
+        "numot": "Number of overtime periods in the game."
+      }
+    },
+    "tourney_detailed_results": {
+      "description": "Game-level NCAA tournament results table in detailed form. Each row represents one completed tournament game and records the season, the day number within the season, the winning and losing teams and scores, the winner's game location, the number of overtime periods, and box-score statistics for both teams.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"},
+        {"column": "wteam", "references": "teams.team_id"},
+        {"column": "lteam", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "season": "Season identifier for the tournament game.",
+        "daynum": "Day number within the season on which the tournament game was played. This is a season-relative day index rather than a calendar day-of-month.",
+        "wteam": "Team ID of the winning team.",
+        "wscore": "Points scored by the winning team.",
+        "lteam": "Team ID of the losing team.",
+        "lscore": "Points scored by the losing team.",
+        "wloc": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site.",
+        "numot": "Number of overtime periods in the game.",
+        "wfgm": "Field goals made by the winning team.",
+        "wfga": "Field goals attempted by the winning team.",
+        "wfgm3": "Three-point field goals made by the winning team.",
+        "wfga3": "Three-point field goals attempted by the winning team.",
+        "wftm": "Free throws made by the winning team.",
+        "wfta": "Free throws attempted by the winning team.",
+        "wor": "Offensive rebounds by the winning team.",
+        "wdr": "Defensive rebounds by the winning team.",
+        "wast": "Assists by the winning team.",
+        "wto": "Turnovers by the winning team.",
+        "wstl": "Steals by the winning team.",
+        "wblk": "Blocks by the winning team.",
+        "wpf": "Personal fouls committed by the winning team.",
+        "lfgm": "Field goals made by the losing team.",
+        "lfga": "Field goals attempted by the losing team.",
+        "lfgm3": "Three-point field goals made by the losing team.",
+        "lfga3": "Three-point field goals attempted by the losing team.",
+        "lftm": "Free throws made by the losing team.",
+        "lfta": "Free throws attempted by the losing team.",
+        "lor": "Offensive rebounds by the losing team.",
+        "ldr": "Defensive rebounds by the losing team.",
+        "last": "Assists by the losing team.",
+        "lto": "Turnovers by the losing team.",
+        "lstl": "Steals by the losing team.",
+        "lblk": "Blocks by the losing team.",
+        "lpf": "Personal fouls committed by the losing team."
+      }
+    },
+    "tourney_seeds": {
+      "description": "Tournament seed assignment table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one team's seed in a given NCAA tournament season.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"},
+        {"column": "team", "references": "teams.team_id"}
+      ],
+      "comments": {
+        "season": "Season identifier for the tournament seed assignment.",
+        "seed": "Tournament seed string assigned to the team for that season. The value encodes the region and seed number.",
+        "team": "Team ID of the seeded team."
+      }
+    },
+    "tourney_slots": {
+      "description": "Tournament bracket structure table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one tournament slot in a given season and specifies which seed or prior slot winner is placed into the stronger side and weaker side of that bracket slot.",
+      "primary_key": [],
+      "foreign_keys": [
+        {"column": "season", "references": "seasons.season"}
+      ],
+      "comments": {
+        "season": "Season identifier for the tournament bracket slot.",
+        "slot": "Bracket slot identifier for the game position in the tournament.",
+        "strongseed": "Seed or prior slot winner assigned to the stronger side of the slot.",
+        "weakseed": "Seed or prior slot winner assigned to the weaker side of the slot."
+      }
+    }
+  }
+}

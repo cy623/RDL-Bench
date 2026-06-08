@@ -1,0 +1,285 @@
+{
+  "database_name": "Stats",
+  "database_description": "This is an anonymized dump of all user-contributed content on the Stack Exchange network. Each site archive includes Posts, Users, Votes, Comments, Badges, Tags,  PostHistory, and PostLinks.",
+  "tables": {
+    "badges": {
+      "description": "\"Achievement tags\" are used to record user behavior and contributions.",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "userid", "references": "users.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "userid": "User ID",
+        "name": "Name of the badge",
+        "date": "Gain Time"
+      }
+    },
+    "comments": {
+      "description": "Lightweight interactive text attached to questions/answers.",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "postid", "references": "posts.id"},
+        {"column": "userid", "references": "users.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "postid": "Post ID, related question or answer",
+        "score": "Number of likes",
+        "text": "Comment content",
+        "creationdate": "Creation Date",
+        "userid": "User ID, commenting users",
+        "userdisplayname": "User Display Name"
+      }
+    },
+    "posthistory": {
+      "description": "Full edit and status change log for posts (questions/answers).",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "postid", "references": "posts.id"},
+        {"column": "userid", "references": "users.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "posthistorytypeid": ["Post History Type:",
+                              "1 = Initial Title - initial title (questions only)",
+                              "2 = Initial Body - initial post raw body text", 
+                              "3 = Initial Tags - initial list of tags (questions only)",
+                              "4 = Edit Title - modified title (questions only)",
+                              "5 = Edit Body - modified post body (raw markdown)",
+                              "6 = Edit Tags - modified list of tags (questions only)",
+                              "7 = Rollback Title - reverted title (questions only)",
+                              "8 = Rollback Body - reverted body (raw markdown)",
+                              "9 = Rollback Tags - reverted list of tags (questions only)",
+                              "10 = Post Closed - post voted to be closed",
+                              "11 = Post Reopened - post voted to be reopened",
+                              "12 = Post Deleted - post voted to be removed",
+                              "13 = Post Undeleted - post voted to be restored",
+                              "14 = Post Locked - post locked by moderator",
+                              "15 = Post Unlocked - post unlocked by moderator",
+                              "16 = Community Owned - post now community owned",
+                              "17 = Post Migrated - post migrated - now replaced by 35/36 (away/here)",
+                              "18 = Question Merged - question merged with deleted question",
+                              "19 = Question Protected - question was protected by a moderator.",
+                              "20 = Question Unprotected - question was unprotected by a moderator.",
+                              "21 = Post Disassociated - OwnerUserId removed from post by admin",
+                              "22 = Question Unmerged - answers/votes restored to previously merged question",
+                              "24 = Suggested Edit Applied",
+                              "25 = Post Tweeted",
+                              "31 = Comment discussion moved to chat",
+                              "33 = Post notice added - comment contains foreign key to PostNotices",
+                              "34 = Post notice removed - comment contains foreign key to PostNotices",
+                              "35 = Post migrated away - replaces id 17",
+                              "36 = Post migrated here - replaces id 17",
+                              "37 = Post merge source - post was source of a merge",
+                              "38 = Post merge destination - post was destination of a merge",
+                              "50 = Bumped by Community User - post was bumped by the Community user",
+                              "52 = Question became hot network question (main) / Hot Meta question (meta)",
+                              "53 = Question removed from hot network/meta questions by a moderator",
+                              "66 = Created from Ask Wizard - post was created from the Ask Question Wizard"
+                            ],        
+        "postid": "Post ID, which question/answer corresponds to",
+        "revisionguid": "At times more than one type of history record can be recorded by a single action. All of these will be grouped using the same RevisionGUID",
+        "creationdate": "Creation time",
+        "userid": "User ID, Who did this",
+        "text": ["A raw version of the new value for a given revision",
+                  "If PostHistoryTypeId in (10,11,12,13,14,15,19,20,35) this column will contain a JSON encoded string with all users who have voted for the PostHistoryTypeId",
+                  "If it is a duplicate close vote, the JSON string will contain an array of original questions as OriginalQuestionIds",
+                  "If PostHistoryTypeId = 17 this column will contain migration details of either from <url> or to <url>"
+                ],
+        "comment": ["This field will contain the comment made by the user who edited a post.",
+                    "If PostHistoryTypeId = 10, this field contains the CloseReasonId of the close reason (listed in CloseReasonTypes):",
+                    "Old close reasons:",
+                    "1 = Exact Duplicate",
+                    "2 = Off-topic",
+                    "3 = Subjective and argumentative",
+                    "4 = Not a real question",
+                    "7 = Too localized",
+                    "10 = General reference",
+                    "20 = Noise or pointless (Meta sites only)",
+                    "Current close reasons:",
+                    "101 = Duplicate",
+                    "102 = Off-topic",
+                    "103 = Unclear what you're asking",
+                    "104 = Too broad",
+                    "105 = Primarily opinion-based",
+                    "If PostHistoryTypeId in (33,34) this field contains the PostNoticeId of the PostNotice"
+        ],
+        "userdisplayname": "populated if a user has been removed and no longer referenced by user Id; also happens to the author of a migrated post"
+      }
+    },
+    "postlinks": {
+      "description": "Structured record of \"explicit relationships\" between posts",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "postid", "references": "posts.id"},
+        {"column": "relatedpostid", "references": "posts.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "creationdate": "when the link was created",
+        "postid": "id of source post",
+        "relatedpostid": "id of target/related post",
+        "linktypeid": ["type of link",
+                      "1 = Linked (PostId contains a link to RelatedPostId)",
+                      "3 = Duplicate (PostId is a duplicate of RelatedPostId)"]
+      }
+    },
+    "posts": {
+      "description": "You find in Posts all non-deleted posts.",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "acceptedanswerid", "references": "posts.id"},
+        {"column": "owneruserid", "references": "users.id"},
+        {"column": "lasteditoruserid", "references": "users.id"},
+        {"column": "parentid", "references": "posts.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "posttypeid": ["type of post",
+                        "1 = Question",
+                        "2 = Answer",
+                        "3 = Orphaned tag wiki",
+                        "4 = Tag wiki excerpt",
+                        "5 = Tag wiki",
+                        "6 = Moderator nomination",
+                        "7 = \"Wiki placeholder\" (Appears to include auxiliary site content like the help center introduction, election description, and the tour page's introduction, ask, and don't ask sections)",
+                        "8 = Privilege wiki",
+                        "9 = Article",
+                        "10 = HelpArticle",
+                        "12 = Collection",
+                        "13 = ModeratorQuestionnaireResponse",
+                        "14 = Announcement",
+                        "15 = CollectiveDiscussion",
+                        "17 = CollectiveCollection"
+                      ],
+        "acceptedanswerid": "id of the accepted answer",
+        "creaiondate": "when the post was created",
+        "score": "Total Likes/Dislikes, generally non-zero for only Questions, Answers, and Moderator Nominations",
+        "viewcount": "Pageviews",
+        "body": "Post body in HTML format",
+        "owneruserid": "User Information",
+        "lastactivitydate": "datetime of the post's most recent activity",
+        "title": "question title, or on Stack Overflow, the tag name for some tag wikis and excerpts",
+        "tags": "question tags, or on Stack Overflow, the subject tag of some tag wikis and excerpts",
+        "answercount": "the number of undeleted answers",
+        "commentcount": "How many comments are there under this post",
+        "favoritecount": "How many users have added this question to their \"favorites\" list",
+        "lasteditoruserid": "Who last edited this post",
+        "lasteditdate": "the date and time of the most recent edit to the post",
+        "communityowneddate": "The point in time when a post changed from \"personally owned\" to \"community owned\"",
+        "parentid": "The corresponding question for answer",
+        "closeddate": "The date when the question was closed",
+        "ownerdisplayname": "If no user ID is available, record the \"author's name\" as a text file.",
+        "lasteditordisplayname": "The last editor's \"display name\" (when there is no UserId)"
+      }
+    },
+    "tags": {
+      "description": "Statistical information and metadata for each topic",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "owneruserid", "references": "users.id"},
+        {"column": "lasteditoruserid", "references": "users.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "tagname": "Tag Name",
+        "count": "How many times has this tag been used",
+        "excerptpostid": "Id of Post that holds the excerpt text of the tag",
+        "wikipostid": "Id of Post that holds the wiki text of the tag"
+      }
+    },
+    "users": {
+      "description": "User static profiles and behavioral statistics",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        
+      ],
+      "comments": {
+        "id": "record identifier",
+        "reputation": "Reputation value",
+        "creationdate": "User registration time",
+        "displayname": "User Display Name",
+        "lastaccessdate": "Datetime user last loaded a page; updated every 30 min at most",
+        "websiteurl": "TODUser-entered personal website linkO",
+        "location": "User-entered location",
+        "aboutme": "Personal Profile (HTML)",
+        "views": "Number of times the profile is viewed",
+        "upvotes": "How many upvotes the user has cast",
+        "downvotes": "How many downvotes the user has cast",
+        "accountid": "User's Stack Exchange Network profile ID); NULL if the user has hidden this community in their profile",
+        "age": "User's age",
+        "profileimageurl": "User avatar image link"
+      }
+    },
+    "votes": {
+      "description": "User ratings and decision records for posts (questions/answers).",
+      "primary_key": [
+        "id"
+      ],
+      "foreign_keys": [
+        {"column": "postid", "references": "posts.id"},
+        {"column": "userid", "references": "users.id"}
+      ],
+      "comments": {
+        "id": "record identifier",
+        "postid": "Posts that were voted",
+        "votetypeid": ["What kind of vote was cast",
+                      "1 = InformModerator",
+                      "0 = UndoMod",
+                      "1 = AcceptedByOriginator",
+                      "2 = UpMod (AKA upvote)",
+                      "3 = DownMod (AKA downvote)",
+                      "4 = Offensive",
+                      "5 = Favorite (AKA bookmark; UserId will also be populated) feature removed after October 2022 / replaced by Saves",
+                      "6 = Close (effective 2013-06-25: Close votes are only stored in table: PostHistory)",
+                      "7 = Reopen",
+                      "8 = BountyStart (UserId and BountyAmount will also be populated)",
+                      "9 = BountyClose (BountyAmount will also be populated)",
+                      "10 = Deletion",
+                      "11 = Undeletion",
+                      "12 = Spam",
+                      "15 = ModeratorReview (i.e., a moderator looking at a flagged post)",
+                      "16 = ApproveEditSuggestion",
+                      "17 = Reaction1 (Teams: celebrate)",
+                      "18 = Helpful",
+                      "19 = ThankYou (see Thank You reaction test)",
+                      "20 = WellWritten",
+                      "21 = Follow",
+                      "22 = Reaction2 (Teams: smile)",
+                      "23 = Reaction3 (Teams: mind blown)",
+                      "24 = Reaction4 (Teams: clap)",
+                      "25 = Reaction5 (Teams: heart)",
+                      "26 = Reaction6 (Teams: fire)",
+                      "27 = Reaction7 (Teams: trophy)",
+                      "28 = Reaction8 (Teams: wave)",
+                      "29 = Outdated (see Outdated Answers project)",
+                      "30 = NotOutdated",
+                      "31 = PreVote",
+                      "32 = CollectiveDiscussionUpvote",
+                      "33 = CollectiveDiscussionDownvote (no longer used)",
+                      "35 = privateAiAnswerCorrect (see Answer Bot experiment)",
+                      "36 = privateAiAnswerIncorrect",
+                      "37 = privateAiAnswerPartiallyCorrect"
+                      ],
+        "creationdate": "Voting time",
+        "userid": "Who voted",
+        "bountyamount": "Bounty Points"
+      }
+    }
+  }
+}

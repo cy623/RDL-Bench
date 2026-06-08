@@ -1,0 +1,1978 @@
+{
+  "database_metadata": {
+    "name": "NCAA",
+    "description": "A relationalized version of the Kaggle March Machine Learning Mania 2015 dataset for predicting the 2015 NCAA men's basketball tournament. The source data include season metadata, team identifiers, tournament seeds and bracket slots, historical regular-season and tournament game results in compact and detailed forms, plus 2015-specific tournament seed/slot and regular-season result files for prediction and submission.",
+    "target_qa_generation_framework": [
+      {
+        "Type": "Retrieval",
+        "Description": "Directly search for entities or records",
+        "Example": "Return the names of all users who have purchased the iPhone 13."
+      },
+      {
+        "Type": "Analytical",
+        "Description": "Aggregation, sorting, statistics",
+        "Example": "Which city had the highest average order value over the past 6 months?"
+      },
+      {
+        "Type": "Relational Reasoning",
+        "Description": "Multi-table joins, multi-hop logic, existence/exclusion relationships",
+        "Example": "Which users have placed orders but never left any product reviews on the platform?"
+      },
+      {
+        "Type": "Predictive",
+        "Description": "Inferring future behavior or state based on historical data",
+        "Example": "Based on historical behavior, which users are unlikely to place another order within the next 30 days?"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table_name": "regular_season_compact_results",
+      "description": "Game-level regular-season results table in compact form. Each row represents one completed regular-season NCAA men's basketball game, recording the season, the day number within the season, the winning team and score, the losing team and score, the winner's game location, and the number of overtime periods.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the game."
+          },
+          {
+            "name": "daynum",
+            "type": "BIGINT",
+            "comment": "Day number within the season on which the game was played."
+          },
+          {
+            "name": "wteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the winning team."
+          },
+          {
+            "name": "wscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the winning team."
+          },
+          {
+            "name": "lteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the losing team."
+          },
+          {
+            "name": "lscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the losing team."
+          },
+          {
+            "name": "wloc",
+            "type": "VARCHAR",
+            "comment": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site."
+          },
+          {
+            "name": "numot",
+            "type": "BIGINT",
+            "comment": "Number of overtime periods in the game."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          },
+          {
+            "column": "wteam",
+            "references": "teams.team_id"
+          },
+          {
+            "column": "lteam",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 134566,
+        "column_stats": {
+          "season": {
+            "null_ratio": "0.0%",
+            "distinct_values": 30
+          },
+          "daynum": {
+            "null_ratio": "0.0%",
+            "distinct_values": 133
+          },
+          "wteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 364
+          },
+          "wscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 130
+          },
+          "lteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 364
+          },
+          "lscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 117
+          },
+          "wloc": {
+            "null_ratio": "0.0%",
+            "distinct_values": 3
+          },
+          "numot": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "season_range": [
+              1985,
+              2014
+            ],
+            "daynum_range": [
+              0,
+              132
+            ]
+          },
+          "scoring_and_overtime_statistics": {
+            "avg_winning_score": 76.7,
+            "avg_losing_score": 64.6,
+            "avg_point_margin": 12.1,
+            "max_score_single_game": 186,
+            "max_point_margin": 91,
+            "overtime_games_count": 4642,
+            "overtime_rate": "3.45%"
+          },
+          "winning_location_distribution": [
+            {
+              "location": "H",
+              "wins": 80225,
+              "percentage": "59.62%"
+            },
+            {
+              "location": "A",
+              "wins": 40883,
+              "percentage": "30.38%"
+            },
+            {
+              "location": "N",
+              "wins": 13458,
+              "percentage": "10.0%"
+            }
+          ],
+          "top_10_teams_by_wins": [
+            {
+              "team_id": 1181,
+              "total_wins": 767,
+              "avg_pts_when_winning": 84.7
+            },
+            {
+              "team_id": 1242,
+              "total_wins": 749,
+              "avg_pts_when_winning": 82.8
+            },
+            {
+              "team_id": 1314,
+              "total_wins": 709,
+              "avg_pts_when_winning": 85.0
+            },
+            {
+              "team_id": 1246,
+              "total_wins": 705,
+              "avg_pts_when_winning": 80.3
+            },
+            {
+              "team_id": 1393,
+              "total_wins": 701,
+              "avg_pts_when_winning": 80.3
+            },
+            {
+              "team_id": 1112,
+              "total_wins": 690,
+              "avg_pts_when_winning": 82.4
+            },
+            {
+              "team_id": 1272,
+              "total_wins": 655,
+              "avg_pts_when_winning": 79.0
+            },
+            {
+              "team_id": 1424,
+              "total_wins": 652,
+              "avg_pts_when_winning": 81.6
+            },
+            {
+              "team_id": 1257,
+              "total_wins": 635,
+              "avg_pts_when_winning": 80.4
+            },
+            {
+              "team_id": 1163,
+              "total_wins": 635,
+              "avg_pts_when_winning": 79.6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "regular_season_detailed_results",
+      "description": "Game-level regular-season results table in detailed form. Each row represents one completed regular-season NCAA men's basketball game, recording the season, the day number within the season, the winning and losing teams and scores, the winner's game location, the number of overtime periods, and box-score statistics for both teams.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the game."
+          },
+          {
+            "name": "daynum",
+            "type": "BIGINT",
+            "comment": "Day number within the season on which the game was played. This integer ranges from 0 to 132 and represents the offset in days from that season's `dayzero` date."
+          },
+          {
+            "name": "wteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the winning team."
+          },
+          {
+            "name": "wscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the winning team."
+          },
+          {
+            "name": "lteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the losing team."
+          },
+          {
+            "name": "lscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the losing team."
+          },
+          {
+            "name": "wloc",
+            "type": "VARCHAR",
+            "comment": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site."
+          },
+          {
+            "name": "numot",
+            "type": "BIGINT",
+            "comment": "Number of overtime periods in the game."
+          },
+          {
+            "name": "wfgm",
+            "type": "BIGINT",
+            "comment": "Field goals made by the winning team."
+          },
+          {
+            "name": "wfga",
+            "type": "BIGINT",
+            "comment": "Field goals attempted by the winning team."
+          },
+          {
+            "name": "wfgm3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals made by the winning team."
+          },
+          {
+            "name": "wfga3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals attempted by the winning team."
+          },
+          {
+            "name": "wftm",
+            "type": "BIGINT",
+            "comment": "Free throws made by the winning team."
+          },
+          {
+            "name": "wfta",
+            "type": "BIGINT",
+            "comment": "Free throws attempted by the winning team."
+          },
+          {
+            "name": "wor",
+            "type": "BIGINT",
+            "comment": "Offensive rebounds by the winning team."
+          },
+          {
+            "name": "wdr",
+            "type": "BIGINT",
+            "comment": "Defensive rebounds by the winning team."
+          },
+          {
+            "name": "wast",
+            "type": "BIGINT",
+            "comment": "Assists by the winning team."
+          },
+          {
+            "name": "wto",
+            "type": "BIGINT",
+            "comment": "Turnovers by the winning team."
+          },
+          {
+            "name": "wstl",
+            "type": "BIGINT",
+            "comment": "Steals by the winning team."
+          },
+          {
+            "name": "wblk",
+            "type": "BIGINT",
+            "comment": "Blocks by the winning team."
+          },
+          {
+            "name": "wpf",
+            "type": "BIGINT",
+            "comment": "Personal fouls committed by the winning team."
+          },
+          {
+            "name": "lfgm",
+            "type": "BIGINT",
+            "comment": "Field goals made by the losing team."
+          },
+          {
+            "name": "lfga",
+            "type": "BIGINT",
+            "comment": "Field goals attempted by the losing team."
+          },
+          {
+            "name": "lfgm3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals made by the losing team."
+          },
+          {
+            "name": "lfga3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals attempted by the losing team."
+          },
+          {
+            "name": "lftm",
+            "type": "BIGINT",
+            "comment": "Free throws made by the losing team."
+          },
+          {
+            "name": "lfta",
+            "type": "BIGINT",
+            "comment": "Free throws attempted by the losing team."
+          },
+          {
+            "name": "lor",
+            "type": "BIGINT",
+            "comment": "Offensive rebounds by the losing team."
+          },
+          {
+            "name": "ldr",
+            "type": "BIGINT",
+            "comment": "Defensive rebounds by the losing team."
+          },
+          {
+            "name": "last",
+            "type": "BIGINT",
+            "comment": "Assists by the losing team."
+          },
+          {
+            "name": "lto",
+            "type": "BIGINT",
+            "comment": "Turnovers by the losing team."
+          },
+          {
+            "name": "lstl",
+            "type": "BIGINT",
+            "comment": "Steals by the losing team."
+          },
+          {
+            "name": "lblk",
+            "type": "BIGINT",
+            "comment": "Blocks by the losing team."
+          },
+          {
+            "name": "lpf",
+            "type": "BIGINT",
+            "comment": "Personal fouls committed by the losing team."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          },
+          {
+            "column": "wteam",
+            "references": "teams.team_id"
+          },
+          {
+            "column": "lteam",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 60518,
+        "column_stats": {
+          "season": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "daynum": {
+            "null_ratio": "0.0%",
+            "distinct_values": 133
+          },
+          "wteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 355
+          },
+          "wscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 97
+          },
+          "lteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 355
+          },
+          "lscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 99
+          },
+          "wloc": {
+            "null_ratio": "0.0%",
+            "distinct_values": 3
+          },
+          "numot": {
+            "null_ratio": "0.0%",
+            "distinct_values": 7
+          },
+          "wfgm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40
+          },
+          "wfga": {
+            "null_ratio": "0.0%",
+            "distinct_values": 68
+          },
+          "wfgm3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 24
+          },
+          "wfga3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 53
+          },
+          "wftm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 49
+          },
+          "wfta": {
+            "null_ratio": "0.0%",
+            "distinct_values": 66
+          },
+          "wor": {
+            "null_ratio": "0.0%",
+            "distinct_values": 36
+          },
+          "wdr": {
+            "null_ratio": "0.0%",
+            "distinct_values": 43
+          },
+          "wast": {
+            "null_ratio": "0.0%",
+            "distinct_values": 38
+          },
+          "wto": {
+            "null_ratio": "0.0%",
+            "distinct_values": 33
+          },
+          "wstl": {
+            "null_ratio": "0.0%",
+            "distinct_values": 27
+          },
+          "wblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 21
+          },
+          "wpf": {
+            "null_ratio": "0.0%",
+            "distinct_values": 38
+          },
+          "lfgm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40
+          },
+          "lfga": {
+            "null_ratio": "0.0%",
+            "distinct_values": 71
+          },
+          "lfgm3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 23
+          },
+          "lfga3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 52
+          },
+          "lftm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 42
+          },
+          "lfta": {
+            "null_ratio": "0.0%",
+            "distinct_values": 59
+          },
+          "lor": {
+            "null_ratio": "0.0%",
+            "distinct_values": 36
+          },
+          "ldr": {
+            "null_ratio": "0.0%",
+            "distinct_values": 41
+          },
+          "last": {
+            "null_ratio": "0.0%",
+            "distinct_values": 32
+          },
+          "lto": {
+            "null_ratio": "0.0%",
+            "distinct_values": 41
+          },
+          "lstl": {
+            "null_ratio": "0.0%",
+            "distinct_values": 23
+          },
+          "lblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 19
+          },
+          "lpf": {
+            "null_ratio": "0.0%",
+            "distinct_values": 40
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "season_range": [
+              2003,
+              2014
+            ],
+            "daynum_range": [
+              0,
+              132
+            ]
+          },
+          "scoring_and_overtime_statistics": {
+            "avg_winning_score": 74.6,
+            "avg_losing_score": 62.6,
+            "avg_point_margin": 12.0,
+            "max_score_single_game": 142,
+            "max_point_margin": 75,
+            "overtime_games_count": 3549,
+            "overtime_rate": "5.86%"
+          },
+          "winning_location_distribution": [
+            {
+              "location": "H",
+              "wins": 36172,
+              "percentage": "59.77%"
+            },
+            {
+              "location": "A",
+              "wins": 18382,
+              "percentage": "30.37%"
+            },
+            {
+              "location": "N",
+              "wins": 5964,
+              "percentage": "9.85%"
+            }
+          ],
+          "top_10_teams_by_wins": [
+            {
+              "team_id": 1181,
+              "total_wins": 322,
+              "avg_pts_when_winning": 80.6
+            },
+            {
+              "team_id": 1242,
+              "total_wins": 319,
+              "avg_pts_when_winning": 80.6
+            },
+            {
+              "team_id": 1272,
+              "total_wins": 313,
+              "avg_pts_when_winning": 78.0
+            },
+            {
+              "team_id": 1211,
+              "total_wins": 305,
+              "avg_pts_when_winning": 79.5
+            },
+            {
+              "team_id": 1393,
+              "total_wins": 299,
+              "avg_pts_when_winning": 78.0
+            },
+            {
+              "team_id": 1338,
+              "total_wins": 295,
+              "avg_pts_when_winning": 75.2
+            },
+            {
+              "team_id": 1196,
+              "total_wins": 295,
+              "avg_pts_when_winning": 78.1
+            },
+            {
+              "team_id": 1246,
+              "total_wins": 294,
+              "avg_pts_when_winning": 77.2
+            },
+            {
+              "team_id": 1257,
+              "total_wins": 292,
+              "avg_pts_when_winning": 78.1
+            },
+            {
+              "team_id": 1314,
+              "total_wins": 288,
+              "avg_pts_when_winning": 84.6
+            }
+          ],
+          "advanced_box_score_averages": {
+            "3_pointers_made": {
+              "winner": 6.8,
+              "loser": 5.8
+            },
+            "turnovers": {
+              "winner": 13.3,
+              "loser": 14.7
+            },
+            "assists": {
+              "winner": 14.7,
+              "loser": 11.4
+            }
+          }
+        }
+      }
+    },
+    {
+      "table_name": "seasons",
+      "description": "Season metadata table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one NCAA tournament season and records the season identifier, the season's `dayzero` reference date, and the names of the four tournament regions standardized as Region W, Region X, Region Y, and Region Z.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Primary key of the seasons table; the season identifier."
+          },
+          {
+            "name": "dayzero",
+            "type": "TIMESTAMP",
+            "comment": "Reference start date for the season. Game `daynum` values are measured as day offsets from this date."
+          },
+          {
+            "name": "regionw",
+            "type": "VARCHAR",
+            "comment": "Name of tournament Region W for the season."
+          },
+          {
+            "name": "regionx",
+            "type": "VARCHAR",
+            "comment": "Name of tournament Region X for the season. In the Kaggle convention, the region paired with Region W in the national semifinals is assigned to Region X."
+          },
+          {
+            "name": "regiony",
+            "type": "VARCHAR",
+            "comment": "Name of tournament Region Y for the season. Of the two remaining regions, the one whose name comes first alphabetically is assigned to Region Y."
+          },
+          {
+            "name": "regionz",
+            "type": "VARCHAR",
+            "comment": "Name of tournament Region Z for the season. Of the two remaining regions, the one not assigned to Region Y is assigned to Region Z."
+          }
+        ],
+        "primary_key": [
+          "season"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 31,
+        "column_stats": {},
+        "full_enum": [
+          {
+            "season": "1985",
+            "dayzero": "1984-10-29 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "Southeast"
+          },
+          {
+            "season": "1986",
+            "dayzero": "1985-10-28 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "Southeast",
+            "regionz": "West"
+          },
+          {
+            "season": "1987",
+            "dayzero": "1986-10-27 00:00:00",
+            "regionw": "East",
+            "regionx": "Southeast",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "1988",
+            "dayzero": "1987-11-02 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "Southeast",
+            "regionz": "West"
+          },
+          {
+            "season": "1989",
+            "dayzero": "1988-10-31 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "Southeast"
+          },
+          {
+            "season": "1990",
+            "dayzero": "1989-10-30 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "Southeast",
+            "regionz": "West"
+          },
+          {
+            "season": "1991",
+            "dayzero": "1990-10-29 00:00:00",
+            "regionw": "East",
+            "regionx": "Southeast",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "1992",
+            "dayzero": "1991-11-04 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "Southeast"
+          },
+          {
+            "season": "1993",
+            "dayzero": "1992-11-02 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "Southeast",
+            "regionz": "West"
+          },
+          {
+            "season": "1994",
+            "dayzero": "1993-11-01 00:00:00",
+            "regionw": "East",
+            "regionx": "Southeast",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "1995",
+            "dayzero": "1994-10-31 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "Southeast"
+          },
+          {
+            "season": "1996",
+            "dayzero": "1995-10-30 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "Southeast",
+            "regionz": "West"
+          },
+          {
+            "season": "1997",
+            "dayzero": "1996-10-28 00:00:00",
+            "regionw": "East",
+            "regionx": "Southeast",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "1998",
+            "dayzero": "1997-10-27 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "South"
+          },
+          {
+            "season": "1999",
+            "dayzero": "1998-10-26 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "South",
+            "regionz": "West"
+          },
+          {
+            "season": "2000",
+            "dayzero": "1999-11-01 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2001",
+            "dayzero": "2000-10-30 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Midwest",
+            "regionz": "South"
+          },
+          {
+            "season": "2002",
+            "dayzero": "2001-10-29 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "South",
+            "regionz": "West"
+          },
+          {
+            "season": "2003",
+            "dayzero": "2002-11-04 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2004",
+            "dayzero": "2003-11-03 00:00:00",
+            "regionw": "Atlanta",
+            "regionx": "Phoenix",
+            "regiony": "EastRutherford",
+            "regionz": "StLouis"
+          },
+          {
+            "season": "2005",
+            "dayzero": "2004-11-01 00:00:00",
+            "regionw": "Albuquerque",
+            "regionx": "Chicago",
+            "regiony": "Austin",
+            "regionz": "Syracuse"
+          },
+          {
+            "season": "2006",
+            "dayzero": "2005-10-31 00:00:00",
+            "regionw": "Atlanta",
+            "regionx": "Oakland",
+            "regiony": "Minneapolis",
+            "regionz": "WashingtonDC"
+          },
+          {
+            "season": "2007",
+            "dayzero": "2006-10-30 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2008",
+            "dayzero": "2007-11-05 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "South",
+            "regionz": "West"
+          },
+          {
+            "season": "2009",
+            "dayzero": "2008-11-03 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2010",
+            "dayzero": "2009-11-02 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2011",
+            "dayzero": "2010-11-01 00:00:00",
+            "regionw": "East",
+            "regionx": "West",
+            "regiony": "Southeast",
+            "regionz": "Southwest"
+          },
+          {
+            "season": "2012",
+            "dayzero": "2011-10-31 00:00:00",
+            "regionw": "East",
+            "regionx": "Midwest",
+            "regiony": "South",
+            "regionz": "West"
+          },
+          {
+            "season": "2013",
+            "dayzero": "2012-11-05 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2014",
+            "dayzero": "2013-11-04 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          },
+          {
+            "season": "2015",
+            "dayzero": "2014-11-03 00:00:00",
+            "regionw": "East",
+            "regionx": "South",
+            "regiony": "Midwest",
+            "regionz": "West"
+          }
+        ],
+        "note": "Small lookup table: full enumeration provided for LLM semantic understanding."
+      }
+    },
+    {
+      "table_name": "target",
+      "description": "Prediction target table for the Kaggle March Machine Learning Mania 2015 competition. Each row represents one hypothetical 2015 tournament matchup between two teams, identified by season and team IDs, together with the predicted probability that `team_id1` beats `team_id2` and optional binary win indicators for either team.",
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "VARCHAR",
+            "comment": "Primary key of the target table. In the Kaggle submission format, this identifier is typically constructed from the season and the two team IDs for a matchup."
+          },
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the matchup, corresponding to the tournament season being predicted."
+          },
+          {
+            "name": "team_id1",
+            "type": "BIGINT",
+            "comment": "Team ID of the first team in the matchup."
+          },
+          {
+            "name": "team_id2",
+            "type": "BIGINT",
+            "comment": "Team ID of the second team in the matchup."
+          },
+          {
+            "name": "pred",
+            "type": "DOUBLE",
+            "comment": "Predicted probability that `team_id1` defeats `team_id2` in the matchup."
+          },
+          {
+            "name": "team_id1_wins",
+            "type": "BIGINT",
+            "comment": "Binary indicator showing that `team_id1` wins the matchup."
+          },
+          {
+            "name": "team_id2_wins",
+            "type": "BIGINT",
+            "comment": "Binary indicator showing that `team_id2` wins the matchup."
+          }
+        ],
+        "primary_key": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "column": "team_id1",
+            "references": "teams.team_id"
+          },
+          {
+            "column": "team_id2",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 268,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "id": "2012_1196_1266",
+            "season": "2012",
+            "team_id1": "1196",
+            "team_id2": "1266",
+            "pred": "0.5",
+            "team_id1_wins": "1",
+            "team_id2_wins": "0"
+          },
+          {
+            "id": "2013_1137_1139",
+            "season": "2013",
+            "team_id1": "1137",
+            "team_id2": "1139",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2011_1112_1163",
+            "season": "2011",
+            "team_id1": "1112",
+            "team_id2": "1163",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2014_1140_1332",
+            "season": "2014",
+            "team_id1": "1140",
+            "team_id2": "1332",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2011_1287_1350",
+            "season": "2011",
+            "team_id1": "1287",
+            "team_id2": "1350",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2012_1259_1326",
+            "season": "2012",
+            "team_id1": "1259",
+            "team_id2": "1326",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2013_1196_1322",
+            "season": "2013",
+            "team_id1": "1196",
+            "team_id2": "1322",
+            "pred": "0.5",
+            "team_id1_wins": "1",
+            "team_id2_wins": "0"
+          },
+          {
+            "id": "2012_1125_1207",
+            "season": "2012",
+            "team_id1": "1125",
+            "team_id2": "1207",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2013_1328_1361",
+            "season": "2013",
+            "team_id1": "1328",
+            "team_id2": "1361",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          },
+          {
+            "id": "2011_1257_1287",
+            "season": "2011",
+            "team_id1": "1257",
+            "team_id2": "1287",
+            "pred": "0.5",
+            "team_id1_wins": "0",
+            "team_id2_wins": "1"
+          }
+        ],
+        "note": "Large lookup table (268 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "teams",
+      "description": "Team lookup table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one NCAA men's basketball team and maps a unique team identifier to its team name.",
+      "schema": {
+        "columns": [
+          {
+            "name": "team_id",
+            "type": "BIGINT",
+            "comment": "Primary key of the teams table; unique identifier for a team."
+          },
+          {
+            "name": "team_name",
+            "type": "VARCHAR",
+            "comment": "Human-readable team name corresponding to the team ID."
+          }
+        ],
+        "primary_key": [
+          "team_id"
+        ],
+        "foreign_keys": []
+      },
+      "data_profiling": {
+        "row_count": 364,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "team_id": "1125",
+            "team_name": "Belmont"
+          },
+          {
+            "team_id": "1376",
+            "team_name": "South Carolina"
+          },
+          {
+            "team_id": "1231",
+            "team_name": "Indiana"
+          },
+          {
+            "team_id": "1338",
+            "team_name": "Pittsburgh"
+          },
+          {
+            "team_id": "1108",
+            "team_name": "Alcorn St"
+          },
+          {
+            "team_id": "1360",
+            "team_name": "San Diego"
+          },
+          {
+            "team_id": "1195",
+            "team_name": "FL Gulf Coast"
+          },
+          {
+            "team_id": "1151",
+            "team_name": "Chattanooga"
+          },
+          {
+            "team_id": "1103",
+            "team_name": "Akron"
+          },
+          {
+            "team_id": "1356",
+            "team_name": "S Illinois"
+          }
+        ],
+        "note": "Large lookup table (364 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "tourney_compact_results",
+      "description": "Game-level NCAA tournament results table in compact form. Each row represents one completed tournament game and records the season, the day number within the season, the winning team and score, the losing team and score, the winner's game location, and the number of overtime periods.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the tournament game."
+          },
+          {
+            "name": "daynum",
+            "type": "BIGINT",
+            "comment": "Day number within the season on which the tournament game was played. This is a season-relative day index rather than a calendar day-of-month."
+          },
+          {
+            "name": "wteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the winning team."
+          },
+          {
+            "name": "wscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the winning team."
+          },
+          {
+            "name": "lteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the losing team."
+          },
+          {
+            "name": "lscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the losing team."
+          },
+          {
+            "name": "wloc",
+            "type": "VARCHAR",
+            "comment": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site."
+          },
+          {
+            "name": "numot",
+            "type": "BIGINT",
+            "comment": "Number of overtime periods in the game."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          },
+          {
+            "column": "wteam",
+            "references": "teams.team_id"
+          },
+          {
+            "column": "lteam",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 1916,
+        "column_stats": {
+          "season": {
+            "null_ratio": "0.0%",
+            "distinct_values": 30
+          },
+          "daynum": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "wteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 182
+          },
+          "wscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 78
+          },
+          "lteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 286
+          },
+          "lscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 73
+          },
+          "wloc": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "numot": {
+            "null_ratio": "0.0%",
+            "distinct_values": 4
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "season_range": [
+              1985,
+              2014
+            ],
+            "daynum_range": [
+              134,
+              154
+            ]
+          },
+          "scoring_and_overtime_statistics": {
+            "avg_winning_score": 77.0,
+            "avg_losing_score": 65.3,
+            "avg_point_margin": 11.7,
+            "max_score_single_game": 149,
+            "max_point_margin": 58,
+            "overtime_games_count": 121,
+            "overtime_rate": "6.32%"
+          },
+          "winning_location_distribution": [
+            {
+              "location": "N",
+              "wins": 1916,
+              "percentage": "100.0%"
+            }
+          ],
+          "top_10_teams_by_wins": [
+            {
+              "team_id": 1181,
+              "total_wins": 82,
+              "avg_pts_when_winning": 79.1
+            },
+            {
+              "team_id": 1314,
+              "total_wins": 75,
+              "avg_pts_when_winning": 82.1
+            },
+            {
+              "team_id": 1242,
+              "total_wins": 73,
+              "avg_pts_when_winning": 79.1
+            },
+            {
+              "team_id": 1246,
+              "total_wins": 70,
+              "avg_pts_when_winning": 81.6
+            },
+            {
+              "team_id": 1163,
+              "total_wins": 54,
+              "avg_pts_when_winning": 77.2
+            },
+            {
+              "team_id": 1277,
+              "total_wins": 49,
+              "avg_pts_when_winning": 72.5
+            },
+            {
+              "team_id": 1112,
+              "total_wins": 49,
+              "avg_pts_when_winning": 81.9
+            },
+            {
+              "team_id": 1393,
+              "total_wins": 48,
+              "avg_pts_when_winning": 75.1
+            },
+            {
+              "team_id": 1257,
+              "total_wins": 45,
+              "avg_pts_when_winning": 77.8
+            },
+            {
+              "team_id": 1196,
+              "total_wins": 42,
+              "avg_pts_when_winning": 75.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "table_name": "tourney_detailed_results",
+      "description": "Game-level NCAA tournament results table in detailed form. Each row represents one completed tournament game and records the season, the day number within the season, the winning and losing teams and scores, the winner's game location, the number of overtime periods, and box-score statistics for both teams.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the tournament game."
+          },
+          {
+            "name": "daynum",
+            "type": "BIGINT",
+            "comment": "Day number within the season on which the tournament game was played. This is a season-relative day index rather than a calendar day-of-month."
+          },
+          {
+            "name": "wteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the winning team."
+          },
+          {
+            "name": "wscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the winning team."
+          },
+          {
+            "name": "lteam",
+            "type": "BIGINT",
+            "comment": "Team ID of the losing team."
+          },
+          {
+            "name": "lscore",
+            "type": "BIGINT",
+            "comment": "Points scored by the losing team."
+          },
+          {
+            "name": "wloc",
+            "type": "VARCHAR",
+            "comment": "Location of the winning team for the game: `H` = home, `A` = away, `N` = neutral site."
+          },
+          {
+            "name": "numot",
+            "type": "BIGINT",
+            "comment": "Number of overtime periods in the game."
+          },
+          {
+            "name": "wfgm",
+            "type": "BIGINT",
+            "comment": "Field goals made by the winning team."
+          },
+          {
+            "name": "wfga",
+            "type": "BIGINT",
+            "comment": "Field goals attempted by the winning team."
+          },
+          {
+            "name": "wfgm3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals made by the winning team."
+          },
+          {
+            "name": "wfga3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals attempted by the winning team."
+          },
+          {
+            "name": "wftm",
+            "type": "BIGINT",
+            "comment": "Free throws made by the winning team."
+          },
+          {
+            "name": "wfta",
+            "type": "BIGINT",
+            "comment": "Free throws attempted by the winning team."
+          },
+          {
+            "name": "wor",
+            "type": "BIGINT",
+            "comment": "Offensive rebounds by the winning team."
+          },
+          {
+            "name": "wdr",
+            "type": "BIGINT",
+            "comment": "Defensive rebounds by the winning team."
+          },
+          {
+            "name": "wast",
+            "type": "BIGINT",
+            "comment": "Assists by the winning team."
+          },
+          {
+            "name": "wto",
+            "type": "BIGINT",
+            "comment": "Turnovers by the winning team."
+          },
+          {
+            "name": "wstl",
+            "type": "BIGINT",
+            "comment": "Steals by the winning team."
+          },
+          {
+            "name": "wblk",
+            "type": "BIGINT",
+            "comment": "Blocks by the winning team."
+          },
+          {
+            "name": "wpf",
+            "type": "BIGINT",
+            "comment": "Personal fouls committed by the winning team."
+          },
+          {
+            "name": "lfgm",
+            "type": "BIGINT",
+            "comment": "Field goals made by the losing team."
+          },
+          {
+            "name": "lfga",
+            "type": "BIGINT",
+            "comment": "Field goals attempted by the losing team."
+          },
+          {
+            "name": "lfgm3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals made by the losing team."
+          },
+          {
+            "name": "lfga3",
+            "type": "BIGINT",
+            "comment": "Three-point field goals attempted by the losing team."
+          },
+          {
+            "name": "lftm",
+            "type": "BIGINT",
+            "comment": "Free throws made by the losing team."
+          },
+          {
+            "name": "lfta",
+            "type": "BIGINT",
+            "comment": "Free throws attempted by the losing team."
+          },
+          {
+            "name": "lor",
+            "type": "BIGINT",
+            "comment": "Offensive rebounds by the losing team."
+          },
+          {
+            "name": "ldr",
+            "type": "BIGINT",
+            "comment": "Defensive rebounds by the losing team."
+          },
+          {
+            "name": "last",
+            "type": "BIGINT",
+            "comment": "Assists by the losing team."
+          },
+          {
+            "name": "lto",
+            "type": "BIGINT",
+            "comment": "Turnovers by the losing team."
+          },
+          {
+            "name": "lstl",
+            "type": "BIGINT",
+            "comment": "Steals by the losing team."
+          },
+          {
+            "name": "lblk",
+            "type": "BIGINT",
+            "comment": "Blocks by the losing team."
+          },
+          {
+            "name": "lpf",
+            "type": "BIGINT",
+            "comment": "Personal fouls committed by the losing team."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          },
+          {
+            "column": "wteam",
+            "references": "teams.team_id"
+          },
+          {
+            "column": "lteam",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 780,
+        "column_stats": {
+          "season": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "daynum": {
+            "null_ratio": "0.0%",
+            "distinct_values": 12
+          },
+          "wteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 129
+          },
+          "wscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 61
+          },
+          "lteam": {
+            "null_ratio": "0.0%",
+            "distinct_values": 217
+          },
+          "lscore": {
+            "null_ratio": "0.0%",
+            "distinct_values": 63
+          },
+          "wloc": {
+            "null_ratio": "0.0%",
+            "distinct_values": 1
+          },
+          "numot": {
+            "null_ratio": "0.0%",
+            "distinct_values": 3
+          },
+          "wfgm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 29
+          },
+          "wfga": {
+            "null_ratio": "0.0%",
+            "distinct_values": 42
+          },
+          "wfgm3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 17
+          },
+          "wfga3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 32
+          },
+          "wftm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 35
+          },
+          "wfta": {
+            "null_ratio": "0.0%",
+            "distinct_values": 44
+          },
+          "wor": {
+            "null_ratio": "0.0%",
+            "distinct_values": 25
+          },
+          "wdr": {
+            "null_ratio": "0.0%",
+            "distinct_values": 30
+          },
+          "wast": {
+            "null_ratio": "0.0%",
+            "distinct_values": 27
+          },
+          "wto": {
+            "null_ratio": "0.0%",
+            "distinct_values": 25
+          },
+          "wstl": {
+            "null_ratio": "0.0%",
+            "distinct_values": 17
+          },
+          "wblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 14
+          },
+          "wpf": {
+            "null_ratio": "0.0%",
+            "distinct_values": 24
+          },
+          "lfgm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 26
+          },
+          "lfga": {
+            "null_ratio": "0.0%",
+            "distinct_values": 45
+          },
+          "lfgm3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 18
+          },
+          "lfga3": {
+            "null_ratio": "0.0%",
+            "distinct_values": 35
+          },
+          "lftm": {
+            "null_ratio": "0.0%",
+            "distinct_values": 32
+          },
+          "lfta": {
+            "null_ratio": "0.0%",
+            "distinct_values": 37
+          },
+          "lor": {
+            "null_ratio": "0.0%",
+            "distinct_values": 26
+          },
+          "ldr": {
+            "null_ratio": "0.0%",
+            "distinct_values": 24
+          },
+          "last": {
+            "null_ratio": "0.0%",
+            "distinct_values": 21
+          },
+          "lto": {
+            "null_ratio": "0.0%",
+            "distinct_values": 23
+          },
+          "lstl": {
+            "null_ratio": "0.0%",
+            "distinct_values": 18
+          },
+          "lblk": {
+            "null_ratio": "0.0%",
+            "distinct_values": 13
+          },
+          "lpf": {
+            "null_ratio": "0.0%",
+            "distinct_values": 26
+          }
+        },
+        "advanced_profiling": {
+          "time_coverage": {
+            "season_range": [
+              2003,
+              2014
+            ],
+            "daynum_range": [
+              134,
+              154
+            ]
+          },
+          "scoring_and_overtime_statistics": {
+            "avg_winning_score": 74.6,
+            "avg_losing_score": 63.2,
+            "avg_point_margin": 11.4,
+            "max_score_single_game": 121,
+            "max_point_margin": 56,
+            "overtime_games_count": 50,
+            "overtime_rate": "6.41%"
+          },
+          "winning_location_distribution": [
+            {
+              "location": "N",
+              "wins": 780,
+              "percentage": "100.0%"
+            }
+          ],
+          "top_10_teams_by_wins": [
+            {
+              "team_id": 1242,
+              "total_wins": 31,
+              "avg_pts_when_winning": 76.7
+            },
+            {
+              "team_id": 1314,
+              "total_wins": 29,
+              "avg_pts_when_winning": 84.1
+            },
+            {
+              "team_id": 1163,
+              "total_wins": 28,
+              "avg_pts_when_winning": 75.6
+            },
+            {
+              "team_id": 1196,
+              "total_wins": 27,
+              "avg_pts_when_winning": 75.2
+            },
+            {
+              "team_id": 1246,
+              "total_wins": 27,
+              "avg_pts_when_winning": 75.3
+            },
+            {
+              "team_id": 1277,
+              "total_wins": 26,
+              "avg_pts_when_winning": 73.4
+            },
+            {
+              "team_id": 1257,
+              "total_wins": 24,
+              "avg_pts_when_winning": 77.4
+            },
+            {
+              "team_id": 1181,
+              "total_wins": 24,
+              "avg_pts_when_winning": 73.8
+            },
+            {
+              "team_id": 1393,
+              "total_wins": 21,
+              "avg_pts_when_winning": 73.6
+            },
+            {
+              "team_id": 1458,
+              "total_wins": 19,
+              "avg_pts_when_winning": 69.1
+            }
+          ],
+          "advanced_box_score_averages": {
+            "3_pointers_made": {
+              "winner": 6.8,
+              "loser": 6.0
+            },
+            "turnovers": {
+              "winner": 12.0,
+              "loser": 12.5
+            },
+            "assists": {
+              "winner": 14.4,
+              "loser": 11.5
+            }
+          }
+        }
+      }
+    },
+    {
+      "table_name": "tourney_seeds",
+      "description": "Tournament seed assignment table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one team's seed in a given NCAA tournament season.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the tournament seed assignment."
+          },
+          {
+            "name": "seed",
+            "type": "VARCHAR",
+            "comment": "Tournament seed string assigned to the team for that season. The value encodes the region and seed number."
+          },
+          {
+            "name": "team",
+            "type": "BIGINT",
+            "comment": "Team ID of the seeded team."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          },
+          {
+            "column": "team",
+            "references": "teams.team_id"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 1946,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "season": "1995",
+            "seed": "X11",
+            "team": "1400"
+          },
+          {
+            "season": "2002",
+            "seed": "W03",
+            "team": "1208"
+          },
+          {
+            "season": "2004",
+            "seed": "X14",
+            "team": "1418"
+          },
+          {
+            "season": "1996",
+            "seed": "Y04",
+            "team": "1417"
+          },
+          {
+            "season": "1998",
+            "seed": "X06",
+            "team": "1116"
+          },
+          {
+            "season": "1999",
+            "seed": "Y09",
+            "team": "1329"
+          },
+          {
+            "season": "1989",
+            "seed": "W04",
+            "team": "1234"
+          },
+          {
+            "season": "2002",
+            "seed": "Y11",
+            "team": "1335"
+          },
+          {
+            "season": "2011",
+            "seed": "Z03",
+            "team": "1345"
+          },
+          {
+            "season": "1997",
+            "seed": "Y16",
+            "team": "1402"
+          }
+        ],
+        "note": "Large lookup table (1946 rows): 10 random samples provided."
+      }
+    },
+    {
+      "table_name": "tourney_slots",
+      "description": "Tournament bracket structure table for the Kaggle March Machine Learning Mania 2015 dataset. Each row represents one tournament slot in a given season and specifies which seed or prior slot winner is placed into the stronger side and weaker side of that bracket slot.",
+      "schema": {
+        "columns": [
+          {
+            "name": "season",
+            "type": "BIGINT",
+            "comment": "Season identifier for the tournament bracket slot."
+          },
+          {
+            "name": "slot",
+            "type": "VARCHAR",
+            "comment": "Bracket slot identifier for the game position in the tournament."
+          },
+          {
+            "name": "strongseed",
+            "type": "VARCHAR",
+            "comment": "Seed or prior slot winner assigned to the stronger side of the slot."
+          },
+          {
+            "name": "weakseed",
+            "type": "VARCHAR",
+            "comment": "Seed or prior slot winner assigned to the weaker side of the slot."
+          }
+        ],
+        "primary_key": [],
+        "foreign_keys": [
+          {
+            "column": "season",
+            "references": "seasons.season"
+          }
+        ]
+      },
+      "data_profiling": {
+        "row_count": 1916,
+        "column_stats": {},
+        "random_samples": [
+          {
+            "season": "1995",
+            "slot": "R3Z2",
+            "strongseed": "R2Z2",
+            "weakseed": "R2Z3"
+          },
+          {
+            "season": "1993",
+            "slot": "R3X1",
+            "strongseed": "R2X1",
+            "weakseed": "R2X4"
+          },
+          {
+            "season": "1985",
+            "slot": "R2Y2",
+            "strongseed": "R1Y2",
+            "weakseed": "R1Y7"
+          },
+          {
+            "season": "2000",
+            "slot": "R3Y2",
+            "strongseed": "R2Y2",
+            "weakseed": "R2Y3"
+          },
+          {
+            "season": "1990",
+            "slot": "R2Z4",
+            "strongseed": "R1Z4",
+            "weakseed": "R1Z5"
+          },
+          {
+            "season": "1999",
+            "slot": "R1X5",
+            "strongseed": "X05",
+            "weakseed": "X12"
+          },
+          {
+            "season": "1996",
+            "slot": "R1X7",
+            "strongseed": "X07",
+            "weakseed": "X10"
+          },
+          {
+            "season": "2010",
+            "slot": "R2W1",
+            "strongseed": "R1W1",
+            "weakseed": "R1W8"
+          },
+          {
+            "season": "1995",
+            "slot": "R3W2",
+            "strongseed": "R2W2",
+            "weakseed": "R2W3"
+          },
+          {
+            "season": "1998",
+            "slot": "R1Y2",
+            "strongseed": "Y02",
+            "weakseed": "Y15"
+          }
+        ],
+        "note": "Large lookup table (1916 rows): 10 random samples provided."
+      }
+    }
+  ]
+}

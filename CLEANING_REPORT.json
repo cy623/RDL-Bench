@@ -1,0 +1,19 @@
+{
+  "modified_chinese_files_in_data_json": [
+    "data/json/financial/prompt_config.py",
+    "data/json/financial/4_generate_schema_profiling_financial.py",
+    "data/json/NCAA/prompt_config_NCAA.py",
+    "data/json/NCAA/4_generate_schema_profiling_NCAA.py",
+    "data/json/Dallas/prompt_config_Dallas.py",
+    "data/json/Dallas/4_generate_schema_profiling_Dallas.py",
+    "data/json/Olist/prompt_config_Olist.py",
+    "data/json/Olist/4_generate_schema_profiling_Olist.py",
+    "data/json/Airline/prompt_config_Airline.py",
+    "data/json/Airline/4_generate_schema_profiling_Airline.py",
+    "data/json/stats/prompt_config_stats.py",
+    "data/json/stats/4_generate_schema_profiling_stats.py",
+    "data/json/hepatitis/4_generate_schema_profiling_hepatitis.py",
+    "data/json/hepatitis/prompt_config_hepatitis.py"
+  ],
+  "modified_path_files_in_scripts": []
+}
