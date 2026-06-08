@@ -17,7 +17,6 @@ RDL-Bench is a benchmark for task-aware question answering over relational datab
 └── CITATION.cff
 ```
 
-Large database files and raw CSV tables should be distributed through GitHub Releases, Git LFS, or an external data host. This repository keeps manifests for those files so users can verify the expected structure.
 
 ## Data Format
 
@@ -56,16 +55,11 @@ The scripts are organized by construction stage:
 
 Some scripts require setting the target domain name and paths before execution. Avoid committing machine-specific absolute paths.
 
-## Reproducibility Notes
+## Notes
 
 - Use only records before the reference time for predictive feature construction.
-- Use future records only for target construction.
 - Evaluate reasoning tasks against structured ground truth.
-- Evaluate predictive classification and regression separately.
-
-## License
-
-Add the project license before public release. If source datasets have their own licenses, keep those license terms with the redistributed data.
+- For instances whose answer type is `set`, the answer stored in the released JSON files may be truncated for readability and file-size control. The truncated value should not be treated as the complete gold answer. To obtain the complete set-valued answer, users should reconstruct it from the `evidence` field. For reasoning instances, this usually means executing the provided SQL query against the corresponding database.
 
 ## Citation
 
