@@ -12,6 +12,7 @@ RDL-Bench is a benchmark for task-aware question answering over relational datab
 ├── scripts/              # Dataset construction and validation scripts
 ├── DB_MANIFEST.txt       # File listing for DuckDB database files
 ├── mysql_csv_MANIFEST.txt# File listing for source CSV files
+├── rdlbench/             # Evaluation pipeline in the RDL-Bench paper.  
 ├── requirements.txt
 ├── DATASET_CARD.md
 └── CITATION.cff
@@ -76,6 +77,18 @@ Some scripts require setting the target domain name and paths before execution. 
 - Use only records before the reference time for predictive feature construction.
 - Evaluate reasoning tasks against structured ground truth.
 - For instances whose answer type is `set`, the answer stored in the released JSON files may be truncated for readability and file-size control. The truncated value should not be treated as the complete gold answer. To obtain the complete set-valued answer, users should reconstruct it from the `evidence` field. For reasoning instances, this usually means executing the provided SQL query against the corresponding database.
+
+## Configuration
+
+`config.yaml` controls all paths and hyperparameters:
+
+```yaml
+data_dir:   ../json          # directory with per-dataset JSON files
+db_dir:     ../DB            # directory with *.duckdb databases
+output_dir: results          # where result JSON files are written
+model_name: claude-sonnet-4-6
+api_key:    ""               # leave blank if using ANTHROPIC_API_KEY env var
+```
 
 ## Citation
 
