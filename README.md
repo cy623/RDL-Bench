@@ -55,6 +55,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Running
+
+```bash
+cd rdlbench_eval
+python run_eval.py --config config.yaml --dataset financial --method llm_schema
+python run_eval.py --config config.yaml --dataset financial --method llm_2hop
+python run_eval.py --config config.yaml --dataset financial --method llm_only
+python run_eval.py --config config.yaml --dataset financial --method llm_router
+```
+
+
 ## Typical Workflow
 
 The scripts are organized by construction stage:
