@@ -1,0 +1,4142 @@
+[
+  {
+    "sample_id": "ncaa_v2_7bd6db13aeab5da8f507dffb",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "question": "Will team 1242 win at least one game in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_211177ecb8cb21500e03442f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "question": "Will team 1163 win at least one game in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_22765db72d6d6bb5dd65ff9d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "question": "Will team 1181 win at least one game in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_b2bd6cd3c1a17a027f80b1f9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "question": "Will team 1196 win at least one game in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_6b1e6a9739947696a990900a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "question": "Will team 1307 win at least one game in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_bb65880cd9595bc283dd4f96",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "question": "Will team 1378 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_550e1d77969643c8c49482c2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "question": "Will team 1350 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_0de45738953e852823e54e8a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "question": "Will team 1242 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c79f2c5c3af69793d609fd87",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "question": "Will team 1196 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_f7d0d513d7064a235f2ff362",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "question": "Will team 1307 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_0a82e09d3f69f23232381c61",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "question": "Will team 1181 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_6a0087b05bba32407e5f5e8c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "question": "Will team 1163 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_214d245aee7a1bbf4bdef16f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "question": "Will team 1350 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_07386419fe0266cdf1f4e0ae",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "question": "Will team 1378 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_4f225acbd7f70970768f9485",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "question": "Will team 1242 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_70e26f9ba1cfd65c0e8a961b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "question": "Will team 1114 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_eae31ce86ac086fa9f6c64e5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "question": "Will team 1188 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1188
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_67c25631c9fec4d0d8f41f94",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "question": "Will team 1196 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_9e08cb03d9f2024969ff38f0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "question": "Will team 1311 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1311
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_07100f04a7ed0cfc60f3a8fe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "question": "Will team 1398 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1398
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_53299c6fc79774075617df7c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "question": "Will team 1163 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_a4d46e8c71b1f1a20287f60f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "question": "Will team 1181 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c68fa6d45c0683337be77d5f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "question": "Will team 1168 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1168
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_5131bb27ab39f8b8ed7b8d2c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "question": "Will team 1242 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_b2c252848b7c9d5b5ef7c72e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "question": "Will team 1196 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_112c663da766df5f34f4470d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "question": "Will team 1196 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c753a894f44115bac7fbe7ba",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "question": "Will team 1242 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_3be3098ccd030cb816c735f8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "question": "Will team 1196 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c6594b6e7218118f0a03985a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "question": "Will team 1147 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1147
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a5b084cd085010bfa6887ef0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "question": "Will team 1247 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1247
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d272efadd85459def015ba2d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "question": "Will team 1307 record at least 20 total assists across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_4fc43816253726f2c2bd50ed",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "question": "Will team 1350 record at least 20 total assists across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_8edf1773c01a5dfd83036bd1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "question": "Will team 1378 record at least 20 total assists across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_fd21a405d84b668e4492780b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "question": "Will team 1181 record at least 20 total assists across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_be3b0f447a61bfe83541121e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "question": "Will team 1163 record at least 20 total assists across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_534d9e62526ae28b74bf44ba",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1424 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_4586bf001f949103a2f66a32",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1322 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1322
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ff0e6098668cd199846accac",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1389 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_3a398334269917dd4f1ccb47",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1185 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1185
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8e2f558ea21ee59899264481",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1259 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_8f5571feecb1d62b03c364fc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1229 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1229
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f6cbe0ad511eb4fc4ba05ee5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1114 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_f33530e0dfe34b1f8d192833",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1103 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ae1e3e56cac5f700845299ac",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1343 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_9828aba4159bfcd9211e3f2d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "question": "How many games will team 1102 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1102
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c9cee3a8128624143d71a524",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "question": "Will team 1188 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1188
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1a6589735b39a4171679b886",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "question": "Will team 1434 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1434
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_43af59abe01d38fdd4e9edbd",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "question": "Will team 1234 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1234
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_85254e79c578ece606f783e8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "question": "Will team 1180 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1180
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c0dc278aabed7fe96b80034c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "question": "Will team 1304 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1304
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_35893c15a396a35c0efb3c64",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "question": "Will team 1138 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1138
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6f288938219638697059bc93",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "question": "Will team 1204 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1204
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d6a3e1f49942c18df17c5566",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "question": "Will team 1381 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1381
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1a4024012c76ba77ddfbfd12",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "question": "Will team 1159 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1159
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3aff1cde42b539d24a030506",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "question": "Will team 1150 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1150
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_4df3684fcd158b22071f4c57",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1389 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 28
+  },
+  {
+    "sample_id": "ncaa_v2_54081c2c2f9ebb3c613a29b0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1316 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1316
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_896463966621aabba7fa2708",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1259 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 24
+  },
+  {
+    "sample_id": "ncaa_v2_3215b6d54d3ab994fc29b39f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1156 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1156
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_4e6c33eb0a232fefbec95706",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1424 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 33
+  },
+  {
+    "sample_id": "ncaa_v2_e724a79c93d5936a0a2b8796",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1149 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1149
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0a7c79523a4bfef25596aa5e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1103 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 32
+  },
+  {
+    "sample_id": "ncaa_v2_f6a345c6018b961cd146759c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1321 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1321
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3e8293ced534c0c8a26024a4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1343 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 28
+  },
+  {
+    "sample_id": "ncaa_v2_b77eec44496acf735ab97f1a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1447 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1447
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_24c89891a8c95daaa89793fc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1114 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 77
+  },
+  {
+    "sample_id": "ncaa_v2_b1a4f8ebb09b43143a4b5bb2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1158 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1158
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c054e269794e20f2f6d2a8b1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1378 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 179
+  },
+  {
+    "sample_id": "ncaa_v2_4418e2c622bbb3f22861d69b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1380 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1380
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_755cde7f8871e84cf3a221c2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1424 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 64
+  },
+  {
+    "sample_id": "ncaa_v2_ab6fe37e8ed90e9dfdef2e0c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1147 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1147
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_fd06296425db990ebe0ead16",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1350 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 191
+  },
+  {
+    "sample_id": "ncaa_v2_b8ccbff9a4be764b0eb80d77",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1414 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1414
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_31c248b004ea8a710de58d62",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1343 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 57
+  },
+  {
+    "sample_id": "ncaa_v2_137e385f3b0a763ec0354fdd",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "question": "How many total points will team 1377 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1377
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3c242ef4895c88eb70f29912",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1103 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_300b6b8d7e1544f36b10a284",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1311 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1311
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_575a71446cee489a22694b46",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1114 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 19
+  },
+  {
+    "sample_id": "ncaa_v2_a7dba29ee5b31833560107e9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1439 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1439
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6376a424a2bffd59c11036ed",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1389 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "ncaa_v2_828149f1e58672af94c0bd33",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1291 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1291
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_dfe97f7143d3456dbb9d5d6f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1307 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 32
+  },
+  {
+    "sample_id": "ncaa_v2_e3e3d0788e8597d9b8075d44",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1201 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1201
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c558981d6e85f565edadd87a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1259 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "ncaa_v2_eadc0f014db1de5abee5c299",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "question": "How many total assists will team 1173 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1173
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e4e7f73a0bcbca2b136eba87",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1181 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 70
+  },
+  {
+    "sample_id": "ncaa_v2_950cad496000baec257e5fd9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1398 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1398
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1df824cf972f0a4c21263471",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1259 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 59
+  },
+  {
+    "sample_id": "ncaa_v2_fadfd27a3428bf09c1c29b29",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1127 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1127
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_989deaa88dd9a2c4a6ec0a59",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1424 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 62
+  },
+  {
+    "sample_id": "ncaa_v2_21c0701ef7a0dcd6abb1abcb",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1247 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1247
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_92bf97db16777734466e9966",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1389 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 43
+  },
+  {
+    "sample_id": "ncaa_v2_75810ade1a9afca1f994566f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1291 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1291
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b9122b7e2aba6a256ef90cbe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1103 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 56
+  },
+  {
+    "sample_id": "ncaa_v2_b0654a2b78e7e0a51397d878",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "question": "How many total points will team 1168 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1168
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_85d26921c4436f5525d9ec23",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "question": "Will team 1316 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1316
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_dc9e1a617ee3b929d37622d0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "question": "Will team 1158 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1158
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ee254c3266e6fd7b2283875c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "question": "Will team 1414 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1414
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b6639fa952867a38b3c79542",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "question": "Will team 1229 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1229
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a9c4fac99d14d709c2af81f0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "question": "Will team 1391 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1391
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_96834e03ee8745a6cb4f285f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "question": "Will team 1183 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1183
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_111eb5f64ca233f842877666",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "question": "Will team 1322 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1322
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6f2789164d9652886fe289ae",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "question": "Will team 1180 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1180
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a5b6f309803aa7bfcd8ce893",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "question": "Will team 1434 win at least two games in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1434
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_cd2f9b19f8c7c4abb890b4d5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "question": "Will team 1398 win at least two games in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1398
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6b219c1df180d51790e9ca13",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "question": "Will team 1380 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1380
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f71e77e778d7f7ab368ebaa8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "question": "Will team 1159 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1159
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ab8ed4e31a8556fef5cb78a5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "question": "Will team 1127 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1127
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_fb800ff8835bde09b6083e9e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "question": "Will team 1149 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1149
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2b640c4682128c22f6324fc0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "question": "Will team 1147 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1147
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_16de6b2209fd50b8e24fd929",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the South Florida (team_id 1378) leading up to the 2012 tournament, how many total three-point field goals will they successfully convert throughout the entire 2012 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 15
+  },
+  {
+    "sample_id": "ncaa_v2_08a06917b83209740688be4f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Connecticut (team_id 1163) leading up to the 2011 tournament, how many total three-point field goals will they successfully convert throughout the entire 2011 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 30
+  },
+  {
+    "sample_id": "ncaa_v2_60de8c884838d1b24b84bbd3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Princeton (team_id 1343) leading up to the 2011 tournament, how many total three-point field goals will they successfully convert throughout the entire 2011 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "ncaa_v2_59fe214477b16f3ebfaa497b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the New Mexico (team_id 1307) leading up to the 2012 tournament, how many total three-point field goals will they successfully convert throughout the entire 2012 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 12
+  },
+  {
+    "sample_id": "ncaa_v2_4d63f905971a5821d939f733",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Richmond (team_id 1350) leading up to the 2011 tournament, how many total three-point field goals will they successfully convert throughout the entire 2011 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 20
+  },
+  {
+    "sample_id": "ncaa_v2_d9d30275165c586308c1d2a0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Loyola MD (team_id 1259) leading up to the 2012 tournament, how many total three-point field goals will they successfully convert throughout the entire 2012 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "ncaa_v2_8bfbbcb198051fb4eec9cfb9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Ark Little Rock (team_id 1114) leading up to the 2011 tournament, how many total three-point field goals will they successfully convert throughout the entire 2011 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "ncaa_v2_223fe2457fa74cb2ff620ed3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Duke (team_id 1181) leading up to the 2012 tournament, how many total three-point field goals will they successfully convert throughout the entire 2012 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_b3d517f7a79ac32b078a1b89",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the St Peter's (team_id 1389) leading up to the 2011 tournament, how many total three-point field goals will they successfully convert throughout the entire 2011 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_79a334e07b36339c21ef5941",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "question": "Evaluating the perimeter shooting patterns of the Kansas (team_id 1242) leading up to the 2012 tournament, how many total three-point field goals will they successfully convert throughout the entire 2012 postseason?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 24
+  },
+  {
+    "sample_id": "ncaa_v2_9441a85601adf707b28afb87",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "question": "Will team 1439 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1439
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_551dcd3974b75b77809114f9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "question": "Will team 1204 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1204
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_944655681c002aa52e1c2874",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "question": "Will team 1185 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1185
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_35f23d98c4b8f1dc3b2fcb1a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "question": "Will team 1447 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1447
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2166e37f8cced359e925efb0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "question": "Will team 1316 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1316
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_7f6180d457fa492ab415d5c2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "question": "Based on the 2011 regular season performance of the Connecticut (team_id 1163), will they win more than 2 games in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_3314d9228b07b46e71354df2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "question": "Based on the 2012 regular season performance of the Florida (team_id 1196), will they win more than 2 games in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_ea9c14a036bd72c7a65eead5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "question": "Based on the 2011 regular season performance of the Kansas (team_id 1242), will they win more than 2 games in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_046953fd09488388f7455a38",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "question": "Based on the 2011 regular season performance of the Florida (team_id 1196), will they win more than 2 games in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_7a4c82c993a31715c596e52f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "question": "Based on the 2012 regular season performance of the Kansas (team_id 1242), will they win more than 2 games in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_eab83002c64b0270c9978a5c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of UNLV (team_id 1424) leading up to 2012, what will be their average number of assists per game in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 13.0
+  },
+  {
+    "sample_id": "ncaa_v2_78f98164a8f7442c93c21670",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Princeton (team_id 1343) leading up to 2011, what will be their average number of assists per game in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 8.0
+  },
+  {
+    "sample_id": "ncaa_v2_42c5ad901191f7c17d49e22c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of New Mexico (team_id 1307) leading up to 2012, what will be their average number of assists per game in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 16.0
+  },
+  {
+    "sample_id": "ncaa_v2_93c46a1f4a283fbb8c16f313",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Akron (team_id 1103) leading up to 2011, what will be their average number of assists per game in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10.0
+  },
+  {
+    "sample_id": "ncaa_v2_940d97606412798ec778460c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of South Florida (team_id 1378) leading up to 2012, what will be their average number of assists per game in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10.666666666666666
+  },
+  {
+    "sample_id": "ncaa_v2_7c750343ccc94379dbd05b7d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Ark Little Rock (team_id 1114) leading up to 2011, what will be their average number of assists per game in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 19.0
+  },
+  {
+    "sample_id": "ncaa_v2_c19c7d7b109f14c24cdc36ff",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Richmond (team_id 1350) leading up to 2011, what will be their average number of assists per game in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 13.0
+  },
+  {
+    "sample_id": "ncaa_v2_6694cd527ef187c3d683b629",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Duke (team_id 1181) leading up to 2012, what will be their average number of assists per game in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 12.0
+  },
+  {
+    "sample_id": "ncaa_v2_ccd99174b48aaaef6be61f5d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Connecticut (team_id 1163) leading up to 2011, what will be their average number of assists per game in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 12.5
+  },
+  {
+    "sample_id": "ncaa_v2_468673e7dc1f2f8cd1c5ee4d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "question": "Based on the team play metrics of Loyola MD (team_id 1259) leading up to 2012, what will be their average number of assists per game in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 9.0
+  },
+  {
+    "sample_id": "ncaa_v2_4ddabd5a7edc8f3d593c45e3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1378 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 102
+  },
+  {
+    "sample_id": "ncaa_v2_f5538362f499e25e120fbe7d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1434 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1434
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ed53788ce4d53036836155d6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1307 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 67
+  },
+  {
+    "sample_id": "ncaa_v2_e24006c1be1feca0f44056cc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1304 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1304
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1462e380ba0a73888348ddef",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1350 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 94
+  },
+  {
+    "sample_id": "ncaa_v2_d51486cf912b5c616a571924",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1127 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1127
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0d8df9a39ab8e8b9b080401b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1424 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 25
+  },
+  {
+    "sample_id": "ncaa_v2_7bb6644b078c3d24ed82847d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1183 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1183
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_578ac3c8ffdd121069752110",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1114 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 33
+  },
+  {
+    "sample_id": "ncaa_v2_bc399e06f235ee6121ef8d26",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1149 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1149
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c8be96c06335f6896c235edb",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "question": "Will team 1102 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1102
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a9ad4746fbf3c6b5b8edacc5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "question": "Will team 1321 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1321
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0da5cad22503ef9fc8931f75",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "question": "Will team 1291 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1291
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_89c45af9a9bfe9f832a26e33",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "question": "Will team 1447 play in at least one overtime game during the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1447
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_bfa3e346e53d0320746765e9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "question": "Will team 1156 play in at least one overtime game during the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1156
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_56ad9638f14281e09e401c3d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1307 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 131
+  },
+  {
+    "sample_id": "ncaa_v2_0698892e9ca03a2a0b462fbc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1264 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1264
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_678ad8da9f1a0b00c6a2cef7",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1181 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 237
+  },
+  {
+    "sample_id": "ncaa_v2_e7da1eb5a0a47a2e7698a703",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1159 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1159
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8d7ebb6cbd9e026e9248f8fa",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1163 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 398
+  },
+  {
+    "sample_id": "ncaa_v2_7915e1f5511d495638082179",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1391 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1391
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_aac35fe23ea3d001b5280ca8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1242 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 391
+  },
+  {
+    "sample_id": "ncaa_v2_78f90fa04cabe3f879a08c01",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1158 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1158
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e0a972e7597045263dea60aa",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1196 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 306
+  },
+  {
+    "sample_id": "ncaa_v2_27fe45f6837e9610a0c03f7e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "question": "How many total points will team 1398 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1398
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_9e31e9ef248bca7979a198a6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "question": "Will team 1234 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1234
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_138456beb5071dede3fd0179",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "question": "Will team 1311 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1311
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_4f60923978ebf1c09e8bd3ba",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "question": "Will team 1229 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1229
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3e11c080032a0773c58b357c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "question": "Will team 1147 collect at least 50 total rebounds across its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1147
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a2617e61fbd0165376d3cc2b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "question": "Will team 1264 collect at least 50 total rebounds across its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1264
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_79364d195d90cd9ecfb35918",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Akron (team_id 1103), how many total three-pointers will their opponents make against them in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "ncaa_v2_3ccbf62df2438f84f7f3a712",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the South Florida (team_id 1378), how many total three-pointers will their opponents make against them in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_9cd4fcb7019e8029d55fc5c4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Princeton (team_id 1343), how many total three-pointers will their opponents make against them in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_533144ec980d88513076fcb4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the UNLV (team_id 1424), how many total three-pointers will their opponents make against them in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "ncaa_v2_b5bf63e233c41ce736328cbd",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the St Peter's (team_id 1389), how many total three-pointers will their opponents make against them in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_3ea97ecc42f1fad1472a1680",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Loyola MD (team_id 1259), how many total three-pointers will their opponents make against them in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_7aa70cc134457027e02a7a75",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Richmond (team_id 1350), how many total three-pointers will their opponents make against them in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 17
+  },
+  {
+    "sample_id": "ncaa_v2_36e0c240b79284375e010c52",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the New Mexico (team_id 1307), how many total three-pointers will their opponents make against them in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 11
+  },
+  {
+    "sample_id": "ncaa_v2_a8a0b6df40e4bb3c2cae1a10",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Ark Little Rock (team_id 1114), how many total three-pointers will their opponents make against them in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "ncaa_v2_f5c66c368fbece5a4b5f5793",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "question": "Considering the perimeter defensive strength of the Duke (team_id 1181), how many total three-pointers will their opponents make against them in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_ea956aeb00ffbafb8195dcf1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1163 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 64
+  },
+  {
+    "sample_id": "ncaa_v2_422efedfd2260145279596b0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1204 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1204
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0ea8fef18a8da4a578b02f86",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1242 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 283
+  },
+  {
+    "sample_id": "ncaa_v2_4f80a82f80d0a850174774e2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1150 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1150
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d1ca28fa7216979fb9275639",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1196 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 291
+  },
+  {
+    "sample_id": "ncaa_v2_65ec1607eee061c71fd86ba6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1414 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1414
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6e62c512fe2ddeccad559e7b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1156 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1156
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8790855d75df50a1152a7296",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1322 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1322
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_98249e4b845d8936e787736b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1247 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1247
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0a33991f4f642e25c2db3abe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "question": "How many total points will team 1183 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1183
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_224a748ca8729cdb45dd97e1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1311 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1311
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_752a69dde3f8568c975c448b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1138 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1138
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_33c2fe464549666b39d27bf9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1149 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1149
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2a6fa9b31aabd6f43823eea8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1316 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1316
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_cdde362b12bcb8e3f2c023e1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1234 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1234
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_7ac846fc4a09f2e11c790ff4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1260 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1260
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1678602d8dac19ab6106b740",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1127 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1127
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ffa5a52f91889c805aae8d42",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1321 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1321
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_fd7d261ce76f34d368f66098",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1204 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1204
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b65bf58c6aa5c17582a86af8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "question": "How many total points will team 1201 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1201
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2a623fc9925542ca23c99649",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Princeton (team_id 1343), how many total steals will they record in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1343
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "ncaa_v2_68ffc8c67610135565e50e94",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the South Florida (team_id 1378), how many total steals will they record in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 18
+  },
+  {
+    "sample_id": "ncaa_v2_754118bc101b171ab2d32772",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Akron (team_id 1103), how many total steals will they record in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_49ca79aaf69e54cbf3d496b0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the UNLV (team_id 1424), how many total steals will they record in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_1748260074633d12505883d7",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the St Peter's (team_id 1389), how many total steals will they record in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1389
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_18dc4b83dda5c725a60130ff",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Loyola MD (team_id 1259), how many total steals will they record in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1259
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_b14f4b70d640947e63c4764d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Richmond (team_id 1350), how many total steals will they record in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 12
+  },
+  {
+    "sample_id": "ncaa_v2_2bd3b0ce09a9ac5de5d0845c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the New Mexico (team_id 1307), how many total steals will they record in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1307
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 11
+  },
+  {
+    "sample_id": "ncaa_v2_f02353a6d8aad8c2475064de",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Ark Little Rock (team_id 1114), how many total steals will they record in the 2011 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1114
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_35dec84ee8a1d3777d8c74a2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "question": "Looking at the perimeter pressure of the Duke (team_id 1181), how many total steals will they record in the 2012 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "ncaa_v2_b877766202af9aae54e2cef1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1103 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1103
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_6c1324904e3e3e673487d4ad",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1229 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1229
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e96994c7dc4e193563b354fc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1350 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1350
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "ncaa_v2_150c878a4d985aa6669d9b77",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1398 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1398
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1efac6edeedb8d88a5eb9514",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1378 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1378
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "ncaa_v2_9f9cad21952649109a28aa1c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1180 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1180
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2bed9294bea97e2913054f5c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1163 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_4af84c4232cb1d034fe37737",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1291 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1291
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_edefebbf46a49c199632c801",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1424 play in the 2011 NCAA tournament after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1424
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c75b78b7575ec5a8ea0358f6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "question": "How many games will team 1380 play in the 2012 NCAA tournament after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1380
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_50f3ec4d96359b1327bb12a8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1242 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 252
+  },
+  {
+    "sample_id": "ncaa_v2_d9eb8997f14213a4c38d14e4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1414 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1414
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_30dca5a0576215c02a28d408",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1181 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1181
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 98
+  },
+  {
+    "sample_id": "ncaa_v2_186a6ba76ea40e48e4ea2e3d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1173 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1173
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d13f27a020395d1334135850",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1196 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1196
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 161
+  },
+  {
+    "sample_id": "ncaa_v2_f636829f597f1f82fc43c943",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1439 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1439
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c561cfc2f5fc632b57278567",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1163 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1163
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 241
+  },
+  {
+    "sample_id": "ncaa_v2_d2a4fe6de28d722301410249",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1185 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1185
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d97f84589b7ad16fdfb6c303",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1242 record across all of its 2011 NCAA tournament games after 2011-03-13?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1242
+    },
+    "reference_time": "2011-03-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 164
+  },
+  {
+    "sample_id": "ncaa_v2_a1e617848acc222d1d3a4d40",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "question": "How many total rebounds will team 1102 record across all of its 2012 NCAA tournament games after 2012-03-11?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1102
+    },
+    "reference_time": "2012-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  }
+]

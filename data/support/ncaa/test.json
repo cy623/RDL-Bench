@@ -1,0 +1,3836 @@
+[
+  {
+    "sample_id": "ncaa_v2_2d91133aa40fc6ed4fa7b95e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "question": "Will team 1277 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_1ffa842f134e75c98b81f6fe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "question": "Will team 1276 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_b93704c355a81dab7953922a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "question": "Will team 1332 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e979c6bbdd1b9fd7f57502e1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "question": "Will team 1257 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_33c2fd661b5f5e03967292c7",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "question": "Will team 1455 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_b5e6d26e616290926b6c5ebe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Pittsburgh (team_id 1338) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1338
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 15
+  },
+  {
+    "sample_id": "ncaa_v2_78eb019b0b600cea23fa631d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Albany NY (team_id 1107) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "ncaa_v2_5104593f2ffca7750fafcd83",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Harvard (team_id 1217) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 21
+  },
+  {
+    "sample_id": "ncaa_v2_1727417f9c91fe3d20af98c0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Georgetown (team_id 1207) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_35a86d1ba0495ecff6fd2eec",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the California (team_id 1143) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 28
+  },
+  {
+    "sample_id": "ncaa_v2_7bd837ec4cb9a283b451b987",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Bucknell (team_id 1137) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1137
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "ncaa_v2_34a843531dabb7c48389157b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the NC A&T (team_id 1299) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 35
+  },
+  {
+    "sample_id": "ncaa_v2_fa5dcd5be40e3ec687b88278",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the Boise St (team_id 1129) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1129
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_7b521a295740f99b4d1a240b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the VA Commonwealth (team_id 1433) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 18
+  },
+  {
+    "sample_id": "ncaa_v2_132837e25ab92c5d84efb446",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "question": "Predict the total number of turnovers the NC State (team_id 1301) will commit during their run in the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1301
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "ncaa_v2_f9f825e342b66127dfa965d1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "question": "Will team 1257 win at least one game in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e61682892f9f8b3c13631381",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "question": "Will team 1276 win at least one game in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_35b47325910d174037ccb106",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "question": "Will team 1433 win at least one game in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_ffa6756f4845f095b1ac936c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "question": "Will team 1299 win at least one game in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_adadcfbfa3453765f6078a99",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "question": "Will team 1332 win at least one game in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_fdc5f61597f158fd1c7f1569",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "question": "Will team 1360 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1360
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_21fdf94f938f646a7e05a2b6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "question": "Will team 1370 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1370
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8eab5a6b001e62978c5a76ab",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "question": "Will team 1119 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1119
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_66265f01e230f37b392cbd9f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "question": "Will team 1426 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1426
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_245e3b98fad89ca471fb4ff1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "question": "Will team 1417 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ffe631fa8e94ef750459acdc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the NE Omaha (team_id 1303) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1303
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_f9a71e284b195592de96f285",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the Marshall (team_id 1267) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1267
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_4b24866074d31c09b5420660",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the W Illinois (team_id 1442) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1442
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_323bb86f416f0624c46f3591",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the Baylor (team_id 1124) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1124
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e01a764871d72d725e130e62",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the St Bonaventure (team_id 1382) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1382
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_3701385dc31f75725aa0d836",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the Alabama St (team_id 1106) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1106
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_8a24e8641d4e861a99732c65",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the Rutgers (team_id 1353) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1353
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_2b924922360b112cc9ea8b4a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the E Washington (team_id 1186) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1186
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_1e730f19d9da35b95c79fd76",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "question": "Based on their early season performance through Day 70, will the Penn (team_id 1335) lose more than 2 games in the remainder of the 2013 regular season?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1335
+    },
+    "reference_time": "2013-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "regular_season_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_6d72ba43127175dc9ed615fb",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "question": "Based on the efficiency and momentum established by the Wichita St (team_id 1455) during the 2013 regular season, will they successfully secure at least 4 victories in the upcoming 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_dc67c1b10cc4e46935690b25",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "question": "Based on the efficiency and momentum established by the Michigan (team_id 1276) during the 2013 regular season, will they successfully secure at least 4 victories in the upcoming 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_21888e629e420804b93f5f37",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "question": "Based on the efficiency and momentum established by the NJIT (team_id 1312) during the 2013 regular season, will they successfully secure at least 4 victories in the upcoming 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1312
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_17ff8158cf4f9211c0029d5c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "question": "Based on the efficiency and momentum established by the Louisville (team_id 1257) during the 2013 regular season, will they successfully secure at least 4 victories in the upcoming 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e6083ce10dd1bb5986537a58",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "question": "Based on the efficiency and momentum established by the Mercer (team_id 1273) during the 2013 regular season, will they successfully secure at least 4 victories in the upcoming 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1273
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1cdf4b6dbc886c1e1047652f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "question": "Will team 1305 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1305
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_5efb25095a4df5c7dfb17bc6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "question": "Will team 1357 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1357
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_5b3742b18bd14d0679c9f084",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "question": "Will team 1359 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1359
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_05e7ffc0baa3e87ce8d47754",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "question": "Will team 1132 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1132
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_65e78c9ffd8f3e895676aae4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "question": "Will team 1341 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1341
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_1bedf36acf0d743549f6a82b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1328 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1328
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 55
+  },
+  {
+    "sample_id": "ncaa_v2_7bb7d8b3af851116f1a72d92",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1362 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1362
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_dc91316ac9aa4a7114a6c5b5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1243 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1243
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 61
+  },
+  {
+    "sample_id": "ncaa_v2_688fe652a3fbe7b33539b077",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1203 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1203
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d24de1fe415a9349f9c1dca9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1417 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 63
+  },
+  {
+    "sample_id": "ncaa_v2_a0aa643abcc53a01252e6012",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1402 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1402
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_87e7a19b25e5e136a7d5fa66",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1217 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 119
+  },
+  {
+    "sample_id": "ncaa_v2_22b8fc73ecebf34b7848b801",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1140 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1140
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0352117ad4d36c5fbd59d3f8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1207 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 68
+  },
+  {
+    "sample_id": "ncaa_v2_26a28a4ab35b36f719418f43",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "question": "How many total points will team 1268 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1268
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0e83498e64778b09a3acef02",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "question": "Will team 1276 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_bdaf1d7d01a745b02e862f99",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "question": "Will team 1151 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1151
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d74ef04c3c4871d1bb52035e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "question": "Will team 1210 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1210
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_be11e0b288586815ef506016",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "question": "Will team 1436 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1436
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_82030b14d646f27fd82daabe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "question": "Will team 1375 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1375
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c2f2c9fab302db19c41706ae",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1301 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1301
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 34
+  },
+  {
+    "sample_id": "ncaa_v2_6caf0828955a4cdbc694374f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1386 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1386
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6c7df52854d980445893d215",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1338 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1338
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 32
+  },
+  {
+    "sample_id": "ncaa_v2_57f2a9b888b77778e4eef400",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1382 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1382
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3bbff8339aebba138b2a4db0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1277 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 131
+  },
+  {
+    "sample_id": "ncaa_v2_c9449207053491b58a5f3a12",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1354 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1354
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_962f533db6edbbc27cf6bb2a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1143 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 75
+  },
+  {
+    "sample_id": "ncaa_v2_96d97e48876c792349c55462",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1451 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1451
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_24930a0daacfbdcd0ebbfa04",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1129 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1129
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 29
+  },
+  {
+    "sample_id": "ncaa_v2_d77dd18c62fa2d67dbb90a65",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1164 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1164
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f6c4f1092fe591a26a5fc2bc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1107 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_f4b13c15e9dafc63a9a63f97",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1344 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1344
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_02cabe4fe45b1567cbd8c098",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1458 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1458
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_32be05c82b8407e3b3d960b9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1140 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1140
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3c53062ba82b473910743759",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1143 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "ncaa_v2_4f71a35b7d5c94d820c0a878",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1273 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1273
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_06fa397cef4ad7f1e2b970e2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1455 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_3c5a191d2793ddf0173aa839",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1189 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1189
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f07a585d5243261e9d5ebea8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1332 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "ncaa_v2_b91c478b92270f36705f3f85",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "question": "How many games will team 1359 play in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1359
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_87ee47d7522aa8fb19d609a3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "question": "Will team 1335 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1335
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0339ed49cfe4687de977e36b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "question": "Will team 1162 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1162
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d588d8efa6eb48da08da7970",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "question": "Will team 1132 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1132
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ac02423844ff41d6da71c24a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "question": "Will team 1428 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1428
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0e65b8a158aad762cb3ea2b4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "question": "Will team 1370 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1370
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_522edf911a3221a41f79a9e4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "question": "Will team 1268 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1268
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c81c86a3ef9cdeceb33d92ac",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "question": "Will team 1362 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1362
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ff8edd707482c40f650c5f4f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "question": "Will team 1174 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1174
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_faf6bdd6d7ad92eb7a178cc8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "question": "Will team 1205 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1205
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ec05ee6d1812a2f60fdf7ec8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "question": "Will team 1282 play in at least one overtime game during the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1282
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_5cdf7d9a141cb2136cfcd039",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1301 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1301
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 72
+  },
+  {
+    "sample_id": "ncaa_v2_6ee8a4b9ec08aed837a49dd5",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1426 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1426
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_de15423e061b3ac164e24352",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1137 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1137
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 56
+  },
+  {
+    "sample_id": "ncaa_v2_0102287a84c75246a22a679e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1170 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1170
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_023221bf86c634db9a685d65",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1433 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 141
+  },
+  {
+    "sample_id": "ncaa_v2_1d7ae98cde2a18d3eb63dcc1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1186 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1186
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c9706c32a29698b5915d91b1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1299 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 121
+  },
+  {
+    "sample_id": "ncaa_v2_894f65009bd0df3c5bc0625a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1151 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1151
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8f80eaa434439ccb57052eb3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1277 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 196
+  },
+  {
+    "sample_id": "ncaa_v2_3a30d648a4855da206b2c6c9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "question": "How many total points will team 1192 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1192
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_0921eb79b67a26b669486bb4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "question": "Based on information available before the 2013 tournament, will Louisville (team_id 1257) win its opening-round game on Day 136 or 137 by more than 15 points?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e0c070b52ae03b4a1de5968c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "question": "Based on information available before the 2013 tournament, will Wichita St (team_id 1455) win its opening-round game on Day 136 or 137 by more than 15 points?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e94e86a8baa44d18f29b762f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "question": "Based on information available before the 2013 tournament, will VA Commonwealth (team_id 1433) win its opening-round game on Day 136 or 137 by more than 15 points?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_915dcc4b1a1e8ee2470595da",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "question": "Based on information available before the 2013 tournament, will Marshall (team_id 1267) win its opening-round game on Day 136 or 137 by more than 15 points?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1267
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b54e34b680e05332d47eb6d4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "question": "Based on information available before the 2013 tournament, will Indiana St (team_id 1232) win its opening-round game on Day 136 or 137 by more than 15 points?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1232
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_74113d4fc39b21a33c640c62",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the Harvard (team_id 1217) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_ee3523876cb70d58d0ca15e2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the San Diego (team_id 1360) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1360
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a1a097e050b7a16781c68da2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the Oregon (team_id 1332) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "ncaa_v2_db68fc520d1766d46fb64319",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the NJIT (team_id 1312) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1312
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_79db9e69832916c5fd08fb15",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the Michigan St (team_id 1277) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "ncaa_v2_e132aaeb914182735fe9ccc0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the NC Central (team_id 1300) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1300
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8e79eb43ecfe126d180d4395",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the NC A&T (team_id 1299) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_47a645b088031153e0eb963c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the SC Upstate (team_id 1367) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1367
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2ce4c7bf28e3d469cffb77c7",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the California (team_id 1143) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e583863f96755a473dd2f474",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "question": "Based on their performance consistency during the 2013 regular season, how many total games will the Vermont (team_id 1436) win in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1436
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_85dd8f81dd56416bd5b61242",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1257 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_2f4b181759023e2fdbfdc795",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1145 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1145
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d449196593c63212111e540d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1455 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "ncaa_v2_882b8aca42f3824956244eca",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1374 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1374
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e25137e123ba39d4b87800ec",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1276 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_5e0b8d1aa7cae7d90101f200",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1452 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1452
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6162e72c8d230ed868be90b8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1433 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_ca700c15c28de5184d5ed28b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1341 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1341
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_dd45359246213390252b2b4a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1119 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1119
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_610ecb5815ad881cc822a178",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "question": "How many games will team 1410 win in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1410
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d1cf998bab983819826bdc96",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Albany NY (team_id 1107) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "ncaa_v2_e7a8ccb3b498cd95d1f25b23",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Bucknell (team_id 1137) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1137
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_d079bb0c0db384bf76b15d1a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Georgetown (team_id 1207) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_f504cd3746d8d94a1f000a37",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Wisconsin (team_id 1458) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1458
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "ncaa_v2_8a93218364a9eb1cdbf6dcfd",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Boise St (team_id 1129) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1129
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "ncaa_v2_9a382c8507194bed8363f4b9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Kansas St (team_id 1243) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1243
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_b297636e7347b73e703f2d89",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the UCLA (team_id 1417) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_95315b93d5d85e714e71f7ea",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Oklahoma (team_id 1328) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1328
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "ncaa_v2_3fc0456b7f66855715e3a5e9",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Pittsburgh (team_id 1338) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1338
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "ncaa_v2_566b8a645a3fcff6700eb846",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "question": "Based on their defensive pressure during the 2013 regular season, how many total steals will the Harvard (team_id 1217) record in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_6303e3c4f96fda68041e5557",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Kansas St (team_id 1243) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1243
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 12
+  },
+  {
+    "sample_id": "ncaa_v2_43f3fda318db02bfec6508fe",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Pittsburgh (team_id 1338) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1338
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "ncaa_v2_d57a05aadd30da7b05dc6b1c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Albany NY (team_id 1107) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_ea12ebb2e0a9d5c12ed3300f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Georgetown (team_id 1207) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 15
+  },
+  {
+    "sample_id": "ncaa_v2_4441bdb2e16da7c40b5e4739",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Oklahoma (team_id 1328) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1328
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_8f6165ee3441735aca5ae4b2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Boise St (team_id 1129) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1129
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_c1b54595a82b7c2a76b699b3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the UCLA (team_id 1417) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_1f85c39d08729cc93774be55",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the NC State (team_id 1301) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1301
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "ncaa_v2_6d31b4b6c433a5ae8840f9af",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Wisconsin (team_id 1458) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1458
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "ncaa_v2_d11ea353e2bdfc77ea1e3a7b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "question": "Evaluating the ball-handling efficiency of the Harvard (team_id 1217) in the 2013 regular season, what will be their total number of assists recorded in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 23
+  },
+  {
+    "sample_id": "ncaa_v2_ba63f253cb15c4a8d6772b1e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "question": "Based on the performance metrics of the Louisville (team_id 1257) leading up to the 2013 tournament, will they win at least 5 games in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_bedb5263b1338577426c6238",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "question": "Based on the performance metrics of the Michigan (team_id 1276) leading up to the 2013 tournament, will they win at least 5 games in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_9d10bea5425b86cf10ef875f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "question": "Based on the performance metrics of the Lamar (team_id 1249) leading up to the 2013 tournament, will they win at least 5 games in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1249
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f5fab8cf8e52cb296ac24e19",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "question": "Based on the performance metrics of the Sacred Heart (team_id 1357) leading up to the 2013 tournament, will they win at least 5 games in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1357
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_be54c980515f0f45b7a247ff",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "question": "Based on the performance metrics of the Marshall (team_id 1267) leading up to the 2013 tournament, will they win at least 5 games in the 2013 NCAA tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1267
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2547adf18818d1f9e5667bbc",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "question": "Will team 1375 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1375
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c5ce44b48451f9beeb46989a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "question": "Will team 1335 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1335
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a40c01ae364f8b758d31543a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "question": "Will team 1205 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1205
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b1e4c4d6b6097a653e111f95",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "question": "Will team 1218 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1218
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_150813159c3fc27845180a23",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "question": "Will team 1268 win at least two games in the 2013 NCAA tournament after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1268
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_compact_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_2a5c0e895ef0aa17aa91ea9d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1332 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 117
+  },
+  {
+    "sample_id": "ncaa_v2_95852d08f8d187beda8e6dd1",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1360 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1360
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e98c44bfa0ab7a0ac5713bd6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1243 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1243
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 36
+  },
+  {
+    "sample_id": "ncaa_v2_771e70d5c118aee6dfe38a7d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1438 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1438
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_73630695d72f2fa8cd5c78ce",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1417 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 42
+  },
+  {
+    "sample_id": "ncaa_v2_350fe09bf502636402e8642a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1464 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1464
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ae5440dae712835b3679a547",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1107 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 26
+  },
+  {
+    "sample_id": "ncaa_v2_249bb14abdd5e5c6ff95dc85",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1106 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1106
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_a2fe2896574d4dd7c3d8e5f4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1299 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 53
+  },
+  {
+    "sample_id": "ncaa_v2_615a23b3da1702ab1a331bf4",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1162 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1162
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e0e5d3f3289a8995650f9673",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "question": "Will team 1277 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_34876e0408559a28024872b3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "question": "Will team 1143 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_a845598e62c1bed5834b9f85",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "question": "Will team 1433 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_0de669aebbe23066d5fae6a2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "question": "Will team 1455 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_7aba7e1b3e5171e0c6088749",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "question": "Will team 1332 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_b287d9daa7675f1eac606225",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "question": "Will team 1217 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_e1793fad3797a8b7a1a1d586",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "question": "Will team 1299 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_39a40f317c78f9eb7cdfcab3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "question": "Will team 1257 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_1baa76e92c6ef9c19c7ecf05",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "question": "Will team 1276 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_f1b8ac792a64326da57c8429",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "question": "Will team 1436 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1436
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_ac13727470a1a9ef12dcc87e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Bucknell (team_id 1137) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1137
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "ncaa_v2_7d7601433f5f1830d9d6a491",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Michigan St (team_id 1277) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 36
+  },
+  {
+    "sample_id": "ncaa_v2_4d1c95221f91246aad2de071",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the California (team_id 1143) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 32
+  },
+  {
+    "sample_id": "ncaa_v2_a4cfcde84945c413a40e7b41",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the NC A&T (team_id 1299) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1299
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 17
+  },
+  {
+    "sample_id": "ncaa_v2_22e55fcf5539a1a959b20a73",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Wichita St (team_id 1455) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1455
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 61
+  },
+  {
+    "sample_id": "ncaa_v2_c1c0bed168fe4b4f0fcb6c7a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Oregon (team_id 1332) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 42
+  },
+  {
+    "sample_id": "ncaa_v2_a118666d8ab595a4e261ed0e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the VA Commonwealth (team_id 1433) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 21
+  },
+  {
+    "sample_id": "ncaa_v2_5b950bbb7a16bbdf7dcf98e6",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Michigan (team_id 1276) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1276
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 94
+  },
+  {
+    "sample_id": "ncaa_v2_bab46c6fe2f96f0542a96ac7",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "question": "Based on the team dynamics of the Louisville (team_id 1257) leading into the tournament, what will be their total number of assists in the 2013 tournament?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1257
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 74
+  },
+  {
+    "sample_id": "ncaa_v2_77a7d3ae3bc63030ebf91c03",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1458 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1458
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 40
+  },
+  {
+    "sample_id": "ncaa_v2_58e45cc3cfb51e1c1d2b1151",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1170 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1170
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_c6d8a88dc7bbd2efee76f36c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1207 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 39
+  },
+  {
+    "sample_id": "ncaa_v2_cc2ed4618bae6a83a457558e",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1312 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1312
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_4724b1bc5cde46dd72992b73",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1328 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1328
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 29
+  },
+  {
+    "sample_id": "ncaa_v2_fea5f5087a212385547411d0",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1357 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1357
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_9bf54c8d600b2ba8f4a122ed",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1137 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1137
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 37
+  },
+  {
+    "sample_id": "ncaa_v2_bc95ac8149efdc7aa68cdd70",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1353 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1353
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_3548b17e139dc27be1956d2f",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1217 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 59
+  },
+  {
+    "sample_id": "ncaa_v2_288e380db0b48cf2641e8a0c",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "question": "How many total rebounds will team 1119 record across all of its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1119
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_b255032c8106f510211bbf4a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the NC State (team_id 1301) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1301
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.5576923076923077
+  },
+  {
+    "sample_id": "ncaa_v2_e22e2785691e532631aa8381",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Pittsburgh (team_id 1338) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1338
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.35185185185185186
+  },
+  {
+    "sample_id": "ncaa_v2_064af658ec1ce131afffff2a",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Boise St (team_id 1129) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1129
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.49056603773584906
+  },
+  {
+    "sample_id": "ncaa_v2_68cd7c89fd42d48106a1cb9b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Oklahoma (team_id 1328) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1328
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.39655172413793105
+  },
+  {
+    "sample_id": "ncaa_v2_3d1f591b647202d207956659",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Georgetown (team_id 1207) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1207
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.375
+  },
+  {
+    "sample_id": "ncaa_v2_e71dd3bb4bbc09c8bf314016",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Kansas St (team_id 1243) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1243
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.42105263157894735
+  },
+  {
+    "sample_id": "ncaa_v2_4f29ca7b87f950604d297d20",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Albany NY (team_id 1107) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1107
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.36538461538461536
+  },
+  {
+    "sample_id": "ncaa_v2_0a3c628b3c3cc277521e177b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the Wisconsin (team_id 1458) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1458
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.2542372881355932
+  },
+  {
+    "sample_id": "ncaa_v2_a793aa1d3d05b338ba4d076d",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the UCLA (team_id 1417) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1417
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.31746031746031744
+  },
+  {
+    "sample_id": "ncaa_v2_dab44eb953625a1e70c85ac8",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "question": "Predict the cumulative field goal percentage for the California (team_id 1143) throughout the 2013 tournament.",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0.41739130434782606
+  },
+  {
+    "sample_id": "ncaa_v2_68d2a7d8978b1da652f04103",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "question": "Will team 1370 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1370
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_6b96a6651daf322966d036cd",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "question": "Will team 1186 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1186
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_90ffe05596c88bde26a37103",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "question": "Will team 1374 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1374
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_8e1777675ff8864b43d898b3",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "question": "Will team 1412 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1412
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_e6319cc068929842325b3b66",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "question": "Will team 1140 collect at least 50 total rebounds across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1140
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "ncaa_v2_f7b57672c071c1ce747d053b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "question": "Will team 1277 record at least 20 total assists across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1277
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_bd77ada60479dd05b14a9d20",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "question": "Will team 1332 record at least 20 total assists across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1332
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_513a776672d7cb82be4d9e36",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "question": "Will team 1217 record at least 20 total assists across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1217
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_304cdcf28e48004d3b2a90c2",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "question": "Will team 1433 record at least 20 total assists across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1433
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "ncaa_v2_c43032cb7306d2f28e33014b",
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "question": "Will team 1143 record at least 20 total assists across its 2013 NCAA tournament games after 2013-03-17?",
+    "anchor": {
+      "table": "teams",
+      "key": "team_id",
+      "value": 1143
+    },
+    "reference_time": "2013-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "tourney_detailed_results"
+    ],
+    "label": 1
+  }
+]

@@ -1,0 +1,5642 @@
+[
+  {
+    "sample_id": "financial_052077bff0ca713667f8652a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 376 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 376
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_1196a456f70d2c97f55857e4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 969 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 969
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_152ce53a4ddf41fade33ed5e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 960 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 960
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_545c74e48a57602ea441f4e7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 370 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 370
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_61e2f4effe8ef518071cf6df",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 1292 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1292
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_63b495cc3c333811bdf6017f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 3220 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3220
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_7168351dbcaff3b649726b28",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 374 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 374
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_b85316a3dba304c040be2bb2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 2839 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2839
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_bdd9a025f5eda858f5defc60",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 11111 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11111
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_c91eeb42ec5420389fc33505",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "question": "Will account 11186 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11186
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_042e90675df58321288836b9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3586 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3586
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_1deb8239fa533b7f7aa63c0e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2072 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2072
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_3081caa7503c8530c72a0d17",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 648 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 648
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_605b4e0df2459e4846765f8f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2039 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2039
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_66538170755f26bb1bacb66a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 4245 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4245
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_6b5533ce5d058d7c4f9088b2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 1649 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1649
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_8729b871ee97c152452e622b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 1547 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1547
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_cfd5a713cd83bd9da41d7a18",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 1780 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1780
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_e1bb3c37dd5ed15b3aed99b1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2638 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2638
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_f24239cc579bcf5e6b34470b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 8212 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8212
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_1c3d6c8ffb53309bc3dc3fa1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 2989 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2989
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20538
+  },
+  {
+    "sample_id": "financial_372b7a25d56b3a2841ef6e35",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 3898 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3898
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 30086
+  },
+  {
+    "sample_id": "financial_3838ebe6e04e12e85c5c62f4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 1769 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1769
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 30967
+  },
+  {
+    "sample_id": "financial_6989a22be4abd5578f1e4199",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 9353 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9353
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 24600
+  },
+  {
+    "sample_id": "financial_997f31b105c6fc7c43b2d299",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 3482 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3482
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 17476
+  },
+  {
+    "sample_id": "financial_a440056d87b4a1ce13959967",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 1978 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1978
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 69752
+  },
+  {
+    "sample_id": "financial_a5284108bb1003b03ee0683f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 2847 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2847
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 32568
+  },
+  {
+    "sample_id": "financial_a794eddb19d16ef65933b72d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 756 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 756
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 36300
+  },
+  {
+    "sample_id": "financial_bfb210024d95a10d8867ffde",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 3010 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3010
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 29759
+  },
+  {
+    "sample_id": "financial_f1c07a5d306f78a11fcdde84",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "question": "Using history prior to 1995-12-31, what will be the maximum balance of account 2309 in the upcoming 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2309
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 49400
+  },
+  {
+    "sample_id": "financial_0bd08dcd1bc18a937c2d7312",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 3649 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3649
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_450ef0029de3b0c684127420",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 2538 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2538
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_458c0c81815c37299d1751c8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 100 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 100
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_48010f5c6346511304a06a49",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1837 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1837
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_52bd60b3a21e5db004c60f41",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 9591 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9591
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 26178
+  },
+  {
+    "sample_id": "financial_7cdbbc38437eb9dea099a9fc",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 361 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 361
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_921f5e0c5221c0f6d302a324",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 2581 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2581
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9c01484a2565d1272a35e672",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 10656 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10656
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_b367c88deee7b208e19aa40e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1999 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1999
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_e046c9541ee136a7c66d0dbf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "question": "What total loan-payment transaction amount ('UVER') will account 3777 record in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3777
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_057a0389507d3f654cfbdfeb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 5984 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5984
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0df3f354f0640a54117b0900",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 3074 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3074
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_2b2666fd67b443c0656617ef",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 654 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 654
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_5b4e776833f306caaf4aca1a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 6872 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6872
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a7910866704d7218a821354d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 168 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 168
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_b08eb225e7645d0fffc9d9af",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 8051 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8051
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_cb1fef7ef52b9361f661ac70",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 8316 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8316
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_cb7c56bc6633166a187f0b3c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 2203 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2203
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_d46284fdbd6e1f1db5ddc7b6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 6040 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6040
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_dce0e95cf70978d7743e68c3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "question": "Will account 3629 receive an old-age pension payment ('DUCHOD') after 1995-12-31 and on or before 1996-01-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3629
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_03ead7cad873a73abfaf7918",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3838 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3838
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0dbe200cd9731bbdc0f833d9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 300 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 300
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_4341e04ce9113893556c9680",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 5366 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5366
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_56ba2437cbbb4320889cb293",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3660 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3660
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_5fddebf97b7116cf7370ab55",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 474 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 474
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9110eaef9fed8379e46d1a5f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3579 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3579
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_adfe86afce3e8db38dd03429",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 8566 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8566
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_deef7b399f4409813ca52c3e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 4328 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4328
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ecc102677f9a7aa9b07b24ec",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 885 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 885
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_fba454b5aac6369705418990",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3612 have a single cash deposit ('VKLAD') greater than 20,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3612
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_11a126411a5a17e02735201a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 430 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 430
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_13c8c61a3881dbbfd6f46b80",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 1865 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1865
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6256
+  },
+  {
+    "sample_id": "financial_5d3b5a2e13548e15c1c980a3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 3785 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3785
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 23842
+  },
+  {
+    "sample_id": "financial_5dafa6228b9c4a70f35fb833",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 1098 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1098
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5784
+  },
+  {
+    "sample_id": "financial_6c51df4b012fd34904ba6f63",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 1941 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1941
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16519
+  },
+  {
+    "sample_id": "financial_8314abcd100e59a3b64ec24e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 648 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 648
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 17696
+  },
+  {
+    "sample_id": "financial_aaa4be5dfbde9996edfcd603",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 2695 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2695
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20806
+  },
+  {
+    "sample_id": "financial_bf1d53489e4fd3efd86a41f0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 7123 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7123
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 119102
+  },
+  {
+    "sample_id": "financial_cd34f7e08eb460f2be5a0a6d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 2903 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2903
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 22113
+  },
+  {
+    "sample_id": "financial_d583a06d4ff718e87b115558",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "question": "What is the future total for incoming transaction amount account 551 will receive in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 551
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1600
+  },
+  {
+    "sample_id": "financial_21e9ede7791ac1631f55ff5d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 2894 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2894
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_24a24a8ca4c630d6e8e673b8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3367 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3367
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_860b5aeb1df518f16647c4d0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3384 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3384
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_8989684ac7a2e175b9d31e45",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3200 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3200
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_918c5aaff548df8760bf36fd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3407 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3407
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_9461b14fd1ea5b3957acd9b7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 2175 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2175
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_a43a4ccf9912d429009677f5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 1892 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1892
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_d46b31bac31fb9d159becda0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3509 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3509
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_dafd899999d795f4fd2220ef",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 3000 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3000
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_f0633886a62d5b894a2f73a3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "question": "Using the transaction records up to 1995-12-31, how many total withdrawal ('VYDAJ') transactions will account 9 execute in the upcoming 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_3a9a51d14d6370fed29521fb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 2500 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2500
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_62cb779cacd2a6bb4731fe2f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3229 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3229
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_8190fe13f0a2bd6d2845fb95",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 1588 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1588
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_8c8a7e0276faad083c595cf4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 53 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 53
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9f0278a3abd6dd058e770633",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 2482 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2482
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a965df8958bc30ab07c7a9a0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3479 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3479
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_be860e8a2fa110d0e46b745a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3213 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3213
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d2c9191d5863005839909eda",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 487 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 487
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d64531e0aa55d06f2b7b2935",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 2989 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2989
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f31d0653e51b31572552ead6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3017 make any payment to bank 'YZ' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3017
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_22367e264dbcb4a0f3e2d4b4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 773 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 773
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 46689
+  },
+  {
+    "sample_id": "financial_355095a44c3cbbeb9218f25d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 3497 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3497
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 56962
+  },
+  {
+    "sample_id": "financial_3a4bfc6acaed8289fbe42fbd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 3181 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3181
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 63662
+  },
+  {
+    "sample_id": "financial_3b467ae79451ca5be9c3c8f7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 2500 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2500
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 41188
+  },
+  {
+    "sample_id": "financial_3b89ab3ac9d70b3fd5ff6f3d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 1974 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1974
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 33145
+  },
+  {
+    "sample_id": "financial_5f1bb110f590209ac5767c14",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 9703 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9703
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 70315
+  },
+  {
+    "sample_id": "financial_7e52e0c503da5187d9ac0570",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 2436 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2436
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 48625
+  },
+  {
+    "sample_id": "financial_85ae99664a3b0f8d2f2ef572",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 8558 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8558
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 59633
+  },
+  {
+    "sample_id": "financial_885b525b577c0b513764320a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 1335 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1335
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 54231
+  },
+  {
+    "sample_id": "financial_b37f33cf62e9033d7b9426ec",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 2203 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2203
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 25997
+  },
+  {
+    "sample_id": "financial_0f2c0f7c505b7559fbcf32d8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 652 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 652
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_78b8029c45b5ddee3d2db26d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 7133 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7133
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_8f161248609d6457e5cd2613",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 11135 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11135
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_98f3665ebe9013990e3e69ae",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 791 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 791
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_99c1fff35a65519291a090bf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 3139 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3139
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9cc2045bd18bee53b7f123f0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 1123 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1123
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a0c5115e240d7f037bb55d6b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 8327 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8327
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_e5bbfa7f930cd614f6145993",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 3364 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3364
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f53ba11a07717abe2ac53826",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 5125 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5125
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_fb5e057b0941405adb170cd5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "question": "What is the future total for interest amount account 490 will be credited in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 490
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0d2b73854653acae55d73f62",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 4161 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4161
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 33513
+  },
+  {
+    "sample_id": "financial_0feb14d89324f595d4cfdc6d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 228 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 228
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 64806
+  },
+  {
+    "sample_id": "financial_33fedd8b74e4bead5245632e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 553 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 553
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 36038
+  },
+  {
+    "sample_id": "financial_74259ac4b9ebfcb9b47f3347",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 7606 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7606
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 102154
+  },
+  {
+    "sample_id": "financial_8dec8b89c988ef0d3d06652c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 767 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 767
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 56364
+  },
+  {
+    "sample_id": "financial_9c96ce53ed76a422c86ffe3f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 277 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 277
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 37886
+  },
+  {
+    "sample_id": "financial_ce94d5783e9d75abf41491f2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 5891 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5891
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d7fa8cf8883f60f4418e3260",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 2799 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2799
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 22100
+  },
+  {
+    "sample_id": "financial_e73a6e4e68f51c9ebb7d3da6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 3771 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3771
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 500
+  },
+  {
+    "sample_id": "financial_f5d516e067867dc67f69816a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 10963 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10963
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 144864
+  },
+  {
+    "sample_id": "financial_20316e34b90fcab9a1712c2f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 3326 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3326
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_42267c39d8d8363b952cee9c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 4000 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4000
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_5043d9795b8c599b699facd0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 9472 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9472
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9252f39e4d6cca471737b3bb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 3063 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3063
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_96d5065f1bbfdee7c941be47",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 1129 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1129
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9e1ac6a720b91f68c4fe3eec",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 3725 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3725
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_c4deee4bc5e8b229da4dc774",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 1114 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1114
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_fb149f02af05099ce9e2611b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 2051 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2051
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_fccf3658187785a69f45c402",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 3078 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3078
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_fd40019f2c250a8091b33816",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "question": "Will account 582 have a resulting balance below 5,000 after 1995-12-31 and on or before 1996-03-29?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 582
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_187a3445efa4a3b7baf5aa94",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3268 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3268
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_27c2d0b98075f7279bf1690a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 2139 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2139
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_6bb304145f872f997b166f6a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 742 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 742
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_7bf4b8cf0d033f611cad949f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 1552 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1552
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9923579a2bd0fd9b9e71588e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 2546 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2546
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_b323bce0936a8d69420b85ef",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 1880 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1880
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_beb0a46ce39a9fb607e05b20",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3091 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3091
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_e36d3f2ed95b042427528949",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 3625 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3625
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_ed889255719ff25785b6a717",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 925 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 925
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f4ca03444bc44e7ce682d38a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "question": "Based on deposit history up to 1995-12-31, will account 1816 receive an old-age pension ('DUCHOD') of more than 3,000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1816
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_08dc49aca6ba9b80f580732a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3883 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3883
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_1b62273cef60efb2ce79fc4f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 4416 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4416
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_6e0f4e43ff40170c6d9862eb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2959 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2959
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_6f215fda487281f37603962a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 4377 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4377
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_8b809f06ae9ddd8bb6323986",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 446 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 446
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "financial_976437f558574adf53c16282",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3778 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3778
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_98ff2f1915e15b76da389e4f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 8260 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8260
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_9c249b69b495419460625175",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2167 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2167
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_d82ac205b25a2e9a7bfde7a5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3735 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3735
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_fd8bed225d9c0ea93a703832",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2581 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2581
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_2f3d680d37751bc4c601995e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 908 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 908
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 28449
+  },
+  {
+    "sample_id": "financial_3febf66408a99a9a747f9e2e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 616 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 616
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 28165
+  },
+  {
+    "sample_id": "financial_720ab71445c53121b188c270",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 479 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 479
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13488
+  },
+  {
+    "sample_id": "financial_957253084b1919024dfd497d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 704 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 704
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 38984
+  },
+  {
+    "sample_id": "financial_a124a80471adf6fb1fbefef1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 3753 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3753
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 30998
+  },
+  {
+    "sample_id": "financial_b4a6df758c4890122565d04d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 1762 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1762
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 50609
+  },
+  {
+    "sample_id": "financial_d41bce6a37fc985f97e414d9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 2559 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2559
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 45732
+  },
+  {
+    "sample_id": "financial_dba7d5b29efdb03135a4eee7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 2072 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2072
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 85192
+  },
+  {
+    "sample_id": "financial_e577f89bdff8c1705fd58b84",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 10320 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10320
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 55362
+  },
+  {
+    "sample_id": "financial_e9a524f664abaaa265149faf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "question": "What is the maximum balance account 7844 will record in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7844
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 71820
+  },
+  {
+    "sample_id": "financial_1c4f7107e54fbf793c38470f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 1137 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1137
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_25362b97eeab8c31cd4db704",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 1327 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1327
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_3d6b3134216923c82d275a63",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 1023 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1023
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_5698ede6d85d612e63bb3da3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 2235 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2235
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_72702f40ef030ae7060fee87",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 2959 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2959
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_7762166eea40f2f71aaddf03",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 3129 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3129
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_7e1be338f5558baaaa13d544",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 3636 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3636
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_ad1692842c677cb50dc3f850",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 1909 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1909
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_b0d891d2b74dd21c1e7a83d0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 8051 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8051
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_c5c0c03a398107cad2e82cb3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "question": "Will account 1666 make a cash withdrawal in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1666
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_0e69aa2e0a82add7e49deab5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 2206 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2206
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11790
+  },
+  {
+    "sample_id": "financial_4f54493edaba2765494e08fb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 3352 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3352
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7080
+  },
+  {
+    "sample_id": "financial_565dd2940dcbf71057864fcf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 3493 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3493
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6831
+  },
+  {
+    "sample_id": "financial_57b07fddba9b6b5e9dddf94e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 9627 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9627
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_79fb2a1a6943d2359285012d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 190 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 190
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13557
+  },
+  {
+    "sample_id": "financial_91e0d63280ea802e70d37161",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 10728 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10728
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11601
+  },
+  {
+    "sample_id": "financial_95204594f49efdbedbe2cc9e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 3788 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3788
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a55eaac1a05f7b19fbfa4e3f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 2355 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2355
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a5fe583e07f1e2dc4de1dcdd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 3474 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3474
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2745
+  },
+  {
+    "sample_id": "financial_d57eec7b8d05a713e9edfbf8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "question": "What is the household-payment amount account 363 will pay in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 363
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_2c8c51430b24870eac70cf96",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 1701 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1701
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_7e546996c3dd549938fbebf6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 401 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 401
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_8d8f0de72a8e54d6e83d0c83",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 1617 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1617
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_9565e27c08b4d2b7f588acc6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 9731 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9731
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a90040ee1b8f2c6fda3cb7eb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 2919 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2919
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ade51b8d165084078b916ad4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 2534 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2534
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_eaa21956110916deaf4b954a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 7485 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7485
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f56a60e136934ff16b058b79",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 3593 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3593
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f654177e8ff574eed20b76b1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 1512 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1512
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_fa7c35b609a4a8caf270bb15",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "question": "Based on deposit histories up to 1995-12-31, will account 2521 receive an old-age pension payment ('DUCHOD') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2521
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_098a9e3fb2b10c0384880726",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 2675 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2675
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_101f6b3a74a2cbda19f62364",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 11013 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11013
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_12b162a12439f0c4a1efb5a6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 790 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 790
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_2fe26544f7b3effd6880e0dd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3972 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3972
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "financial_38b4e00d18798fabe5b9df2e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3050 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3050
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_65d8ee0ed16b2483b091652f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 3839 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3839
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_9a900d6cbbb46e0d85710b7b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 1039 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1039
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_a37de0ad48a0f81d565d9721",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 494 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 494
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_cdcda355842188d1f36daeb5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 43 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 43
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_e514c4f4c66709955937516e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "question": "How many credit-card cash withdrawals will card-holding account 441 make in the 180 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 441
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "card",
+      "disp",
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_0506ced476c8b7439d4e517f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 1249 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1249
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3686
+  },
+  {
+    "sample_id": "financial_0f0dc6d8702338bd752d6fa5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 1273 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1273
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20485
+  },
+  {
+    "sample_id": "financial_27439fe1fc017f93c4d952d1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 1673 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1673
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4408
+  },
+  {
+    "sample_id": "financial_4f98fac59e8b5b379e0db120",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 1846 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1846
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3093
+  },
+  {
+    "sample_id": "financial_689a5b3de97621c922fa2583",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 5313 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5313
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 38055
+  },
+  {
+    "sample_id": "financial_828e42406df53fb5f8adb137",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 321 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 321
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5163
+  },
+  {
+    "sample_id": "financial_8710e27848d3c3f44d67ab6e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 3656 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3656
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1500
+  },
+  {
+    "sample_id": "financial_a6b8bd058779f00f80876a7b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 2803 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2803
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 44318
+  },
+  {
+    "sample_id": "financial_d50fd28e5b07e5eaa3a93b57",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 10105 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10105
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 37077
+  },
+  {
+    "sample_id": "financial_deaa14bfeeaf7668b5c1fcc2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "question": "What will be the maximum amount of a single credit transaction (type 'PRIJEM') for account 3912 in the next 60 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3912
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6241
+  },
+  {
+    "sample_id": "financial_342dcd1a51ab4f08b2d1e4a1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 1416 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1416
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_4bd2b01f0913eafcd4cdc8fd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 3117 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3117
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_59bafd09633a24eae3139634",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 1149 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1149
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_66c909d35730655c6f852e66",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 4055 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4055
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_907f63149a35d7908c8ec337",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 2367 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2367
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a198f51f8da72b17f2e29993",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 3999 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3999
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ae1cb7e9df5a6360e64ed6f6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 2671 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2671
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_cd23911234f5c3c21176eb0c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 1030 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1030
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_dcbf359b4803428e4969d696",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 2849 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2849
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f41de6accd2927954b636212",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "question": "Will account 3555 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3555
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_301c06b12c05169756a16fc9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 4329 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4329
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_32eaebc2c421f608376fbedb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 2206 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2206
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_3a59c2e71eedfd3d2206d185",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 11186 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11186
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_901131d1148e2423f6488fd2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 2333 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2333
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_93e4790dcb973c4f929f08d0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 1803 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1803
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9c0cd1176b06a84c6e5612e8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 2257 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2257
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ae7ed9712c36387bc0c91bbf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 2047 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2047
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_c3452b31e708e9bd2471a138",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 915 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 915
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d31062157ecdf2a9b6ab0e17",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 4576 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4576
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_e65d0229e12d3650593deab0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "question": "Based on deposit behavior up to 1995-12-31, will account 2931 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2931
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_1410161cdccaf1d5f99c527f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 1157 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1157
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_18bda0dc8232df31089f8846",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 2068 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2068
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_18cc62ffb0ad1855707fdea4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 1046 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1046
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_45b67c25f5919e92be0a820f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 1353 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1353
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_82a13b91d66c40fc8673a0df",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 3492 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3492
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_97d51ec9c083fc303a508816",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 2727 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2727
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a979bc182662a5ff8090d0a5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 2496 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2496
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_df2c0f2464226dc1684f459e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 5724 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5724
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ebe1428b7f185063d1f882df",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 1161 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1161
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_f582ab2d20d59264ffaf08ae",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "question": "Based on historical withdrawal methods prior to 1995-12-31, will account 1429 execute a credit card withdrawal ('VYBER KARTOU') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1429
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_3505ed45fef443961e34de53",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 2343 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2343
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_48041256e887201e237b3102",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 3778 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3778
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_5c2bfc62275cdda6d81d8d81",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 1629 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1629
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_62f7ba7ff0451b3224ec1206",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 7231 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7231
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_79d478da9b4b9df870498c67",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 3050 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3050
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_9adfd2272a38df67b0fa1e86",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 9104 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9104
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_b18d409c0d02a6281a9394c1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 2353 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2353
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ba9ad3960fcd3ae03a77fd8f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 1137 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1137
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_baede96237730321c7240ba3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 1978 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1978
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ff01d876022febe780df2222",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "question": "Will account 3167 make a credit-card withdrawal in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3167
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_1afc80144ed5c839efa02a31",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 942 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 942
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10500
+  },
+  {
+    "sample_id": "financial_20ea4b0b1acc8e69f7081127",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 2434 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2434
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13873
+  },
+  {
+    "sample_id": "financial_45963e1716c3e5071375509c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 3745 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3745
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5800
+  },
+  {
+    "sample_id": "financial_481152e0dbb189a7762ce6d1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 2464 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2464
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 32400
+  },
+  {
+    "sample_id": "financial_64232ef1f2acd6cbbc2566e9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 2694 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2694
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 62855
+  },
+  {
+    "sample_id": "financial_703797225041d22df2f54859",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 8625 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8625
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 331662
+  },
+  {
+    "sample_id": "financial_71b45efe0ac67fcbed8b0365",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 8132 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8132
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1100
+  },
+  {
+    "sample_id": "financial_82da2df73876a95d9b855567",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 2896 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2896
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_a1ec1a6bfbda27de1fe0b708",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 11186 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11186
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 200
+  },
+  {
+    "sample_id": "financial_dd8c6b9e55061dac46442fe4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "question": "Using cash deposit history before 1995-12-31, what will be the total amount of cash deposited ('VKLAD') into account 1375 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1375
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 60873
+  },
+  {
+    "sample_id": "financial_3bb1a9a257235627e418e31c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 3682 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3682
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7601
+  },
+  {
+    "sample_id": "financial_53cdc986595f8abd8985f31f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 3808 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3808
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 25873
+  },
+  {
+    "sample_id": "financial_5eb8cd30523b1f4cee57b845",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 4287 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4287
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20620
+  },
+  {
+    "sample_id": "financial_6189cbd4c640a46df34caf29",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 3362 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3362
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 30794
+  },
+  {
+    "sample_id": "financial_7550d5bb744cf3cf26db7029",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 3989 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3989
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3147
+  },
+  {
+    "sample_id": "financial_7b5c12170265fddfa5bbc8c5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 979 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 979
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 44654
+  },
+  {
+    "sample_id": "financial_869489e9f516b4a128afdc58",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 803 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 803
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14100
+  },
+  {
+    "sample_id": "financial_8a6b271dc034c84b3e885014",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 2341 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2341
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_aeeead1e68cd7574e11113db",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 1337 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1337
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 18664
+  },
+  {
+    "sample_id": "financial_b3db4f49dc055a50d32dd82a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "question": "Using the transaction history prior to 1995-12-31, what will be the total withdrawal amount ('VYDAJ') for account 854 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 854
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10347
+  },
+  {
+    "sample_id": "financial_27edfd5c971a7f0663474e8a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 1955 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1955
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_72cb1d021aec720f3f310379",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 10440 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10440
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_7a7bc52a45cef3d94f5d4724",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 3315 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3315
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_7e337001bacc1d136a4a124a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 3902 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3902
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_8206e67650cd9bb9fc2b0713",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 1118 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1118
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_9761ccbd9a655d6f7e35fd38",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 3538 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3538
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_b951b9507a34627afe3f5e70",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 1 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_cc13d25758dc5fc686330968",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 1392 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1392
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d1036f825cfc8df3b2277e80",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 772 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 772
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_e715f21cfce0558f0cf0c637",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "question": "Will account 1959 record a negative balance in the 90 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1959
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0183b85523aa68794d5212fd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 4059 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4059
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0f4dd151f7d4b6c12379f969",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 2352 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2352
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_37e445678107870419f2ac22",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 1702 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1702
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_45fa21f23684c19eddaefbbc",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 8316 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8316
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_67259f54f401c49c5fe50f71",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 974 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 974
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_ac35dc6d7c63b6c012a60232",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 5011 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5011
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_c0abb97590cfac6a4969be5b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 6363 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6363
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_c4cb06f6aa7fdbc5f0051c92",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3032 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3032
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d056dcd084382f41147152d8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 3445 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3445
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_d3d4be2c009c487b7905343b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "question": "Based on transfer habits before 1995-12-31, will account 1239 make any payment to bank 'EF' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1239
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_0c18a1982fba4fedfc2302ce",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2044 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2044
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20043
+  },
+  {
+    "sample_id": "financial_1146291d443539033e4c2af7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2222 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2222
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 23047
+  },
+  {
+    "sample_id": "financial_561349954476d11406eadcaf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 1743 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1743
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 27522
+  },
+  {
+    "sample_id": "financial_6e4d423720ab4ad8baf0524c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2700 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2700
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16686
+  },
+  {
+    "sample_id": "financial_6e5644aa4dcf1dcd3b69de80",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2596 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2596
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 15957
+  },
+  {
+    "sample_id": "financial_78042321495e18935de677eb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 1421 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1421
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 22110
+  },
+  {
+    "sample_id": "financial_7f1da2772a136023fff2ea13",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 650 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 650
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 19385
+  },
+  {
+    "sample_id": "financial_8f79b3499551b4e93cd6c9cb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2177 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2177
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14921
+  },
+  {
+    "sample_id": "financial_c6b4aac0d8cd6b0e28e2a6d7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 2771 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2771
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 27213
+  },
+  {
+    "sample_id": "financial_c9a1f571a08132eecabf700d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "question": "Looking at the balance volatility before 1995-12-31, what will be the minimum balance reached by account 3357 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3357
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 17162
+  },
+  {
+    "sample_id": "financial_0b7fce3a5026788cda6585bc",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 3269 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3269
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_1baf4ad0c16bd7feb152ac38",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 1583 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1583
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_4049203ae89e87c78f2d1055",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 3410 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3410
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13
+  },
+  {
+    "sample_id": "financial_451616de9e2d367e205e06a9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 3572 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3572
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_55bac01515c2785e1f609eff",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 4352 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4352
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_7554cd76881b2a830c278805",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 2178 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2178
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_9373a23a6ee8dce2f2b5147d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 11138 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11138
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_a377db4ef3ff803519c80a9e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 1959 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1959
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_eb0b67b433ef27ba5b0f5f7c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 206 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 206
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_eb6b48fcc0316a001fc1dfd5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "question": "How many transactions will account 746 record in the 30 days after 1995-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 746
+    },
+    "reference_time": "1995-12-31 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  }
+]

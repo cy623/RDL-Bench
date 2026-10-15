@@ -1,0 +1,1582 @@
+[
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_381",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_383",
+    "parent_split": "train",
+    "source_reference_time": "2014-02-12",
+    "model_reference_time": "2014-02-13 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 100,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_384",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_389",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_390",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_391",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_392",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_393",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_395",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_396",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_397",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_398",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_399",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_401",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_402",
+    "parent_split": "train",
+    "source_reference_time": "2014-02-12",
+    "model_reference_time": "2014-02-13 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 100,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_404",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_405",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_406",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-21",
+    "model_reference_time": "2014-03-22 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 137,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_408",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_412",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_413",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_414",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_415",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_416",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_417",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_418",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_420",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_421",
+    "parent_split": "train",
+    "source_reference_time": "2014-02-12",
+    "model_reference_time": "2014-02-13 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 100,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_422",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_426",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_427",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_428",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_429",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_431",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_432",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_433",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_436",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_438",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_442",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16 23:59:59",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_443",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_446",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_447",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16 23:59:59",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_449",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_451",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_453",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_455",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_456",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16 23:59:59",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_460",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_463",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_465",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_468",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_469",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_473",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_474",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_475",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_478",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_479",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_484",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_486",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_487",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_490",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_492",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_495",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_497",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_500",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_502",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_503",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_504",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_505",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_509",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_511",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_515",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_517",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_519",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_521",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_522",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_527",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_528",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_530",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_533",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_534",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_536",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_539",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_542",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_544",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_546",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_548",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_551",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_552",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_554",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_558",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_563",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_564",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_566",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_567",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_573",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_576",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_577",
+    "parent_split": "train",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "source_reference_time": "2014-01-13",
+    "model_reference_time": "2014-01-14 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 70,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16 23:59:59",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "source_reference_time": "2014-03-16",
+    "model_reference_time": "2014-03-17 00:00:00",
+    "season": 2014,
+    "last_observed_daynum": 132,
+    "reason": "end_of_observation_day_normalized_to_next_midnight_under_day_level_result_availability"
+  }
+]

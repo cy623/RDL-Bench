@@ -1,0 +1,3142 @@
+[
+  {
+    "sample_id": "dallas_futuretest_83a78f4d86c160400cb1a6c7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-01-08?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-08 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_461d988112e7a08a5d3d1b70",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-05-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-05-07 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_258232d25fe2629bf657b589",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-01-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-01-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_67b37e5e2f9112bec2ba57bc",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-05-27?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-05-27 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9d01c102cd12506ac5b5b561",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-09-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-09-02 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_209cea233b2c72793baa4c25",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hayden, Kevin in the 365 days after 2015-04-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-04-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "dallas_futuretest_68d84f8f9a7b9e8658c5f592",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Tena, Edward in the 365 days after 2014-01-08?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-08 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_f8a599e01e118152ccdeddff",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-03-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_956cab4f165d34b578e80800",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-02-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_4e5ba618fd048eef92f9f887",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-04-23?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-23 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_aa133b92088e515f988a3515",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-02-26 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_173c32d8af5c0782f67755c8",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in a future shooting incident with a male subject within 365 days after 2014-05-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-05-07 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents",
+      "subjects"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_2289749bf18e2b957fd33ea8",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-01-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-22 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b06a6394d4096870caa0402c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Tena, Edward in the 365 days after 2014-06-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_3a1c797c44fcb61700cabca2",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-04-16?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-16 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_682b5a6d528e3e49a2e405db",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-07-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-07-29 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9388042e8da0c103c6c11639",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-06-25?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-25 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b86b5582c165eb8931c18b23",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_2d79c0c8e0e66e9ed9073cb1",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b9c0f31b7c2586bab2c5ec5b",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-04-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-02 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_46314c466eaf660cc93c5c6e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Mondy, Michael in the 365 days after 2014-03-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-03-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_77e2b349e94a12ed8da33128",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-03-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-03-26 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ce5371fe0725c3a345559517",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-05-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-05-07 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_c14a75cf11565c3adfd54c2c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Tena, Edward in the 365 days after 2014-03-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_99ab405b1b1955c08d73f81a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_040715710cc9a99474836b25",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-05-21?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-05-21 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ef844428b4353bd8a949dffa",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-04-09?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-09 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_747fae30f6eeaea52e424bdc",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Bowling, Joseph in the 365 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_c2fc2c8068bdb2d650abb696",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hayden, Kevin in the 365 days after 2015-01-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-01-28 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "dallas_futuretest_bd7b400d9a23931df65e117a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-01-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_141fd059f5641e9dbeed8223",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-01-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-22 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9cc0c234751b533a3ba33317",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-02-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-19 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_49046d4b89d3e50194953dd4",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-04-30?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-30 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_fa51bc5f0936b97cacf3d506",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_0db8702ddc778ba3c7267e98",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "question": "Will officer Fillingim, Brian be involved in at least one additional officer-involved shooting in the 180 days after 2014-10-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Fillingim, Brian"
+    },
+    "reference_time": "2014-10-29 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_a468aad13e0e9c763445a3d6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "question": "Will officer Edwards, Marilyn be involved in at least one additional officer-involved shooting in the 180 days after 2014-07-16?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Edwards, Marilyn"
+    },
+    "reference_time": "2014-07-16 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_c3357670dc23b66807db82c2",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "question": "Will officer Martinez, Albert be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-04-30?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Martinez, Albert"
+    },
+    "reference_time": "2014-04-30 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_22398c9cae3abe09f8af884f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Cantu, Oscar be involved in during the 180 days after 2014-12-17?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Cantu, Oscar"
+    },
+    "reference_time": "2014-12-17 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4dd932cbe7fd3ef33f0489bd",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Thompson, Dwayne be involved in during the 180 days after 2015-08-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Thompson, Dwayne"
+    },
+    "reference_time": "2015-08-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_3e1eb1cf8f9c5de480b0aea3",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "question": "Will officer Dominguez, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2015-07-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Dominguez, Michael"
+    },
+    "reference_time": "2015-07-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_f4f6ef87bc5b0b003032d25c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "question": "Will officer Summers, Daniel be involved in a future shooting incident with a male subject within 365 days after 2015-03-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Summers, Daniel"
+    },
+    "reference_time": "2015-03-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents",
+      "subjects"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_d995c3635002bbdaf901c460",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Carballo, Rolando Jr. be involved in during the 180 days after 2015-09-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Carballo, Rolando Jr."
+    },
+    "reference_time": "2015-09-02 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_18b987eb6de874b2aa88da7f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hughes, Thomas be involved in during the 180 days after 2015-03-25?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hughes, Thomas"
+    },
+    "reference_time": "2015-03-25 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_50dc327f1705910295bdf939",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "question": "Will officer Gladden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-04-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Gladden, Kevin"
+    },
+    "reference_time": "2015-04-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_084ffd1ac04b398c5c1e7e14",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Sanchez, Ray be involved in during the 180 days after 2014-05-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Sanchez, Ray"
+    },
+    "reference_time": "2014-05-07 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4a7d29608d1ac817f7df6320",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Helm, Zachary be involved in during the 180 days after 2014-09-03?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Helm, Zachary"
+    },
+    "reference_time": "2014-09-03 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_0ae23ebd8e03b68d47ba4257",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Jankowski, Jay be involved in during the 180 days after 2014-10-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Jankowski, Jay"
+    },
+    "reference_time": "2014-10-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_afb6be92645ff58279312ab6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Edwards, Marilyn in the 365 days after 2015-07-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Edwards, Marilyn"
+    },
+    "reference_time": "2015-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_8c4fa6259d578065a5567b79",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "question": "Will officer Jankowski, Jay be involved in at least one additional officer-involved shooting in the 180 days after 2015-05-06?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Jankowski, Jay"
+    },
+    "reference_time": "2015-05-06 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_fcf50a14276713714070a7dd",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-06-25?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-06-25 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_e635974534e60bade3fe69e9",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer St. Clair, James Jr. be involved in during the 180 days after 2014-04-09?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "St. Clair, James Jr."
+    },
+    "reference_time": "2014-04-09 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_b9f1ebdfc6b6ef7568300734",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Culp, Barrick in the 365 days after 2014-01-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Culp, Barrick"
+    },
+    "reference_time": "2014-01-29 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_5b22305ba72072db3858adac",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "question": "Will officer Lopez, Antonio be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2015-02-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Lopez, Antonio"
+    },
+    "reference_time": "2015-02-11 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_997a78c6e608eb53fce2c7cf",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer McDaniel, Julian be involved in during the 180 days after 2014-03-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "McDaniel, Julian"
+    },
+    "reference_time": "2014-03-26 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_b51e851b0b4c2f140b2c4050",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hawkins, Joe in the 365 days after 2015-01-21?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hawkins, Joe"
+    },
+    "reference_time": "2015-01-21 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_88bd963f85c59328395176dd",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Mondy, Michael in the 365 days after 2014-08-13?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-08-13 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4c854aa57f80cfc1d0ee5db7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "question": "Will officer Payne, Brian be involved in at least one additional officer-involved shooting in the 180 days after 2014-11-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Payne, Brian"
+    },
+    "reference_time": "2014-11-05 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_1f4f1da25ced2828bd5b5820",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bailey, Pete be involved in during the 180 days after 2014-09-03?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bailey, Pete"
+    },
+    "reference_time": "2014-09-03 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_a162ee0d1f6e38f5ad1ce89d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Dominguez, Michael be involved in during the 180 days after 2015-04-08?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Dominguez, Michael"
+    },
+    "reference_time": "2015-04-08 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_3a7d3f95db1d05cd506d46c0",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2014-11-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2014-11-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_766ae56f1c1b947119386247",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Ledezma, Bernadino be involved in during the 180 days after 2014-11-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Ledezma, Bernadino"
+    },
+    "reference_time": "2014-11-19 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_bd583068280bb84196766a72",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Mondy, Michael in the 365 days after 2015-04-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2015-04-29 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_6ea0fd436d4bf784c5e50c2b",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "question": "Will officer Yanez, Tami be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-07-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Yanez, Tami"
+    },
+    "reference_time": "2014-07-02 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4293bfedbd568c42434a4bf0",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Hubert, Kyle in the 365 days after 2015-03-04?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hubert, Kyle"
+    },
+    "reference_time": "2015-03-04 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4072e817dc4c62e184795854",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "question": "Will officer Everett, Alexander be involved in at least one additional officer-involved shooting in the 180 days after 2015-01-14?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Everett, Alexander"
+    },
+    "reference_time": "2015-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_10b099b350f709a5b6aa2ecc",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Gladden, Kevin in the 365 days after 2014-11-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Gladden, Kevin"
+    },
+    "reference_time": "2014-11-26 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_1b6ed3881c17ca256f421b7c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-06-04?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-04 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ef8d3ec7ec59cb4a8961b922",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_6774386d06e238107f03f3d6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-04-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-04-02 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ecd46335a338c8ba2a698d9e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-07-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_05da6fdc9a46a7891c5f6a42",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_d8f831885bc4c2ea40b8fa18",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Tena, Edward in the 365 days after 2014-04-09?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-09 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_cad9e91dce61f41afd4b2c7e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_0fa401039e9f0a891240dc3e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_27e28cf43b57e2c9a8d16974",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-04-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-02 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_0c039b6efcbcaff86fcc0196",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Bowling, Joseph in the 365 days after 2014-06-04?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-06-04 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_daaffd772c38e6794ad1281f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-05-14?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-05-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_8986ffad5ba3760cfec50815",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-02-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-02-26 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b7cfa1c5ff41ccdfba9b7a29",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-04-16?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-16 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_41602543f56d1c1143c8de0a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-05-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-05-07 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_e9e62010e01ac1aaf4f6dd8c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-05-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-05-28 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_cf5cda21dfb5342c5205b52f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Tena, Edward in the 365 days after 2014-03-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-03-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ce039838cb7523621a75cf79",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hayden, Kevin in the 365 days after 2015-05-20?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-05-20 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "dallas_futuretest_548e6efe8d410ca57a9ba571",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-02-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-02-19 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_d8df76b8aee1519ffd9fba1c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hayden, Kevin in the 365 days after 2014-12-10?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2014-12-10 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "dallas_futuretest_b52f3ce6178433632e86ac4f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-06-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_0aae47885545425ee23ba021",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_f246226c0129a259da79797d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Bowling, Joseph in the 365 days after 2014-06-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-06-11 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_3b5750868a7b26d94d93fffd",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "question": "Will officer Mondy, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-02-26 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9271e756b9645f527145764d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-06-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-06-11 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_7ede2fd4eb13f338f3f8cef7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-05-20?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-05-20 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_8f70b7de3d3f0601b4485d74",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-01-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-22 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_d8dbdb9244fcd575b7c5cd3a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-06-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-11 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_60d0d6cf9a07709349ce65b0",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2015-06-17?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-06-17 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_2e32106b6d1129a9ca549977",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_8ff702fafecdaddc3417302e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "question": "Will officer Mondy, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2014-05-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-05-28 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_62508f54d8edadde513871f4",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Hayden, Kevin in the 365 days after 2014-11-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2014-11-26 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "dallas_futuretest_b1ec8808a8a295104e9288a3",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-05-27?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-05-27 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b2e5e7464c2db13ff5a88184",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident with a male subject within 365 days after 2014-03-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-03-19 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents",
+      "subjects"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_5d41e6d55efcd604e5888907",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Yanez, Tami be involved in during the 180 days after 2015-02-25?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Yanez, Tami"
+    },
+    "reference_time": "2015-02-25 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_52a29ecc7b54a421f2d54832",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Melo, Richard be involved in during the 180 days after 2014-02-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Melo, Richard"
+    },
+    "reference_time": "2014-02-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_92d75f50fd0fff0735c36c78",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer McDaniel, Julian be involved in during the 180 days after 2015-08-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "McDaniel, Julian"
+    },
+    "reference_time": "2015-08-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_612e3669ce279cdedd70e6a8",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Eaton, Dan in the 365 days after 2015-02-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Eaton, Dan"
+    },
+    "reference_time": "2015-02-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_2c617eda9e9dbb1669900492",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer White, Kelly be involved in during the 180 days after 2014-11-26?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "White, Kelly"
+    },
+    "reference_time": "2014-11-26 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_1afcc403546ade1b46c91617",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "question": "Will officer St. Clair, James Jr. be involved in at least one additional officer-involved shooting in the 180 days after 2015-08-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "St. Clair, James Jr."
+    },
+    "reference_time": "2015-08-19 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_7c63c034367993eab62cc3d6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "question": "Will officer Todd, James be involved in at least one additional officer-involved shooting in the 180 days after 2014-03-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Todd, James"
+    },
+    "reference_time": "2014-03-05 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_73aaa7358d913137678ec601",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "question": "Will officer Hess, Christopher be involved in a future shooting incident with a male subject within 365 days after 2014-12-10?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hess, Christopher"
+    },
+    "reference_time": "2014-12-10 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents",
+      "subjects"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_59fb5c5c856879c9eb66ef57",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Summers, Daniel be involved in during the 180 days after 2015-04-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Summers, Daniel"
+    },
+    "reference_time": "2015-04-29 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_845370b7e48c83220665027e",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "question": "Will officer Yzaguirre, David be involved in at least one additional officer-involved shooting in the 180 days after 2015-08-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Yzaguirre, David"
+    },
+    "reference_time": "2015-08-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_d1a609aa8084f163ec73390f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "question": "Will officer Bailey, Berkeley be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-03-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bailey, Berkeley"
+    },
+    "reference_time": "2014-03-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_563e735fb8b86d79eec3cf29",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "question": "Will officer Hayden, Kevin be involved in at least one additional officer-involved shooting in the 180 days after 2014-01-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2014-01-22 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_38551490af44f1f51eb315b2",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "question": "Will officer McDaniel, Julian be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2015-01-07?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "McDaniel, Julian"
+    },
+    "reference_time": "2015-01-07 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_029950aee8dfdacbd9f908f6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Canales, Luis in the 365 days after 2015-03-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Canales, Luis"
+    },
+    "reference_time": "2015-03-18 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_e94aa0296146939b6bb36804",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Helm, Zachary in the 365 days after 2014-05-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Helm, Zachary"
+    },
+    "reference_time": "2014-05-28 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_9eded98b97505e6efdd80985",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Woody, Mark be involved in during the 180 days after 2015-07-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Woody, Mark"
+    },
+    "reference_time": "2015-07-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_093dde0e02c9c66309b4fd83",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer White, Kelly be involved in during the 180 days after 2014-06-04?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "White, Kelly"
+    },
+    "reference_time": "2014-06-04 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_8a83357a3e6ceba478f08925",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Woods, Jesse in the 365 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Woods, Jesse"
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_b101a2a4eb57bc14d7fb5514",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Edwards, Marilyn be involved in during the 180 days after 2014-03-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Edwards, Marilyn"
+    },
+    "reference_time": "2014-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_7543658304b2e92d7c2455b9",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Sansom, Dameon in the 365 days after 2014-08-20?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Sansom, Dameon"
+    },
+    "reference_time": "2014-08-20 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_8b829315ddebcaf713d24b04",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "question": "Will officer Daigrepont, Kevin be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2015-05-27?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Daigrepont, Kevin"
+    },
+    "reference_time": "2015-05-27 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_24a6fcaf3b1f37e3478da2a0",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Khan, Arif be involved in during the 180 days after 2015-06-10?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Khan, Arif"
+    },
+    "reference_time": "2015-06-10 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_ca02de36bf2d37fdf73714bd",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Bowling, Joseph in the 365 days after 2015-07-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2015-07-22 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_51d69d5df361f4a275ce757a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2015-08-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2015-08-19 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_b0c067ee48f8df3f1003b52c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tayem, Michael be involved in during the 180 days after 2015-04-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tayem, Michael"
+    },
+    "reference_time": "2015-04-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_f1965c7933975736ba951b42",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Yanez, Tami in the 365 days after 2015-05-27?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Yanez, Tami"
+    },
+    "reference_time": "2015-05-27 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_4a4fddadebd575b64198564d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "question": "Will officer Tholl, Kyle be involved in at least one additional officer-involved shooting in the 180 days after 2015-03-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tholl, Kyle"
+    },
+    "reference_time": "2015-03-11 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_566a805de8441d2aafdf65da",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2015-07-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2015-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_665aa01ebf22d959487f5320",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Fifield, Andrew be involved in during the 180 days after 2015-01-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Fifield, Andrew"
+    },
+    "reference_time": "2015-01-28 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_110a73de5d5c66ac371cc713",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hughes, Thomas be involved in during the 180 days after 2014-10-08?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hughes, Thomas"
+    },
+    "reference_time": "2014-10-08 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_95f1d0055711b01d896b2222",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "question": "Will officer St. Clair, James Jr. be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "St. Clair, James Jr."
+    },
+    "reference_time": "2014-02-12 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_785f920776dfdf8760ed4eca",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "question": "Will officer Rhodes, Phillip be involved in at least one additional officer-involved shooting in the 180 days after 2014-09-24?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Rhodes, Phillip"
+    },
+    "reference_time": "2014-09-24 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_1d4b42b101a342dd978eac04",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "question": "Will officer Yzaguirre, David be involved in at least one additional officer-involved shooting in the 180 days after 2014-11-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Yzaguirre, David"
+    },
+    "reference_time": "2014-11-05 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "dallas_futuretest_43a2c3d690c9d2b3d886f359",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in a future shooting incident with a male subject within 365 days after 2014-06-18?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-06-18 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents",
+      "subjects"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_0051190410d31a5f676d5155",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "question": "Will officer Mondy, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2014-06-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-06-11 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_bc134cda21b4eabece744cb1",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-02-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-05 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_b5752d248d76c980cd1fc062",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Tena, Edward in the 365 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_061f063008be44e65c6c3e26",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "question": "Will officer Mondy, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2014-04-30?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-04-30 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_f01478a8cf0187bd9dbd268d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-01-08?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-08 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_ded28d7ed8d6a109d3bb5976",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-05-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-05-28 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_42ce504cb74c61f2c9af31a6",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-02-19 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_260580d007550464ab0151d2",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in a future shooting incident where the subject weapon is a Handgun within 365 days after 2014-06-11?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-06-11 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9540be35f417adf3f4077d3f",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-07-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-07-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_53edcbbc83e77296f23946c7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-04-02?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-02 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_64b4ce34e9473007db5d99ad",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-02-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-02-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_856f566fcb5569f7d5ab06c0",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Bowling, Joseph in the 365 days after 2014-01-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-29 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_bc33075873f6f214fe3a337d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-06-04?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-06-04 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_0fc0926514e8acb2f162516c",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-06-03?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-06-03 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_e040f601d04adc2c549ead16",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Tena, Edward in the 365 days after 2014-04-16?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-16 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_5d117a06652f2f576b3658d7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-05-20?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-05-20 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_3a3a1348f27589534840f36a",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-03-12?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-03-12 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9f484a3623910efdc89a9a1b",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "question": "Will officer Bowling, Joseph be involved in at least one additional officer-involved shooting in the 180 days after 2014-02-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-05 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_5aaa49d4b13c7a870dfeb907",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Mondy, Michael in the 365 days after 2014-01-22?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-01-22 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_dffe87d46adb1d3af8322337",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Bowling, Joseph in the 365 days after 2014-01-01?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_9a11bb1a91a6f679dd4583a1",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-07-29?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-07-29 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_00293732738d7701d557dfdf",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "question": "What total subject count will be recorded across future shooting incidents involving officer Bowling, Joseph in the 365 days after 2014-02-19?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-02-19 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_3f5bf54e747578469492cbd4",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "question": "Will officer Tena, Edward be involved in at least one additional officer-involved shooting in the 180 days after 2014-04-09?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-09 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_20fbaa3123012f626cd8f148",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-05-21?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-05-21 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_8b7eb7f113cb04f4d886cf96",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-05-28?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-05-28 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_bae19120d560b11b101c8c46",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Hayden, Kevin be involved in during the 180 days after 2015-08-05?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Hayden, Kevin"
+    },
+    "reference_time": "2015-08-05 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_6f3e4132addfe47fe1e30610",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Mondy, Michael be involved in during the 180 days after 2014-04-16?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-04-16 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_a50fdd7da5f4b86cbfa6c35d",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-04-09?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-04-09 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_197910b056f85a206daca498",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Tena, Edward be involved in during the 180 days after 2014-01-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Tena, Edward"
+    },
+    "reference_time": "2014-01-15 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_626e6273d0c59aabbd7882e7",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "question": "Will officer Mondy, Michael be involved in at least one additional officer-involved shooting in the 180 days after 2014-01-15?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Mondy, Michael"
+    },
+    "reference_time": "2014-01-15 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_431ae5bcabb3aa3ce5d3b787",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "question": "How many distinct officer-involved shooting incidents will officer Bowling, Joseph be involved in during the 180 days after 2014-04-30?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-30 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "dallas_futuretest_bc12913e684800f176396e56",
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "question": "How many future Handgun-related shooting incidents will involve officer Bowling, Joseph in the 365 days after 2014-04-23?",
+    "anchor": {
+      "table": "officers",
+      "key": "full_name",
+      "value": "Bowling, Joseph"
+    },
+    "reference_time": "2014-04-23 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "officers",
+      "incidents"
+    ],
+    "label": 1
+  }
+]

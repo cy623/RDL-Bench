@@ -1,0 +1,5282 @@
+[
+  {
+    "sample_id": "stats_futuretest_fcea5c96de2f65e2c3b6ca39",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 7399 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7399
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_2bfb5774dffa771b08940261",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 27769 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27769
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_7a8d782dc5ac33c76e4d20f2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 17112 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17112
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 15
+  },
+  {
+    "sample_id": "stats_futuretest_2a2c969af46b121660eb217f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 3305 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3305
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_46266b1c95ba2742cc3a521c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 3330 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3330
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_e42c3849c0f07f8bdcadf495",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 16074 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16074
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_329783ac97b24cd4c63594f2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 12602 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12602
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "stats_futuretest_1432ef2ebbb72cea7b946699",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 16474 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16474
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a09dc42d71693b849391196d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 5003 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5003
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_fe3bbe9e4bfc193a9593383a",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 9583 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9583
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_79ca7b496750a8f2790fe8f8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 11981 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11981
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_0f42d398afd8623a35f31245",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 9583 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9583
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a84db24276a43045609277a5",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 88 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 88
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_98ee8857aabea80a5dd84faa",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 88's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 88
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_7bf5d38c414311d80a1382d6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 14890 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14890
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_c98107aeb979f65465e73b50",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 20445 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20445
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_76291d0432d9a46f547dfb7f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 9038 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9038
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_8295a2536ab283d05b7c0194",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 7399 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7399
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_6e24a4a099d8c0a00c613215",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 5829 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5829
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 50
+  },
+  {
+    "sample_id": "stats_futuretest_fde377e902ee772fdf98d1f4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 17812 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17812
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_3156c4616b24630d14ed5f69",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 13041 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13041
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_d1cc02208dfff4d9baa195ec",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 27471 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27471
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_bab179e9d1e2d9e7ee101a10",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 24507 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 24507
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_7d4c8912a731295d94b794e8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 2775 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2775
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_60c8d6c290b3203c59ec6ccc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 6546 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6546
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_149cf612a38e3ca09261b6d9",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 21054 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21054
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_75d96ae5727254116a6d5a7c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 9117 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9117
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_ee18642c3d84216b37821f80",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 4598 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4598
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 50
+  },
+  {
+    "sample_id": "stats_futuretest_767e90ee8eedfdb5e83e3db4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 14634 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14634
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_3e9fae8155327ae04363e299",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 16967 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16967
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_5e87a5d5ed8679387ba04dae",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 261 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 261
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_25d864da9006a242319b956e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 8210 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8210
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_cd8d092ff7a9e921532956bd",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 1983's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1983
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_15a6f76c796492533603375e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 8076 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8076
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_8ae0fdfa0647f93c4c2a077d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 3759 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3759
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_145376d0dddeb5f454616fb1",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 17440 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17440
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_d27044e2ec072cb5a0bcdce4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 13422 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13422
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a90f904b661fe2c5956558f9",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7895 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7895
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f56511f884bf919ff0db41b3",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 23826 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 23826
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_54c12d0af746cee0c655a91f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 6937 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6937
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b9e5c7fbc6765e418aef85bc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 11863 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11863
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_07e7df8465b3d4d884b3bf27",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 482 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 482
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b7c35c9417b19018b03671d6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 13436 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13436
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_e9f5328528bde688add84602",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 6459 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6459
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6187c9eb5fe5241124ab1941",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 16308 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16308
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_441e093e90ed287861baedbf",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 2649 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2649
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6c97dd0d4508ce0477e3e3e6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7225 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7225
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_88be4ca79cf9a9353810de82",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 9686 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9686
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_07e5d0850616ae7a73454a43",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 11882 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11882
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_aaf503e87e9dde4b43e1168e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 2813 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2813
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_4a0d5f7785014ce12a998b5c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 25120 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25120
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_999c9d9687cff8e45506506c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 16869 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16869
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_dfdfda34b03aedc65f0d00ee",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 6245 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6245
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_c4e975eea3f84e94a391b1f4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 10242 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10242
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_1a0ee1b5c658e9e2f5b4929c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 5740 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5740
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_984bb573e460fdd515b8bc1b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 10885 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10885
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_19b42ac9bb144963569a3094",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 8401 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8401
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_9a46c036305d4f18f28fcd42",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 26658 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26658
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_5064fc3cee4771ed2fdd08ad",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 13818 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13818
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_6dfed21a9ca39a170331c5c1",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 4598 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4598
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "stats_futuretest_42224cbfa09ccf2fb6f03d3f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 8137 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8137
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_932392f1c2e94e4b70cb70cc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 3330 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3330
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_d2341dbe260eacef907a0a4f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 539 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 539
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_29d8a4da5c5c1f8f63231705",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 21054 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21054
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 100
+  },
+  {
+    "sample_id": "stats_futuretest_c563756fb12d03d1cd5cef15",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 601 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 601
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_42cf39dc7bd0f25811dcb57f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 27330 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27330
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 25
+  },
+  {
+    "sample_id": "stats_futuretest_e19a5156cfa5b00d290436e0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 279 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 279
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_739a3ba99460ea7c1cd83e31",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 1991 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1991
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_6924bd9ff1b2b62ece11866d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 2958 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2958
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_03f44abc1d3ae2640039ef8e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 25343 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25343
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a0647edf78d4b7ee8ef8e45c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 7925 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7925
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_bdca56e0159778ff9e39bceb",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 1934 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1934
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_2a7a430b719b258368a871ce",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 5829 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5829
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_67d70c8217e126f1916b4935",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 3125 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3125
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_162341de51148ca4c47436f8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 13702 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13702
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_a3b68f9661f1073960366a05",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 5829 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5829
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "stats_futuretest_378c1b38b313d35185f4c8d1",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 11981 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11981
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_177282d8249d0605eb6d327d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 12923 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12923
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_1d04cc48ab2cfa36ca4907fc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 10884's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10884
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_8db7ee56b9c02a21eece02d0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 16811 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16811
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_bb78065a001866723a601d65",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 9244 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9244
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_467a3e537278ffe7c0ed5150",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 8165 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8165
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_e2eee86a58e001e7428da3c5",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 1614 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1614
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_b5d2a75da6d3622c6141b373",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 5003 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5003
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_7b9f2624bae6496a03ae0017",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 5731 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5731
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_0980a4471cb83d31ec028483",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 8475 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8475
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9c215f09f3f02e6462d2fe9e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 16423 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16423
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6a077c3f9b975a442525afdb",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 14304 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14304
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_d3cf4bb6d9dba7b72816b46e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 11794 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11794
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_eafb2c2ae51e27611d4927b5",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 5567 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5567
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_8d31895aac20dee614462ced",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 5198 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5198
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_2346c75f0e9df57446a5a0a8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 17314 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17314
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b41a1d8f578ccd668ed95964",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 9833 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9833
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_659c1f71f8f14e89f0fcab72",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 27346 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27346
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_3d17f6f1b447baf93b268a36",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 10697 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10697
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_55dbbb823366866fe3d06180",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 21917 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21917
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_da575293c6fa5d7fc07ce975",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 3098 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3098
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_44139a6b69562b062f3dbc91",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 22257 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22257
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a2c38915b1adf4d79b64fa38",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 777 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 777
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9257b2c63757db7e1d0673b4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 13591 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13591
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9b5b5b2761d67ddaba464dd3",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 11149 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11149
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6efdf304e03f7a9e86728a47",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 14680 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14680
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_47ef3e449ee7d029a8583d7d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 12638 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12638
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9bfeeee2b68360ad4ec5d8b2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 13379 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13379
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_c18dbec3895074c9fe00a6e6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 5753 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5753
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_68cf119a4a1e65be062fb80b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 2440 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2440
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a8a8a3357b8932156dee7ea0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 9728's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9728
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9c96a0ea0d34dbe1e71bf061",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 5411 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5411
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_5066d8e01b5cb79b1b46104c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 11419 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11419
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_4bb42cf72126e10429a27a25",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 8914 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8914
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_583c89ce624bc2e15210e3ab",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 2529 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2529
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_e369b7b888137c87061b0205",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 11648 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11648
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_3c8fb5147e3fd7f77be41ff8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 3681 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3681
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_1b244e0950d8666e7ad379bc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 10823 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10823
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_8bce14656ad6aefd1b87014c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 2921 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2921
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_5a39f4c6bab0a6282fdf121e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 5295 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5295
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_2acc61c99ac89ca5290c2489",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 17507 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17507
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a0e38cec3163d5ba1851c4de",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 21856 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21856
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_15074319f70c6b674698d8bf",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 17223 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17223
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "stats_futuretest_135f27614df60d2bd49cdf56",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 8165 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8165
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 50
+  },
+  {
+    "sample_id": "stats_futuretest_3aa82a2a27499bcf046298d0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 21104 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21104
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_9061b83dd9599abbdc330960",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 5829 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5829
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_799ba47a3d9f5ea1276bd3c7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 4598 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4598
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_d1218d8477d51f412fa5138a",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 9244 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9244
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_e3295d17aec17f40a8549f4f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 6245 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6245
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_75e60a2e802d3b79cbbf5d0c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 5546 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5546
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_647c009362778ed5b716fdb4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 23770 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 23770
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 100
+  },
+  {
+    "sample_id": "stats_futuretest_585cf0840a4ade3ac0547b0f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 22426 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22426
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_a5087d5e9c1bbd3035f4f0c7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 7448 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7448
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_0d4f933c2b7fb0ca5b6d11ee",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7291 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7291
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a95e33e16969b65f6a9ad9df",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 601's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 601
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a4656049ab66cc80550fd145",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 27530 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27530
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_f055850aeb6c58a301dc70d6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 5836 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5836
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "stats_futuretest_9d0609f43f4bf38e531f9ac9",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 5172 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5172
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_228c2960000686889508174a",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 14860 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14860
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "stats_futuretest_c3620e1a03c638ee866001d0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 13818 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 13818
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_58e5f16a39ce786b6db007c7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 21104 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21104
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_f6407a184528b60679dd47cc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 88 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 88
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_baf3425480778a85d51c9011",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 7064 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7064
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_20906a4241bfa8082206370b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 511 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 511
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_11abf4caf520e276d35cc534",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 14271 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14271
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_3a38a2eb5e53cfe98b80210e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 25032 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25032
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_ccbc459d79f3a5641f8c9e3a",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 6230 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6230
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_724c746550ae962021656b89",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 10500 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10500
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_01c07a6c32313ba69b004884",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 26310 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26310
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_47dc8090ed5324a0f0a52d8e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 1169 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1169
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b4e95c018b7982c2e8c84bca",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 18564 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 18564
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f3cfd666a02d86c75d13c0fc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 17644 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17644
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_df14d5af3046c15ef8a1076c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 16227 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16227
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6f21d44bba4e89580ccfed49",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 8165 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8165
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_fd91c59aeb589185730940e6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 20468 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20468
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b5399dec0a8c73aa077a48f6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 17365 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17365
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f14aa7ffc1c0f2a52e935edc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 24159 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 24159
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f21c95abd57a873030cc482a",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 17404 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17404
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f93592e51cdbbfa27339e98c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 130 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 130
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_bccde100625472ef64b8634e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 566 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 566
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_393e98ba17a5b4aaf2c833cc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 17756 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17756
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_de127cedc7358047bdbfbb41",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 26844 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26844
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6fbd18fde43c03a4d174c0b4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 11438 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11438
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_8897216ac6bfdee327da0dde",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 9694 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9694
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_e915ec6d07255abc07058bd5",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 902 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 902
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_7ca98368785ee4030554bd48",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 9732's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9732
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_ba08d6796893ae8336bfd82e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 12317 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12317
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_c24e3428ef5c645471cbaaaa",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 12863 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12863
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_dfb15530246469d548fd8798",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 18483 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 18483
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_4e99ab70e4a693eb7af075d4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 6735 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6735
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_ae4c3322cb176607493f51d8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 14249 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14249
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9d69ce61a4e56fbc7e509b53",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 21684 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21684
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f397da315f5e8efee738d870",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 601 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 601
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_d3d7c59ac9086ef98ec67611",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 26749 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26749
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_d3ef5ba939c36ff635458218",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 230 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 230
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_ef0a77980744c6738f882ac6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 28315 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 28315
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_3a5c8be2784c114ef078eec3",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 601 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 601
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_59d51b16c6ed1d22d01c012d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 25 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_b8b5e8e9bb296ab93ea1e750",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 17235 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17235
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_c59dad5b02fa41e85d2b3e06",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 3277 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3277
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "stats_futuretest_3cf23b3027cf2fb7d0d1448e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 15949 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 15949
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_092629fc025a1d4373e5d8de",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 17937 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17937
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_5a712f714466755799500004",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 601 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 601
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 75
+  },
+  {
+    "sample_id": "stats_futuretest_52bf34a6c66da422261a916c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 1513 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1513
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_7a8ec2b5a2092f6f95eee820",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 11048 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11048
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_d985ad938ed3bafbd88c832c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 10172 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10172
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_cd6ec2dff784307d45931d09",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 10448 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10448
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_777376c6eedf404fea7a25ae",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 12551 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12551
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "stats_futuretest_e73ce9cf87642b28cf315a9e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 7074 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7074
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_613d0abb46516df0fdd408fc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 10749 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10749
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "stats_futuretest_55df5c3a5bbf90043157d9a2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 1005 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1005
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_177f7c2c373e63436a918214",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 12542 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12542
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_70acf84aa508a2e04e450144",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 14582 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14582
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_743d765abbee449cedbde726",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 21006 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21006
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_bb41cf185f5897ce0964422b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 22586 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22586
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_4a0de1c3c97e57f7a823817c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 230's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 230
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_476e9ac8f16f400f30e392d3",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 9244 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9244
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_9d35f53811fd708a10cef4ce",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 5836 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5836
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_9b7385825f65fdbcfc430fa2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 24370 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 24370
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 50
+  },
+  {
+    "sample_id": "stats_futuretest_ff230f619cc5338c2f32276e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 1600 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1600
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_8ccafcc6c232bf11b53470bd",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 20557 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20557
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_2d023dcbc0fdf02887e3c672",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 10350 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10350
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_d65e576d7cd02efc74d322c0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 14254 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14254
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_fd79c6ae859de45ec7d45d4b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 3259 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3259
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_71a32ec0ca2b42f9b82156fc",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 19932 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 19932
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_1e2b96f3d0a63d5c32b67f06",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 10013 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10013
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_1038bac246bfde5f44b08799",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 4560 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4560
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b5b9a4404e1f79ceb8f3e73b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 14687 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14687
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_033c9f1e73616b5ca3268eef",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 1802 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1802
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_394827a7b27e63abdbe4d0b9",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 9865 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9865
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_71635558fd2e41f67cfc8a72",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 6773 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6773
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_00abf6397af2e0c41386feb1",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 26350 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26350
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_062f67d4b0aa0b9af0bd0fdd",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 16918 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16918
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f9689a67b0d39ff92af12806",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 25582 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25582
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_aade2bd53d7959da59675df8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 27611 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27611
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_c3f25cf88939765565acdf42",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 14169 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14169
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f0d0a3ce7e1cccbe7c4aa73c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 8657 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8657
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_d2644a90ed278895eee8ecfa",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 8391 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8391
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6fde7aea462ce2f1593ce785",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 2529 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2529
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a94fe332d7ff365015ebfcaf",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 5923 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5923
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_2fcac51e3b65c085577e9562",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 12200 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12200
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9eb8053e3caf810177b33ad7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 17019 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17019
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_dad07d935b2adbc60eb9cc1e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 648 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 648
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_f8c9df4f34de9837180d00b4",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 2440 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2440
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_3f83ff38cd4f504397dfa874",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 20173 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20173
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_1ae3fb946f1f43e047df163c",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 3327 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3327
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_5762931d07d2bba140133277",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 7875's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7875
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_fb007751798505db815f32c6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 5465 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5465
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_50b8a60250a1c11c010b67b2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 17102 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17102
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_01aa9129b281b323e8410e5b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 17880 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 17880
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "stats_futuretest_4aaf62a5a0e5ffa59e2fffab",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 22452 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22452
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 36
+  },
+  {
+    "sample_id": "stats_futuretest_5d86500112d2afdda3fd1e12",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 1291 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1291
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_bd184075a3387aedda8195b7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 4598 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4598
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "stats_futuretest_e5138d02d13021b97e5108a7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 5836 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5836
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_1009dcad9913b834f131e67f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 8373 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8373
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "stats_futuretest_b77ed16b2f9053d71f0437fb",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 5647 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5647
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a9c6fe9e6256d1390ea50f35",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 12895 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12895
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "stats_futuretest_aadb376101b912d329d607b0",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 4598 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4598
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "stats_futuretest_19c6d83d0eabfd27f860f010",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 22452 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22452
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_5cd513f7a91d9f89e94a6289",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 20917 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20917
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_c771887c9334035a937f7dcd",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 6029 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6029
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 50
+  },
+  {
+    "sample_id": "stats_futuretest_0f7a65da0b515da3bc79b3da",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 6440 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6440
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_63a12175f33f3213f4380392",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 11875 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11875
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_e368cf59a7ce69e1bce471c2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 14860 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 14860
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "stats_futuretest_ddd01e776a6d5ca20ceb68d2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 21521 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21521
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_ff5b6aaea978c317546746a2",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 3125 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3125
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_a2a92654ac0f11aa82b5c636",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 7117 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7117
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_0141c568f6d79709698b275e",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 4426 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4426
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_5ae3115b4222a580f9923a06",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 6666 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6666
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_fe22b195119b40d5e6acbe76",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7399 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7399
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_62397542a319403741102c09",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 4426's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 4426
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_4aa219921725f27fd83bd41d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 25057 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25057
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_51fbce6eee5c80aacc7bc145",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 12492 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12492
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "stats_futuretest_952f738ef88cf448e3e1065b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 5836 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5836
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 16
+  },
+  {
+    "sample_id": "stats_futuretest_f95293907fca50b7c2fdf20b",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 5893 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5893
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "stats_futuretest_55e433d4bf3b3b639572381f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7362 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7362
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "stats_futuretest_735e39147a65c942c9b619ed",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_702",
+    "parent_split": "test",
+    "question": "Will user 5265 create at least one new question in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5265
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_dbb32b3dea45e5ebbf344c01",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_766",
+    "parent_split": "test",
+    "question": "Will user 6354 create at least one new question in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6354
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_ed42e0b65d8fccc83ba4a9d8",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_666",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 5090 will receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5090
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_0badf07f3a9aa7a088e25a33",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_749",
+    "parent_split": "test",
+    "question": "Will any post owned by user 1737 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 1737
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_c3320022d01cb7d50872c855",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_612",
+    "parent_split": "test",
+    "question": "Will any post owned by user 21090 receive a comment in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21090
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_2d810690c745a1035bb7825f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_615",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 21045 in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 21045
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_69a4c61cd84edc6d53f2b775",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_733",
+    "parent_split": "test",
+    "question": "How many 'Edit Body' revisions (PostHistoryTypeId 5) is user 10013 predicted to perform in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10013
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posthistory"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_d935116289df8e9454a52f00",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_632",
+    "parent_split": "test",
+    "question": "Will user 18110 create a new question in the 60 days after 2013-05-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 18110
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_b60731bd415fc3c20d665a30",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_607",
+    "parent_split": "test",
+    "question": "Given the comment frequency of user 7328 leading up to 2013, how many comments is this user predicted to post in the first 60 days of 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7328
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6f2f24672ac4a6fccc76648d",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_652",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 12129 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 12129
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_bc931f3b86926a5c3a8e74dd",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_626",
+    "parent_split": "test",
+    "question": "Based on the engagement levels of user 6421 prior to August 2013, will any of their posts receive a new comment within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 6421
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_9c90b16a30aa751027935b4f",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_643",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 7923 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7923
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6a3a790ced1887740ab64fb5",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_640",
+    "parent_split": "test",
+    "question": "Will any post owned by user 9287 receive an upvote in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 9287
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_cbed19dd3c9e2c8708b631cf",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_745",
+    "parent_split": "test",
+    "question": "How many distinct posts owned by user 10910 will receive a comment in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 10910
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_57914a231cd71fc860d1ba78",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_693",
+    "parent_split": "test",
+    "question": "Based on the voting patterns for user 27584 leading up to August 2013, will any of their existing questions receive a new 'Favorite' bookmark (VoteTypeId 5) within the next 30 days?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 27584
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_758e7322e6df5e36bf28b672",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_760",
+    "parent_split": "test",
+    "question": "Will one of user 2503's posts receive both an upvote and a comment in the future window during the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 2503
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_47326e9083dbaa460d9e1ddb",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_761",
+    "parent_split": "test",
+    "question": "Will user 20917 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 20917
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_efc3c09723dfe8dcca70d096",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_629",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 5114 receive in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 5114
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_061491b76e92b3117b823cdf",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_762",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 3065 receive in the 30 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3065
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_4d83498efb5a76f7f635caef",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_684",
+    "parent_split": "test",
+    "question": "How many upvotes will posts owned by user 22215 receive in the 30 days after 2013-07-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 22215
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_5bdbdf9ca051915d717b8130",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_716",
+    "parent_split": "test",
+    "question": "Will user 8696 create a new question in the 60 days after 2013-07-01 that also receives a comment within that same 60-day window?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 8696
+    },
+    "reference_time": "2013-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posts",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_80655bc75bc9bfdc21d3cce7",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_613",
+    "parent_split": "test",
+    "question": "How many posts owned by user 11025 will receive both an upvote and a comment in the 60 days after 2013-01-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 11025
+    },
+    "reference_time": "2013-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "posts",
+      "votes",
+      "comments"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_6cd523ab118a75059ce33ebb",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_677",
+    "parent_split": "test",
+    "question": "Will user 3740 receive at least one badge in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 3740
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "badges"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_1d47436ace4f04da114a2065",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_741",
+    "parent_split": "test",
+    "question": "Will any post by user 25407 be 'Community Owned' (PostHistoryTypeId 16) during June or July 2013?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 25407
+    },
+    "reference_time": "2013-06-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "posthistory",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_a3efc626ae190b088807a7ba",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_768",
+    "parent_split": "test",
+    "question": "How many comments will posts owned by user 7054 receive in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7054
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_110b1e4235899895a09db9ea",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_655",
+    "parent_split": "test",
+    "question": "Will any post owned by user 7356 receive a comment in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 7356
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "comments",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_7ba5d83d9cec1d817fde44e6",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_663",
+    "parent_split": "test",
+    "question": "How many bounty points will be closed on posts owned by user 26644 in the 30 days after 2013-08-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 26644
+    },
+    "reference_time": "2013-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "stats_futuretest_daded7ced97e899e7c1f7707",
+    "domain": "stats",
+    "parent_question_id": "RDB_FIN_614",
+    "parent_split": "test",
+    "question": "Will any post owned by user 16791 receive an upvote in the 30 days after 2013-05-01?",
+    "anchor": {
+      "table": "users",
+      "key": "id",
+      "value": 16791
+    },
+    "reference_time": "2013-05-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "votes",
+      "posts"
+    ],
+    "label": 0
+  }
+]

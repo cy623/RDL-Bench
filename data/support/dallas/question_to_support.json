@@ -1,0 +1,4703 @@
+[
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_002",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_005",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_006",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_010",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_011",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_012",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_015",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_016",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_018",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_022",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_026",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_029",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_032",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_033",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_034",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_035",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_036",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_038",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_039",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_041",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_042",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_044",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_045",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_046",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_049",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_050",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_051",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_052",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_053",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_054",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_055",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_056",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_060",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_061",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_063",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_065",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_066",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_067",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_069",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_071",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_074",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_075",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_076",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_077",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_078",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_080",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_082",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_084",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_086",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_087",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_091",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_092",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_093",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_094",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_096",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_098",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_099",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_100",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_101",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_102",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_106",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_108",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_109",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_110",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_111",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_112",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_113",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_114",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_115",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_117",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_118",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_119",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_120",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_121",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_123",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_127",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_128",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_129",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_131",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_132",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_136",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_137",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_138",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_142",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_143",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_144",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_145",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_146",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_147",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_149",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_150",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_151",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_153",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_154",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_156",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_158",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_163",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_164",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_165",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_167",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_169",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_170",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_171",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_172",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_174",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_176",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_177",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_178",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_180",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_181",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_182",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_183",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_184",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_187",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_188",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_190",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_192",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_194",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_196",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_198",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_201",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_203",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_204",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_206",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_207",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_208",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_210",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_211",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_213",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_214",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_215",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_217",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_218",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_219",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_221",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_226",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_229",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_231",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_232",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_234",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_235",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_744640a228ca3de13e681f9e",
+      "dallas_v2_58ac792e261ec47d732cb7da",
+      "dallas_v2_31f79e21b800a12ca343557f",
+      "dallas_v2_d0df5f8711f7fce0c2a6b4e9",
+      "dallas_v2_2f786e3683ec2d2af76c0d86"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_236",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_673a8855672d2927d7a03d08",
+      "dallas_v2_506e0ceeb59b1b96b346f704",
+      "dallas_v2_ee6f9c0c8810bd7caa5de62b",
+      "dallas_v2_6a29827b968fc662d1d59b44",
+      "dallas_v2_3b99f536f92280154e132e3d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_239",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_fb9a88cf22bd9f705dd64b5c",
+      "dallas_v2_057f70cc2357a786bcbb9d09",
+      "dallas_v2_6626a71b747998dad679ea2d",
+      "dallas_v2_58f49df8056ff7d61959895d",
+      "dallas_v2_6e1a35944d149bdc9d73e443"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_243",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_a702aaa989db309cd7589331",
+      "dallas_v2_430b16fd62aa3648477a89f2",
+      "dallas_v2_252a8c198260266a46d492ee",
+      "dallas_v2_c4d04eb52c182ed01f759f4e",
+      "dallas_v2_a6eb8fdafa4190be83444f3e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_244",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1afc270413869193ddeffbcd",
+      "dallas_v2_57ba97d98d0850416e58316b",
+      "dallas_v2_19fdb756608441c6f0d4e64d",
+      "dallas_v2_79d34e725ff540c25a8651d7",
+      "dallas_v2_1cf50b485f2d2f668c3842ad"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_247",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4b034c4b70e9af810d39493e",
+      "dallas_v2_862df5cc0c3da7f5ff110788",
+      "dallas_v2_caf348465849377b263d7961",
+      "dallas_v2_b5be71d9fa835c126280be0b",
+      "dallas_v2_b9a8e4de6dbbcb6f1dad8e48"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_248",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b7adcecdac7cbf894e900c64",
+      "dallas_v2_efde20a3df80068042879b13",
+      "dallas_v2_9beb33dfad943743da4bebe0",
+      "dallas_v2_626e1031c642c3f20950adb0",
+      "dallas_v2_e28aacf1a343148150424f84"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_249",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e0569ace1e836018220714c0",
+      "dallas_v2_10ff746aa3f5881927232434",
+      "dallas_v2_131bf738ce81c1affae28700",
+      "dallas_v2_907d28bdb08900d4215c8df7",
+      "dallas_v2_e63149c5cb94d4cfedf2dab6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_250",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_63f6154c70df23de6250edd2",
+      "dallas_v2_fef055f7ed376ea5e24da3d6",
+      "dallas_v2_b2e07db62750be09313a73f1",
+      "dallas_v2_5ec22d883c5d18fbf9239144",
+      "dallas_v2_f2b6251f96e11d03453a189d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_252",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4ddfba5da13cfacd20d247ce",
+      "dallas_v2_a8fd0af2420233555b383159",
+      "dallas_v2_9b91b9408b1bc0088cc5e314",
+      "dallas_v2_8f6f4e8c13db44b875dec0fb",
+      "dallas_v2_34ed06a155ff3c409b5374ff"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_253",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4d4c5861261a6aa2e1ee50d8",
+      "dallas_v2_6ab27affcdbc0ca029109681",
+      "dallas_v2_3b98703d44edaaf447c54999",
+      "dallas_v2_bc2592ea90ad119df4fd35e7",
+      "dallas_v2_5ed52eb64f209ceef2678ee4"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_255",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_c2877f26aca9ba92cc723558",
+      "dallas_v2_12f7fa23f80b59bbf19fa634",
+      "dallas_v2_c088dd5e5951bb46ac96ca70",
+      "dallas_v2_0015763358f3f27609d07c55",
+      "dallas_v2_f4a58be861d6f644989dab04"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_256",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6fea3e99a4b59432b90e6daf",
+      "dallas_v2_e6c069f26b53aeed41cd7d25",
+      "dallas_v2_decac731a00b888b1bb6294b",
+      "dallas_v2_de7a790229ce55160a75b413",
+      "dallas_v2_5326e1252b4d2d3dbb2f0463"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_261",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_578ba6013a1e0390e0783257",
+      "dallas_v2_dc734f7aea809d237426168c",
+      "dallas_v2_2dceb136786bd88f4f95bd5e",
+      "dallas_v2_73f988ac2f917007e4d6822c",
+      "dallas_v2_88351bf1b523c84400d4adcc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_262",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_ec631ec5e82cab66f09ab03c",
+      "dallas_v2_eec708a026d699fdedbc8df7",
+      "dallas_v2_47d80f036dba38afddfdd72c",
+      "dallas_v2_90cfe659cde1ba0493bf4a28",
+      "dallas_v2_a5b3b675621439c2d81e1222"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_264",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6f5f54501652ffedfb792678",
+      "dallas_v2_46d4cdaf831bcc5b541326ef",
+      "dallas_v2_572dbd5cfcec68b2a00c197c",
+      "dallas_v2_80f4efbb86ce62fdcd00ccf0",
+      "dallas_v2_89d8e8b6ea733ee6ba4f6a92"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_267",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_76587fa2e722010f5951dc9f",
+      "dallas_v2_57147aa1f00a60020e3e2fb7",
+      "dallas_v2_4bdb679c04f7a823008cef58",
+      "dallas_v2_db9e532e8be307c19cb0e093",
+      "dallas_v2_4c88ea37021dca7359c726ba"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_270",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1f4230ffed16cd0408ea2f6b",
+      "dallas_v2_4fea0b62a8cf1d56cedcc664",
+      "dallas_v2_20c86184bfaf848814ca564d",
+      "dallas_v2_93849480ee7386b6874560e1",
+      "dallas_v2_93a675c64aeae08b5491cf1b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_271",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4d38c872c92ef2712da1f16f",
+      "dallas_v2_307fabea1319c4b765ea911b",
+      "dallas_v2_c319fe16d6a0340f62da3beb",
+      "dallas_v2_8a5f128f34d751bdda80ec25",
+      "dallas_v2_530d0b572f60501e1f1a0990"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_272",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_13ab67b435a5b1e0b965a409",
+      "dallas_v2_5623a0c604b9e974961718a5",
+      "dallas_v2_88767648864313077f8adccc",
+      "dallas_v2_13243aa33ca57d292f8a54b8",
+      "dallas_v2_b929902fe304958e4ffb97c7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_273",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_af8c58727af99e2c57788ffe",
+      "dallas_v2_7eb1c751b33ddc2b1f2b9e62",
+      "dallas_v2_06bf96b9d1b3d37c95b97f90",
+      "dallas_v2_a47ca4490ae54b35233db551",
+      "dallas_v2_fe2e277ea8879a3410dc5cae"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_276",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e8df0d2b0d8cefbe8b9a79b0",
+      "dallas_v2_9893ce6b3245de39a9d91b3c",
+      "dallas_v2_fffb53e463481d8475d4c519",
+      "dallas_v2_cd7d8ecebadef0b73766c3fe",
+      "dallas_v2_cc3631c6089504cad53e2e3f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_277",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_5bea0af87c874a8b5aac63af",
+      "dallas_v2_6f2fe2c5db2fe399ceaf5bff",
+      "dallas_v2_2a14075d3e75e7fc9237fd27",
+      "dallas_v2_2a0dbad41fcd2576bf1b56ea",
+      "dallas_v2_3fb238a5ec0dc4ed8b4eafac"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_278",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8d5de278758c62c51795b5ed",
+      "dallas_v2_17f3043ea229fd787436e026",
+      "dallas_v2_016d55c7b849eee3b4864e20",
+      "dallas_v2_b9a6bb21b96aec9fb9bbdbc5",
+      "dallas_v2_dd67aa8e6cadd096ba876806"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_279",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_2d9924c6b27d7a5b39697196",
+      "dallas_v2_7ddab4f5531310f424394225",
+      "dallas_v2_78f64bbd6f9d69c79bec8e27",
+      "dallas_v2_460af175492f494ca3dc6c7e",
+      "dallas_v2_008551be1d429b10e1f1471e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_281",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_dc4c2b87874ac66817716d70",
+      "dallas_v2_c49c4f7323c59a2148b23ea1",
+      "dallas_v2_1764b16c168d01e8c82b4a20",
+      "dallas_v2_6173555525802f166847c838",
+      "dallas_v2_05b6014aa9bf19b59db85edc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_282",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_2331b72c444392f6f27e214c",
+      "dallas_v2_3315f2a452168614f177ad4f",
+      "dallas_v2_18eef8f5b46dfc77ef63a9ef",
+      "dallas_v2_81887df7737633bdfe129db9",
+      "dallas_v2_02d5df6b9d2b4686d7431ab9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_283",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_ba1fa41abd72d76d31155d86",
+      "dallas_v2_96532f9d02b283390adfdff7",
+      "dallas_v2_bffdf7054ae5c511ca81e075",
+      "dallas_v2_1752b816157d3bf2d032eacc",
+      "dallas_v2_73433470963bc50f65b07c94"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_284",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4212eae4586bc25c92eaf537",
+      "dallas_v2_95dde5ae47f3714830929c78",
+      "dallas_v2_72347ac9052416f2566fe305",
+      "dallas_v2_d326ddbbc3f7e9c15e782bac",
+      "dallas_v2_524439e3fbcce8d3b3807880"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_285",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_ddc0c3825ad31f4e13542e49",
+      "dallas_v2_a5ff7951a4a21e9b3a214d71",
+      "dallas_v2_2d18c2a3992aa9082dc2ca71",
+      "dallas_v2_14842611252473adb4810dd0",
+      "dallas_v2_32d99c4afbc4adf36406d175"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_286",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_3b43841f15e77fe15649b2d8",
+      "dallas_v2_a74330f2992024cbdb9c51d0",
+      "dallas_v2_796d388b45a16eb3fb93aaeb",
+      "dallas_v2_4ca140d71ed78867f6a71936",
+      "dallas_v2_6a69076c215a855e8707744b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_287",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1ddd0251f0f26a5e06258d70",
+      "dallas_v2_9007a99438195821f0734108",
+      "dallas_v2_c07dfdd66ea9f41254d4c4ac",
+      "dallas_v2_730e188a96dd33862c670ecf",
+      "dallas_v2_0af2d73db89a71cb01fa7988"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_288",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e739bc99469f8354fdf7033e",
+      "dallas_v2_b7fa082f005f8940b1a8d4a2",
+      "dallas_v2_e30edc1795e36be375aa2535",
+      "dallas_v2_b85844acd54795000d9932ca",
+      "dallas_v2_7499cec5f595866f4805ee03"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_291",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_cb7a5332b45826a07aa6931e",
+      "dallas_v2_dcaf126bc732372fd53f9e7c",
+      "dallas_v2_960593b5b41cc4cff86f1bee",
+      "dallas_v2_64a193eaef1e41a2b8a16ae1",
+      "dallas_v2_cd4199bbb856f77ccfc2db29"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_292",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b34c3d60e3ece9c73b9defd9",
+      "dallas_v2_d912c7d4c26d5f4b0e55e396",
+      "dallas_v2_9acc7addbaeaf28487efb2fd",
+      "dallas_v2_9747789743efb619b89904de",
+      "dallas_v2_5c9189d5bb279304899ac597"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_293",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_2cb1cf5ba0ba82204d065fbb",
+      "dallas_v2_147eda5b968cb02a8ee8856c",
+      "dallas_v2_d933c6e23f22983f56288051",
+      "dallas_v2_2358d6093feec1ed4e2d7551",
+      "dallas_v2_9d359470b1c019e17c7856dc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_294",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_94a9df99805d58d646ee097e",
+      "dallas_v2_a3bee49a739ad7f2952dbc1d",
+      "dallas_v2_d5297de8583357833ebb2698",
+      "dallas_v2_7dcf98902cc1757085b17475",
+      "dallas_v2_0683c2034d7d19fff2865838"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_295",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9ef808b9bc960da7e6279a8c",
+      "dallas_v2_6023a0f6969cff68ee893849",
+      "dallas_v2_9ece8b36ccb5428262ac7791",
+      "dallas_v2_59320226fae968d65bafa9bd",
+      "dallas_v2_397b42ebb12c797893c2ef82"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_296",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e7e28c23436024f3316722f3",
+      "dallas_v2_905c88aa632e77dd174a1d68",
+      "dallas_v2_82eacd18153deb8cc02409c2",
+      "dallas_v2_586d102a59160c66d7566a9d",
+      "dallas_v2_8dd42d0bd5b10a5269da8595"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_299",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b65460f20ce3dc74bfd18927",
+      "dallas_v2_160fb325d85db69ac703d295",
+      "dallas_v2_8c63164fbab5b9a97a872fcd",
+      "dallas_v2_25b17704d157228ab4d79ea9",
+      "dallas_v2_a148157d94d1920675691187"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_300",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_f7b0bc5d4ef70c686c577bd0",
+      "dallas_v2_7afb684a67331ab31c9f177d",
+      "dallas_v2_195f27645fda2e49a18c3213",
+      "dallas_v2_cc6162048b914d619fa28bd0",
+      "dallas_v2_d6bc5a69a0148db00706f90c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_302",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1cc814b98a8d291348cc0e6d",
+      "dallas_v2_92d8a4bc6e1310e9a0471f14",
+      "dallas_v2_cd63f6eaca96964d00b0bd42",
+      "dallas_v2_731503b1f6ca48923ea28ae1",
+      "dallas_v2_428881ea3ed41ee34a2e4b0b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_303",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_cab47c2caa6a62accf285c7f",
+      "dallas_v2_8634189118bfe5caa6cd4046",
+      "dallas_v2_1449cc986f6daaa9da22c16a",
+      "dallas_v2_d6642a9d4f9f76e0b6a1c5bf",
+      "dallas_v2_7a0f5a4563da1e6a18446be5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_304",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b789e8a72eb1507043d56a13",
+      "dallas_v2_e3cae54ecb24d57dbfa44e08",
+      "dallas_v2_6777b4a6415e400fc2988057",
+      "dallas_v2_6b81bc063ec73bda2c1822bc",
+      "dallas_v2_96bd76a364329875eeefbf67"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_306",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_f90880480a3624df7d618a70",
+      "dallas_v2_d064f695a4a61d52f0d7d1e2",
+      "dallas_v2_0da479b57939bd912426cda1",
+      "dallas_v2_5c5fa759c99781c86e104082",
+      "dallas_v2_daa7fa47b0605c045b6fddbe"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_311",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8be874a5bb8857425e9a7741",
+      "dallas_v2_615bf942e7d52fa2545fcc1d",
+      "dallas_v2_9a5e4bb5a4e1ac7a6e3b798f",
+      "dallas_v2_1cf3db208320d71bbad89825",
+      "dallas_v2_5a6f76163176075bf59cea28"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_312",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4be65c2b0e951e07fab2edeb",
+      "dallas_v2_27afeac764df8939001082fa",
+      "dallas_v2_3c34975bfc0a0b04d3f79b20",
+      "dallas_v2_af4a90a5a4a814f900e0dd05",
+      "dallas_v2_5094879403f550209bf0d3bc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_313",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_f7a1a7c7a1559b9edef25b04",
+      "dallas_v2_822058c689e05b984d058ee6",
+      "dallas_v2_5f617ecfeff2f47fd3a5f084",
+      "dallas_v2_c480007cea25720511574667",
+      "dallas_v2_f3d99557d533f0b10f0aea1c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_314",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_20be4df77f93c3224a429e30",
+      "dallas_v2_e0da81c09e70f075f7c9d31a",
+      "dallas_v2_974c8e383c5837edc547209e",
+      "dallas_v2_0e3200c68084f38cb20b877f",
+      "dallas_v2_612ef50abe79b5395551f817"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_316",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_dc7206bdf8a2c5ab7fd6523f",
+      "dallas_v2_01badbe5f4cf64b02f14943c",
+      "dallas_v2_eb674eb01e01f6e47a1e3177",
+      "dallas_v2_6550f5a16a059631642d66ae",
+      "dallas_v2_655ffc530d4460e1552433d8"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_318",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_a2528fede6f0dfb83735e18a",
+      "dallas_v2_79da9a7ff720faae1f5083e3",
+      "dallas_v2_68785ee62a651556bf9e743f",
+      "dallas_v2_6456276df3c80c5e5d635726",
+      "dallas_v2_01b311b18c027e82b22136b1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_320",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_281004553ce403b804d9d03c",
+      "dallas_v2_1682212f640bfaada680d5cf",
+      "dallas_v2_ede68bb52ba7fc871632ced6",
+      "dallas_v2_f41f03c0b759f562759a41d1",
+      "dallas_v2_6a154141b6ca4b38a5a5a6b2"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_321",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b39bc3d2c2bbad6b5192cb52",
+      "dallas_v2_a228e8f197649caf413795d2",
+      "dallas_v2_c37a2b85832e05e95dea0533",
+      "dallas_v2_bfb106b9b2a52c6d57643470",
+      "dallas_v2_08869d1ff8f1ef79c2e61153"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_323",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_545454f651bdebbed42e8408",
+      "dallas_v2_f751159fb5dfa356bfb79314",
+      "dallas_v2_a60d7ae328497b7776dec566",
+      "dallas_v2_a2e77900a2712e042d476693",
+      "dallas_v2_ba5cb4c0beb51a44d006db10"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_324",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_20d20a80a3d2d7be31127e00",
+      "dallas_v2_a82ce81bee087e47e688a292",
+      "dallas_v2_0167d2880f9f07f93d0f8b5f",
+      "dallas_v2_8fa63db6cd09fa3597294c4d",
+      "dallas_v2_e5d6a2b5b77f21a542280aa9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_325",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_5d5e76a3c2e98128fb7b71ff",
+      "dallas_v2_2d7b372133a9b3a0db0c621b",
+      "dallas_v2_fc9a6c49ce1ba99f85fd7118",
+      "dallas_v2_ea6de01d85b98fb35ca35abd",
+      "dallas_v2_c190a7877aecc89f321e2836"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_327",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_2a456cc1c03899c3ddda4a33",
+      "dallas_v2_8d3a46e3c51d92085c63c33d",
+      "dallas_v2_ba933abe66080ce7aa04abf8",
+      "dallas_v2_65a8f7bf432b9493ef4dca92",
+      "dallas_v2_9f8c4811a4313576b95f303e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_328",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_241efa3284e17132af0b609d",
+      "dallas_v2_8e6ae72a4c82b688823c8693",
+      "dallas_v2_e3a02285fd5abb553fbb4d5d",
+      "dallas_v2_33c8e1709f13f43f1ea1bb00",
+      "dallas_v2_746fe727e3271059a8ee5cf9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_331",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6ac7a4d0efd00e79ced383a3",
+      "dallas_v2_0fdf8c2bc196ef2abf05aba8",
+      "dallas_v2_5691873ab52ab0c2ef34dee6",
+      "dallas_v2_40fc89cf74a28b8246fe5649",
+      "dallas_v2_1c0037315d4af0bf0939ed54"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_334",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8636a13f5845604adcdf5913",
+      "dallas_v2_47d0b3e05d011d0e7d6972d7",
+      "dallas_v2_1ce382af3cfd036148933244",
+      "dallas_v2_84c14c8332ec66333ca575b4",
+      "dallas_v2_73f223453538467d4f7d1486"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_335",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_bc9f3490fb37960fcb83567c",
+      "dallas_v2_b58384311e1f7f183732d769",
+      "dallas_v2_da6e307b0a01199b7217ccf9",
+      "dallas_v2_a8552f59845b327f114abc22",
+      "dallas_v2_5cdc00d82d88c2cfe2810c9b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_336",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_97fc1c5bfe5ad389c6ab6389",
+      "dallas_v2_a9695fdc6f09a31b0bc11b29",
+      "dallas_v2_decb5a1c446adfb5196ab53a",
+      "dallas_v2_0b6e1948a4e7d0a3116d1da6",
+      "dallas_v2_4ef9a6842312589f446e6459"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_337",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_14ad17b0b37ba559628e6ae7",
+      "dallas_v2_f63ab2d8f3990f67afd48df2",
+      "dallas_v2_2f3d4947a2a0e7dabdfd2a59",
+      "dallas_v2_ea00e7c3c7256620369ec029",
+      "dallas_v2_4cab9b6b619763a9d7c8b2b7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_338",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_55706a1aa9e7e98f21110a10",
+      "dallas_v2_2ef71b9ce356771d20cf7624",
+      "dallas_v2_cfe5cb19f9ce61a8cce63751",
+      "dallas_v2_e79f3e6ff0d52742604cc763",
+      "dallas_v2_9a91a62f914dd98453f75cfc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_339",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_baeb15c2fd45188b524cc7c6",
+      "dallas_v2_57b97904c7b3cb43fdf26d73",
+      "dallas_v2_ed3cf5e5566ed4f03db43faf",
+      "dallas_v2_6517d2a678b6d42ca7139fff",
+      "dallas_v2_c5f47efff1f665419ad1319c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_340",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_f9c409ad557d677724e0f516",
+      "dallas_v2_59705620c355699da230f86c",
+      "dallas_v2_415a787e0916c2105bfc0fc6",
+      "dallas_v2_b6cd6912ea9917d494d72eeb",
+      "dallas_v2_0cfc0dea2643f600fefd2c3f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_341",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_41f19e04154bda3554f72bc2",
+      "dallas_v2_a0807946e2052c87232f5ffd",
+      "dallas_v2_c649052b222b5c2cd8a25b98",
+      "dallas_v2_25d3e10ccc71349178850368",
+      "dallas_v2_5f247c2d1926713b7b429f6e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_342",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_c2f3928bbdbf486c30e1877f",
+      "dallas_v2_a8be4130aa13cc5f9faab859",
+      "dallas_v2_a5cb9ca531d33c9bd7809c44",
+      "dallas_v2_f7f398556d12294a195285d6",
+      "dallas_v2_5df0330a0dba15a90d579ee3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_343",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_02d22ecc4e6c7673a2b6c6e8",
+      "dallas_v2_bdf775a64af12e58d1a82ef1",
+      "dallas_v2_b18a0f31219ff26269bd3d54",
+      "dallas_v2_f9858bcab65d470b94bb58be",
+      "dallas_v2_a13bc38b44703c993895b29f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_345",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_70c0a339fe34296e64da8279",
+      "dallas_v2_89e445b3bea9a2059d0d8445",
+      "dallas_v2_30ddda2038bbd08bace34ef3",
+      "dallas_v2_572014199740756c9169b4eb",
+      "dallas_v2_bd4428c638beaf2f56983326"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_346",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_955da27e9f68bd46945107a8",
+      "dallas_v2_9fd9121cb46ca9b1145b29a5",
+      "dallas_v2_f2a5d998ed6050d7a8ba733a",
+      "dallas_v2_c848ecf727ae31b9ca757194",
+      "dallas_v2_859bda8a4dff63eef96464c6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_347",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_96c1588f5b85d3151fb4313c",
+      "dallas_v2_a9ace34d7744f9b5c0fd7b91",
+      "dallas_v2_010a8aabfa6b8d94c25a7310",
+      "dallas_v2_19a4f7db03e09589d84e1de3",
+      "dallas_v2_f880bcb8e62eb1ebfb21056e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_350",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1ad3faceebe1c507a4f8d604",
+      "dallas_v2_7a13670a785a714893e6263f",
+      "dallas_v2_5ea9f8f5d26a1af5005998e3",
+      "dallas_v2_b9f2121849dc98dd12cfc7da",
+      "dallas_v2_58bd60d09883b480b643456c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_351",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_c4bbaa4f09a0f18cb971b8ab",
+      "dallas_v2_0afb53ddbc07dfa9ce3c0b26",
+      "dallas_v2_3d7bd00df85a90c5e692334a",
+      "dallas_v2_2bc8686c9e2bea96ccb78a2c",
+      "dallas_v2_f6fab7c6981e919ff619066b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_352",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8feb3967ef98bd64c39b31a2",
+      "dallas_v2_465d39f496df07359a242b08",
+      "dallas_v2_d11a3e763fadc1c92c405609",
+      "dallas_v2_2e01c97084240f6fe8899815",
+      "dallas_v2_f6eb13ac9cd1b279ab5a2e1b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_354",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_04ee4884f40055e2aa78e459",
+      "dallas_v2_094f068cd7d06e5b1686eb39",
+      "dallas_v2_28b53420c1301a327f7883b8",
+      "dallas_v2_4e874e7db2b31a26235220bc",
+      "dallas_v2_3988cf3f98a1edceac2ec2d3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_356",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9cd38a59fc94bc1b85aa2062",
+      "dallas_v2_dbc4ea8006d3b847ab0fa413",
+      "dallas_v2_2ae783ada978a2f211f89d8f",
+      "dallas_v2_6d7ab76919fe76b028a36aa9",
+      "dallas_v2_ebeb561cfdb84e1e46e40dd5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_357",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_ca2a0c9bbd30c6ab6e20090d",
+      "dallas_v2_b42e7a086b7ded3396bdddd6",
+      "dallas_v2_04edaa4b091292b49d69862a",
+      "dallas_v2_f0708541a7e9808312cb3113",
+      "dallas_v2_8c01672ddca708f062ad189c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_358",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6d998fdcfc588d663881982d",
+      "dallas_v2_b734f2f7f30772ee1f07dd08",
+      "dallas_v2_1572952c92086489e76e52e9",
+      "dallas_v2_9569747742fb6832cb662f42",
+      "dallas_v2_8240370ff8ed18bc41dd5d68"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_360",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6ab141e3fe42d6e376a34743",
+      "dallas_v2_e82dc68978569768c6a95829",
+      "dallas_v2_5de31caecd146a3fc9b3a730",
+      "dallas_v2_2bdbb6a0ad459fcbc0c27980",
+      "dallas_v2_e98f3e087e0e659ff0efcfb0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_361",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_5ac29285282097f8114cd59b",
+      "dallas_v2_34d738b4914e3589fad12d22",
+      "dallas_v2_db53bf8f2adb40e620f72347",
+      "dallas_v2_8ad2ceed6f7b7ba55c92d76a",
+      "dallas_v2_a8422a938525082e7a66944f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_363",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_06eeb0876c5dfc951eb3cb5b",
+      "dallas_v2_0337679c2bd3f082ff16f238",
+      "dallas_v2_81b4f729494e6b8508284b47",
+      "dallas_v2_f5fb1634858c3ba916c84c0e",
+      "dallas_v2_2973335ca3548f5cf5c32228"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_365",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e5ca494bb48cc352ddfc5f35",
+      "dallas_v2_e9bbfcbcfa095c910ccfe74d",
+      "dallas_v2_2298d4e4a33328861a6333c0",
+      "dallas_v2_70e35077064ecc2e362e06f1",
+      "dallas_v2_8eb4035c388ffcda438a58f4"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_367",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e172c2b14daf85cb9dea3001",
+      "dallas_v2_0ec4bba11cdf8b62f46f4331",
+      "dallas_v2_b80ba7b70d9ba1ae125253e9",
+      "dallas_v2_6c316932964fc95e0fe63624",
+      "dallas_v2_270c652a00fb641d76817284"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_373",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_005d0ded7839bb0f9f504be0",
+      "dallas_v2_9eeaaea174cd4946726c9529",
+      "dallas_v2_8e3e8de98d090e83d4952bd3",
+      "dallas_v2_8df9823e4bd94505ee6821da",
+      "dallas_v2_ab0216354162dbbf19e28868"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_375",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e0440540c0ec91ffc62ce19d",
+      "dallas_v2_7c0d6f8e18bfcf273e8eb426",
+      "dallas_v2_ac24cf4774bea9ea8a628b5c",
+      "dallas_v2_6284d4a12431d6f9e91fb403",
+      "dallas_v2_89ecca8ac427a04ed56289dd"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_377",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_aec0f518cd77d23d775b8185",
+      "dallas_v2_62467463b7ea101ce6956aff",
+      "dallas_v2_207881517dcad905e62ebd9d",
+      "dallas_v2_45b59ac17d292ec3eb13642c",
+      "dallas_v2_0d11bbbe796baa5dfaca6765"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_378",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_d472b7ae7b5f34625cc5334c",
+      "dallas_v2_031357b5cfe778379575482d",
+      "dallas_v2_b54e7d7fb0f2d7e037eef242",
+      "dallas_v2_148f3d199c68c51c54995c2b",
+      "dallas_v2_89b6c67fdca3c4a73c5e2187"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_380",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_7a6ab808ec2fb4f5b7c5bc85",
+      "dallas_v2_1211c883079891abf992f8af",
+      "dallas_v2_5dfb32bacf0b17f3936d102b",
+      "dallas_v2_729e0cee004cf959cb96cd81",
+      "dallas_v2_cc5a7fa8dc00f1759a44443d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_385",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9726f3b3195d5093f13fef0e",
+      "dallas_v2_94948345244bc75af6b46e83",
+      "dallas_v2_de138b9bcd2d0bead948b426",
+      "dallas_v2_41b55caffb522f2670a3a965",
+      "dallas_v2_bd9087d9323fda20a4d237aa"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_387",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_cb3ee7a738db4dc76d492b59",
+      "dallas_v2_0b0aebcb3718819819ecb42a",
+      "dallas_v2_e2e495fa308d7f6d658bc4b5",
+      "dallas_v2_141370269eb6b6614c794514",
+      "dallas_v2_41683a4d506584c4a1e6b64e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_390",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1253964d6cad34fbb1765343",
+      "dallas_v2_4b81d6d9f80ea4c9499904fe",
+      "dallas_v2_55c4bbfc2ebe4193523a8e2b",
+      "dallas_v2_09fdce56a9b68ce59909504c",
+      "dallas_v2_f2973bdfaa154cc09d4aebd5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_394",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_3fee1a6a9be15d9ae089ede7",
+      "dallas_v2_032526e95f185782bc2c5903",
+      "dallas_v2_5eedc62323116934e6bca40c",
+      "dallas_v2_21442b6446ced8a463188222",
+      "dallas_v2_b94fa4455c2d366e3308c00e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_395",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_361feaec0b3175acb0f634cc",
+      "dallas_v2_1b8971e719848f69205c8620",
+      "dallas_v2_ec22c0512a8d1616b4c63af8",
+      "dallas_v2_c046c3d622eb7243beac5e85",
+      "dallas_v2_13ca7167f5faab176d1fed81"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_396",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_347a38418f1747852d58eaf5",
+      "dallas_v2_4facd8b7b081067fb04ecec4",
+      "dallas_v2_e59d9619aa7a1678ec09efd3",
+      "dallas_v2_e17fde1c61ce89361fa77ad6",
+      "dallas_v2_6624aa01c267355ec105660a"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_397",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_d390b6a0bd61f1ae3ff2c8c6",
+      "dallas_v2_320b10acf297eef517c3beea",
+      "dallas_v2_1cc1848ea96f5b52609a1521",
+      "dallas_v2_2509fc4f560880ace4244d1b",
+      "dallas_v2_964f60d2cffe261720fe66e5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_398",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_11441e2e83fe55591f6f279c",
+      "dallas_v2_c5e6c4626fe5bd78bdcdcf19",
+      "dallas_v2_ceb57dbf65d74d375b27dbb8",
+      "dallas_v2_15f30883ce8b0c5637262a2b",
+      "dallas_v2_d190aad208d1e77e418ed2af"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_399",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_0fda3c4b05653334a8fdb144",
+      "dallas_v2_cf0fe84cee9a8899e26096a7",
+      "dallas_v2_26f1cb8daf5fd95fc25b8cdf",
+      "dallas_v2_ba5aeceeb21271ee5cfd6365",
+      "dallas_v2_f647cd92fa1a6662544c4eae"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_400",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_813dc3a9923a13ccb0cafca8",
+      "dallas_v2_94996b07614cff359e41d4bc",
+      "dallas_v2_b69da2e7320d6bc6588714ab",
+      "dallas_v2_26d9c3364ebf7f0c86505346",
+      "dallas_v2_6c7e21c68e950f29978edfb7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_401",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_40f40576709f1eae61cf2e79",
+      "dallas_v2_de094c87e7c2dfee9daec293",
+      "dallas_v2_164e1dc0012f6857560b4059",
+      "dallas_v2_eaffba1664fd19ac786e4252",
+      "dallas_v2_f9351fe68056bbebbe6444c8"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_402",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6d7bd5f60264abe70690588e",
+      "dallas_v2_0ad2cc71b12da61794326083",
+      "dallas_v2_c36e29fae37a6c96f8566267",
+      "dallas_v2_4890592a40e6704ef4426c9c",
+      "dallas_v2_42dfe84715316911c17c3709"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_403",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_dff568ff951d4f39ce10d9f5",
+      "dallas_v2_eb1060afd54f39cbd8d6d28c",
+      "dallas_v2_120ec849541fa4789256b304",
+      "dallas_v2_6a25ee3954193318b21866e9",
+      "dallas_v2_7fbe875ac2b8d77eca10804d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_404",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_236fe5267546550246927d78",
+      "dallas_v2_2443574a183405dd8bab84cd",
+      "dallas_v2_1263b419ff7104841439e12c",
+      "dallas_v2_abe09cabe65284d1e21c4145",
+      "dallas_v2_136c0e62595a5076fb7c82c6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_407",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9bd997c0fb4528cdd94a2bc9",
+      "dallas_v2_7ddfa8f77ef0358622c305c5",
+      "dallas_v2_1ff39f96cbd45fc027e097ee",
+      "dallas_v2_1ca7e306e932f0d2599619de",
+      "dallas_v2_c2db5a5d530ffc63dbf81f18"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_003",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_004",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_007",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_013",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_017",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_024",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_025",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_027",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_028",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_031",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_037",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_047",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_048",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_057",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_058",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_062",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_064",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_072",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_073",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_085",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_088",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_090",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_104",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_105",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_107",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_116",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_126",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_135",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_139",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_140",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_159",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_160",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_161",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_175",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_186",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_191",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_193",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_199",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_200",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_202",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_216",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_222",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_223",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_224",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_227",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_230",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_238",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8f59071964d8a3b088c4872c",
+      "dallas_v2_6271437960175f32cae6a6ae",
+      "dallas_v2_21d342157d85a7ff47358ab1",
+      "dallas_v2_99af020a93c76849c336a5f7",
+      "dallas_v2_f3547dfba57154c6ae9c9b4f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_241",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_97fb71a964ab88be90f3f247",
+      "dallas_v2_33c05e1dbc935880fc1f9de5",
+      "dallas_v2_133689174bbdee366d27439a",
+      "dallas_v2_7140afb88a18d78ff2d910ab",
+      "dallas_v2_266c65e55db10934892c777c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_242",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4bfbaded8a94b67a275a27f3",
+      "dallas_v2_bcc1f55f39c8ff9237b51d28",
+      "dallas_v2_273444e73f02f43528a96a37",
+      "dallas_v2_33e3ff1bc4b5d9ee82360840",
+      "dallas_v2_06d48ec2f5aa4df03943633d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_245",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_25f37e9d58220979c9102585",
+      "dallas_v2_d9ebbfe2a561a82c355ff7be",
+      "dallas_v2_92bc48595fc1101f34fa2ba1",
+      "dallas_v2_9c1618a96bd5f24a6d3304cb",
+      "dallas_v2_69fabfd4ffdd8b7f89cecb09"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_254",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_c734cd4c0978de7bd1474478",
+      "dallas_v2_69d0973ce3c14644fb532458",
+      "dallas_v2_908ff838e6333e3b4d0dc44c",
+      "dallas_v2_850c63eba8b233d9bb1cc489",
+      "dallas_v2_c8591047dcf993224f7618b3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_258",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_c1fd02add1c7dfd0d8c6eb84",
+      "dallas_v2_479d257d18b87afdf6d6b87d",
+      "dallas_v2_7f528f91831490048c0708d8",
+      "dallas_v2_8c18fd5be354fffdcd82e3c2",
+      "dallas_v2_86cbcea815e337ae25ba1bf5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_259",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b1c31cc4433aec94bc7dd82b",
+      "dallas_v2_1d15aad06d752df8fb526415",
+      "dallas_v2_d061f18a820855cd70b95679",
+      "dallas_v2_b6a8f34d4001a7cdd9a5a470",
+      "dallas_v2_41eb177290fa7b7d8ffcc544"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_266",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9c3bf1b8173a2647b5f25cc4",
+      "dallas_v2_09e37c3f580d9cd68ac10561",
+      "dallas_v2_0169018ce0a6bbd749e57c97",
+      "dallas_v2_6e98df8c0a43b68596f048c9",
+      "dallas_v2_0ed03db4a412596c8bf567ba"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_268",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_7d5d5315df45929dd38675a0",
+      "dallas_v2_fc5418d3bfdee936984d08f3",
+      "dallas_v2_521e6d4de572e4b8bc15bc20",
+      "dallas_v2_bc3f6c222bb0511288ecc9c2",
+      "dallas_v2_7e70214fd0e0a648ab5d8dbe"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_269",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_977bc8d00322b75cf033e530",
+      "dallas_v2_784f1703c67cdb7e93dd0af2",
+      "dallas_v2_dff138dab94edae5dc3dac68",
+      "dallas_v2_2b8d3c3329957779c9115859",
+      "dallas_v2_96144c4403ccb78881afb64c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_275",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e81f7d549767e8c2eb730ae6",
+      "dallas_v2_e99de3a159e585abbe49d124",
+      "dallas_v2_45ee7679a9603a8c88464212",
+      "dallas_v2_b69d676fb45ee2cdcfb7c6e4",
+      "dallas_v2_405681b5f117f201b4deafb1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_280",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6a4e1927260635b0ba2165de",
+      "dallas_v2_8afd2a6d350ecb53af501adc",
+      "dallas_v2_a369a5498a2133d7bd114c24",
+      "dallas_v2_34b85070dfc0f6a6b130c591",
+      "dallas_v2_4fd29c7cb08c80ff20133825"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_289",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_d31021b23d612c4a1f618e1a",
+      "dallas_v2_4d8f8fcb89d82dc43df0ef81",
+      "dallas_v2_226a8d822885f4b615f79083",
+      "dallas_v2_e09b6d436087dcdd310d282c",
+      "dallas_v2_a2a2a5d5ea5a7f5270ef9a49"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_290",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_60e04e8b46f37cf454c08fb3",
+      "dallas_v2_f1ed5cd2bd38490fddab743b",
+      "dallas_v2_c399f607a516a3eedd7c0f46",
+      "dallas_v2_44c84d0a199cc50f7b901d85",
+      "dallas_v2_87da24cfe77e115a70c69360"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_297",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6f1aff449d1bc2a827e461c0",
+      "dallas_v2_b94cf556a4f70b4047822dbe",
+      "dallas_v2_1b8f4136a1a81d2fc68add4c",
+      "dallas_v2_419db689bf29409ead3464db",
+      "dallas_v2_c2404e20c9e3bfa9bf2cbfd7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_298",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_4969627c7cf720e15f6535fb",
+      "dallas_v2_2b9eb4768d7fbf6a73b11e40",
+      "dallas_v2_803620eca055dacedc28345f",
+      "dallas_v2_e915d8601923359c923f0d6f",
+      "dallas_v2_83a31e4ff8fdd2998cb1e1bb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_301",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e1706374560902f75228a3d4",
+      "dallas_v2_a54e04e4b0df1bdca59df9fa",
+      "dallas_v2_9082211773833a9cb500324e",
+      "dallas_v2_1070d3db869dd55e149dff2e",
+      "dallas_v2_4cc479efd097e040edb1784f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_307",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9f927e888cdddd07ef023d27",
+      "dallas_v2_645f45b5e3084598e5c50bd9",
+      "dallas_v2_84b10de8919ef6211f6077e6",
+      "dallas_v2_3badab2d43423dae81731ce7",
+      "dallas_v2_7cc5d416f93553a5a730ec51"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_309",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1dba215c5bb0c347abf50e05",
+      "dallas_v2_94927bcf2da670d133784bd6",
+      "dallas_v2_886457ce3a7ac60d035c8565",
+      "dallas_v2_92462a27f8c5a601f93272a4",
+      "dallas_v2_c8f09a149e23621594b8d172"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_310",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_5c92d38ccd72626496c00688",
+      "dallas_v2_3d58460c3f4262ade6b5f540",
+      "dallas_v2_b97d951a3a51b08c7590eb86",
+      "dallas_v2_563931bddb8aabf9c0f06670",
+      "dallas_v2_b1ae83b0d215b7402b0abce0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_315",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_e6d6fea40dd612abfb04836e",
+      "dallas_v2_1de1741e25dbf2bf37eb09b7",
+      "dallas_v2_4f2617bcc9ee05aa22acf82b",
+      "dallas_v2_8e59374bfabe417c039dce48",
+      "dallas_v2_e96b9ff60fe4f560345853b3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_322",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_8b381ecd8fe2755d8fe58e1a",
+      "dallas_v2_ad7b1065d10aa6101ee499cc",
+      "dallas_v2_8dd8e7bfc15510d84a9c6de4",
+      "dallas_v2_5a41691f0c315cdd2b22eb1d",
+      "dallas_v2_d63e6207c7346c2bcfbfd110"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_329",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9dd60eebe584cbcb1290e895",
+      "dallas_v2_b43ad6fb87b1c77e924a1aa0",
+      "dallas_v2_146e596de4602fa7c8a6ea1e",
+      "dallas_v2_306c680149276b95ad25ed60",
+      "dallas_v2_85ed13e59db5360bfb0d52e1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_332",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_5229880fc29135cdfe610503",
+      "dallas_v2_1d1d342639a292b75f023060",
+      "dallas_v2_3dd75503d2ac046b25539c12",
+      "dallas_v2_2358e4662212825fda35ea05",
+      "dallas_v2_b32ee2c6df33ca6b51800d38"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_333",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_b4e20aeac80c608c6fcf5c8b",
+      "dallas_v2_ca54ebe79fb5982cc45ee691",
+      "dallas_v2_b0ccb32a0f1c0175cf0a1e22",
+      "dallas_v2_561abc5dbc7956dc132331a9",
+      "dallas_v2_eb685ced3d9d658c5be42213"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_344",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_0859621877f1174ff17f9bb4",
+      "dallas_v2_3928887cfd33941263a113a0",
+      "dallas_v2_c0910dfd8a31c9a9d5deecbd",
+      "dallas_v2_6b78ecd73f6ab9fe0715cad2",
+      "dallas_v2_cc4510676ff04d29ba6d20b5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_364",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_15932f9a8736c5b285db9e48",
+      "dallas_v2_bb664ef53e17c03c1af6c29d",
+      "dallas_v2_6fafbc6a270192cf1d13306d",
+      "dallas_v2_2ad4800c1a2753c47b9c677b",
+      "dallas_v2_cd6d4361cd671965af55e70d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_368",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6ed9ca7f207ee35569eb1b3a",
+      "dallas_v2_358b6ba31e16015612ad5b42",
+      "dallas_v2_e4472cd0e36216a867b2b4f5",
+      "dallas_v2_2f45ddfe566ba39d508bdcc8",
+      "dallas_v2_4c1cb377efeb29e7e3286373"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_369",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_9a39b2ab5dbfe865b7168170",
+      "dallas_v2_75eb5e05c6c66eb7ac452993",
+      "dallas_v2_4aa8510c9afb01700b918289",
+      "dallas_v2_d4f59842bcbcd982451a7d7b",
+      "dallas_v2_b2a1da3b2f4252e7ca507250"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_370",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_0c6c59092ee7a436d0b2c394",
+      "dallas_v2_d73aabfb3156aee1511e5996",
+      "dallas_v2_316f4536205b978e8877131d",
+      "dallas_v2_c6641d9d0f6f4c3b620845dd",
+      "dallas_v2_8fb747f6d3419456c3f2c82c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_371",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_1f66f9d83dcc94d16f908617",
+      "dallas_v2_d37807d24fe59778bcb3db13",
+      "dallas_v2_5a8a28d98b2f72ef0fe19344",
+      "dallas_v2_d9e42ad9f5e100a991359b08",
+      "dallas_v2_2eabfd2523278d65b8fa8839"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_372",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_0c95cf490eb989c09599b909",
+      "dallas_v2_bf03f11bca285d802187731d",
+      "dallas_v2_9202202e3fbe2d601a44439d",
+      "dallas_v2_ab224b26c82fc5a25be71226",
+      "dallas_v2_0fde0a050f5d2b2e41a95205"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_381",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_3bd5da2ca1136fa0ec302852",
+      "dallas_v2_cd6bd5723b928f1fe629d6eb",
+      "dallas_v2_ac34687cd99b1b6189df3c02",
+      "dallas_v2_f0e198966b9013caec12c11e",
+      "dallas_v2_f7ef30d2687d339d99bfbf2b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_382",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_6218477ce5c08a472b1376f3",
+      "dallas_v2_d7828120100446633dfbea71",
+      "dallas_v2_abd589d7f4bb4de79b07eaf9",
+      "dallas_v2_f44761d234882de598c8ab84",
+      "dallas_v2_aaf53ba9bb61f1f9983d80b0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_393",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_54bf49bd46ac78fb3aa8ddec",
+      "dallas_v2_23bcb72de5fb2f6efccff54e",
+      "dallas_v2_b65c1a15e563e7b497a0b032",
+      "dallas_v2_c6cab39ad28f2b41135a9fbe",
+      "dallas_v2_c1e97894e3793a57e1ef3e76"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_406",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_v2_569adc0bb85e8ee8a150c959",
+      "dallas_v2_55cfc1e5f1ce23e51f736c70",
+      "dallas_v2_af6ccb71d04de42d4f9b3f99",
+      "dallas_v2_31d13c400e4e731d927c9013",
+      "dallas_v2_7a052b9d9fef05b3279482e9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_001",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_008",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_009",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_014",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_019",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_020",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_021",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_023",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_030",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_040",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_043",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_059",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_068",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_070",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_079",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_081",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_083",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_089",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_095",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_097",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_103",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_122",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_124",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_125",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_130",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_133",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_134",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_141",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_148",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_152",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_155",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_157",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_162",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_166",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_168",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_173",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_179",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_185",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_189",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_195",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_197",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_205",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_209",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_212",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_220",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_225",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_228",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_233",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_237",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_49046d4b89d3e50194953dd4",
+      "dallas_futuretest_1f4f1da25ced2828bd5b5820",
+      "dallas_futuretest_548e6efe8d410ca57a9ba571",
+      "dallas_futuretest_b101a2a4eb57bc14d7fb5514",
+      "dallas_futuretest_8b7eb7f113cb04f4d886cf96"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_240",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_83a78f4d86c160400cb1a6c7",
+      "dallas_futuretest_fa51bc5f0936b97cacf3d506",
+      "dallas_futuretest_8ff702fafecdaddc3417302e",
+      "dallas_futuretest_785f920776dfdf8760ed4eca",
+      "dallas_futuretest_42ce504cb74c61f2c9af31a6"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_246",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_173c32d8af5c0782f67755c8",
+      "dallas_futuretest_f4f6ef87bc5b0b003032d25c",
+      "dallas_futuretest_b2e5e7464c2db13ff5a88184",
+      "dallas_futuretest_73aaa7358d913137678ec601",
+      "dallas_futuretest_43a2c3d690c9d2b3d886f359"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_251",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_141fd059f5641e9dbeed8223",
+      "dallas_futuretest_18b987eb6de874b2aa88da7f",
+      "dallas_futuretest_6774386d06e238107f03f3d6",
+      "dallas_futuretest_566a805de8441d2aafdf65da",
+      "dallas_futuretest_0fc0926514e8acb2f162516c"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_257",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_3a1c797c44fcb61700cabca2",
+      "dallas_futuretest_c3357670dc23b66807db82c2",
+      "dallas_futuretest_2e32106b6d1129a9ca549977",
+      "dallas_futuretest_d1a609aa8084f163ec73390f",
+      "dallas_futuretest_f01478a8cf0187bd9dbd268d"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_260",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_67b37e5e2f9112bec2ba57bc",
+      "dallas_futuretest_3e1eb1cf8f9c5de480b0aea3",
+      "dallas_futuretest_3b5750868a7b26d94d93fffd",
+      "dallas_futuretest_7c63c034367993eab62cc3d6",
+      "dallas_futuretest_9f484a3623910efdc89a9a1b"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_263",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_2289749bf18e2b957fd33ea8",
+      "dallas_futuretest_fcf50a14276713714070a7dd",
+      "dallas_futuretest_9271e756b9645f527145764d",
+      "dallas_futuretest_59fb5c5c856879c9eb66ef57",
+      "dallas_futuretest_bae19120d560b11b101c8c46"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_265",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_682b5a6d528e3e49a2e405db",
+      "dallas_futuretest_50dc327f1705910295bdf939",
+      "dallas_futuretest_27e28cf43b57e2c9a8d16974",
+      "dallas_futuretest_95f1d0055711b01d896b2222",
+      "dallas_futuretest_0051190410d31a5f676d5155"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_274",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_68d84f8f9a7b9e8658c5f592",
+      "dallas_futuretest_bd583068280bb84196766a72",
+      "dallas_futuretest_ce039838cb7523621a75cf79",
+      "dallas_futuretest_612e3669ce279cdedd70e6a8",
+      "dallas_futuretest_856f566fcb5569f7d5ab06c0"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_305",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_c14a75cf11565c3adfd54c2c",
+      "dallas_futuretest_4293bfedbd568c42434a4bf0",
+      "dallas_futuretest_f246226c0129a259da79797d",
+      "dallas_futuretest_029950aee8dfdacbd9f908f6",
+      "dallas_futuretest_e040f601d04adc2c549ead16"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_308",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_77e2b349e94a12ed8da33128",
+      "dallas_futuretest_4c854aa57f80cfc1d0ee5db7",
+      "dallas_futuretest_7ede2fd4eb13f338f3f8cef7",
+      "dallas_futuretest_845370b7e48c83220665027e",
+      "dallas_futuretest_ded28d7ed8d6a109d3bb5976"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_317",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_b06a6394d4096870caa0402c",
+      "dallas_futuretest_b9f1ebdfc6b6ef7568300734",
+      "dallas_futuretest_62508f54d8edadde513871f4",
+      "dallas_futuretest_ca02de36bf2d37fdf73714bd",
+      "dallas_futuretest_5aaa49d4b13c7a870dfeb907"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_319",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_747fae30f6eeaea52e424bdc",
+      "dallas_futuretest_88bd963f85c59328395176dd",
+      "dallas_futuretest_d8f831885bc4c2ea40b8fa18",
+      "dallas_futuretest_e94aa0296146939b6bb36804",
+      "dallas_futuretest_bc12913e684800f176396e56"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_326",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_956cab4f165d34b578e80800",
+      "dallas_futuretest_766ae56f1c1b947119386247",
+      "dallas_futuretest_b1ec8808a8a295104e9288a3",
+      "dallas_futuretest_5d41e6d55efcd604e5888907",
+      "dallas_futuretest_197910b056f85a206daca498"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_330",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_ce5371fe0725c3a345559517",
+      "dallas_futuretest_5b22305ba72072db3858adac",
+      "dallas_futuretest_8f70b7de3d3f0601b4485d74",
+      "dallas_futuretest_8b829315ddebcaf713d24b04",
+      "dallas_futuretest_bc134cda21b4eabece744cb1"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_348",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_9cc0c234751b533a3ba33317",
+      "dallas_futuretest_e635974534e60bade3fe69e9",
+      "dallas_futuretest_d8dbdb9244fcd575b7c5cd3a",
+      "dallas_futuretest_92d75f50fd0fff0735c36c78",
+      "dallas_futuretest_64b4ce34e9473007db5d99ad"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_349",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_4e5ba618fd048eef92f9f887",
+      "dallas_futuretest_a468aad13e0e9c763445a3d6",
+      "dallas_futuretest_ef8d3ec7ec59cb4a8961b922",
+      "dallas_futuretest_563e735fb8b86d79eec3cf29",
+      "dallas_futuretest_626e6273d0c59aabbd7882e7"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_353",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_b9c0f31b7c2586bab2c5ec5b",
+      "dallas_futuretest_4dd932cbe7fd3ef33f0489bd",
+      "dallas_futuretest_05da6fdc9a46a7891c5f6a42",
+      "dallas_futuretest_52a29ecc7b54a421f2d54832",
+      "dallas_futuretest_a50fdd7da5f4b86cbfa6c35d"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_355",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_ef844428b4353bd8a949dffa",
+      "dallas_futuretest_084ffd1ac04b398c5c1e7e14",
+      "dallas_futuretest_8986ffad5ba3760cfec50815",
+      "dallas_futuretest_2c617eda9e9dbb1669900492",
+      "dallas_futuretest_20fbaa3123012f626cd8f148"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_359",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_99ab405b1b1955c08d73f81a",
+      "dallas_futuretest_8c4fa6259d578065a5567b79",
+      "dallas_futuretest_60d0d6cf9a07709349ce65b0",
+      "dallas_futuretest_1afcc403546ade1b46c91617",
+      "dallas_futuretest_53edcbbc83e77296f23946c7"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_362",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_bd7b400d9a23931df65e117a",
+      "dallas_futuretest_6ea0fd436d4bf784c5e50c2b",
+      "dallas_futuretest_b7cfa1c5ff41ccdfba9b7a29",
+      "dallas_futuretest_38551490af44f1f51eb315b2",
+      "dallas_futuretest_260580d007550464ab0151d2"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_366",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_c2fc2c8068bdb2d650abb696",
+      "dallas_futuretest_b51e851b0b4c2f140b2c4050",
+      "dallas_futuretest_0c039b6efcbcaff86fcc0196",
+      "dallas_futuretest_f1965c7933975736ba951b42",
+      "dallas_futuretest_b5752d248d76c980cd1fc062"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_374",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_461d988112e7a08a5d3d1b70",
+      "dallas_futuretest_0ae23ebd8e03b68d47ba4257",
+      "dallas_futuretest_b52f3ce6178433632e86ac4f",
+      "dallas_futuretest_b0c067ee48f8df3f1003b52c",
+      "dallas_futuretest_3a3a1348f27589534840f36a"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_376",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_209cea233b2c72793baa4c25",
+      "dallas_futuretest_afb6be92645ff58279312ab6",
+      "dallas_futuretest_cf5cda21dfb5342c5205b52f",
+      "dallas_futuretest_7543658304b2e92d7c2455b9",
+      "dallas_futuretest_dffe87d46adb1d3af8322337"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_379",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_f8a599e01e118152ccdeddff",
+      "dallas_futuretest_d995c3635002bbdaf901c460",
+      "dallas_futuretest_0fa401039e9f0a891240dc3e",
+      "dallas_futuretest_665aa01ebf22d959487f5320",
+      "dallas_futuretest_5d117a06652f2f576b3658d7"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_383",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_258232d25fe2629bf657b589",
+      "dallas_futuretest_22398c9cae3abe09f8af884f",
+      "dallas_futuretest_0aae47885545425ee23ba021",
+      "dallas_futuretest_9eded98b97505e6efdd80985",
+      "dallas_futuretest_431ae5bcabb3aa3ce5d3b787"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_384",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_46314c466eaf660cc93c5c6e",
+      "dallas_futuretest_10b099b350f709a5b6aa2ecc",
+      "dallas_futuretest_d8df76b8aee1519ffd9fba1c",
+      "dallas_futuretest_8a83357a3e6ceba478f08925",
+      "dallas_futuretest_00293732738d7701d557dfdf"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_386",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_9d01c102cd12506ac5b5b561",
+      "dallas_futuretest_4072e817dc4c62e184795854",
+      "dallas_futuretest_41602543f56d1c1143c8de0a",
+      "dallas_futuretest_1d4b42b101a342dd978eac04",
+      "dallas_futuretest_3f5bf54e747578469492cbd4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_388",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_aa133b92088e515f988a3515",
+      "dallas_futuretest_0db8702ddc778ba3c7267e98",
+      "dallas_futuretest_cad9e91dce61f41afd4b2c7e",
+      "dallas_futuretest_4a4fddadebd575b64198564d",
+      "dallas_futuretest_061f063008be44e65c6c3e26"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_389",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_040715710cc9a99474836b25",
+      "dallas_futuretest_997a78c6e608eb53fce2c7cf",
+      "dallas_futuretest_1b6ed3881c17ca256f421b7c",
+      "dallas_futuretest_24a6fcaf3b1f37e3478da2a0",
+      "dallas_futuretest_9a11bb1a91a6f679dd4583a1"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_391",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_2d79c0c8e0e66e9ed9073cb1",
+      "dallas_futuretest_3a7d3f95db1d05cd506d46c0",
+      "dallas_futuretest_daaffd772c38e6794ad1281f",
+      "dallas_futuretest_110a73de5d5c66ac371cc713",
+      "dallas_futuretest_6f3e4132addfe47fe1e30610"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_392",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_b86b5582c165eb8931c18b23",
+      "dallas_futuretest_4a7d29608d1ac817f7df6320",
+      "dallas_futuretest_ecd46335a338c8ba2a698d9e",
+      "dallas_futuretest_51d69d5df361f4a275ce757a",
+      "dallas_futuretest_bc33075873f6f214fe3a337d"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "dallas",
+    "parent_question_id": "RDB_DAL_405",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "dallas_futuretest_9388042e8da0c103c6c11639",
+      "dallas_futuretest_a162ee0d1f6e38f5ad1ce89d",
+      "dallas_futuretest_e9e62010e01ac1aaf4f6dd8c",
+      "dallas_futuretest_093dde0e02c9c66309b4fd83",
+      "dallas_futuretest_9540be35f417adf3f4077d3f"
+    ],
+    "status": "temporal_evaluation_ready"
+  }
+]

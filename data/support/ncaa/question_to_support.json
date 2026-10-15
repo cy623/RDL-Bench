@@ -1,0 +1,6416 @@
+[
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_001",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_002",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_003",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_008",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_010",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_013",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_015",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_018",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_019",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_021",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_023",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_025",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_026",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_027",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_028",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_029",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_031",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_034",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_036",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_037",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_038",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_039",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_040",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_043",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_044",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_045",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_049",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_050",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_051",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_053",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_055",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_056",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_058",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_060",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_065",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_066",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_067",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_068",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_070",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_073",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_074",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_075",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_076",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_078",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_082",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_084",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_086",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_087",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_088",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_089",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_090",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_091",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_092",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_094",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_095",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_096",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_097",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_099",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_100",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_101",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_102",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_103",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_104",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_106",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_107",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_108",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_116",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_117",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_118",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_120",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_121",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_123",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_125",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_127",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_130",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_131",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_132",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_133",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_134",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_136",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_137",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_138",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_139",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_140",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_141",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_143",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_146",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_148",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_149",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_150",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_152",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_154",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_158",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_159",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_160",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_161",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_162",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_169",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_170",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_173",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_175",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_176",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_178",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_180",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_181",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_184",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_185",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_186",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_187",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_188",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_189",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_191",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_194",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_196",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_199",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_200",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_204",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_206",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_209",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_214",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_217",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_221",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_222",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_224",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_225",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_230",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_232",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_233",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_235",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_237",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_239",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_241",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_242",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_245",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_246",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_247",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_248",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_251",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_256",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_258",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_260",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_263",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_264",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_265",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_266",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_270",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_273",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_275",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_280",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_281",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_282",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_285",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_289",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_295",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_296",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_299",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_301",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_302",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_304",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_305",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_308",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_310",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_312",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_316",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_318",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_319",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_321",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_324",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_328",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_329",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_331",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_332",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_334",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_335",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_337",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_339",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_341",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_345",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_348",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_350",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_351",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_352",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_354",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_355",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_357",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_358",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_361",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_363",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_367",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_368",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_371",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_372",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_373",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_374",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_375",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_376",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_377",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_378",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_381",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f5a916cd037ff84f482d786a",
+      "ncaa_v2_ce969110de26cdf06ac3628d",
+      "ncaa_v2_c473c7b546a5970f10586daa",
+      "ncaa_v2_15a2052856c9a976e6a6016c",
+      "ncaa_v2_8f689313e15afacce1897772",
+      "ncaa_v2_11ce5d53ddd9c3eea94763ce",
+      "ncaa_v2_b9761d4bd6c9b834c117099b",
+      "ncaa_v2_e0c97dd12a52d7e9b3e7ee90",
+      "ncaa_v2_2e1ef3991be1d2eb39178030",
+      "ncaa_v2_e0c2a0d4d0daf6314e75b9c5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_383",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_66e9d60e22aa43fc59209926",
+      "ncaa_v2_1f1288bab6347b016aaa0b86",
+      "ncaa_v2_e9d99ef5d54fdbdc6d58b717",
+      "ncaa_v2_59c0ee85d26488aa3b2aeb63",
+      "ncaa_v2_86d787a1a2c5b53e8de43420",
+      "ncaa_v2_eeea8e4530f44e2be954ce37",
+      "ncaa_v2_ed3701df2fd5512222720c0f",
+      "ncaa_v2_fd913bebb113dc976439c747",
+      "ncaa_v2_d92c6d5465ede353726d95d0",
+      "ncaa_v2_aeaa138d6c6f464dece2ff4f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_384",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_1ba7370530f14de7b6002eca",
+      "ncaa_v2_68210b58069437f87d002efd",
+      "ncaa_v2_fef5be5cdd5d0bebd419ca06",
+      "ncaa_v2_a1bc0d4d635cb4c208867f45",
+      "ncaa_v2_c4a971f92b3d603504c47d3d",
+      "ncaa_v2_c2dcafd2d72c789f4004163f",
+      "ncaa_v2_962d428273a5ce4d9e29fb38",
+      "ncaa_v2_12945fe35bb83dacc61ca7a6",
+      "ncaa_v2_8f520e5188869ab1a416d9eb",
+      "ncaa_v2_5b628687155c7443278624fb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_389",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d5874ec5bf54fd95d03f59bd",
+      "ncaa_v2_380b429847953cd4b7028c29",
+      "ncaa_v2_d9039a83fff6498af2b5af94",
+      "ncaa_v2_a57774cb0948e1df690fd88a",
+      "ncaa_v2_682a51f0e2e414970ee0b63c",
+      "ncaa_v2_fbd6124b0425577808e29721",
+      "ncaa_v2_74a673958dc1fe7fe4303cd0",
+      "ncaa_v2_fbb0afc26d07ba1a37e7edbc",
+      "ncaa_v2_f96f30cc147a359299c43e1c",
+      "ncaa_v2_e94f76e6ada8ac0714ede1bb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_390",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_8b261059c42dae04942a4247",
+      "ncaa_v2_827561d17285f44d85cf98ed",
+      "ncaa_v2_3dfda2100064fed763d7bdf1",
+      "ncaa_v2_780557386866eef96081ad9d",
+      "ncaa_v2_d5dfb29f0402f30c5ff2b61d",
+      "ncaa_v2_c34ad8a190d026ac4995ed23",
+      "ncaa_v2_e9f341bff963761805e6bd48",
+      "ncaa_v2_7a742b65df086572ed78caa9",
+      "ncaa_v2_d661b7daee1191a2225975b5",
+      "ncaa_v2_af1411455da71d49e8632934"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_391",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e39601370bf538abf50bdbdf",
+      "ncaa_v2_2411d9b01c23f366de0fb70e",
+      "ncaa_v2_e5f0192facefaa29af61affd",
+      "ncaa_v2_25ee1503e81536ccd07e89a5",
+      "ncaa_v2_d6d72b340411d724975eca51",
+      "ncaa_v2_0a245b7602e2b7622695d351",
+      "ncaa_v2_ab10908f5c33c4c9a1f978de",
+      "ncaa_v2_a2e3065cccdcf5acea28ed7b",
+      "ncaa_v2_e0267242d3a2e18859889b14",
+      "ncaa_v2_e41bbce3a1735595469cebf3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_392",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_265244584d69727d15d71296",
+      "ncaa_v2_9ecddf4028f634da93169a24",
+      "ncaa_v2_20de76d9634053f23db299b9",
+      "ncaa_v2_bce1e95874e2ee0d90fab31d",
+      "ncaa_v2_6dd914b442fed3257aeaf557",
+      "ncaa_v2_f50a604c5ba7e5a08191c217",
+      "ncaa_v2_8b1e75ea89b68f5b1ee1b37c",
+      "ncaa_v2_b2cbda8358eb1b2a3a0ac5fa",
+      "ncaa_v2_faf83e109ad5a2d4896125e8",
+      "ncaa_v2_7a7d622eafc2fa42e90e8bd7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_393",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_59aa5cfb02d2016d690ae2c5",
+      "ncaa_v2_2e2fe07e91e165f3c6a2b5de",
+      "ncaa_v2_c594d78ab18af451e6617919",
+      "ncaa_v2_1f2949a9fff6ce66e757d19a",
+      "ncaa_v2_af67253e372779d9d3d4ce5c",
+      "ncaa_v2_3d170398700626cc7d2f177e",
+      "ncaa_v2_e4bb32dff71e1a6e880448f9",
+      "ncaa_v2_5057e67bb0c67d44c52fdae5",
+      "ncaa_v2_18980fb924ad172266e31c7f",
+      "ncaa_v2_ca0cef122d4bf726853a815b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_395",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_4a4dc902b55787ef9c69dfa1",
+      "ncaa_v2_fae776283cb52cfe39d123fb",
+      "ncaa_v2_a72157114b40d9aee27e970f",
+      "ncaa_v2_e4cdf7bb6e27b51c58ee9599",
+      "ncaa_v2_e92ab67a772c33db22bf2ed2",
+      "ncaa_v2_608b977ad8f808902ebad647",
+      "ncaa_v2_f9e02747f1a05992e600bee7",
+      "ncaa_v2_3975cc6cdde43527d61b84ef",
+      "ncaa_v2_c14c35c6a6e6a34f01308eed",
+      "ncaa_v2_260fb8a33daaa3eb181073f0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_396",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d412080a5e367352e16e3784",
+      "ncaa_v2_51a63cf5e52772e8e2cc511c",
+      "ncaa_v2_292e284c69c12db17e92ef00",
+      "ncaa_v2_f29342190a2ad383b98ee9b7",
+      "ncaa_v2_2b2f320b348a6c6f18427b43",
+      "ncaa_v2_d6a800ba4b8cce131fd43c33",
+      "ncaa_v2_11d6f5759ed5b9e6521f9346",
+      "ncaa_v2_cd42a52bd899280fdbc142bd",
+      "ncaa_v2_37d71a92c5ac74fab12309ee",
+      "ncaa_v2_182403a11a6678a87bd53491"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_397",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_06dd1f6d5641ffe316a18bf3",
+      "ncaa_v2_6cd22fdf3546d2b883d3a7d3",
+      "ncaa_v2_d6067c1b316b0f0669ba75d1",
+      "ncaa_v2_ca35e513f01e5bcde9e8faf7",
+      "ncaa_v2_cafac21e9575e0e0a157f599",
+      "ncaa_v2_f09be902994d6c1d1253f3bf",
+      "ncaa_v2_1b4e3c9dac9be900c91befed",
+      "ncaa_v2_62377d6c7cd3431cf6e25f86",
+      "ncaa_v2_c0a510bf0da63c9901db46ea",
+      "ncaa_v2_4306eb7163be9f7db7737f94"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_398",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_cee7e9991de005d903a8dd03",
+      "ncaa_v2_e6003b9399d16c531463bb50",
+      "ncaa_v2_8cd3efdc67fce2aa48149ebb",
+      "ncaa_v2_5d45853045d799f57aa8d29b",
+      "ncaa_v2_6b2768b7c00b58d9e784ced0",
+      "ncaa_v2_7f510a5a9d2ddc854c6fe807",
+      "ncaa_v2_d70f6891c2cda18d667acb65",
+      "ncaa_v2_6c5efd16efbb0de452c65ea0",
+      "ncaa_v2_334c63df71392aa459e916e2",
+      "ncaa_v2_64eb4df2055d5ddd90a119ea"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_399",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_03539350222cfb2c96d9d409",
+      "ncaa_v2_1c7fbf8360e492303ed8e8ce",
+      "ncaa_v2_9d91a6db4f45c70ef59008a6",
+      "ncaa_v2_b82900304196c4b2b84af119",
+      "ncaa_v2_21800642a5cb56828055708e",
+      "ncaa_v2_f18c48422ecd62d2bc52c3a2",
+      "ncaa_v2_65bb3729c76263c58f2692ba",
+      "ncaa_v2_490fafabce1b4dad454ca7ec",
+      "ncaa_v2_23241ac376cc36daed98d8a7",
+      "ncaa_v2_109be1eebc3ca1dbcbcaaac7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_401",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_eb46c4f69a6911b861063a9c",
+      "ncaa_v2_cb87e1fe1b4ca0804f23371b",
+      "ncaa_v2_2cdbc3aa71de031aba5fbc7c",
+      "ncaa_v2_a6e4b1a91c302e4df80840e7",
+      "ncaa_v2_1bb87bed526b30fda13c91e9",
+      "ncaa_v2_8ce3c04907f6bb7959027534",
+      "ncaa_v2_7cdefed0948dcf45362c1c5f",
+      "ncaa_v2_d658706a36f5b59b813dc34d",
+      "ncaa_v2_83f7f3f1360d1c4d6cef162e",
+      "ncaa_v2_a32db91df8a39c6537937eb5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_402",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_952d7e62374994592677198e",
+      "ncaa_v2_99d4206fd14400ca8cd079b1",
+      "ncaa_v2_9990b42d866fab81b2b9c0c0",
+      "ncaa_v2_49c85ebaa666c37471273cff",
+      "ncaa_v2_2fc61bec5bc26daa023e993d",
+      "ncaa_v2_44cbe0aefe4773ec6db59d43",
+      "ncaa_v2_b4ab332a8a99bb0675e64fb7",
+      "ncaa_v2_7e26bae5ab167d787e2b8f9b",
+      "ncaa_v2_144f348ba9a4c299053dfb7b",
+      "ncaa_v2_1e20949eb2861a524852d428"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_404",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_0d36c95ed0ce448316d3e48d",
+      "ncaa_v2_b91d7936f86a83495f2d72f0",
+      "ncaa_v2_f2daf9409951b2ef79e24a2c",
+      "ncaa_v2_e1b1d1fed10fcb4efa497965",
+      "ncaa_v2_3292fa446568f3056989031b",
+      "ncaa_v2_bb24bfbf53df5fd0ad1c2922",
+      "ncaa_v2_ab827a048a93333d9e539005",
+      "ncaa_v2_3d0951b0937782627ca37686",
+      "ncaa_v2_20963377af0666b757130391",
+      "ncaa_v2_0d55e1ac87bada72de32b249"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_405",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e5bada1017405e95e381d5f8",
+      "ncaa_v2_c4e9246ebc806bee75cb33a0",
+      "ncaa_v2_076890d6af7434c1a22bdcce",
+      "ncaa_v2_685715b55c5673ac721d7a69",
+      "ncaa_v2_ee5e4ac2ce4e0bc112a6e03b",
+      "ncaa_v2_961c073e9645fa1002f916c6",
+      "ncaa_v2_c9d42ea99e70dd0e7b610e54",
+      "ncaa_v2_720b745840c13cfddad60da9",
+      "ncaa_v2_6f1813e8884df4ac7b19a8b4",
+      "ncaa_v2_28b2864241ee1b76c03895f7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_406",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_122e3fb87ac9e4e4c6d103ba",
+      "ncaa_v2_53ae01a7bf41b8c68d4b118b",
+      "ncaa_v2_8c029860897a64485e6c2c80",
+      "ncaa_v2_a55fc546665b5b7cbc26a733",
+      "ncaa_v2_45d80cb1788c23c2fa2f92d1",
+      "ncaa_v2_c097143b8e4d640f88421816",
+      "ncaa_v2_2e460f5cbd78cb33fd41d1c0",
+      "ncaa_v2_452398dbf565313ae08cbc79",
+      "ncaa_v2_d32df1d759761a20ed1f2a5c",
+      "ncaa_v2_4064cc599b96b256e3a70968"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_408",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_95efd7b8b317e30df5dad58c",
+      "ncaa_v2_5aa89a892837029bd796afb0",
+      "ncaa_v2_7b5ec2dd5f4153b737c37ae6",
+      "ncaa_v2_b50eaf7af7292e5a6a8a0cd3",
+      "ncaa_v2_dfbbb3042061d878d835c220",
+      "ncaa_v2_cecbce7f01c3097eaaff34dd",
+      "ncaa_v2_6d7ab2acc99543021dccf6d4",
+      "ncaa_v2_1a5ddffb9314c100800a3ce1",
+      "ncaa_v2_62734d7e37b41e2092e9fd7e",
+      "ncaa_v2_b4a451d6c81c29deb58db2de"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_412",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f72c742a95b40eb1bc2f3734",
+      "ncaa_v2_fd4e609ffd3b83935b83e9ae",
+      "ncaa_v2_13379a69543cf7ffc9b83707",
+      "ncaa_v2_4948fa92a5f5d57c10de156c",
+      "ncaa_v2_10e1e2435a9cac640c721a25",
+      "ncaa_v2_6219d832fc1df5077ae1ae87",
+      "ncaa_v2_da8225ff8e1829a92dc1822e",
+      "ncaa_v2_d23d1fd9403a8c211c9797fc",
+      "ncaa_v2_a5034c69025e5c3ded8a2ce2",
+      "ncaa_v2_4634d1ace7887c7ec65ad78f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_413",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_333ee623b5fd62f542958d4a",
+      "ncaa_v2_c16d654632543b12a55d4a81",
+      "ncaa_v2_ce21042068901b132c301fb9",
+      "ncaa_v2_5e09bc8582678788df79fec5",
+      "ncaa_v2_c3e26000760893bd57383c26",
+      "ncaa_v2_8188dcd3567b66cbd9634456",
+      "ncaa_v2_c9698d8ad228198c49ef9120",
+      "ncaa_v2_245f26298bffc2bf8f783aef",
+      "ncaa_v2_9cce60c9017eb5d8aadcb0a2",
+      "ncaa_v2_143910ceed7c36c17cad4d95"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_414",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_bbcb3d139134f5763f4a4e28",
+      "ncaa_v2_1cfa02bdc73d7513e926dab4",
+      "ncaa_v2_e9a2e111c66ae69298b633dc",
+      "ncaa_v2_3b2f0859f803082bc306e666",
+      "ncaa_v2_5f74c84278a5f0bb47191179",
+      "ncaa_v2_2cf0d9f20864bc035ca5b139",
+      "ncaa_v2_72ae29a7b9ce750376007970",
+      "ncaa_v2_a70d942eb4d67f31328b3c43",
+      "ncaa_v2_91ef56a7b6d782cd8ec5fa19",
+      "ncaa_v2_537eb7b687e01dbf0e589c16"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_415",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e6c11458f8035425b6b55238",
+      "ncaa_v2_20d33ee0ca58893af6776256",
+      "ncaa_v2_e7a5dfd077d6e556f1d56c51",
+      "ncaa_v2_2e0c2782bdbfa23ac5dee3af",
+      "ncaa_v2_3637ee2f5a6d49bcec191d03",
+      "ncaa_v2_a55871ba14e6217ec5bd6cd5",
+      "ncaa_v2_210c0b3d509e006dcf7e793c",
+      "ncaa_v2_a3a678740e66ed6966dc9bcc",
+      "ncaa_v2_0a520ee8f33c7ba50a274c6c",
+      "ncaa_v2_00f67b4356ef29f00b94d7cc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_416",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_87a67d7953c5d0bd92de1632",
+      "ncaa_v2_921fa08b37288789c5edd8c1",
+      "ncaa_v2_71985aad29ab8f19e9edf778",
+      "ncaa_v2_83ec1955c8c325523a94b3fe",
+      "ncaa_v2_eb8348bfb3fabe76d106e368",
+      "ncaa_v2_636a38befc8898ba39e4caa5",
+      "ncaa_v2_0473ccd5a8a85295927aa1c9",
+      "ncaa_v2_c7306bfdcab9d10218186c90",
+      "ncaa_v2_fc2ca3d24bcbaf8d44b321b3",
+      "ncaa_v2_6691f1a902774c2a0349bdc9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_417",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_29ea9dfabf4c55ca8fed11d6",
+      "ncaa_v2_ab15d217c59eda8ec4640be9",
+      "ncaa_v2_e4b92c0e5cfd1a47148b3eb8",
+      "ncaa_v2_a2d5580680dbdc64add65c1e",
+      "ncaa_v2_a5587018f5ae71f1243e7b31",
+      "ncaa_v2_020cec5647236527b9cfe0e7",
+      "ncaa_v2_593caa1080d05569dfaac66d",
+      "ncaa_v2_c8d733084d2a59acf8ad9748",
+      "ncaa_v2_711ca170c72b0e8deb6307e6",
+      "ncaa_v2_1afd68b86b2ed762935a9637"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_418",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_7bbbfb0f8212f06977a97fe9",
+      "ncaa_v2_119fc4d11dc7277215e358dd",
+      "ncaa_v2_64d0d2286f5521cf877de0ad",
+      "ncaa_v2_eb8575bcecb93134f50a3672",
+      "ncaa_v2_e6614af90d616d92a9242605",
+      "ncaa_v2_329a7fa27c6049f7c2182142",
+      "ncaa_v2_515096a0f1aa998b2d4db8a1",
+      "ncaa_v2_c1148adadbea3d7d7b0a3f55",
+      "ncaa_v2_318c11e44d9c78f95873aea2",
+      "ncaa_v2_e21ae2bd5e64b21f7818280e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_420",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_a71833356edcbed688278cfc",
+      "ncaa_v2_a5d8440bdf01022aedbf76a4",
+      "ncaa_v2_50811fc7f51b8069d7530b25",
+      "ncaa_v2_ad0f1c084b2573f7e4a6b3d0",
+      "ncaa_v2_5dd7ab08848c74ac97bc4339",
+      "ncaa_v2_96069ac3552a5ae6789906fa",
+      "ncaa_v2_4703cc33eeb3925062025fbc",
+      "ncaa_v2_8771205e2853e7e57b48df4e",
+      "ncaa_v2_6284c005bbf6f4266f9c78e7",
+      "ncaa_v2_f9ffabd6c593011a40657842"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_421",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_b46dbec752ee64fb7425b334",
+      "ncaa_v2_f77b06c5b402f0642ecfe92d",
+      "ncaa_v2_8d45c25b656fa3335c769d88",
+      "ncaa_v2_23edb163262f32e65e350b0f",
+      "ncaa_v2_4f291c8ebc627a4a3e574ac4",
+      "ncaa_v2_52f68e5c89de65a0d9a44ce8",
+      "ncaa_v2_b1a3e17f9436c3ba878295c6",
+      "ncaa_v2_92af9c7ed60c8b0f9dbb5ab9",
+      "ncaa_v2_4ffae0880bac5f541e7f31b4",
+      "ncaa_v2_c15458cdeb29040f36ee69dd"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_422",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_7afab8e1772c4c207167c470",
+      "ncaa_v2_39cde424df1d174d6dc9603b",
+      "ncaa_v2_8c5ed8371a5a5df13ec471df",
+      "ncaa_v2_c7f6d80edf1b8852162bb45e",
+      "ncaa_v2_b09d7d47bab12d8c3636946a",
+      "ncaa_v2_0e55ef2925216796cc891eaf",
+      "ncaa_v2_0a935a776dd61476b6022f65",
+      "ncaa_v2_9d22b637cbc205dada23d4ea",
+      "ncaa_v2_5c3992a9c66948ba93054d9d",
+      "ncaa_v2_6ec2effc27193d3326837e18"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_426",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d783f0e65e93f5581573a393",
+      "ncaa_v2_6f65af46b6533774c367735e",
+      "ncaa_v2_a2037a5455125ae9ea8d8ad5",
+      "ncaa_v2_5694163215e21a7fec7e8240",
+      "ncaa_v2_00c86cd046d23e4cae64d171",
+      "ncaa_v2_5c539424b3c567224dc5935f",
+      "ncaa_v2_cc064d22dff16771587bc860",
+      "ncaa_v2_a1cee8b068ad765e86ee3424",
+      "ncaa_v2_af534f55791f5c9054e96c08",
+      "ncaa_v2_561b858974f5d82ef875e264"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_427",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_ac77510d7b347c3f321f1154",
+      "ncaa_v2_42c2355b90338b693b9532e3",
+      "ncaa_v2_aafde0d6c9c10cd7c7ef0d80",
+      "ncaa_v2_935656317451965e4c02a61a",
+      "ncaa_v2_f201a5a3d78747019dea408f",
+      "ncaa_v2_b7f88f15564445068fb1b387",
+      "ncaa_v2_c954c39086cb3a0bb0a9c455",
+      "ncaa_v2_a35fde2d7b553deb17390ed1",
+      "ncaa_v2_8cf591eae0bd32d775b6a03d",
+      "ncaa_v2_1f98cfd6d3c7991fc7e3462b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_428",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_0d56b475681a1929633e31c0",
+      "ncaa_v2_ce11b476b838e445ada76c62",
+      "ncaa_v2_c31128d7dced8a4a0e3bf4d0",
+      "ncaa_v2_1494019d7086f7c889c129b9",
+      "ncaa_v2_2b0319ace9c64a3d904df389",
+      "ncaa_v2_6a8cc256d1d362cde25dc35d",
+      "ncaa_v2_c25794d1d5a43b00a3144e22",
+      "ncaa_v2_0ea8a80cb359059e23e1fb8c",
+      "ncaa_v2_002d52fea8a9a94e6176fe53",
+      "ncaa_v2_e1dbf10cf7d35b1f1bbcf498"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_429",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c9530f2b5da1edff28e6555c",
+      "ncaa_v2_563c04d2917f1929c274b1ca",
+      "ncaa_v2_d16bc60483646d083f5b4e75",
+      "ncaa_v2_66a233f726a6553e3e72604c",
+      "ncaa_v2_6b9cbed5f2b1ed8e8315dfab",
+      "ncaa_v2_9f70363903fba4034a1e7e6a",
+      "ncaa_v2_6f14ea3550b4bf855a6c4eb7",
+      "ncaa_v2_485879575ad2bb7978be5c95",
+      "ncaa_v2_95e3a9dfbe56616aa1b96d4d",
+      "ncaa_v2_0aa387c20a4a0216f282d4a8"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_431",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c9647669989c3a312b17b8c7",
+      "ncaa_v2_dfe71f1f46e53a19a12cffbd",
+      "ncaa_v2_e9c7ad0faaa5ead47b70defa",
+      "ncaa_v2_84ecb393c50f9aa12ee4a9c6",
+      "ncaa_v2_8f01951b08589260c06fca3e",
+      "ncaa_v2_2f486b501f403227d5aaf35c",
+      "ncaa_v2_19a08ef023936cfcfcdd99b2",
+      "ncaa_v2_85a959f8653f5211b1aa01eb",
+      "ncaa_v2_b709c7a8cb34a8363b47929c",
+      "ncaa_v2_35c0699c20a2fb3a048560f7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_432",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e944e9455f263ae6f1a3c506",
+      "ncaa_v2_b4729ee0765a0989190bdd3d",
+      "ncaa_v2_3feb66827cea7d6ff70feceb",
+      "ncaa_v2_a41a128c441c188a7481965a",
+      "ncaa_v2_8de320c6521445494987d46c",
+      "ncaa_v2_ebf05b31d313fee0168a725c",
+      "ncaa_v2_011d0cde27bf8a69c0041e4b",
+      "ncaa_v2_6f45f012d558bd61fdb97b20",
+      "ncaa_v2_feb98b55ea63c873fb6d80ce",
+      "ncaa_v2_6f02eaa1ccbf8916b09e9a44"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_433",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_10380f978162d6334d8d875e",
+      "ncaa_v2_549891687a6473822e4311e5",
+      "ncaa_v2_cd420e3301913af889fffd5d",
+      "ncaa_v2_b4ccae48293ea41b8bb34cb3",
+      "ncaa_v2_4b307cfa2e0840b93eb4987c",
+      "ncaa_v2_58cfaf7bf4854cc4847ddc83",
+      "ncaa_v2_aaa69ee20c466ac373f96307",
+      "ncaa_v2_923709e665075de885cec61c",
+      "ncaa_v2_12be06f7847ea1f093ac0a25",
+      "ncaa_v2_b841b08b5df4e3ebc0c8b6db"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_436",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_7845e6b55a94b464a55455bf",
+      "ncaa_v2_31aebe75f285d631f64df76c",
+      "ncaa_v2_c23be405419446f0cc25a7b9",
+      "ncaa_v2_4cc3fc0883ec8b306d5b1d6c",
+      "ncaa_v2_eab881526d0f1c3123877e82",
+      "ncaa_v2_10975aed2f296f3f7173cb07",
+      "ncaa_v2_cc6bcbb671e6ff283e45b33d",
+      "ncaa_v2_94aed749af5b0fadc9e04522",
+      "ncaa_v2_69f08c6436189e7e8ffbd16a",
+      "ncaa_v2_17b78a6c0b3b4966a4a0352f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_438",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e46bd4a9fdcd8c18af9ace0e",
+      "ncaa_v2_a2db6b4a9410887e1b578f75",
+      "ncaa_v2_21475791f403af5de1466b55",
+      "ncaa_v2_7d97707c12bd651747900c3c",
+      "ncaa_v2_a08fedab80691f14726e64e9",
+      "ncaa_v2_49f22746503d66ba8f2d0a19",
+      "ncaa_v2_15db71cb4c1fea948b677a09",
+      "ncaa_v2_23be55402c440c6d91bb3e71",
+      "ncaa_v2_153b098b2964f2bc637ebb53",
+      "ncaa_v2_29d86c74cf27723bba1098a3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_442",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6a366f5b179e53edac6f7563",
+      "ncaa_v2_92498a5d33e0925faf689390",
+      "ncaa_v2_51ff95d6b545431cdab82cba",
+      "ncaa_v2_9e369e8483f5e20d02b0a58c",
+      "ncaa_v2_1cd8b692ae019913ebf9230e",
+      "ncaa_v2_0d20f790fbcb25d8186fd807",
+      "ncaa_v2_09f0ff83460ec1c4df3a1492",
+      "ncaa_v2_90187886d819524b46a7470a",
+      "ncaa_v2_7ca308464baf757401b66678",
+      "ncaa_v2_4ad299efffd00350e7f44195"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_443",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_02fcb0066a9852f1bf5577cd",
+      "ncaa_v2_5e157392266ea97da0baed2b",
+      "ncaa_v2_1b50e189e3ab17dbc4f5a6ae",
+      "ncaa_v2_4a469f61f03356c950df2f17",
+      "ncaa_v2_cbd1645d24a7ab2df17183ed",
+      "ncaa_v2_05d62291275f22d882f783af",
+      "ncaa_v2_221e2d62f63ab3c79eb4e440",
+      "ncaa_v2_b516e38f98484428505ba0a4",
+      "ncaa_v2_8cb9dac6151aa50ca70de255",
+      "ncaa_v2_c4f37b7e0522f156e101de0a"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_446",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_44f47ef9dab747b15f8e7759",
+      "ncaa_v2_4c2ed2228b7fae0e436b55a6",
+      "ncaa_v2_68410ae7d429cfaaaa733c7c",
+      "ncaa_v2_8329402bec0e750c35a2082d",
+      "ncaa_v2_0537a5853e65b06b0548ca24",
+      "ncaa_v2_78b6ee4b2c56132d1d2db32b",
+      "ncaa_v2_0a57c6a9d6262fbaa4a5753a",
+      "ncaa_v2_a2f1cdbcfe85c80d5e080551",
+      "ncaa_v2_5c3cbc6aa5501085eba14ec3",
+      "ncaa_v2_78e9beef5c11fb18983fdaa0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_447",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_1ab1a120d3ab629897a810d0",
+      "ncaa_v2_4ffe01f65735794961bcd706",
+      "ncaa_v2_656d52b10525f51932699b6d",
+      "ncaa_v2_5cd63815a803c3822d9efe24",
+      "ncaa_v2_682fb0460c2399ad4f843b51",
+      "ncaa_v2_8a0e786a986847114d481909",
+      "ncaa_v2_1b28d9e41e7b2bc7217f56e0",
+      "ncaa_v2_6b3b7d4f45deca9aceba4fe0",
+      "ncaa_v2_1ba197febc4d3afb20795f42",
+      "ncaa_v2_3c6517106e0ce6223bf19b40"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_449",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_026d886c32abd45aeced73d7",
+      "ncaa_v2_216e9e2b033eb15bec3c6809",
+      "ncaa_v2_da296f9faf025b70e005bf5f",
+      "ncaa_v2_6a2e2b23cafd223aaa552b54",
+      "ncaa_v2_ef4f443bbdb88cc918fb2dce",
+      "ncaa_v2_2e5b776647a714a1bf8ea877",
+      "ncaa_v2_e52e89f766d50a7471f8c322",
+      "ncaa_v2_6e64fbd8e3fecb53ed55b9e6",
+      "ncaa_v2_adda9db761a8cd893299dce6",
+      "ncaa_v2_532b7328e74820064b3cbfc3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_451",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_5821148b36e0df498b5ca679",
+      "ncaa_v2_1edc755cab48f05d3a7b446f",
+      "ncaa_v2_6a59843ddf48063513ed8d95",
+      "ncaa_v2_bed1076918ef764f8b46cd7b",
+      "ncaa_v2_27880000660a05619d6b9dac",
+      "ncaa_v2_51a8e678d7a3b609557e65b5",
+      "ncaa_v2_2c01a52a5a0181f7586a04dd",
+      "ncaa_v2_eaecf16e076880f2b30064cd",
+      "ncaa_v2_5dad9105e9eb713c20d39852",
+      "ncaa_v2_8265ebc57182eae73d31e1b5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_453",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_44c313a14a4638099b5a504f",
+      "ncaa_v2_72ccd753501cdbe742508702",
+      "ncaa_v2_d091f25e7918fc34166e17d1",
+      "ncaa_v2_cc95c368612a2e2536684e8e",
+      "ncaa_v2_157ec2c938f72db9655017ba",
+      "ncaa_v2_5ec15ad5776b783fe814ffa3",
+      "ncaa_v2_a6be42e4ecf5471c30ae6988",
+      "ncaa_v2_850aa9de3bec2d27d7208c86",
+      "ncaa_v2_b28a138ef25bdd08e8613760",
+      "ncaa_v2_aed36477114e1e813492b941"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_455",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d4b27c6707fe699ed7f7c06f",
+      "ncaa_v2_be09e19a9bcd2c2212c75789",
+      "ncaa_v2_b3a23f017e2f84111f35a620",
+      "ncaa_v2_1f8b322f6123ac18b4dc257d",
+      "ncaa_v2_d0b899ff89064a199ae4e13e",
+      "ncaa_v2_f6e6c62f314ae255cb686ce7",
+      "ncaa_v2_d728bd9686fad10e81020b34",
+      "ncaa_v2_2f221a66d53f011d31e9c484",
+      "ncaa_v2_b146f8a814772046ad55efb8",
+      "ncaa_v2_93706d270b4071fb66f15d7b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_456",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_376bf27e68871ac7ddcf8bb2",
+      "ncaa_v2_e7ebba3d64ed7be77303d5c3",
+      "ncaa_v2_dcbadc87b80af48b247b17c9",
+      "ncaa_v2_85c57fb1cfc46d4f2d16bb8e",
+      "ncaa_v2_e652dc13894000fcf93306ad",
+      "ncaa_v2_f79cec87609cc0a2c07773d7",
+      "ncaa_v2_4e3ad01094523b71558cb191",
+      "ncaa_v2_621d22d64dde88eb46a8438a",
+      "ncaa_v2_1b299f8781bab18af3fed0c0",
+      "ncaa_v2_72a46c4cbe47a359da20192c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_460",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_8e5cb68d3f608afe45cd45ac",
+      "ncaa_v2_1e5a58a26bb151ceb2c8f126",
+      "ncaa_v2_19d1ce12007f8cfe4d39d946",
+      "ncaa_v2_4ba5c80f091be03fc501f4bd",
+      "ncaa_v2_d3c6bd675a234879c119bdcf",
+      "ncaa_v2_e701a94b0b542f17e8e492ee",
+      "ncaa_v2_499295fc4b7cc104dad35e58",
+      "ncaa_v2_95b29608cd7d1d791bcf3efd",
+      "ncaa_v2_c706e9f4a13dbb910ff8a627",
+      "ncaa_v2_0fe467fc8d8f82b76944f63d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_463",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c5c8d693306ffbd488ae00db",
+      "ncaa_v2_af4dd9b79e38d481c1e659c6",
+      "ncaa_v2_17df4f24721a371d0cedf42b",
+      "ncaa_v2_ef4c44f85d24785e0d136771",
+      "ncaa_v2_4cf3838d9c13f6e32de05b7e",
+      "ncaa_v2_117dcc94d57ed020751e6768",
+      "ncaa_v2_3babf18d90331d4ac619123a",
+      "ncaa_v2_7c71918491eef799646f9ddd",
+      "ncaa_v2_e1bcf50e423ada3e79b08801",
+      "ncaa_v2_95fde5b04e70254627394575"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_465",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_0bbe15a3f42647aead973e5d",
+      "ncaa_v2_e5594b333f1d4a7d3f7cc086",
+      "ncaa_v2_a2b03d01cb96fe2558200089",
+      "ncaa_v2_ccc9edb09891272fc2dd6c05",
+      "ncaa_v2_cd3bb89eda6cd2f864dac665",
+      "ncaa_v2_8887c199abdd3d7f27584398",
+      "ncaa_v2_65ffaeddc058007c9b25b8f7",
+      "ncaa_v2_fad16c6bb4c71b8c84a22bcc",
+      "ncaa_v2_544a22bf5b9a6a1352906113",
+      "ncaa_v2_c166596e6ce143813b246fb7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_468",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_ab07b52aa438534211778298",
+      "ncaa_v2_8efb600ac6dca52b162875f9",
+      "ncaa_v2_2f00c1508f5b9694b47cbd34",
+      "ncaa_v2_d5b0e2cfb68d8a7d2e782318",
+      "ncaa_v2_743c08a5e369b5e8ae93dbf3",
+      "ncaa_v2_9dc36c3c8b95e46e6a128f2f",
+      "ncaa_v2_ff3479e658fc16809455ab74",
+      "ncaa_v2_39680df8879d4964b1b92167",
+      "ncaa_v2_9dd59bbba930c8c1a91739ef",
+      "ncaa_v2_4ba0e2a3ab065ef2876cf0bb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_469",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_158e33c9142327256852e4f0",
+      "ncaa_v2_7011308e5cecca391bfbf311",
+      "ncaa_v2_44ae0d0cda4d8a79f5995cae",
+      "ncaa_v2_260229abbef3918de4c951c4",
+      "ncaa_v2_362ac291f142f090a39890e9",
+      "ncaa_v2_6a0861334bae1179292e6703",
+      "ncaa_v2_14be0f7b6a695cba5c50d401",
+      "ncaa_v2_8bcb5582ce76c3a16ab2d78a",
+      "ncaa_v2_33543c9e4f7b2b50a407b9fc",
+      "ncaa_v2_6c44e1f1e35e0de6b7e76dd7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_473",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_37dae11d94e259b26569e63a",
+      "ncaa_v2_b7f2b6c007b8bb4f1096924a",
+      "ncaa_v2_fa1f01762b0dba7a283b436a",
+      "ncaa_v2_0749451cbc38c0ea8e7f83aa",
+      "ncaa_v2_abddfab74615615c81720cb3",
+      "ncaa_v2_2ad4d8ab59d1ae008aadd63d",
+      "ncaa_v2_93fd3470a00cbf387ed3abf3",
+      "ncaa_v2_b537cff53636ee7ff160cb3a",
+      "ncaa_v2_6c6048cd98df2ab805fe4e82",
+      "ncaa_v2_66d8030818819d8d88d0f4ba"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_474",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_a95b3ad24d82c96aa1e868a9",
+      "ncaa_v2_71a1999817e2a5250b0c871a",
+      "ncaa_v2_f987482637af3545d8ae60c0",
+      "ncaa_v2_230beb2380969c7f2827f1d9",
+      "ncaa_v2_ab87cd1ed4253caab3a8d1eb",
+      "ncaa_v2_5a3b3785aa7aad0df444971a",
+      "ncaa_v2_801814e0b44cc03ca58a6456",
+      "ncaa_v2_1af46940934fea02b0ca713b",
+      "ncaa_v2_bbd79c7a498056b188aadbc7",
+      "ncaa_v2_9870e4f2bb09c0ef0c4e4195"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_475",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_640bad76e46d4490a06a348d",
+      "ncaa_v2_6f4d46c59771b32edaef7ab6",
+      "ncaa_v2_74822d08364c6da7b4532159",
+      "ncaa_v2_5ba9b0c234f16cbe6c1f172d",
+      "ncaa_v2_ba37576d1e59de2714ca739a",
+      "ncaa_v2_628773f82b834698e90bc38f",
+      "ncaa_v2_1605eb84886228d04f700c9e",
+      "ncaa_v2_2e1a76e59a8b201877290e2a",
+      "ncaa_v2_6c475c720b4c06040848796f",
+      "ncaa_v2_d2a04d8369f4c693e79cb6ee"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_478",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_bd8f06734d4b9c6a5399ff59",
+      "ncaa_v2_b28cbf70e97ee7c285614de5",
+      "ncaa_v2_7456ca88e6b7b70918d8ecaa",
+      "ncaa_v2_d7a6b7378319858eb0df0ae5",
+      "ncaa_v2_f3f569deb075de088c819df7",
+      "ncaa_v2_87d32c860d316af316b91d7c",
+      "ncaa_v2_e976e76149e49e7d9a5883f5",
+      "ncaa_v2_8190fe440240bc34e597cb9d",
+      "ncaa_v2_971016180108c11c85c1cd4d",
+      "ncaa_v2_813b3effae3b098858ff0a1f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_479",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_7610cb374c323d18cff1575b",
+      "ncaa_v2_6d9ca5fd0654af272bdff817",
+      "ncaa_v2_95cb7490da6b547c0dc81d13",
+      "ncaa_v2_1a4cc119fae37eaaa8ae379f",
+      "ncaa_v2_c406f36e5d04660d099481cb",
+      "ncaa_v2_472d530f17fadf3eda5c65a6",
+      "ncaa_v2_9a8ff5d1df8be1b2234521af",
+      "ncaa_v2_99d2efba812181e7ce838979",
+      "ncaa_v2_dd5cd1f4cf360d7723cb1fa2",
+      "ncaa_v2_bc4688bb131257a82ab6aedb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_484",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_743ea05b012127071cc51b6a",
+      "ncaa_v2_7fad210780770135ac933b82",
+      "ncaa_v2_a56448d86dccec998f1dfe51",
+      "ncaa_v2_733d1b2dcd1c85d786b2e6e9",
+      "ncaa_v2_cd715aa31bacb6d94d45ba6c",
+      "ncaa_v2_a1266e3de30183222c0b4f31",
+      "ncaa_v2_bed09a7343e8353ccad0c1f8",
+      "ncaa_v2_2df90b7b80ebfb6c04fe48ff",
+      "ncaa_v2_cca6d50603176b3ddd6de078",
+      "ncaa_v2_d7991b704e25344bddf99c67"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_486",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6caf56dca56393f5a466fdb5",
+      "ncaa_v2_82607e8a46af2b6a62b88a0b",
+      "ncaa_v2_9b00fb631022a16817cbac4a",
+      "ncaa_v2_f0cb396aa6d09d071c7f63c6",
+      "ncaa_v2_ddc4bd0b1daa0c0b5cb09a04",
+      "ncaa_v2_66ec2c09d9c80592357dc6cd",
+      "ncaa_v2_6cbfb3ccb7f3fcd08c0d0d09",
+      "ncaa_v2_531d41909d262c04e7446005",
+      "ncaa_v2_7cf334d20478009b73f6acde",
+      "ncaa_v2_2d18fdb384b8a577e66fdf53"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_487",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_2a6f425f48b9fabc11ee6d61",
+      "ncaa_v2_b49d03f8dde40e3a2d4977e5",
+      "ncaa_v2_06d4edde8bf93a0eabd82d3d",
+      "ncaa_v2_c2781bc1796f48172e4c05da",
+      "ncaa_v2_ea136653ae792b18c1c2207c",
+      "ncaa_v2_c59c251e5ba4c7a8bea25476",
+      "ncaa_v2_ec687ecf9d28c70832985c12",
+      "ncaa_v2_097e2d3e90c3d43c8df8805e",
+      "ncaa_v2_a1ca11e3c58312f1f102a17d",
+      "ncaa_v2_8a90fa499c49ceef37d9acc4"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_490",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_eebb0cc26539c3a08872fbef",
+      "ncaa_v2_f548ec465c5678b909ab7949",
+      "ncaa_v2_0587b7a3d765f52b09935f21",
+      "ncaa_v2_86835a1deedcced3774bf5c8",
+      "ncaa_v2_9e72c616828f36649e0297e5",
+      "ncaa_v2_afbff0475564522387bb663d",
+      "ncaa_v2_eb9edb1e6afab8ea256d9dbe",
+      "ncaa_v2_859aa4d1ac159e7ebcfdc166",
+      "ncaa_v2_5f0ed2829db0ebe30626be74",
+      "ncaa_v2_f4c4f1b196a0cf492ce8accf"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_492",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6f83036b59f8df40ffa642c2",
+      "ncaa_v2_b1816e8de01f56116c4be50b",
+      "ncaa_v2_085a5e5b9c18ddb771f3b25b",
+      "ncaa_v2_e85bf1ac8cf60c1369ab0cb6",
+      "ncaa_v2_a9b00138cfad87def33e1ca7",
+      "ncaa_v2_da16d068d20c40e40f3b6ab0",
+      "ncaa_v2_cb60241cc2199061b9df2000",
+      "ncaa_v2_e016182eabe3099a8f1d7004",
+      "ncaa_v2_ff7125147572b24460e16767",
+      "ncaa_v2_2edc2f61dbafaa939d3fc4c4"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_495",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_da46de1a7a5426a8283d3ce4",
+      "ncaa_v2_e93e47e045ed08f033852b1a",
+      "ncaa_v2_43e2811b70642afefef837f6",
+      "ncaa_v2_1bbf8d8ed75262f22a836196",
+      "ncaa_v2_c3f01b9ede7624afa912e21c",
+      "ncaa_v2_20bd22ee078222979364b236",
+      "ncaa_v2_9b6733f901dff38bf7549c52",
+      "ncaa_v2_c1c6a240cf506db4e4f86375",
+      "ncaa_v2_5ad3791150f5764e6b920a82",
+      "ncaa_v2_5f56c93e70a999f82954deb7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_497",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_cfe8743fd05a2424a599d9f7",
+      "ncaa_v2_5861267c29eb096cf5d442e6",
+      "ncaa_v2_3c1edde7b04ead14577de8ed",
+      "ncaa_v2_9925a7f48c4347cceaec8a31",
+      "ncaa_v2_fe3bd9365264988e092bc6ed",
+      "ncaa_v2_ae6d8d0e6ce2fc38b730c392",
+      "ncaa_v2_bc748a5cdf8aac7d7d41a0fd",
+      "ncaa_v2_8afd7030079d6d740790b957",
+      "ncaa_v2_38c21f402e46f9bff09d8a58",
+      "ncaa_v2_b32535c0ddcb7079596b4711"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_500",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d77ac68a02bb77c4906e9f12",
+      "ncaa_v2_6af7a2d88cd58c27d6a67d38",
+      "ncaa_v2_ddfe4bb6a3c737b573d6ad5e",
+      "ncaa_v2_d32a1077ed48f1b39e25262e",
+      "ncaa_v2_b615a630cfca2241458c935c",
+      "ncaa_v2_3e601867ab276b8232375406",
+      "ncaa_v2_cfe1259932a6b33fc21b9794",
+      "ncaa_v2_3f6b927cd1b6c4db4d373a51",
+      "ncaa_v2_dd7bc8288cc5e07a9ec0def8",
+      "ncaa_v2_58e7967f7c2db4491aa2e882"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_502",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_df8019207fe83e70a3c25eb3",
+      "ncaa_v2_f1a77395f576bb407497ff4d",
+      "ncaa_v2_6b6a91e78ef8abc628a57b8f",
+      "ncaa_v2_59c66340115ec51cc43ca403",
+      "ncaa_v2_ff7fe4283c3bca985e6fb1f2",
+      "ncaa_v2_220af559f3a83ca68f51352d",
+      "ncaa_v2_8ea6a0fdaa67eefececdd755",
+      "ncaa_v2_4b03dc5caa284233fa8aa041",
+      "ncaa_v2_e30b40019b425557016e179d",
+      "ncaa_v2_0262506c77229b12a49b0c8e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_503",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_03b56563b3d62d1ff073dfcb",
+      "ncaa_v2_877a0ab76a327cbaf42af4ca",
+      "ncaa_v2_2aaca78c5af386d131a2f956",
+      "ncaa_v2_e590f5535ddce3733879d436",
+      "ncaa_v2_a92547338077d0637503ed8b",
+      "ncaa_v2_4cbfe37e97659b413ca137f8",
+      "ncaa_v2_d9ac7e297539896a1a83d148",
+      "ncaa_v2_01222ea582d95ef3126de1d4",
+      "ncaa_v2_184efd3bd8ca19664fc05a6d",
+      "ncaa_v2_799cf1b4db2637f7efbc5979"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_504",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c9719ae65a32bbab398109e5",
+      "ncaa_v2_79424fc7ae38007e0573fafb",
+      "ncaa_v2_8b72012df536ea2f3c44a4b2",
+      "ncaa_v2_7b04d43ffe54543e1003d9ae",
+      "ncaa_v2_f0701b0130df79c5ba2d5713",
+      "ncaa_v2_73870b844f72c9036a317b13",
+      "ncaa_v2_03a93304b44bc0d33d66a9ba",
+      "ncaa_v2_0ac34eef9ca45173b90942d5",
+      "ncaa_v2_a51cf902ff5633e51208252a",
+      "ncaa_v2_d11e34bcd329b85148dd14a6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_505",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_3a925b3ae2c087c14296a337",
+      "ncaa_v2_6102084b04d0224b9d91d272",
+      "ncaa_v2_70097200bab9ddec7709d3b2",
+      "ncaa_v2_5c25372ea0d3dc09a67fad96",
+      "ncaa_v2_518cbbd6decdf1f3dcc20305",
+      "ncaa_v2_25ad7b6ce4f85ade12003c32",
+      "ncaa_v2_09f784bfbd7b6f842b07b38a",
+      "ncaa_v2_bae9699ec7633a34b6ed98ff",
+      "ncaa_v2_976e92a088ecf2d56122ed45",
+      "ncaa_v2_2b357ceb1df18905fd6bfb3c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_509",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_71e0bf40f1b0214a109f062e",
+      "ncaa_v2_ddf8b9996aaf3711e2871239",
+      "ncaa_v2_6942825f703ba837bd57a13f",
+      "ncaa_v2_5b4a534accd1a4825eed69fb",
+      "ncaa_v2_7506ff87df403ffc40f05a13",
+      "ncaa_v2_4388ac540208c9648e83209e",
+      "ncaa_v2_f55a483d80fefec6ea7f3045",
+      "ncaa_v2_b719e3d9b136ae1179e9e61f",
+      "ncaa_v2_4f504ff5306005b2bb1a831d",
+      "ncaa_v2_cd47381b839eba04923c514a"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_511",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_fa4b66fc4ca9e2f5bfdb8955",
+      "ncaa_v2_fa7a533006edaa22163a1863",
+      "ncaa_v2_c56ffe94d9fa02d8605e1701",
+      "ncaa_v2_54e8287997593f01a9ac0249",
+      "ncaa_v2_2d4f8ccce6e0ca466f50a907",
+      "ncaa_v2_2e2a0510478d4b6c80ddbeba",
+      "ncaa_v2_4557a52f97e6eeabc484d1bb",
+      "ncaa_v2_7f415e5a418fbe67e9743dfc",
+      "ncaa_v2_e67718e2e6f5c214a567cbb4",
+      "ncaa_v2_296adefe7b56222fd21deffb"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_515",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c29075c0949b77c4b447883b",
+      "ncaa_v2_7a9a395bba7d6e4bfff48d71",
+      "ncaa_v2_7a2c14ded33f3e655780a30f",
+      "ncaa_v2_9fa10e9310cf08b734ca4395",
+      "ncaa_v2_18fecfda3137f5b57fe5e83e",
+      "ncaa_v2_afaefc72642081096e3eafe2",
+      "ncaa_v2_ab9ab8f951af13356241e2d8",
+      "ncaa_v2_0d3941c2da185a5465e2e41e",
+      "ncaa_v2_4942b02718f131c364c2369b",
+      "ncaa_v2_0ef7160ffe51a716b40c2242"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_517",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_73c38b18c809ea525f3c1371",
+      "ncaa_v2_64ff7ae5e9e71d99ea02aa08",
+      "ncaa_v2_1b2a75bbdc188a3327030f91",
+      "ncaa_v2_da9488d0dba8b38f34f38143",
+      "ncaa_v2_4d3ea63176973884741e2a37",
+      "ncaa_v2_02babea922a5779b41d52432",
+      "ncaa_v2_546de7932be5dc5ff3b48ff9",
+      "ncaa_v2_23f8c008ee60df4755a76d7a",
+      "ncaa_v2_37c1f194baa4d45db0f57e5d",
+      "ncaa_v2_ce4b5ae2524e62f55e2653dc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_519",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_88e927028901d9e05721d181",
+      "ncaa_v2_d2cdda4d5ff892aa226f9ac2",
+      "ncaa_v2_11210228e5bccb952d238e9d",
+      "ncaa_v2_9549e80a092bc00ac75fff66",
+      "ncaa_v2_aec18a9632dbc97ef8e499a3",
+      "ncaa_v2_01042e2f70a79285088b8f04",
+      "ncaa_v2_1fab85a51080f9ce46ccc0b3",
+      "ncaa_v2_6935f64c282f4dd9321850d4",
+      "ncaa_v2_14fe3eea01f75547a2c81c6d",
+      "ncaa_v2_60125291f0d0ca532a73eac1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_521",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_86bcacec21c7ef04da88f0f7",
+      "ncaa_v2_a914dac5aa3263b331e3c39d",
+      "ncaa_v2_13f71f70aaeb3223560e70c7",
+      "ncaa_v2_9b594431b8ec2d5fb912673c",
+      "ncaa_v2_0485922a46c799c92516138c",
+      "ncaa_v2_b35d69af17e48f0c2a9a08cb",
+      "ncaa_v2_5e1d9ca28a48d5e38c5e0038",
+      "ncaa_v2_ce9552606f303834a93d0981",
+      "ncaa_v2_0d012f4f1f8e3cdb88c60f04",
+      "ncaa_v2_9d24a4a2dea675eee741e53c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_522",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_5e604ef7c5634fd165f34807",
+      "ncaa_v2_a8e2abe1b1cb6c6cffb746ea",
+      "ncaa_v2_f039249043ec6ddbdc51e741",
+      "ncaa_v2_6542fc8b9808dca844ace348",
+      "ncaa_v2_ed0b67a5f9709a5f0731f4a6",
+      "ncaa_v2_834e8eafc96cbffc89238021",
+      "ncaa_v2_c824f9f6bbe8f1bf5d205923",
+      "ncaa_v2_17bd6c3a9296b4c7dead2731",
+      "ncaa_v2_00598055b0e53af873d8c2cd",
+      "ncaa_v2_b5d947ab929712856835f51c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_527",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c13825c320f6b0c3660675e7",
+      "ncaa_v2_99655ecc21dc732aab7c8f5f",
+      "ncaa_v2_f5aeebb680d8c89d28748da7",
+      "ncaa_v2_355cf5ec1266b7dc66748d4c",
+      "ncaa_v2_d84adc3024fead73b2b0724f",
+      "ncaa_v2_d9819e39a303e7309272b92d",
+      "ncaa_v2_1fb715e99eed0cba45009d09",
+      "ncaa_v2_74c0835a90baf1ff1eb5075b",
+      "ncaa_v2_ca4cb2a2fb6460b79d66692d",
+      "ncaa_v2_c00dd6facae22437c82cc4ee"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_528",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f7e5205e3f82bebce629fc79",
+      "ncaa_v2_d25d72f6e081542639276fdf",
+      "ncaa_v2_24f21e7220f938dde63c7716",
+      "ncaa_v2_dd243ff4d009c1f685f45159",
+      "ncaa_v2_21b3da55088ffc6af88f89a9",
+      "ncaa_v2_17498fb3e7edbe6385e3d76e",
+      "ncaa_v2_e26cc87a45467a7d7eed2d64",
+      "ncaa_v2_62feefc6b7d59458a0d4958c",
+      "ncaa_v2_56b1f5a3f6e1ec7bfed789d7",
+      "ncaa_v2_3c2a7511cc6bb93ca07af6ab"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_530",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_4acaed87abc6c904163b8ab2",
+      "ncaa_v2_6dc3500e84916bd39681f1bb",
+      "ncaa_v2_4ed5d1327a61066f2ec74268",
+      "ncaa_v2_71d54d445cd8d0f1f09b7f3c",
+      "ncaa_v2_449cea8d0ff341988bcad585",
+      "ncaa_v2_1f857fb48d48da559349f0c1",
+      "ncaa_v2_17558e62fcfdaaef6085d0cd",
+      "ncaa_v2_07b0ef61137d05311bf9cbbd",
+      "ncaa_v2_399555ce045541bd8fae9fe0",
+      "ncaa_v2_ff74f3e2d7680b8317a3f15c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_533",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_a9e2facb123a6039a3f84d6f",
+      "ncaa_v2_f91e19505d9ec0e1280193e3",
+      "ncaa_v2_e102b211b9e21e9ba7149e89",
+      "ncaa_v2_870e642207ede13a4bf4ae0a",
+      "ncaa_v2_587ce6861e0151e2572923e7",
+      "ncaa_v2_17096859576abd91bd34e5f7",
+      "ncaa_v2_bd860ca02af3d7787a705750",
+      "ncaa_v2_a2baefc3846b359094e69749",
+      "ncaa_v2_8756ed47a9bf85e8e4b9f4e2",
+      "ncaa_v2_0d5152f5e364f5f404fae08e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_534",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_81109205762d872bac0005ea",
+      "ncaa_v2_315b03230d5ac334e1e8773c",
+      "ncaa_v2_6d0c2852717466ab24247250",
+      "ncaa_v2_375dc652a33fb2251ed434b1",
+      "ncaa_v2_1a69d4588644b1ad1079aec1",
+      "ncaa_v2_95b1169f20651a39cb967b0f",
+      "ncaa_v2_8d381785d3b3a7a8f1feef35",
+      "ncaa_v2_10dcf272dc11d3084ee4bcf1",
+      "ncaa_v2_7779602f9695cb026f0adbfe",
+      "ncaa_v2_fe58b8f10e1dcd32ec8792bf"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_536",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6a7f7d53a70ed44b74dff041",
+      "ncaa_v2_8842adb2c9d65f84555b64e6",
+      "ncaa_v2_dc6362d8f1c5cfbb89fc68c7",
+      "ncaa_v2_c0ad5ba36ed7023a75daafeb",
+      "ncaa_v2_8714eb5f0329f9ea0566b0bb",
+      "ncaa_v2_e280c089d56de6950edf1d4f",
+      "ncaa_v2_60897f0a1f185479b4160d57",
+      "ncaa_v2_0fa66985da07abb38f5d9a28",
+      "ncaa_v2_159bb8586e005efb2c59d018",
+      "ncaa_v2_1b9da73504f9aa68c3d2d8b7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_539",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d2ba6467bcda01901931d5ea",
+      "ncaa_v2_cd8cdf1aa3ee7246b407f117",
+      "ncaa_v2_772e3f29d2a41c9af087e981",
+      "ncaa_v2_e39f1dd57d669e670c7d7ac2",
+      "ncaa_v2_dc97db5a59504776579a48c7",
+      "ncaa_v2_cf6f5b31945091067b8c20dc",
+      "ncaa_v2_d5ecc7f1629221ca7a11a288",
+      "ncaa_v2_37074f4b7e6a3d34bd6f7157",
+      "ncaa_v2_5b829ed76218f21d94260f53",
+      "ncaa_v2_31b1294743bc5ecb86c73a95"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_542",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6c40e3f952622cde4797e157",
+      "ncaa_v2_b82ffec23fe995b4e038b6ae",
+      "ncaa_v2_2811459b903b9783979545fd",
+      "ncaa_v2_e8f560f28b45048022f2226f",
+      "ncaa_v2_7471901825c506a4520af813",
+      "ncaa_v2_9d4b8fdd30c58504ec41adc3",
+      "ncaa_v2_2d2d2a81ddbe9f8eb79b4942",
+      "ncaa_v2_c9fca89a323aeb849918a5af",
+      "ncaa_v2_cfc487396cfefb4cbd48cada",
+      "ncaa_v2_ac65d015e3762f7352e2aa90"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_544",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_40f6329b35227ed34ec7a351",
+      "ncaa_v2_cae41cca4d4cfcd060a12dd9",
+      "ncaa_v2_a7f54993a903f68159a1643e",
+      "ncaa_v2_db226dcc928e10281e56d7ef",
+      "ncaa_v2_9cd43c58ec27dd818231422b",
+      "ncaa_v2_1a0d92fb0a41850c931dd82c",
+      "ncaa_v2_aafbd56461c710f662b29f84",
+      "ncaa_v2_113ce136ec96e94d14e2781e",
+      "ncaa_v2_85385bf46acce7c680c6c4a9",
+      "ncaa_v2_b6f47ded0fabcbb48e7958bc"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_546",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6e0faf1e2bf4ba7b73f66d3d",
+      "ncaa_v2_84ccc17c1a7ad182f3021a12",
+      "ncaa_v2_04cab81ce5f14df33cbc56da",
+      "ncaa_v2_d4a60df7edbd8a637df936d7",
+      "ncaa_v2_0b09d103e846bd44a482fbb0",
+      "ncaa_v2_4380991672605d5563bf8c51",
+      "ncaa_v2_15d7c0b72920222123f4f8bc",
+      "ncaa_v2_ea745765eb5cd4f4202c25d6",
+      "ncaa_v2_0d1cde609360e3379f7edead",
+      "ncaa_v2_5f8dce5a431cea8524f13f3e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_548",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_acb44748bf24cecf9211bbcf",
+      "ncaa_v2_7faca01027f4a037e0f85252",
+      "ncaa_v2_453bd329998045018d4554a8",
+      "ncaa_v2_3d07977e7f2132890fe885f6",
+      "ncaa_v2_16b5bfae69f23001c7770e78",
+      "ncaa_v2_d4a7205fc860716668edb347",
+      "ncaa_v2_e6d758917c123fbd7dc406e9",
+      "ncaa_v2_24d5d3b2e205808c05643981",
+      "ncaa_v2_abb497cae9b9b295a5508108",
+      "ncaa_v2_6a64ddb4e379dfb5df6119ad"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_551",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f726deeb864a81937924925e",
+      "ncaa_v2_27bcf5576c032cd17b7f6dc9",
+      "ncaa_v2_d5cd34b8693a269a6af9e7f1",
+      "ncaa_v2_091533b7a18433ad58c11c71",
+      "ncaa_v2_0285ad596284d698ad1acef9",
+      "ncaa_v2_cff271373c3b4b4d53a9fcba",
+      "ncaa_v2_3792996b5b5932802267c214",
+      "ncaa_v2_5c046e45c234b5c6376fefb5",
+      "ncaa_v2_4df379be5d2c0a36ec001354",
+      "ncaa_v2_adeebef35b85b1bf07697ea6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_552",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_b19592f4860d50887d6c996e",
+      "ncaa_v2_6e87714a193f98ba435f490a",
+      "ncaa_v2_9e76cb95680984a491e023d6",
+      "ncaa_v2_aaca30d4c0d3fa7bfa1dd20e",
+      "ncaa_v2_4c88c226c28e1c6fba87dc36",
+      "ncaa_v2_271090d2c1d16d56f0e4dd8d",
+      "ncaa_v2_f561285eb2279e1dc0f77ac7",
+      "ncaa_v2_ee1234b79b8880402d9f4ab4",
+      "ncaa_v2_96f92a5dc122a5cc1805dca0",
+      "ncaa_v2_b48fd1dbd07665bc87c6aef3"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_554",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_8fe0543ba55080de58681bb1",
+      "ncaa_v2_2059e8a594985a50bbc30f7c",
+      "ncaa_v2_062d010c908923412f92de91",
+      "ncaa_v2_036208c2392a5dea99fc1697",
+      "ncaa_v2_41078ebc27a064f00d9eaa16",
+      "ncaa_v2_1ebfbd1b2299a89b1e8ff4da",
+      "ncaa_v2_80830322cb15f83215e41ca5",
+      "ncaa_v2_6afa86251d16cb300364f4e1",
+      "ncaa_v2_252ba8b6afe398aba4b6f641",
+      "ncaa_v2_e6d5df8efcaccdc28b3b1336"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_558",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_12a838af0be77a59d1ed8134",
+      "ncaa_v2_f92aad832562ae7bdb2a8b62",
+      "ncaa_v2_fab32334daabb4115a29a67b",
+      "ncaa_v2_665db2e67234c769fdb6f838",
+      "ncaa_v2_9afc55a39377e6f5bb803511",
+      "ncaa_v2_86ac7a5ebaa4736a54a814a4",
+      "ncaa_v2_242b205ef826617fb01f3135",
+      "ncaa_v2_2024743025ae2dad2df5babf",
+      "ncaa_v2_6e75a81c47c5d780bd94999c",
+      "ncaa_v2_6911a9e6e5fba95bdbef2d31"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_563",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_74789b72e6616bcf70e5a3f6",
+      "ncaa_v2_31026bb9cef5be7c2b6f4091",
+      "ncaa_v2_0a4f46ffa19db4313a7f2785",
+      "ncaa_v2_995a3a8bc86a9a7495658a0d",
+      "ncaa_v2_045e8085987ba8ded134dcac",
+      "ncaa_v2_9d30f5b3d1db92028e087565",
+      "ncaa_v2_9a8b757b8aa0c34c291614aa",
+      "ncaa_v2_3c5c9f35ad5373d522a76018",
+      "ncaa_v2_e51acbaf6e8c1b074df2a6fb",
+      "ncaa_v2_adca49c031706663a08751b1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_564",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_cd636cc7d9899bc378bc0045",
+      "ncaa_v2_5b2e30faf0498228a70ab21a",
+      "ncaa_v2_06b78db37a7faa2cf2d8642d",
+      "ncaa_v2_7e0bf1a87f7c3d6d91731895",
+      "ncaa_v2_3ed734176847e6e865831087",
+      "ncaa_v2_92afe63d9f3ae8aa0cc6c116",
+      "ncaa_v2_592009c64c81dcd9ee2f8ebd",
+      "ncaa_v2_1281abe419c438493d6afd57",
+      "ncaa_v2_cd2003841b168452092e0ff7",
+      "ncaa_v2_dcb848bc1962d0f9c688c2c8"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_566",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_bd6f5aa4a4bf93d29fa1adbe",
+      "ncaa_v2_3e47394abbfe38de96e86f44",
+      "ncaa_v2_398e37b2aba2edb35419a29e",
+      "ncaa_v2_a18facf13355a44dfc0107af",
+      "ncaa_v2_49d21ebab438288bf71fbcc9",
+      "ncaa_v2_877b2b7c499702b57ac594d2",
+      "ncaa_v2_9f9bb79f4d23c97d8ddc7949",
+      "ncaa_v2_afa9c750db9464a0b4565627",
+      "ncaa_v2_bdc07c514a1fb7735ca4668d",
+      "ncaa_v2_3bb93f57a1b5d320d127c14d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_567",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f90af04352c40ddf1b597b44",
+      "ncaa_v2_aaf6ae3e5f25f6e73113ec70",
+      "ncaa_v2_8aefc94264f99d17533542ac",
+      "ncaa_v2_32b7ab4f22cd3a36e1f14421",
+      "ncaa_v2_8d092689f291d7e041bc0259",
+      "ncaa_v2_e1c961e4949d7ef90b323d86",
+      "ncaa_v2_947e3f8a96d02fe1b7235550",
+      "ncaa_v2_e15cff82afa85795fc9e54c7",
+      "ncaa_v2_e32d680a4ece50eff2568ab4",
+      "ncaa_v2_6bc5ffb797b079671f5aba29"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_573",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_ef0fc33b9efc5c4b9e4a9665",
+      "ncaa_v2_c1acd3af89611c8401c6e9cc",
+      "ncaa_v2_88694d2423a97677b25f7adb",
+      "ncaa_v2_1f41db709aefb5aa03348aea",
+      "ncaa_v2_139e68e02e347267815fec98",
+      "ncaa_v2_d2d6f3b4e84065cefc0a2ca3",
+      "ncaa_v2_18fbed97769299b20d51a703",
+      "ncaa_v2_599b6a42920307ff1d22fbe0",
+      "ncaa_v2_2951b02d971bb80dc28e819d",
+      "ncaa_v2_4c84e7557d1615472c1cba8e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_576",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_ea19a6fa7c4141eb92b8a412",
+      "ncaa_v2_7f16b397991df4a7c11b9b92",
+      "ncaa_v2_77aba85d5177a56f4412f201",
+      "ncaa_v2_c02e9f636dd01fad1ceaa313",
+      "ncaa_v2_26fe64bbe723d0b35e27feaa",
+      "ncaa_v2_d0358ecbb597ce6e3b2a4fc8",
+      "ncaa_v2_6412a7a9a2c4f444b115e5be",
+      "ncaa_v2_d8555855a6603f783992bb18",
+      "ncaa_v2_c150cc112e98cd4efee1c1a3",
+      "ncaa_v2_c4abc9ccf5733f3eb3f867e7"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_577",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_4c0e6b6713191f98a8c8b2fd",
+      "ncaa_v2_ce492da2b5466e48dfe47e60",
+      "ncaa_v2_f35285fd61a4e7ca684007a7",
+      "ncaa_v2_719f73f525f9b61a5e70d4f5",
+      "ncaa_v2_06d378e4eaa6f5aab63a72bf",
+      "ncaa_v2_9885644b8b6558b1411928b1",
+      "ncaa_v2_930c15243e0f66124875e427",
+      "ncaa_v2_99d7d732837273482104ed3c",
+      "ncaa_v2_e9cb90f70d0b11fddb287558",
+      "ncaa_v2_8509002e747701b429ed65f1"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_007",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_009",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_011",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_012",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_014",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_016",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_020",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_024",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_030",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_033",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_042",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_046",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_047",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_048",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_059",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_061",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_071",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_072",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_077",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_080",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_081",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_085",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_098",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_105",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_111",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_112",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_114",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_115",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_119",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_122",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_124",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_126",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_129",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_135",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_142",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_151",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_156",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_157",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_163",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_166",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_177",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_179",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_182",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_183",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_190",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_192",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_197",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_198",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_271",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_272",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_283",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_284",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_290",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_300",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_307",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_323",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_340",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_342",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_343",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_347",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_364",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_366",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_379",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_382",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_7bd6db13aeab5da8f507dffb",
+      "ncaa_v2_211177ecb8cb21500e03442f",
+      "ncaa_v2_22765db72d6d6bb5dd65ff9d",
+      "ncaa_v2_b2bd6cd3c1a17a027f80b1f9",
+      "ncaa_v2_6b1e6a9739947696a990900a"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_386",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_bb65880cd9595bc283dd4f96",
+      "ncaa_v2_550e1d77969643c8c49482c2",
+      "ncaa_v2_0de45738953e852823e54e8a",
+      "ncaa_v2_c79f2c5c3af69793d609fd87",
+      "ncaa_v2_f7d0d513d7064a235f2ff362"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_388",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_0a82e09d3f69f23232381c61",
+      "ncaa_v2_6a0087b05bba32407e5f5e8c",
+      "ncaa_v2_214d245aee7a1bbf4bdef16f",
+      "ncaa_v2_07386419fe0266cdf1f4e0ae",
+      "ncaa_v2_4f225acbd7f70970768f9485"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_400",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_70e26f9ba1cfd65c0e8a961b",
+      "ncaa_v2_eae31ce86ac086fa9f6c64e5",
+      "ncaa_v2_67c25631c9fec4d0d8f41f94",
+      "ncaa_v2_9e08cb03d9f2024969ff38f0",
+      "ncaa_v2_07100f04a7ed0cfc60f3a8fe"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_403",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_53299c6fc79774075617df7c",
+      "ncaa_v2_a4d46e8c71b1f1a20287f60f",
+      "ncaa_v2_c68fa6d45c0683337be77d5f",
+      "ncaa_v2_5131bb27ab39f8b8ed7b8d2c",
+      "ncaa_v2_b2c252848b7c9d5b5ef7c72e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_407",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_112c663da766df5f34f4470d",
+      "ncaa_v2_c753a894f44115bac7fbe7ba",
+      "ncaa_v2_3be3098ccd030cb816c735f8",
+      "ncaa_v2_c6594b6e7218118f0a03985a",
+      "ncaa_v2_a5b084cd085010bfa6887ef0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_409",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_d272efadd85459def015ba2d",
+      "ncaa_v2_4fc43816253726f2c2bd50ed",
+      "ncaa_v2_8edf1773c01a5dfd83036bd1",
+      "ncaa_v2_fd21a405d84b668e4492780b",
+      "ncaa_v2_be3b0f447a61bfe83541121e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_410",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_534d9e62526ae28b74bf44ba",
+      "ncaa_v2_4586bf001f949103a2f66a32",
+      "ncaa_v2_ff0e6098668cd199846accac",
+      "ncaa_v2_3a398334269917dd4f1ccb47",
+      "ncaa_v2_8e2f558ea21ee59899264481",
+      "ncaa_v2_8f5571feecb1d62b03c364fc",
+      "ncaa_v2_f6cbe0ad511eb4fc4ba05ee5",
+      "ncaa_v2_f33530e0dfe34b1f8d192833",
+      "ncaa_v2_ae1e3e56cac5f700845299ac",
+      "ncaa_v2_9828aba4159bfcd9211e3f2d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_434",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_c9cee3a8128624143d71a524",
+      "ncaa_v2_1a6589735b39a4171679b886",
+      "ncaa_v2_43af59abe01d38fdd4e9edbd",
+      "ncaa_v2_85254e79c578ece606f783e8",
+      "ncaa_v2_c0dc278aabed7fe96b80034c"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_435",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_35893c15a396a35c0efb3c64",
+      "ncaa_v2_6f288938219638697059bc93",
+      "ncaa_v2_d6a3e1f49942c18df17c5566",
+      "ncaa_v2_1a4024012c76ba77ddfbfd12",
+      "ncaa_v2_3aff1cde42b539d24a030506"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_440",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_4df3684fcd158b22071f4c57",
+      "ncaa_v2_54081c2c2f9ebb3c613a29b0",
+      "ncaa_v2_896463966621aabba7fa2708",
+      "ncaa_v2_3215b6d54d3ab994fc29b39f",
+      "ncaa_v2_4e6c33eb0a232fefbec95706",
+      "ncaa_v2_e724a79c93d5936a0a2b8796",
+      "ncaa_v2_0a7c79523a4bfef25596aa5e",
+      "ncaa_v2_f6a345c6018b961cd146759c",
+      "ncaa_v2_3e8293ced534c0c8a26024a4",
+      "ncaa_v2_b77eec44496acf735ab97f1a"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_448",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_24c89891a8c95daaa89793fc",
+      "ncaa_v2_b1a4f8ebb09b43143a4b5bb2",
+      "ncaa_v2_c054e269794e20f2f6d2a8b1",
+      "ncaa_v2_4418e2c622bbb3f22861d69b",
+      "ncaa_v2_755cde7f8871e84cf3a221c2",
+      "ncaa_v2_ab6fe37e8ed90e9dfdef2e0c",
+      "ncaa_v2_fd06296425db990ebe0ead16",
+      "ncaa_v2_b8ccbff9a4be764b0eb80d77",
+      "ncaa_v2_31c248b004ea8a710de58d62",
+      "ncaa_v2_137e385f3b0a763ec0354fdd"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_452",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_3c242ef4895c88eb70f29912",
+      "ncaa_v2_300b6b8d7e1544f36b10a284",
+      "ncaa_v2_575a71446cee489a22694b46",
+      "ncaa_v2_a7dba29ee5b31833560107e9",
+      "ncaa_v2_6376a424a2bffd59c11036ed",
+      "ncaa_v2_828149f1e58672af94c0bd33",
+      "ncaa_v2_dfe97f7143d3456dbb9d5d6f",
+      "ncaa_v2_e3e3d0788e8597d9b8075d44",
+      "ncaa_v2_c558981d6e85f565edadd87a",
+      "ncaa_v2_eadc0f014db1de5abee5c299"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_457",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_e4e7f73a0bcbca2b136eba87",
+      "ncaa_v2_950cad496000baec257e5fd9",
+      "ncaa_v2_1df824cf972f0a4c21263471",
+      "ncaa_v2_fadfd27a3428bf09c1c29b29",
+      "ncaa_v2_989deaa88dd9a2c4a6ec0a59",
+      "ncaa_v2_21c0701ef7a0dcd6abb1abcb",
+      "ncaa_v2_92bf97db16777734466e9966",
+      "ncaa_v2_75810ade1a9afca1f994566f",
+      "ncaa_v2_b9122b7e2aba6a256ef90cbe",
+      "ncaa_v2_b0654a2b78e7e0a51397d878"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_462",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_85d26921c4436f5525d9ec23",
+      "ncaa_v2_dc9e1a617ee3b929d37622d0",
+      "ncaa_v2_ee254c3266e6fd7b2283875c",
+      "ncaa_v2_b6639fa952867a38b3c79542",
+      "ncaa_v2_a9c4fac99d14d709c2af81f0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_471",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_96834e03ee8745a6cb4f285f",
+      "ncaa_v2_111eb5f64ca233f842877666",
+      "ncaa_v2_6f2789164d9652886fe289ae",
+      "ncaa_v2_a5b6f309803aa7bfcd8ce893",
+      "ncaa_v2_cd2f9b19f8c7c4abb890b4d5"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_477",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_6b219c1df180d51790e9ca13",
+      "ncaa_v2_f71e77e778d7f7ab368ebaa8",
+      "ncaa_v2_ab8ed4e31a8556fef5cb78a5",
+      "ncaa_v2_fb800ff8835bde09b6083e9e",
+      "ncaa_v2_2b640c4682128c22f6324fc0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_480",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_16de6b2209fd50b8e24fd929",
+      "ncaa_v2_08a06917b83209740688be4f",
+      "ncaa_v2_60de8c884838d1b24b84bbd3",
+      "ncaa_v2_59fe214477b16f3ebfaa497b",
+      "ncaa_v2_4d63f905971a5821d939f733",
+      "ncaa_v2_d9d30275165c586308c1d2a0",
+      "ncaa_v2_8bfbbcb198051fb4eec9cfb9",
+      "ncaa_v2_223fe2457fa74cb2ff620ed3",
+      "ncaa_v2_b3d517f7a79ac32b078a1b89",
+      "ncaa_v2_79a334e07b36339c21ef5941"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_481",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_9441a85601adf707b28afb87",
+      "ncaa_v2_551dcd3974b75b77809114f9",
+      "ncaa_v2_944655681c002aa52e1c2874",
+      "ncaa_v2_35f23d98c4b8f1dc3b2fcb1a",
+      "ncaa_v2_2166e37f8cced359e925efb0"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_488",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_7f6180d457fa492ab415d5c2",
+      "ncaa_v2_3314d9228b07b46e71354df2",
+      "ncaa_v2_ea9c14a036bd72c7a65eead5",
+      "ncaa_v2_046953fd09488388f7455a38",
+      "ncaa_v2_7a4c82c993a31715c596e52f"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_496",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_eab83002c64b0270c9978a5c",
+      "ncaa_v2_78f98164a8f7442c93c21670",
+      "ncaa_v2_42c5ad901191f7c17d49e22c",
+      "ncaa_v2_93c46a1f4a283fbb8c16f313",
+      "ncaa_v2_940d97606412798ec778460c",
+      "ncaa_v2_7c750343ccc94379dbd05b7d",
+      "ncaa_v2_c19c7d7b109f14c24cdc36ff",
+      "ncaa_v2_6694cd527ef187c3d683b629",
+      "ncaa_v2_ccd99174b48aaaef6be61f5d",
+      "ncaa_v2_468673e7dc1f2f8cd1c5ee4d"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_512",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_4ddabd5a7edc8f3d593c45e3",
+      "ncaa_v2_f5538362f499e25e120fbe7d",
+      "ncaa_v2_ed53788ce4d53036836155d6",
+      "ncaa_v2_e24006c1be1feca0f44056cc",
+      "ncaa_v2_1462e380ba0a73888348ddef",
+      "ncaa_v2_d51486cf912b5c616a571924",
+      "ncaa_v2_0d8df9a39ab8e8b9b080401b",
+      "ncaa_v2_7bb6644b078c3d24ed82847d",
+      "ncaa_v2_578ac3c8ffdd121069752110",
+      "ncaa_v2_bc399e06f235ee6121ef8d26"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_524",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_c8be96c06335f6896c235edb",
+      "ncaa_v2_a9ad4746fbf3c6b5b8edacc5",
+      "ncaa_v2_0da5cad22503ef9fc8931f75",
+      "ncaa_v2_89c45af9a9bfe9f832a26e33",
+      "ncaa_v2_bfa3e346e53d0320746765e9"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_543",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_56ad9638f14281e09e401c3d",
+      "ncaa_v2_0698892e9ca03a2a0b462fbc",
+      "ncaa_v2_678ad8da9f1a0b00c6a2cef7",
+      "ncaa_v2_e7da1eb5a0a47a2e7698a703",
+      "ncaa_v2_8d7ebb6cbd9e026e9248f8fa",
+      "ncaa_v2_7915e1f5511d495638082179",
+      "ncaa_v2_aac35fe23ea3d001b5280ca8",
+      "ncaa_v2_78f90fa04cabe3f879a08c01",
+      "ncaa_v2_e0a972e7597045263dea60aa",
+      "ncaa_v2_27fe45f6837e9610a0c03f7e"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_547",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_9e31e9ef248bca7979a198a6",
+      "ncaa_v2_138456beb5071dede3fd0179",
+      "ncaa_v2_4f60923978ebf1c09e8bd3ba",
+      "ncaa_v2_3e11c080032a0773c58b357c",
+      "ncaa_v2_a2617e61fbd0165376d3cc2b"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_549",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_79364d195d90cd9ecfb35918",
+      "ncaa_v2_3ccbf62df2438f84f7f3a712",
+      "ncaa_v2_9cd4fcb7019e8029d55fc5c4",
+      "ncaa_v2_533144ec980d88513076fcb4",
+      "ncaa_v2_b5bf63e233c41ce736328cbd",
+      "ncaa_v2_3ea97ecc42f1fad1472a1680",
+      "ncaa_v2_7aa70cc134457027e02a7a75",
+      "ncaa_v2_36e0c240b79284375e010c52",
+      "ncaa_v2_a8a0b6df40e4bb3c2cae1a10",
+      "ncaa_v2_f5c66c368fbece5a4b5f5793"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_555",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_ea956aeb00ffbafb8195dcf1",
+      "ncaa_v2_422efedfd2260145279596b0",
+      "ncaa_v2_0ea8fef18a8da4a578b02f86",
+      "ncaa_v2_4f80a82f80d0a850174774e2",
+      "ncaa_v2_d1ca28fa7216979fb9275639",
+      "ncaa_v2_65ec1607eee061c71fd86ba6",
+      "ncaa_v2_6e62c512fe2ddeccad559e7b",
+      "ncaa_v2_8790855d75df50a1152a7296",
+      "ncaa_v2_98249e4b845d8936e787736b",
+      "ncaa_v2_0a33991f4f642e25c2db3abe"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_561",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_224a748ca8729cdb45dd97e1",
+      "ncaa_v2_752a69dde3f8568c975c448b",
+      "ncaa_v2_33c2fe464549666b39d27bf9",
+      "ncaa_v2_2a6fa9b31aabd6f43823eea8",
+      "ncaa_v2_cdde362b12bcb8e3f2c023e1",
+      "ncaa_v2_7ac846fc4a09f2e11c790ff4",
+      "ncaa_v2_1678602d8dac19ab6106b740",
+      "ncaa_v2_ffa5a52f91889c805aae8d42",
+      "ncaa_v2_fd7d261ce76f34d368f66098",
+      "ncaa_v2_b65bf58c6aa5c17582a86af8"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_565",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_2a623fc9925542ca23c99649",
+      "ncaa_v2_68ffc8c67610135565e50e94",
+      "ncaa_v2_754118bc101b171ab2d32772",
+      "ncaa_v2_49ca79aaf69e54cbf3d496b0",
+      "ncaa_v2_1748260074633d12505883d7",
+      "ncaa_v2_18dc4b83dda5c725a60130ff",
+      "ncaa_v2_b14f4b70d640947e63c4764d",
+      "ncaa_v2_2bd3b0ce09a9ac5de5d0845c",
+      "ncaa_v2_f02353a6d8aad8c2475064de",
+      "ncaa_v2_35dec84ee8a1d3777d8c74a2"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_568",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_b877766202af9aae54e2cef1",
+      "ncaa_v2_6c1324904e3e3e673487d4ad",
+      "ncaa_v2_e96994c7dc4e193563b354fc",
+      "ncaa_v2_150c878a4d985aa6669d9b77",
+      "ncaa_v2_1efac6edeedb8d88a5eb9514",
+      "ncaa_v2_9f9cad21952649109a28aa1c",
+      "ncaa_v2_2bed9294bea97e2913054f5c",
+      "ncaa_v2_4af84c4232cb1d034fe37737",
+      "ncaa_v2_edefebbf46a49c199632c801",
+      "ncaa_v2_c75b78b7575ec5a8ea0358f6"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_570",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_50f3ec4d96359b1327bb12a8",
+      "ncaa_v2_d9eb8997f14213a4c38d14e4",
+      "ncaa_v2_30dca5a0576215c02a28d408",
+      "ncaa_v2_186a6ba76ea40e48e4ea2e3d",
+      "ncaa_v2_d13f27a020395d1334135850",
+      "ncaa_v2_f636829f597f1f82fc43c943",
+      "ncaa_v2_c561cfc2f5fc632b57278567",
+      "ncaa_v2_d2a4fe6de28d722301410249",
+      "ncaa_v2_d97f84589b7ad16fdfb6c303",
+      "ncaa_v2_a1e617848acc222d1d3a4d40"
+    ],
+    "status": "retained"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_004",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_005",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_006",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_017",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_022",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_032",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_035",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_041",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_052",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_054",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_057",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_062",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_063",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_064",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_069",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_079",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_083",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_093",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_109",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_110",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_113",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_128",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_144",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_145",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_147",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_153",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_155",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_164",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_165",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_167",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_168",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_171",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_172",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_174",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_193",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_195",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_205",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_212",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_236",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_244",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_253",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_261",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_279",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_287",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_288",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_292",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_293",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_298",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_306",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_336",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_356",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_360",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_362",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_365",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_369",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_370",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_385",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_2d91133aa40fc6ed4fa7b95e",
+      "ncaa_v2_1ffa842f134e75c98b81f6fe",
+      "ncaa_v2_b93704c355a81dab7953922a",
+      "ncaa_v2_e979c6bbdd1b9fd7f57502e1",
+      "ncaa_v2_33c2fd661b5f5e03967292c7"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_394",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_b5e6d26e616290926b6c5ebe",
+      "ncaa_v2_78eb019b0b600cea23fa631d",
+      "ncaa_v2_5104593f2ffca7750fafcd83",
+      "ncaa_v2_1727417f9c91fe3d20af98c0",
+      "ncaa_v2_35a86d1ba0495ecff6fd2eec",
+      "ncaa_v2_7bd837ec4cb9a283b451b987",
+      "ncaa_v2_34a843531dabb7c48389157b",
+      "ncaa_v2_fa5dcd5be40e3ec687b88278",
+      "ncaa_v2_7b521a295740f99b4d1a240b",
+      "ncaa_v2_132837e25ab92c5d84efb446"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_411",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_f9f825e342b66127dfa965d1",
+      "ncaa_v2_e61682892f9f8b3c13631381",
+      "ncaa_v2_35b47325910d174037ccb106",
+      "ncaa_v2_ffa6756f4845f095b1ac936c",
+      "ncaa_v2_adadcfbfa3453765f6078a99"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_424",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_fdc5f61597f158fd1c7f1569",
+      "ncaa_v2_21fdf94f938f646a7e05a2b6",
+      "ncaa_v2_8eab5a6b001e62978c5a76ab",
+      "ncaa_v2_66265f01e230f37b392cbd9f",
+      "ncaa_v2_245e3b98fad89ca471fb4ff1"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_430",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 9,
+    "sample_ids": [
+      "ncaa_v2_ffe631fa8e94ef750459acdc",
+      "ncaa_v2_f9a71e284b195592de96f285",
+      "ncaa_v2_4b24866074d31c09b5420660",
+      "ncaa_v2_323bb86f416f0624c46f3591",
+      "ncaa_v2_e01a764871d72d725e130e62",
+      "ncaa_v2_3701385dc31f75725aa0d836",
+      "ncaa_v2_8a24e8641d4e861a99732c65",
+      "ncaa_v2_2b924922360b112cc9ea8b4a",
+      "ncaa_v2_1e730f19d9da35b95c79fd76"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_439",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_6d72ba43127175dc9ed615fb",
+      "ncaa_v2_dc67c1b10cc4e46935690b25",
+      "ncaa_v2_21888e629e420804b93f5f37",
+      "ncaa_v2_17ff8158cf4f9211c0029d5c",
+      "ncaa_v2_e6083ce10dd1bb5986537a58"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_441",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_1cdf4b6dbc886c1e1047652f",
+      "ncaa_v2_5efb25095a4df5c7dfb17bc6",
+      "ncaa_v2_5b3742b18bd14d0679c9f084",
+      "ncaa_v2_05e7ffc0baa3e87ce8d47754",
+      "ncaa_v2_65e78c9ffd8f3e895676aae4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_444",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_1bedf36acf0d743549f6a82b",
+      "ncaa_v2_7bb7d8b3af851116f1a72d92",
+      "ncaa_v2_dc91316ac9aa4a7114a6c5b5",
+      "ncaa_v2_688fe652a3fbe7b33539b077",
+      "ncaa_v2_d24de1fe415a9349f9c1dca9",
+      "ncaa_v2_a0aa643abcc53a01252e6012",
+      "ncaa_v2_87e7a19b25e5e136a7d5fa66",
+      "ncaa_v2_22b8fc73ecebf34b7848b801",
+      "ncaa_v2_0352117ad4d36c5fbd59d3f8",
+      "ncaa_v2_26a28a4ab35b36f719418f43"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_445",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_0e83498e64778b09a3acef02",
+      "ncaa_v2_bdaf1d7d01a745b02e862f99",
+      "ncaa_v2_d74ef04c3c4871d1bb52035e",
+      "ncaa_v2_be11e0b288586815ef506016",
+      "ncaa_v2_82030b14d646f27fd82daabe"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_450",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_c2f2c9fab302db19c41706ae",
+      "ncaa_v2_6caf0828955a4cdbc694374f",
+      "ncaa_v2_6c7df52854d980445893d215",
+      "ncaa_v2_57f2a9b888b77778e4eef400",
+      "ncaa_v2_3bbff8339aebba138b2a4db0",
+      "ncaa_v2_c9449207053491b58a5f3a12",
+      "ncaa_v2_962f533db6edbbc27cf6bb2a",
+      "ncaa_v2_96d97e48876c792349c55462",
+      "ncaa_v2_24930a0daacfbdcd0ebbfa04",
+      "ncaa_v2_d77dd18c62fa2d67dbb90a65"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_454",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_f6c4f1092fe591a26a5fc2bc",
+      "ncaa_v2_f4b13c15e9dafc63a9a63f97",
+      "ncaa_v2_02cabe4fe45b1567cbd8c098",
+      "ncaa_v2_32be05c82b8407e3b3d960b9",
+      "ncaa_v2_3c53062ba82b473910743759",
+      "ncaa_v2_4f71a35b7d5c94d820c0a878",
+      "ncaa_v2_06fa397cef4ad7f1e2b970e2",
+      "ncaa_v2_3c5a191d2793ddf0173aa839",
+      "ncaa_v2_f07a585d5243261e9d5ebea8",
+      "ncaa_v2_b91c478b92270f36705f3f85"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_461",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_87ee47d7522aa8fb19d609a3",
+      "ncaa_v2_0339ed49cfe4687de977e36b",
+      "ncaa_v2_d588d8efa6eb48da08da7970",
+      "ncaa_v2_ac02423844ff41d6da71c24a",
+      "ncaa_v2_0e65b8a158aad762cb3ea2b4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_467",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_522edf911a3221a41f79a9e4",
+      "ncaa_v2_c81c86a3ef9cdeceb33d92ac",
+      "ncaa_v2_ff8edd707482c40f650c5f4f",
+      "ncaa_v2_faf6bdd6d7ad92eb7a178cc8",
+      "ncaa_v2_ec05ee6d1812a2f60fdf7ec8"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_472",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_5cdf7d9a141cb2136cfcd039",
+      "ncaa_v2_6ee8a4b9ec08aed837a49dd5",
+      "ncaa_v2_de15423e061b3ac164e24352",
+      "ncaa_v2_0102287a84c75246a22a679e",
+      "ncaa_v2_023221bf86c634db9a685d65",
+      "ncaa_v2_1d7ae98cde2a18d3eb63dcc1",
+      "ncaa_v2_c9706c32a29698b5915d91b1",
+      "ncaa_v2_894f65009bd0df3c5bc0625a",
+      "ncaa_v2_8f80eaa434439ccb57052eb3",
+      "ncaa_v2_3a30d648a4855da206b2c6c9"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_494",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_0921eb79b67a26b669486bb4",
+      "ncaa_v2_e0c070b52ae03b4a1de5968c",
+      "ncaa_v2_e94e86a8baa44d18f29b762f",
+      "ncaa_v2_915dcc4b1a1e8ee2470595da",
+      "ncaa_v2_b54e34b680e05332d47eb6d4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_518",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_74113d4fc39b21a33c640c62",
+      "ncaa_v2_ee3523876cb70d58d0ca15e2",
+      "ncaa_v2_a1a097e050b7a16781c68da2",
+      "ncaa_v2_db68fc520d1766d46fb64319",
+      "ncaa_v2_79db9e69832916c5fd08fb15",
+      "ncaa_v2_e132aaeb914182735fe9ccc0",
+      "ncaa_v2_8e79eb43ecfe126d180d4395",
+      "ncaa_v2_47a645b088031153e0eb963c",
+      "ncaa_v2_2ce4c7bf28e3d469cffb77c7",
+      "ncaa_v2_e583863f96755a473dd2f474"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_523",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_85dd8f81dd56416bd5b61242",
+      "ncaa_v2_2f4b181759023e2fdbfdc795",
+      "ncaa_v2_d449196593c63212111e540d",
+      "ncaa_v2_882b8aca42f3824956244eca",
+      "ncaa_v2_e25137e123ba39d4b87800ec",
+      "ncaa_v2_5e0b8d1aa7cae7d90101f200",
+      "ncaa_v2_6162e72c8d230ed868be90b8",
+      "ncaa_v2_ca700c15c28de5184d5ed28b",
+      "ncaa_v2_dd45359246213390252b2b4a",
+      "ncaa_v2_610ecb5815ad881cc822a178"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_529",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_d1cf998bab983819826bdc96",
+      "ncaa_v2_e7a8ccb3b498cd95d1f25b23",
+      "ncaa_v2_d079bb0c0db384bf76b15d1a",
+      "ncaa_v2_f504cd3746d8d94a1f000a37",
+      "ncaa_v2_8a93218364a9eb1cdbf6dcfd",
+      "ncaa_v2_9a382c8507194bed8363f4b9",
+      "ncaa_v2_b297636e7347b73e703f2d89",
+      "ncaa_v2_95315b93d5d85e714e71f7ea",
+      "ncaa_v2_3fc0456b7f66855715e3a5e9",
+      "ncaa_v2_566b8a645a3fcff6700eb846"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_535",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_6303e3c4f96fda68041e5557",
+      "ncaa_v2_43f3fda318db02bfec6508fe",
+      "ncaa_v2_d57a05aadd30da7b05dc6b1c",
+      "ncaa_v2_ea12ebb2e0a9d5c12ed3300f",
+      "ncaa_v2_4441bdb2e16da7c40b5e4739",
+      "ncaa_v2_8f6165ee3441735aca5ae4b2",
+      "ncaa_v2_c1b54595a82b7c2a76b699b3",
+      "ncaa_v2_1f85c39d08729cc93774be55",
+      "ncaa_v2_6d31b4b6c433a5ae8840f9af",
+      "ncaa_v2_d11ea353e2bdfc77ea1e3a7b"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_538",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_ba63f253cb15c4a8d6772b1e",
+      "ncaa_v2_bedb5263b1338577426c6238",
+      "ncaa_v2_9d10bea5425b86cf10ef875f",
+      "ncaa_v2_f5fab8cf8e52cb296ac24e19",
+      "ncaa_v2_be54c980515f0f45b7a247ff"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_540",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_2547adf18818d1f9e5667bbc",
+      "ncaa_v2_c5ce44b48451f9beeb46989a",
+      "ncaa_v2_a40c01ae364f8b758d31543a",
+      "ncaa_v2_b1e4c4d6b6097a653e111f95",
+      "ncaa_v2_150813159c3fc27845180a23"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_541",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_2a5c0e895ef0aa17aa91ea9d",
+      "ncaa_v2_95852d08f8d187beda8e6dd1",
+      "ncaa_v2_e98c44bfa0ab7a0ac5713bd6",
+      "ncaa_v2_771e70d5c118aee6dfe38a7d",
+      "ncaa_v2_73630695d72f2fa8cd5c78ce",
+      "ncaa_v2_350fe09bf502636402e8642a",
+      "ncaa_v2_ae5440dae712835b3679a547",
+      "ncaa_v2_249bb14abdd5e5c6ff95dc85",
+      "ncaa_v2_a2fe2896574d4dd7c3d8e5f4",
+      "ncaa_v2_615a23b3da1702ab1a331bf4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_550",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_e0e5d3f3289a8995650f9673",
+      "ncaa_v2_34876e0408559a28024872b3",
+      "ncaa_v2_a845598e62c1bed5834b9f85",
+      "ncaa_v2_0de669aebbe23066d5fae6a2",
+      "ncaa_v2_7aba7e1b3e5171e0c6088749"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_556",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_b287d9daa7675f1eac606225",
+      "ncaa_v2_e1793fad3797a8b7a1a1d586",
+      "ncaa_v2_39a40f317c78f9eb7cdfcab3",
+      "ncaa_v2_1baa76e92c6ef9c19c7ecf05",
+      "ncaa_v2_f1b8ac792a64326da57c8429"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_557",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 9,
+    "sample_ids": [
+      "ncaa_v2_ac13727470a1a9ef12dcc87e",
+      "ncaa_v2_7d7601433f5f1830d9d6a491",
+      "ncaa_v2_4d1c95221f91246aad2de071",
+      "ncaa_v2_a4cfcde84945c413a40e7b41",
+      "ncaa_v2_22e55fcf5539a1a959b20a73",
+      "ncaa_v2_c1c0bed168fe4b4f0fcb6c7a",
+      "ncaa_v2_a118666d8ab595a4e261ed0e",
+      "ncaa_v2_5b950bbb7a16bbdf7dcf98e6",
+      "ncaa_v2_bab46c6fe2f96f0542a96ac7"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_560",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_77a7d3ae3bc63030ebf91c03",
+      "ncaa_v2_58e45cc3cfb51e1c1d2b1151",
+      "ncaa_v2_c6d8a88dc7bbd2efee76f36c",
+      "ncaa_v2_cc2ed4618bae6a83a457558e",
+      "ncaa_v2_4724b1bc5cde46dd72992b73",
+      "ncaa_v2_fea5f5087a212385547411d0",
+      "ncaa_v2_9bf54c8d600b2ba8f4a122ed",
+      "ncaa_v2_bc95ac8149efdc7aa68cdd70",
+      "ncaa_v2_3548b17e139dc27be1956d2f",
+      "ncaa_v2_288e380db0b48cf2641e8a0c"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_571",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "ncaa_v2_b255032c8106f510211bbf4a",
+      "ncaa_v2_e22e2785691e532631aa8381",
+      "ncaa_v2_064af658ec1ce131afffff2a",
+      "ncaa_v2_68cd7c89fd42d48106a1cb9b",
+      "ncaa_v2_3d1f591b647202d207956659",
+      "ncaa_v2_e71dd3bb4bbc09c8bf314016",
+      "ncaa_v2_4f29ca7b87f950604d297d20",
+      "ncaa_v2_0a3c628b3c3cc277521e177b",
+      "ncaa_v2_a793aa1d3d05b338ba4d076d",
+      "ncaa_v2_dab44eb953625a1e70c85ac8"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_572",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_68d2a7d8978b1da652f04103",
+      "ncaa_v2_6b96a6651daf322966d036cd",
+      "ncaa_v2_90ffe05596c88bde26a37103",
+      "ncaa_v2_8e1777675ff8864b43d898b3",
+      "ncaa_v2_e6319cc068929842325b3b66"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "ncaa",
+    "parent_question_id": "RDB_FIN_574",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 5,
+    "sample_ids": [
+      "ncaa_v2_f7b57672c071c1ce747d053b",
+      "ncaa_v2_bd77ada60479dd05b14a9d20",
+      "ncaa_v2_513a776672d7cb82be4d9e36",
+      "ncaa_v2_304cdcf28e48004d3b2a90c2",
+      "ncaa_v2_c43032cb7306d2f28e33014b"
+    ],
+    "status": "temporal_evaluation_ready"
+  }
+]

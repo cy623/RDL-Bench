@@ -1,0 +1,5592 @@
+[
+  {
+    "sample_id": "financial_futuretest_63542632de3141a51187920b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 8680 record in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8680
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_futuretest_d409c442a29c8376bc5b184a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 953 will be credited in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 953
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 112
+  },
+  {
+    "sample_id": "financial_futuretest_1616d234e0251ad0d8ff56e2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-09-01, how many total incoming transactions ('PRIJEM') will account 991 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 991
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_futuretest_20ff516f7deee111d3394d48",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1767 will be credited in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1767
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 258
+  },
+  {
+    "sample_id": "financial_futuretest_68608fddfd55717c6f9bae41",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-10-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 1244 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1244
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7200
+  },
+  {
+    "sample_id": "financial_futuretest_4ab080a134851cbefeffb101",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 771 will record in the 90 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 771
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20058
+  },
+  {
+    "sample_id": "financial_futuretest_1de787fdcbeaa07421b931f5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-07-01, what will be the total household payment ('SIPO') amount debited from account 1338 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1338
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 27270
+  },
+  {
+    "sample_id": "financial_futuretest_15add6ed9af3ef903674bc7f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 2382 receive a loan with a duration of at least 36 months that is dated after 1996-09-01 and on or before 1997-08-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2382
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_4dcc11a54d023c1d9d77a88d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1997-01-01, how many total transactions will account 2156 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2156
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_futuretest_e7b440f59ce72b194bfaa7d8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 981 will receive in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 981
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 23285
+  },
+  {
+    "sample_id": "financial_futuretest_bc46e7fb90ed37823a89d94e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 10001 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10001
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_89b946bb11f891f888a54f52",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-10-01, will account 929 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 929
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_11950e27e89edfc590c7cd8a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 3820 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-08-01 through 1997-07-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3820
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_20c9c6418dea71bbbc146279",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1912 record in the 180 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1912
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_7cf5ea50f57903f6bd78cd14",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-09-01, what will be the total amount of loan payments ('UVER') made by account 3822 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3822
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_4e97a15783f7c7be85530e29",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 3940 be charged sanction interest in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3940
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_7326d4715762c3838e489a87",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-09-01, will the total amount of credit transactions (type 'PRIJEM') for account 2350 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2350
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_db3aa5689da745cd973a9792",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 1549 record any transaction in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1549
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_31e81faf2dab57a5eeac13b1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-09-01, will account 5194 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5194
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_ba2f8b6d345d99213d2f9af7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-12-01, how many transactions will account 4253 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4253
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_7d5a760a321c247e92b5d948",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 492 make a cash withdrawal in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 492
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8ba27fcf46400ea9f87b8f84",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-09-01, will account 2618 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2618
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_8e477bb1636d2987808a6343",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-12-01, what will be the total amount debited for household payments ('SIPO') from account 3933 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3933
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_57b1cd3037c7d7219bda4587",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 303 make a cash withdrawal in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 303
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_e24c345b5712b139b7623505",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-07-01, is account 5357 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5357
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_29b22599607dfcc6319e1ba2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1678 record in the 180 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1678
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_2270a439b1e7b2b8e4b89c0b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1997-01-01, how many distinct cash deposit operations ('VKLAD') will occur on account 1222 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1222
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_df28c272fb980334d149d290",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 2567 in the 180 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2567
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_a7072465e2e8dfbb957b61e6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 5442 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5442
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2f5d6560cee0dfd5aa6ee6d7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-09-01, what will be the total amount of household payments ('SIPO') deducted from account 3084 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3084
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 29700
+  },
+  {
+    "sample_id": "financial_futuretest_f0da37b94598ca34301caf46",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-11-01, will account 1501 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1501
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2e42ca836943e27189172508",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 4995 record in the 180 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4995
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14332
+  },
+  {
+    "sample_id": "financial_futuretest_aa55d1e6ada70f0d18d64308",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-12-01, is account 2591 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2591
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_bc33f43ecdae1f2ce82bb223",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-07-01, how many distinct cash deposit operations ('VKLAD') will occur on account 5632 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5632
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_adbcbac2f3bd166d75fe1d5a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2887 will be credited in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2887
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 278
+  },
+  {
+    "sample_id": "financial_futuretest_7e4770c4af3a53da05aa9c36",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-09-01, how many transactions will account 10710 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10710
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_futuretest_bfb3909fb46907df889e6472",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 2569 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-07-01 through 1997-06-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2569
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_79787bf8ce00ba061df1e8c7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2641 will be credited in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2641
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 303
+  },
+  {
+    "sample_id": "financial_futuretest_f3108f0c9d4401f4d4547526",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-07-01, will account 4260 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4260
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8de0c2702e66a87e8f0176f6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 2295 record in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2295
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_futuretest_c082d4858b9742bffa18491c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-08-01, will account 2839 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2839
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_d557ad412fd2af3c9f400a40",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1997-01-01, how many total incoming transactions ('PRIJEM') will account 1761 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1761
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_futuretest_09a7d6db995d6e5c2b556965",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-08-01, what will be the total household payment ('SIPO') amount debited from account 2553 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2553
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 58122
+  },
+  {
+    "sample_id": "financial_futuretest_8c6b9f0db77bbba323980df7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 3094 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3094
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8878f3a3fbb98351ada2d92f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 10963 record in the 180 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10963
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6434
+  },
+  {
+    "sample_id": "financial_futuretest_00fc336c0dde19e9aa2afcc5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 2336 receive a loan with a duration of at least 36 months that is dated after 1997-01-01 and on or before 1997-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2336
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_0d29c934e909c8a0b9a929d5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1997-01-01, will account 2795 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2795
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_68c1ba8054d4f1134ee9a89f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 3071 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3071
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_a94d3986c32a1d6513bd676b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 856 will receive in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 856
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 12952
+  },
+  {
+    "sample_id": "financial_futuretest_bc9a0d561e8f2c6b6caca889",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 743 record any transaction in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 743
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_80690c5430b790cac7d72c04",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1997-01-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 2493 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2493
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9120
+  },
+  {
+    "sample_id": "financial_futuretest_8c4395fd1ee89d5910cefe97",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1997-01-01, will the total amount of credit transactions (type 'PRIJEM') for account 1711 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1711
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_f5093cfcdb2ce79eeab043ef",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-07-01, how many total transactions will account 2823 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2823
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_15c805e2ae492143aa273566",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 385 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 385
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_37373425686db6ef200dcbb5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 1660 will record in the 90 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1660
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4906
+  },
+  {
+    "sample_id": "financial_futuretest_356bfc9e084de061fe1edbe7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-10-01, what will be the total amount of loan payments ('UVER') made by account 3037 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3037
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 38595
+  },
+  {
+    "sample_id": "financial_futuretest_48278e15e9dbf8e298cb603a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 359 make a cash withdrawal in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 359
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_026e916c6c01783c215e510b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-08-01, what will be the total amount debited for household payments ('SIPO') from account 3955 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3955
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8258
+  },
+  {
+    "sample_id": "financial_futuretest_3c185be294921d45c933c57a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-12-01, what will be the total amount of household payments ('SIPO') deducted from account 998 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 998
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 22923
+  },
+  {
+    "sample_id": "financial_futuretest_0cb5a8ba28a4037641932680",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 3521 in the 180 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3521
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_d409fc4c6ce12bab834f52fa",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-08-01, will account 1201 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1201
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_daf50f9717d774fe034b34ae",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 1168 be charged sanction interest in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1168
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_766fdd8ee7109647690e1542",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1997-01-01, is account 3720 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3720
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_be0adc133d2649ddd83bd453",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 3823 will receive in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3823
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 216
+  },
+  {
+    "sample_id": "financial_futuretest_dc1fd1164a6e810103a28be1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 4009 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4009
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_c84b35a839e09e75d39ca38d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-10-01, how many transactions will account 10558 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10558
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_futuretest_f837bc54a794c416c00ec8ce",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 1112 record in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1112
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_futuretest_43a645733f0737288b5c3369",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 96 be charged sanction interest in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 96
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_5305138f00a9aef5e45a2a6e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-11-01, how many distinct cash deposit operations ('VKLAD') will occur on account 965 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 965
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_futuretest_d3993ed798b70deee5ca105c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1997-01-01, what will be the total amount of household payments ('SIPO') deducted from account 3999 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3999
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14418
+  },
+  {
+    "sample_id": "financial_futuretest_ef5f7cce23b84d883f8c3f42",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 106 will record in the 90 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 106
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 35308
+  },
+  {
+    "sample_id": "financial_futuretest_a8baf3b434d85f321ff38a4a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1997-01-01, will account 704 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 704
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_30e1cea8a86a9b6c0fb9c81d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 3243 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-10-01 through 1997-09-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3243
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_9b4eac55b33b924419fb7bf4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-09-01, what will be the total household payment ('SIPO') amount debited from account 9422 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9422
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 642
+  },
+  {
+    "sample_id": "financial_futuretest_4bf41e3a930745d1d707f9e2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-12-01, will the total amount of credit transactions (type 'PRIJEM') for account 506 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 506
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_232ddaee58e9817596222539",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-09-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 3869 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3869
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 26800
+  },
+  {
+    "sample_id": "financial_futuretest_7cbd60be2272ff1175aad959",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 8159 record in the 180 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8159
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7446
+  },
+  {
+    "sample_id": "financial_futuretest_4af23f352c54246da78aa8cf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 3669 record any transaction in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3669
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_a97f6723573e2292f390969a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-08-01, will account 441 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 441
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_d9c8e4484e51fbd4a800b9a3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1997-01-01, what will be the total amount of loan payments ('UVER') made by account 11042 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11042
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 36192
+  },
+  {
+    "sample_id": "financial_futuretest_4c879e63f8acb3759f934d4f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 6924 in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6924
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_4555999a6203253b9f0c2df8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-08-01, will account 2705 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2705
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2d118c4caa0ce8f0b2a23b59",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-12-01, will account 1440 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1440
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_ae29a6fb140d1272c8ac4e4e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 76 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 76
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_c0c36072d935b51d5c57fe80",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-11-01, what will be the total amount debited for household payments ('SIPO') from account 1944 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1944
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13482
+  },
+  {
+    "sample_id": "financial_futuretest_d64ca8982963f2344649b181",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 3597 will be credited in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3597
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 333
+  },
+  {
+    "sample_id": "financial_futuretest_41e92ff3203c5457b3c29aee",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-07-01, how many total incoming transactions ('PRIJEM') will account 4415 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4415
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_futuretest_8d531cd9ad36c6cb080787ff",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1766 record in the 180 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1766
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3006
+  },
+  {
+    "sample_id": "financial_futuretest_40a400583dfb27dc4eeed2b4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 3287 will be credited in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3287
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 162
+  },
+  {
+    "sample_id": "financial_futuretest_5a9ee04b4cdae3b770348c8c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 1519 receive a loan with a duration of at least 36 months that is dated after 1996-12-01 and on or before 1997-11-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1519
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_6ef9928025f2266ed919c309",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-10-01, how many total transactions will account 50 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 50
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_futuretest_a9b175ddf0eadbb645ba5310",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 3402 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3402
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_873c43914a29968cebee751c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 1328 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1328
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_4100885fbff988d55bffc853",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-08-01, how many distinct cash deposit operations ('VKLAD') will occur on account 4743 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4743
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_futuretest_07f50a9ffedd6852f3cf7256",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 3373 will receive in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3373
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 19053
+  },
+  {
+    "sample_id": "financial_futuretest_e2a38a34bb2a48698f7136f6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-10-01, what will be the total household payment ('SIPO') amount debited from account 1160 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1160
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13948
+  },
+  {
+    "sample_id": "financial_futuretest_4084a2aa761b99264865e733",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 10436 record in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 10436
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9066
+  },
+  {
+    "sample_id": "financial_futuretest_876ffb7077274c4d1452cf08",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 3157 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3157
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_49fe90ddb57b940c0c2a886f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-09-01, what will be the total amount debited for household payments ('SIPO') from account 2476 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2476
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5708
+  },
+  {
+    "sample_id": "financial_futuretest_480e8e460557559c07158d06",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 2855 make a cash withdrawal in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2855
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_7e84109f82bd26e93671e693",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-11-01, how many transactions will account 417 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 417
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_accd2b135d2fbd8b8168a723",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-08-01, how many total transactions will account 25 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 25
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_futuretest_da4e811fb6b9fc64dfc97a1d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 3010 make a cash withdrawal in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3010
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_23ba6579f2560994960358b2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1997-01-01, will account 348 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 348
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_be4e100b29c6d2d841047d32",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 3679 record in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3679
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 55608
+  },
+  {
+    "sample_id": "financial_futuretest_885f645db27a9c95dd42adb6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 3503 record any transaction in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3503
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_00eea07d73d2178ccf04cdba",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-07-01, will account 1126 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1126
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_e5b09455383c4e9db0870bb3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 1507 in the 180 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1507
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_5a38171b940fe848338c901d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-11-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 2333 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2333
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20300
+  },
+  {
+    "sample_id": "financial_futuretest_b352767aa025ce780474fc80",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-11-01, how many total incoming transactions ('PRIJEM') will account 3519 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3519
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_futuretest_0242f003f654f447504af449",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 2533 make a cash withdrawal in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2533
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_5af72827139dfe68c19946a7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 9307 be charged sanction interest in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9307
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_552e61def7864963e9bcd107",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-10-01, what will be the total amount of household payments ('SIPO') deducted from account 3614 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3614
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_b8efd74a39315cb7276ba7b6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 2212 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1997-01-01 through 1997-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2212
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_76bad48bc706317682e6d1de",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2084 will be credited in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2084
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 270
+  },
+  {
+    "sample_id": "financial_futuretest_2b6b85875a320d080e668b38",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 1144 will record in the 90 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1144
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 15967
+  },
+  {
+    "sample_id": "financial_futuretest_21ac95e1365e337cde6c5ff2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-07-01, will account 97 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 97
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_0dc39c675e4348e94411cc03",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-12-01, will account 404 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 404
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_f5b07b8490c7d274cab4821b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 827 record in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 827
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11
+  },
+  {
+    "sample_id": "financial_futuretest_8ec2018528667598c622a2f8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-10-01, is account 704 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 704
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1d3fe703b5f05ceb615e0a8d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1912 will be credited in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1912
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 88
+  },
+  {
+    "sample_id": "financial_futuretest_0f61201c11e0f1144c1c5c85",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-08-01, what will be the total amount of loan payments ('UVER') made by account 8680 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8680
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14286
+  },
+  {
+    "sample_id": "financial_futuretest_5f59d10fad6256f6a1adfdee",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 1893 receive a loan with a duration of at least 36 months that is dated after 1996-08-01 and on or before 1997-07-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1893
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_135745387f21e20306029593",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-08-01, will the total amount of credit transactions (type 'PRIJEM') for account 4361 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4361
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2f08939ec1a4e37281388c23",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 3643 will receive in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3643
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3000
+  },
+  {
+    "sample_id": "financial_futuretest_ccc9bb393b27771802b0c938",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-10-01, how many distinct cash deposit operations ('VKLAD') will occur on account 4159 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4159
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_futuretest_7f7fa3f009705c61d5b45a41",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 2773 make a cash withdrawal in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2773
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_d14bb699cc4e5e7e3010b3b5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 3196 be charged sanction interest in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3196
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_d004d7784e30513b5ec95c66",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-12-01, how many total transactions will account 1683 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1683
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_futuretest_f199f4ee94bd04c39fddd1a8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-12-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 1019 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1019
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 15840
+  },
+  {
+    "sample_id": "financial_futuretest_bcec3ce43c4e5d6fe173b703",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-07-01, what will be the total amount debited for household payments ('SIPO') from account 5991 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5991
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3956
+  },
+  {
+    "sample_id": "financial_futuretest_c8401548af5068c04426d7a8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-11-01, will the total amount of credit transactions (type 'PRIJEM') for account 2453 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2453
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_129f33825835b2796f12e5fc",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1071 will be credited in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1071
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 123
+  },
+  {
+    "sample_id": "financial_futuretest_3c8237f354fcdc62e395c0e9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-08-01, how many transactions will account 6281 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6281
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_futuretest_564ebe4dd078646c8bcb01e9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 3949 record in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3949
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_3b567a0316c2c4f84acbdfb7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-08-01, what will be the total amount of household payments ('SIPO') deducted from account 3091 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3091
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14766
+  },
+  {
+    "sample_id": "financial_futuretest_25e556ff47f65d6b4c4a6eb4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 567 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 567
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_d97abd74b30d240f6479fe74",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 3367 will be credited in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3367
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 366
+  },
+  {
+    "sample_id": "financial_futuretest_da414c2f73851bba9b7f3245",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 5991 record in the 180 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5991
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7632
+  },
+  {
+    "sample_id": "financial_futuretest_4de86c53c4dc1dbbbbd423d7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-11-01, will account 3298 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3298
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_21e24c1f7c07fb6b72fa83e9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-08-01, how many total incoming transactions ('PRIJEM') will account 708 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 708
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_futuretest_c958663a774cd726ad408f61",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-10-01, will account 3397 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3397
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_fe55c9c8e4173c481e9b97b9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-11-01, will account 1705 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1705
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_10eb0d3cc176663d82a4d3c3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 6034 record any transaction in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6034
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_b1273f6f9aff8e4db5e3585e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 2853 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2853
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_1ba8eb7a589bc718e370ae5c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 2573 in the 180 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2573
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_e9ca776f1cc3d9710054da16",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-11-01, what will be the total amount of loan payments ('UVER') made by account 7674 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7674
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3937
+  },
+  {
+    "sample_id": "financial_futuretest_629029bb31bcd9dfb9acb7b1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 8051 record in the 180 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8051
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 26040
+  },
+  {
+    "sample_id": "financial_futuretest_678fa3483133a728e4bfd2b7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-08-01, is account 1499 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1499
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_8b2068d6dd5970c351e684c9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-11-01, will account 5422 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5422
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_79eba3735b6ef055f6417713",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 2925 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-09-01 through 1997-08-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2925
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_aa793c448810da035e715dae",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 902 make a cash withdrawal in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 902
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_5533e46460a7c3499292f891",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 947 receive a loan with a duration of at least 36 months that is dated after 1996-07-01 and on or before 1997-06-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 947
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_b73d3d42cbd2fa8676d16312",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 1654 will record in the 90 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1654
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 19013
+  },
+  {
+    "sample_id": "financial_futuretest_6e9036500c25221ee16fbd0a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-11-01, what will be the total household payment ('SIPO') amount debited from account 9199 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9199
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_51888476028634c876b2a4b5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-08-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 1299 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1299
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 480
+  },
+  {
+    "sample_id": "financial_futuretest_77cc25cbc3d2eca4c4d49200",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 1974 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-11-01 through 1997-10-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1974
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_6f65f42efd1fe06d82178b15",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-07-01, what will be the total amount of household payments ('SIPO') deducted from account 5194 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5194
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16400
+  },
+  {
+    "sample_id": "financial_futuretest_4102c4b6d84fc7258cfee18c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 9104 will record in the 90 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9104
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 32504
+  },
+  {
+    "sample_id": "financial_futuretest_689bb75dbeba6746b2d5b324",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 817 record in the 180 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 817
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 53850
+  },
+  {
+    "sample_id": "financial_futuretest_3e1492ebdb3e2197a80cc981",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-12-01, will account 5181 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5181
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_9f61bf269a7a1b6595bb8eff",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-09-01, how many distinct cash deposit operations ('VKLAD') will occur on account 1456 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1456
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6
+  },
+  {
+    "sample_id": "financial_futuretest_83c9459779b22b4d0b8577c4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 1922 in the 180 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1922
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_c5cf38ce99c388abca2aec65",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 3253 record in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3253
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_futuretest_19dcd1b80ec3b6fb373434aa",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2185 will be credited in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2185
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 121
+  },
+  {
+    "sample_id": "financial_futuretest_41f0cdca4da78ab9fe672025",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 184 make a cash withdrawal in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 184
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2c724898de3f5c99cb6912f9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 3850 make a cash withdrawal in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3850
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8c0b6f4157459e7f5a398b4e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 3380 make a cash withdrawal in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3380
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_3a92ca31d904a370420d59a3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1997-01-01, what will be the total household payment ('SIPO') amount debited from account 7965 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7965
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 43608
+  },
+  {
+    "sample_id": "financial_futuretest_8bd73342e95d8e0895937a34",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-12-01, how many total incoming transactions ('PRIJEM') will account 2497 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2497
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_futuretest_62a9baba30e7659c39f82f18",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-07-01, will account 3136 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3136
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_f35c61cf75840a198564fec5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1256 record in the 180 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1256
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11844
+  },
+  {
+    "sample_id": "financial_futuretest_563825005f735e4934c40480",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 3729 receive a loan with a duration of at least 36 months that is dated after 1996-10-01 and on or before 1997-09-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3729
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_f2efd38627bfcbfb4549943c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1244 will be credited in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1244
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 91
+  },
+  {
+    "sample_id": "financial_futuretest_ec14c42229a619b2b201bcc9",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1997-01-01, how many transactions will account 5472 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5472
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_futuretest_a9fcf1629ac19eacea29f3c5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 1010 make a cash withdrawal in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1010
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_6a9931790701c1f1a17724d0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-09-01, will account 2396 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2396
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_510b1ae993c1b000e7e67377",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-12-01, will account 977 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 977
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_348a4974f6fb637727f6fe65",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 2105 record any transaction in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2105
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_31d4112abbf961396c35fbb6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 1823 will receive in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1823
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4941
+  },
+  {
+    "sample_id": "financial_futuretest_5aa4ddbbc3b4e4685cefe837",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-10-01, will the total amount of credit transactions (type 'PRIJEM') for account 9337 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9337
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_6b42bb9de6d0b22b1a11adae",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-09-01, is account 658 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 658
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_206b8176cac60f02d7d97cec",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-07-01, what will be the total amount of loan payments ('UVER') made by account 2496 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2496
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16512
+  },
+  {
+    "sample_id": "financial_futuretest_25e7508e4ee5d739a8526cf0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 3871 be charged sanction interest in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3871
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_2e3a54ffd86bb42bbe90a38e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-09-01, how many total transactions will account 2702 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2702
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 12
+  },
+  {
+    "sample_id": "financial_futuretest_5fc0297aac9118ac7bf141a7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-10-01, what will be the total amount debited for household payments ('SIPO') from account 9422 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9422
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 214
+  },
+  {
+    "sample_id": "financial_futuretest_b86be1f0a3ea1a3e42ef664f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 618 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-12-01 through 1997-11-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 618
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1c5ce4f7fd1d881f72cbcb78",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-09-01, will account 194 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 194
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_88120e349b7524770e10ceb2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-07-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 1670 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1670
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2200
+  },
+  {
+    "sample_id": "financial_futuretest_13ff8f51f8d16c2bd7b94adb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 3275 make a cash withdrawal in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3275
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2c314adebbc1cb1448dbdeef",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 3890 in the 180 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3890
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_077f9b1e6818f1d7a730cda2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-12-01, what will be the total household payment ('SIPO') amount debited from account 3937 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3937
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 20310
+  },
+  {
+    "sample_id": "financial_futuretest_4754abce0326c64ab1818def",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1987 will be credited in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1987
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 181
+  },
+  {
+    "sample_id": "financial_futuretest_a9decc449472f8d1cd4a0b0d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-07-01, how many transactions will account 5740 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5740
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "financial_futuretest_4c2e20fe0d28875d57271252",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 23 will be credited in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 23
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 225
+  },
+  {
+    "sample_id": "financial_futuretest_b7cc8a3d903044b179ad88e6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-10-01, will account 317 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 317
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_0e208add4ba48854685158b6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-11-01, how many total transactions will account 1058 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1058
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_futuretest_33e1fe50c852443e223503eb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-10-01, how many total incoming transactions ('PRIJEM') will account 11069 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11069
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_futuretest_97dcff818edc17e83603e843",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-11-01, what will be the total amount of household payments ('SIPO') deducted from account 388 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 388
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 19572
+  },
+  {
+    "sample_id": "financial_futuretest_6748bc49bf22cf229e5a8af8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 4377 make a cash withdrawal in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4377
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_4bab08719dda3b230e5b5219",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 3303 make a cash withdrawal in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3303
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_d7890c59e893e710e880cad8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 2056 be charged sanction interest in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2056
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_587c359642be6b37d37eefed",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 730 receive a loan with a duration of at least 36 months that is dated after 1996-11-01 and on or before 1997-10-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 730
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1aa402ecc8ac6a7cc6bbb345",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-12-01, how many distinct cash deposit operations ('VKLAD') will occur on account 4618 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4618
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5
+  },
+  {
+    "sample_id": "financial_futuretest_71d055b904db4e8abe4a2540",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-12-01, what will be the total amount of loan payments ('UVER') made by account 675 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 675
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3408
+  },
+  {
+    "sample_id": "financial_futuretest_5161f8ee5b24bc246ca8bfde",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 2160 record in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2160
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_futuretest_214bc2fe3ac67ee51a9015d3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1997-01-01, will account 411 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 411
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_b53d7fef6a7a008290b5be47",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-07-01, will the total amount of credit transactions (type 'PRIJEM') for account 1310 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1310
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_5e1bf78b066c2c3cbaec1258",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 738 record any transaction in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 738
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_1dce874f9d5dbbbe8559bb0a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-11-01, is account 3614 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3614
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_d4f27836d50fef3f4a537b9d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1252 record in the 180 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1252
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8230
+  },
+  {
+    "sample_id": "financial_futuretest_05607b49d0ce739a9f00716d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 3769 will record in the 90 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3769
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 22580
+  },
+  {
+    "sample_id": "financial_futuretest_8c0364e6dec0bf4ee23e9ec6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 2994 make a cash withdrawal in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2994
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_dd8250a05bdb6fe63fd8729b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 846 record in the 180 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 846
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 46776
+  },
+  {
+    "sample_id": "financial_futuretest_a0b08a06cef4b5583914c0b8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-10-01, will account 3608 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3608
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_33ad79fdf0b2f487f30cb031",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 3812 will receive in the 30 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3812
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5069
+  },
+  {
+    "sample_id": "financial_futuretest_f3b9eef7fc3cf32547fd80b0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1997-01-01, what will be the total amount debited for household payments ('SIPO') from account 2210 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2210
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5106
+  },
+  {
+    "sample_id": "financial_futuretest_1aba13b474b54d7aaa9e3253",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 2856 be charged sanction interest in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2856
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_071bceeb4534a759a6ee1f03",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-10-01, will account 8092 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8092
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_cc9cbcc612dedf030961d983",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1997-01-01, will the total amount of credit transactions (type 'PRIJEM') for account 3397 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3397
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_5bc1aff4178cb6a71c4d845b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 2001 in the 180 days after 1996-07-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2001
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_218611bd1be506f48e885319",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-08-01, what will be the total amount of household payments ('SIPO') deducted from account 3747 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3747
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7167
+  },
+  {
+    "sample_id": "financial_futuretest_5230e1cb3a5e34decddb8a0c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-08-01, how many total incoming transactions ('PRIJEM') will account 3698 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3698
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 3
+  },
+  {
+    "sample_id": "financial_futuretest_3f2ec8419cea4aa4f4b6af19",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 1109 record in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1109
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4
+  },
+  {
+    "sample_id": "financial_futuretest_62f96b60c9b9ee7c591ea443",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-09-01, what will be the total amount of loan payments ('UVER') made by account 4462 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4462
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11080
+  },
+  {
+    "sample_id": "financial_futuretest_0c024622782e6cb3a990c5e3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1997-01-01, will account 391 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 391
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_dd8098ce72206538a98200ce",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-10-01, what will be the total household payment ('SIPO') amount debited from account 1309 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1309
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 61194
+  },
+  {
+    "sample_id": "financial_futuretest_f6780aa08d32d66183560636",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2724 will be credited in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2724
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 112
+  },
+  {
+    "sample_id": "financial_futuretest_acac93b494e6f109ce4c5273",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 5343 record any transaction in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5343
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_a341ff29697b74decbe7678a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 1166 record in the 180 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1166
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 18630
+  },
+  {
+    "sample_id": "financial_futuretest_773ab5314c17b08e63b92552",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 7262 record in the 180 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 7262
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1221
+  },
+  {
+    "sample_id": "financial_futuretest_4488a3fd8bb6df127e26847a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 2291 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2291
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_df56e8eb1b33b405ed5d007d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-07-01, how many distinct cash deposit operations ('VKLAD') will occur on account 5001 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5001
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "financial_futuretest_36e2cc285109376e39a5cad1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-11-01, will account 155 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 155
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_5c2b337ddfb03c3d2a794963",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 3223 receive a loan with a duration of at least 36 months that is dated after 1997-01-01 and on or before 1997-12-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3223
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_06a18b973d0da7cafd6648a8",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 3445 will receive in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3445
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11071
+  },
+  {
+    "sample_id": "financial_futuretest_68e83e6cfa5d2e10bcc74c6f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-10-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 9493 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9493
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14500
+  },
+  {
+    "sample_id": "financial_futuretest_374d159416b19d5aa4b6819b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 2137 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2137
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_a4b993384067254c35a52d00",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 3643 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3643
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_013e57f4f4cbcf0c1d75bce3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 2552 will record in the 90 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2552
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16699
+  },
+  {
+    "sample_id": "financial_futuretest_539a81ca558cee2a49800e2c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 2023 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2023
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_4173e85bc8566539d76ff5f5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-07-01, is account 497 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 497
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_8ad5325aa2b9528175752cc3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 3001 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-08-01 through 1997-07-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3001
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_aec9781bb751594ab9b83eb2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-12-01, how many transactions will account 3374 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3374
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11
+  },
+  {
+    "sample_id": "financial_futuretest_e9806c21c2e51b47075ef66b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-12-01, what will be the total amount debited for household payments ('SIPO') from account 1539 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1539
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11700
+  },
+  {
+    "sample_id": "financial_futuretest_ccb8bf858b2b0d21b191dabd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1187 will be credited in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1187
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1e9e29e296e728800edebd64",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-09-01, will account 5700 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5700
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_df95f37f3a3c3f07cb5eecb0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-10-01, how many total transactions will account 5724 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5724
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "financial_futuretest_5f9a3ccdbe152396024a7797",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1996-12-01, is account 900 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 900
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_b6fa92da10201ab289f15fd0",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 5385 record in the 180 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5385
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14934
+  },
+  {
+    "sample_id": "financial_futuretest_23b92f49fac1fe9aa2c1a362",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 1235 will record in the 90 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1235
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 16177
+  },
+  {
+    "sample_id": "financial_futuretest_d66a591cc3c60c06e3bedb74",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-10-01, what will be the total amount of loan payments ('UVER') made by account 11135 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11135
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 25365
+  },
+  {
+    "sample_id": "financial_futuretest_08a761cc1c112f13f9702c38",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 1123 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-11-01 through 1997-10-31?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1123
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_bf916908eeb31ad569570c84",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 1179 will be credited in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1179
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 104
+  },
+  {
+    "sample_id": "financial_futuretest_0361a8229bfd1e2618ca7e71",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-08-01, will the total amount of credit transactions (type 'PRIJEM') for account 1612 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1612
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_2eb3bb5efef16f579345781f",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-08-01, what will be the total amount debited for household payments ('SIPO') from account 4013 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4013
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 13372
+  },
+  {
+    "sample_id": "financial_futuretest_fc748d25dc88984c8a025e51",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 3944 make a cash withdrawal in the 30 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3944
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_3fddf06de7bcc183f0dea53b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1996-12-01, will account 713 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 713
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_12f6248d87c3bda266cf9a3d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-09-01, will account 29 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 29
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_dac20355b0cb46153b07c888",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 11069 record in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 11069
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 2482
+  },
+  {
+    "sample_id": "financial_futuretest_1fc5b476f08e57055f3ca37a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 2333 record any transaction in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2333
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8178a09fdfa3df63aa0d3220",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-08-01, will account 377 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 377
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_637c21c0e2c60b9fa969c3e6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-09-01, how many distinct cash deposit operations ('VKLAD') will occur on account 500 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 500
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_futuretest_98a12f35ff01b375ad188fbd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 306 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 306
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_050b72aa033e80cd4619cdb7",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-12-01, how many total transactions will account 3859 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3859
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_a79ba1697b83dbcab6e40df6",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 1442 make a cash withdrawal in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1442
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_4a847781fb35ac6334f20e9e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1997-01-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 70 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 70
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 4300
+  },
+  {
+    "sample_id": "financial_futuretest_a8b80454f591d2d4ab1d2a58",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 5422 record in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5422
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 17
+  },
+  {
+    "sample_id": "financial_futuretest_3a43476ff2cf91e188ee66bd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 3849 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3849
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_fd0d665ec43cca3bc93fa8b1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 1237 in the 180 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1237
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_3d24a0a192b2e4c6f52eaa93",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1996-10-01, what will be the total amount of household payments ('SIPO') deducted from account 772 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 772
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 12675
+  },
+  {
+    "sample_id": "financial_futuretest_1b27f38b464cecb1e96306c3",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 6265 will be credited in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 6265
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 293
+  },
+  {
+    "sample_id": "financial_futuretest_f87a23541ba3e0c0d1ca3be1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-10-01, how many transactions will account 2260 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2260
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 18
+  },
+  {
+    "sample_id": "financial_futuretest_5cdb9b698a2770e3767732ec",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1996-12-01, how many total incoming transactions ('PRIJEM') will account 2710 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2710
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 11
+  },
+  {
+    "sample_id": "financial_futuretest_75a0d2bb2d23e32171f19db2",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 441 be charged sanction interest in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 441
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_f530d2994143305082f0e995",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 2534 will receive in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2534
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 5245
+  },
+  {
+    "sample_id": "financial_futuretest_4b5d63296cf25cdd69a47ab5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 601 receive a loan with a duration of at least 36 months that is dated after 1996-10-01 and on or before 1997-09-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 601
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_99899f913dd93131062eeffe",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-09-01, what will be the total household payment ('SIPO') amount debited from account 1070 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1070
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 30696
+  },
+  {
+    "sample_id": "financial_futuretest_287d623a609f97ced2a684c1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1996-07-01, will account 2620 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2620
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1bf763aab295ce65ecf8f759",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 815 will be credited in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 815
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 74
+  },
+  {
+    "sample_id": "financial_futuretest_8bcf8f63bad1f2e1e2428477",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "question": "Using records before 1996-08-01, what will be the total amount of loan payments ('UVER') made by account 9591 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9591
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 26178
+  },
+  {
+    "sample_id": "financial_futuretest_e46fdfcd32a484a05a5bdd93",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "question": "Looking at records before 1996-07-01, what will be the total amount debited for household payments ('SIPO') from account 1641 in the next 60 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1641
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 15064
+  },
+  {
+    "sample_id": "financial_futuretest_124306f85625a869c9b01010",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "question": "Based on deposit behavior up to 1997-01-01, will account 1877 receive an old-age pension ('DUCHOD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1877
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_9cebc59c33a4ae31a79fa161",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "question": "What is the future total for incoming transaction amount account 4066 will receive in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4066
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 32350
+  },
+  {
+    "sample_id": "financial_futuretest_f7c49520cfc979b277bac405",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "question": "Considering the spending behavior prior to 1996-09-01, what will be the maximum single cash withdrawal amount ('VYBER') for account 2419 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2419
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 54900
+  },
+  {
+    "sample_id": "financial_futuretest_dc229f4e2461e117e742808b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "question": "Will account 1652 incur a sanction-interest transaction (stored as 'SANKC. UROK') after 1996-07-01 through 1997-06-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1652
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_458cc8f097ee0e35d8437805",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "question": "Based on transfer habits before 1996-08-01, will account 1322 transfer any money to bank 'CD' in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1322
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_71545714a892fb693fc2dced",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "question": "Using records up to 1997-01-01, what will be the total amount of household payments ('SIPO') deducted from account 1413 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1413
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 6048
+  },
+  {
+    "sample_id": "financial_futuretest_214c99b17c2665ca66b5061b",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "question": "Based on transaction trends up to 1997-01-01, is account 3847 likely to have its balance drop below 1000 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3847
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_1aa4d50b748092bb37dfe6fa",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "question": "Will account 2175 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2175
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_9124fdb93ebc78d96725c599",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "question": "Considering incoming transaction frequency before 1997-01-01, how many total incoming transactions ('PRIJEM') will account 2540 register in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2540
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 12
+  },
+  {
+    "sample_id": "financial_futuretest_0d67cf2c109aa9ea69142ba4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "question": "What is the minimum balance account 2834 will record in the 90 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2834
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 40454
+  },
+  {
+    "sample_id": "financial_futuretest_3ee94c7ec1f3406a13af85bb",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 4981 record in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 4981
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 14944
+  },
+  {
+    "sample_id": "financial_futuretest_da8ac292d5204e96419c2678",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "question": "Will account 1044 record any transaction in the 30 days after 1996-09-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1044
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_8ce56f6d6c246c9222466a4e",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "question": "Looking at historic partner bank interactions prior to 1996-09-01, how many total transactions will account 3511 conduct with partner bank 'WX' in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3511
+    },
+    "reference_time": "1996-09-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8
+  },
+  {
+    "sample_id": "financial_futuretest_edec7b1f1bd4b451044ed3a5",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "question": "Will a 'junior' credit card be issued to any disponent of account 2297 in the 180 days after 1996-10-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2297
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "card",
+      "disp"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_c57a0d72f0765fff0bd0913c",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "question": "Considering prior cash deposit frequency before 1996-10-01, how many distinct cash deposit operations ('VKLAD') will occur on account 1353 in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 1353
+    },
+    "reference_time": "1996-10-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_ef244a4e65e5dbe3957fcb27",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "question": "Will account 3063 make a cash withdrawal in the 30 days after 1996-12-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3063
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_1bbde21ff91abdd760f2d0d4",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "question": "Based on transaction history before 1996-12-01, will the total amount of credit transactions (type 'PRIJEM') for account 63 exceed 50,000 in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 63
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_ececc2a9c6444b383056e26a",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "question": "What total loan-payment transaction amount ('UVER') will account 9828 record in the 180 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 9828
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 31650
+  },
+  {
+    "sample_id": "financial_futuretest_083043dbd06b12c9695e9b28",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "question": "Based on prior transaction behavior up to 1996-12-01, will account 5927 make any withdrawal to another bank ('PREVOD NA UCET') in the next 90 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5927
+    },
+    "reference_time": "1996-12-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_ce638a5e76be831787c4c805",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "question": "Using balance histories up to 1996-11-01, how many transactions will account 5343 log where the resulting balance is under 1,000 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5343
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 10
+  },
+  {
+    "sample_id": "financial_futuretest_e398bc3985050a94b83438d1",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "question": "What is the future total for interest amount account 2792 will be credited in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2792
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 117
+  },
+  {
+    "sample_id": "financial_futuretest_41b0c8c81a63af8058d3a28d",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "question": "Will account 2895 be charged sanction interest in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2895
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_c7cf5ba2d1a62477869c7977",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "question": "Will account 446 make a cash withdrawal in the 30 days after 1997-01-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 446
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_f0cb682a84de5116df15ab58",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "question": "Will account 5213 receive a loan with a duration of at least 36 months that is dated after 1996-07-01 and on or before 1997-06-30?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 5213
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "loan"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "financial_futuretest_149f9b8cb65cb9ff820f5fcf",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "question": "Using records prior to 1996-07-01, what will be the total household payment ('SIPO') amount debited from account 2926 in the next 180 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2926
+    },
+    "reference_time": "1996-07-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 8088
+  },
+  {
+    "sample_id": "financial_futuretest_25b64adcf81335af6475dbbd",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "question": "Looking at cash deposit habits prior to 1997-01-01, will account 3883 receive any credit in cash ('VKLAD') in the next 30 days?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 3883
+    },
+    "reference_time": "1997-01-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_c8b0520c88cace9dd957f384",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "question": "Will account 8625 make a cash withdrawal in the 30 days after 1996-11-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 8625
+    },
+    "reference_time": "1996-11-01 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "financial_futuretest_db74d8c52f850c886d6f4eed",
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "question": "How many transactions will account 2180 record in the 30 days after 1996-08-01?",
+    "anchor": {
+      "table": "account",
+      "key": "account_id",
+      "value": 2180
+    },
+    "reference_time": "1996-08-01 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "trans"
+    ],
+    "label": 1
+  }
+]

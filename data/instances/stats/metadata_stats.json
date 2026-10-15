@@ -190,8 +190,8 @@
         "id"
       ],
       "foreign_keys": [
-        {"column": "owneruserid", "references": "users.id"},
-        {"column": "lasteditoruserid", "references": "users.id"}
+        {"column": "excerptpostid", "references": "posts.id"},
+        {"column": "wikipostid", "references": "posts.id"}
       ],
       "comments": {
         "id": "record identifier",
@@ -215,13 +215,13 @@
         "creationdate": "User registration time",
         "displayname": "User Display Name",
         "lastaccessdate": "Datetime user last loaded a page; updated every 30 min at most",
-        "websiteurl": "TODUser-entered personal website linkO",
+        "websiteurl": "User-entered personal website link",
         "location": "User-entered location",
         "aboutme": "Personal Profile (HTML)",
         "views": "Number of times the profile is viewed",
         "upvotes": "How many upvotes the user has cast",
         "downvotes": "How many downvotes the user has cast",
-        "accountid": "User's Stack Exchange Network profile ID); NULL if the user has hidden this community in their profile",
+        "accountid": "User's Stack Exchange Network profile ID; NULL if the user has hidden this community in their profile",
         "age": "User's age",
         "profileimageurl": "User avatar image link"
       }
@@ -239,8 +239,6 @@
         "id": "record identifier",
         "postid": "Posts that were voted",
         "votetypeid": ["What kind of vote was cast",
-                      "1 = InformModerator",
-                      "0 = UndoMod",
                       "1 = AcceptedByOriginator",
                       "2 = UpMod (AKA upvote)",
                       "3 = DownMod (AKA downvote)",

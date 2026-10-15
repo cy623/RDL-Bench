@@ -1,0 +1,4338 @@
+[
+  {
+    "sample_id": "airline_085507c87b4d93235cd9d72b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport BRD receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BRD"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_3b8e957853b7b52e8235ce20",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport MBS receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MBS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_3d8d79ebe44ed9fdd81c3e93",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport COS receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "COS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5ac3379d39841463453ee81a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport IND receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IND"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_6ab65b8a5479636cf7b742ba",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport TYR receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "TYR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_d84dea370a55d590f0ba0b6b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport GSO receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GSO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_db2c507709cee353120b8b99",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport CMH receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CMH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_de51c48a5ece7ee3742fa769",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport IAH receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IAH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_fb06491e80e01afe7b5d7170",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport DAY receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "DAY"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_fbf6bb73ffd28dee1ca0e5fb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1004",
+    "parent_split": "validation",
+    "question": "Will airport ITO receive at least one flight arriving 15 minutes or more late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ITO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_6d26cd5ea4c5c3d8d4dfc28a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1007",
+    "parent_split": "validation",
+    "question": "How many flights operated by carrier NK will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 748
+  },
+  {
+    "sample_id": "airline_9101808b3c441996d7605508",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1007",
+    "parent_split": "validation",
+    "question": "How many flights operated by carrier OO will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 2078
+  },
+  {
+    "sample_id": "airline_999c863a6435f6eee8277b14",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1007",
+    "parent_split": "validation",
+    "question": "How many flights operated by carrier VX will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 296
+  },
+  {
+    "sample_id": "airline_edf406a4dabb9707b9af9318",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1007",
+    "parent_split": "validation",
+    "question": "How many flights operated by carrier EV will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1636
+  },
+  {
+    "sample_id": "airline_1dacfcdbcf94c64652b84a7d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at MFE have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MFE"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_2a9ffcf68d82efbcb1a2e2eb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at BQN have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BQN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5c98c759f3fcc42c5da0c693",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at EWR have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "EWR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_5feb5a74d1d696c0594caa7a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at MHT have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MHT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_707b932c150aab72e330f8c7",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at BGR have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BGR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_7c9cb3818653a15b2cc89f48",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at MLB have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MLB"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ae39b7e5cbdfa7ec1180fd2e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at OAJ have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "OAJ"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_d1a4db34d61d6d2c4f34b4de",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at CSG have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CSG"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_dd840470c27647e06063c404",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at PBG have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PBG"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ecc7d7cb3e6a2b1725308a4b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1008",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at PDX have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PDX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_18605ff60d3b595faf0593cb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier WN operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 23519
+  },
+  {
+    "sample_id": "airline_1b5693ba23cde5a8122dc459",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier EV operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 9217
+  },
+  {
+    "sample_id": "airline_312dafd7b93b2bcd30222865",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier B6 operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 5159
+  },
+  {
+    "sample_id": "airline_a40c1f79eb76f76d74869ed5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier VX operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1202
+  },
+  {
+    "sample_id": "airline_bd4abd8acabd97817129647d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier NK operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 2489
+  },
+  {
+    "sample_id": "airline_c41523598af4f9e231cf8395",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1009",
+    "parent_split": "validation",
+    "question": "How many flights will carrier F9 operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1566
+  },
+  {
+    "sample_id": "airline_075065335959ab5ef45e32ed",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Adak Island, AK: Adak (ADK) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ADK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 13.0
+  },
+  {
+    "sample_id": "airline_28856fa97504bad2020e828b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Billings, MT: Billings Logan International (BIL) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BIL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 223.0
+  },
+  {
+    "sample_id": "airline_2c04f6097b760a64c1ee8724",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Honolulu, HI: Honolulu International (HNL) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "HNL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 5901.0
+  },
+  {
+    "sample_id": "airline_3c918b5888c3629067673558",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Lexington, KY: Blue Grass (LEX) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "LEX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 380.0
+  },
+  {
+    "sample_id": "airline_4dca9ba468b09621261f7699",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Charlotte Amalie, VI: Cyril E King (STT) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "STT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 386.0
+  },
+  {
+    "sample_id": "airline_4e4190f15c0eb216fc11f9f2",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Petersburg, AK: Petersburg James A Johnson (PSG) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PSG"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 50.0
+  },
+  {
+    "sample_id": "airline_5c88c74466376192ae637277",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Roswell, NM: Roswell International Air Center (ROW) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ROW"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 8.0
+  },
+  {
+    "sample_id": "airline_8d0fc3eeb969ab34cbbc1f7a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Deadhorse, AK: Deadhorse Airport (SCC) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "SCC"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 75.0
+  },
+  {
+    "sample_id": "airline_9c91afaf8c80ee00acd6bf3b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at San Antonio, TX: San Antonio International (SAT) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "SAT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 2317.0
+  },
+  {
+    "sample_id": "airline_fa176b1959e536e3afd2706c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1013",
+    "parent_split": "validation",
+    "question": "Based on historical ground congestion at Memphis, TN: Memphis International (MEM) prior to 2016-01-14, what will be the total taxi-in minutes for all arriving flights next week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MEM"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1303.0
+  },
+  {
+    "sample_id": "airline_2a5071ea363573c09e3ac4c2",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Alaska Airlines Inc. (AS) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_459853879ce22a75ff3c4272",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Spirit Air Lines (NK) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_6654d783aa3e0e048ec9fb4e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will United Air Lines Inc. (UA) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_86aefaee265d004ff4695bc6",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Delta Air Lines Inc. (DL) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_8b69326c01199d66bee8e429",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Southwest Airlines Co. (WN) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_cc33a39ecc5535809f6c4630",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Frontier Airlines Inc. (F9) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e7fffffb1f08e73b5e1afbc8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will Virgin America (VX) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ea65a9caa9c415b8c59d4df3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will JetBlue Airways (B6) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_f52e819c99af149d3201147b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will American Airlines Inc. (AA) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_fed5178141a89acdb969da74",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1018",
+    "parent_split": "validation",
+    "question": "Based on the operational trends before 2016-01-14, will ExpressJet Airlines Inc. (EV) experience more than 50 security-related delays in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_01cf85fe6f67b521bf1da3c9",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will JetBlue Airways (B6) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_337ef3afdd2989c44dc226a4",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will SkyWest Airlines Inc. (OO) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_653a384919faa842521c53ec",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will Southwest Airlines Co. (WN) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_96d67c7374e961735f6a3707",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will Hawaiian Airlines Inc. (HA) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_daf63b12eb15f0a6ef50394e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will ExpressJet Airlines Inc. (EV) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_eb7f7839def64e0b292e4d46",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1020",
+    "parent_split": "validation",
+    "question": "Looking at the diversion recovery history up to 2016-01-14, will Virgin America (VX) have any diverted flights that eventually reach their scheduled destination next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_044e8a52fb54d1dd36d63450",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at EKO have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "EKO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_34225a0dce7c4489924dd4c3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at RAP have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "RAP"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5b318bfb49d4ef917d17d895",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at BMI have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BMI"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_778d56651f561fa80546abe3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at OMA have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "OMA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_7f063eab15e2c9651768ac1f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at ADQ have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ADQ"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_8e197f8b41e293b47de4c114",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at ASE have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ASE"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_b0d5f75f4cbf3dc4bf3f2d06",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at AZO have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "AZO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_b8f85a08eb05cf1bf5492aed",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at FAY have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "FAY"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e546573f01086c76687b60d4",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at HIB have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "HIB"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_f5600caaba13db218fe0ef01",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1021",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at DTW have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "DTW"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_3cbe528be98516f4964235ee",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for ExpressJet Airlines Inc. (EV) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 63
+  },
+  {
+    "sample_id": "airline_3f2b6cde359a5f57c4200733",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for JetBlue Airways (B6) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 58
+  },
+  {
+    "sample_id": "airline_5599baa4e983c9287aafc56e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for SkyWest Airlines Inc. (OO) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 134
+  },
+  {
+    "sample_id": "airline_56fe5be605ccd57e227308cd",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for United Air Lines Inc. (UA) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 42
+  },
+  {
+    "sample_id": "airline_5d82c6842ac9c2b936820fbd",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for Delta Air Lines Inc. (DL) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 91
+  },
+  {
+    "sample_id": "airline_6dcd8b576b6d7b08620800ae",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for Hawaiian Airlines Inc. (HA) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_738d096d012748817c62d638",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for Virgin America (VX) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 15
+  },
+  {
+    "sample_id": "airline_97a3636214b7b83a9adf382a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for Frontier Airlines Inc. (F9) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 17
+  },
+  {
+    "sample_id": "airline_9a408fa4d42ac9a38005542c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for Alaska Airlines Inc. (AS) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 7
+  },
+  {
+    "sample_id": "airline_d104376478ca7ccc48e06be6",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1025",
+    "parent_split": "validation",
+    "question": "Based on severe delay trends before 2016-01-14, how many flights for American Airlines Inc. (AA) will fall into Arrival Delay Group 12 (180+ minutes) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 137
+  },
+  {
+    "sample_id": "airline_083d3815fdb0ea786bf5d53d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Alaska Airlines Inc. (AS) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 5075.0
+  },
+  {
+    "sample_id": "airline_0e3fe7e0d610c4f6e0902a9d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Virgin America (VX) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 6280.0
+  },
+  {
+    "sample_id": "airline_2fa06b6d98fe9a8c6fd3dfcf",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for American Airlines Inc. (AA) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 64880.0
+  },
+  {
+    "sample_id": "airline_3c5ad573002aadcf2bab504e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for SkyWest Airlines Inc. (OO) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 56991.0
+  },
+  {
+    "sample_id": "airline_476ee4ca96d284c57d2ddfe7",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for JetBlue Airways (B6) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 50214.0
+  },
+  {
+    "sample_id": "airline_5ada1c001500a35ce1d6dd24",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Southwest Airlines Co. (WN) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 77768.0
+  },
+  {
+    "sample_id": "airline_729ae74bcaf9a4ae003b7981",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Delta Air Lines Inc. (DL) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 36851.0
+  },
+  {
+    "sample_id": "airline_80c5b4d1810862da65e2c833",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Spirit Air Lines (NK) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 17847.0
+  },
+  {
+    "sample_id": "airline_8b4c2cc5b12bcf07d480aa99",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Frontier Airlines Inc. (F9) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 5985.0
+  },
+  {
+    "sample_id": "airline_e5de994eb592725c979320a1",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1030",
+    "parent_split": "validation",
+    "question": "Looking at aircraft turnaround delays before 2016-01-14, what will be the total minutes of Late Aircraft Delay for Hawaiian Airlines Inc. (HA) in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 827.0
+  },
+  {
+    "sample_id": "airline_2eb4c6a76f4395fe838778fb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at MSP have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MSP"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_37792a1d4097c53a17d068fa",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at EGE have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "EGE"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_4fcf6172a0c04a6fce9bd019",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at EWN have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "EWN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_8b707a4022c35b89587e2ea1",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at OKC have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "OKC"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_8dd41fddbc51c615e48007fc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at PIH have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PIH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_98b8bf2ab987df41208d24d9",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at EVV have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "EVV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_a545348b7c811e41ee37dc9a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at IMT have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IMT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_a54e75753a84918fe1bdbe9b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at ONT have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ONT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_c0f0930edc978b16765da6c5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at CLT have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CLT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_d8a01750912e769da941a3bb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1045",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at LAX have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "LAX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_0267da1413c9e02cee0b3376",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier DL's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0.17935517086041572
+  },
+  {
+    "sample_id": "airline_36d51333adbcc8ad86917b9b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier AA's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.24847117496883
+  },
+  {
+    "sample_id": "airline_5dd43673ac89ebb285cdede8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier F9's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": -2.799104286628279
+  },
+  {
+    "sample_id": "airline_707cb5bd10d6ef2e05ef8f39",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier HA's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": -2.0163120567375885
+  },
+  {
+    "sample_id": "airline_720fa013bb15d84577587335",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier WN's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0.7316256918522333
+  },
+  {
+    "sample_id": "airline_764b511b8414d2290fa8d185",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier VX's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 9.764411027568922
+  },
+  {
+    "sample_id": "airline_7fe7b425172bf6e42bf60b85",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier NK's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 15.2852445540485
+  },
+  {
+    "sample_id": "airline_ad00f3c8c0a5bd368c45e6e4",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier B6's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 14.511163337250293
+  },
+  {
+    "sample_id": "airline_c3b4714ef80bafa5e26a3de8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier AS's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": -4.9086614173228345
+  },
+  {
+    "sample_id": "airline_ff78e7395065cc255b94cb08",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1048",
+    "parent_split": "validation",
+    "question": "What will be carrier OO's average arrival delay in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 7.665117179934147
+  },
+  {
+    "sample_id": "airline_08f81e9eb7848403ce1a0098",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Frontier Airlines Inc. (F9) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_1dee640865c06fb32fcff10c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of United Air Lines Inc. (UA) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_44ecde5b529ff84f75976420",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Spirit Air Lines (NK) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_4befe21d9306f40035088cc9",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of ExpressJet Airlines Inc. (EV) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_99aa161044049c0941f19d26",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of JetBlue Airways (B6) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_acb8fd827180d2219f2bec63",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Virgin America (VX) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_c79e071891f648467f39dc6b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Delta Air Lines Inc. (DL) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_cc14f860706d1a5126409a5f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Alaska Airlines Inc. (AS) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e5911e6bd85d72be36e7a849",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Hawaiian Airlines Inc. (HA) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e6d3683bf5198b641b61f35d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1052",
+    "parent_split": "validation",
+    "question": "Based on the severe delay history of Southwest Airlines Co. (WN) up to 2016-01-14, will they experience more than 20 instances of 'extreme' arrival delays (Group 12) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_26f367c59dd5aa5dad1da3fe",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1054",
+    "parent_split": "validation",
+    "question": "Will carrier VX have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_64389708ce9a5bf3baeca470",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1054",
+    "parent_split": "validation",
+    "question": "Will carrier EV have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_855793e346e2dd98ce0b6d6d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1054",
+    "parent_split": "validation",
+    "question": "Will carrier DL have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_8a5330a389cb37a0f0bebbb5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1054",
+    "parent_split": "validation",
+    "question": "Will carrier OO have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_245b4dcb86cb8a07b0bf8f61",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier AA successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_2b8022881b857b0f8e72223c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier UA successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5c4c46476eabff55a032d6b8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier AS successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_904383d17a142f1e0365f86c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier F9 successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_d3cb2c49b24dc91ed302e341",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier DL successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_f7a3966b079a582b6f931ae7",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1055",
+    "parent_split": "validation",
+    "question": "Looking at diversion recovery patterns before 2016-01-14, will carrier NK successfully have any diverted flight reach its scheduled destination (DivReachedDest=1) next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_12abd1b1373acf731614933e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier AS operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 3196
+  },
+  {
+    "sample_id": "airline_3c5205ca163b80d94c0064f5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier AA operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 16952
+  },
+  {
+    "sample_id": "airline_422639a87b8b0bc5c414f827",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier OO operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 10547
+  },
+  {
+    "sample_id": "airline_737936e4eb832058ca6d5d79",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier HA operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1413
+  },
+  {
+    "sample_id": "airline_86e4508f6be55d82f0337109",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier DL operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 15563
+  },
+  {
+    "sample_id": "airline_efde676006d9505d619d019b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1065",
+    "parent_split": "validation",
+    "question": "How many flights will carrier UA operate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 8780
+  },
+  {
+    "sample_id": "airline_29f8b69128bb326e344434ab",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier ExpressJet Airlines Inc. (EV) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_334634eb5110edf97fe5b972",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Hawaiian Airlines Inc. (HA) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_53018505cfa4558656aa0f75",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier American Airlines Inc. (AA) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5c064f4a14e61d92c300d9b8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier JetBlue Airways (B6) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_7902b9bece890e05db0da311",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Alaska Airlines Inc. (AS) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_87654075184d322703b44edc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Virgin America (VX) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_896717f6d8aec7fe825dd25e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Delta Air Lines Inc. (DL) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_8ff97832913c22f12fe83ad4",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Frontier Airlines Inc. (F9) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_93cd3e390f9a6aa60cdf5a7f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier Spirit Air Lines (NK) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_dfe9f7549889122081ac1e0d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1068",
+    "parent_split": "validation",
+    "question": "Based on the outlier delay history before 2016-01-14, will carrier United Air Lines Inc. (UA) have any single arrival delay exceeding 180 minutes next week?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_5615c760307c6862c858b2f1",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1076",
+    "parent_split": "validation",
+    "question": "Will carrier B6 have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_90c7e591f1011a9eca6c6421",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1076",
+    "parent_split": "validation",
+    "question": "Will carrier UA have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_ca22e333e49944dac3f1593e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1076",
+    "parent_split": "validation",
+    "question": "Will carrier NK have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_d45a824298641a66e92b94e7",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_1076",
+    "parent_split": "validation",
+    "question": "Will carrier F9 have at least one cancelled flight in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_10bc6efd39c54d1a891ea475",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier OO have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_15d0e3c4f3c5edfcb0acdfbb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier DL have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_4ad6b3375ad503caa7d9d88e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier AA have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_4b6382f94dcca5f4d0da84ba",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier F9 have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_5078c818573bb2a0b494d4db",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier UA have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_67bfdabed99f8ea943c23c5f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier NK have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_738cbafa21607d633830c546",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier EV have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_854853d4ef60267f68a9045d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier B6 have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_bbd3be70c5e40a155822ab3f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier WN have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_cb360e46c7ff987433905896",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_918",
+    "parent_split": "validation",
+    "question": "Based on the flight patterns leading up to 2016-01-14, will carrier AS have more than 500 arrivals delayed by at least 15 minutes in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_190ac1e3f39a64cd7b700e81",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at PIT will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PIT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 2
+  },
+  {
+    "sample_id": "airline_46b256c2134d25fd525a35a8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at RNO will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "RNO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_4b5fb3099f390af103e4bebc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at STT will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "STT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_7eaed3400dee6ddebc6c0a51",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at PSG will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PSG"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_a9b94ce9fa4182c65318fc5e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at GPT will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GPT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_bd57391309c868d4c9115597",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at ESC will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ESC"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_d16bc0d0387b0e86e3df96c3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at FSM will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "FSM"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_d98ebb09be2891cfeabd57cf",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at MOT will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MOT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_f244adf006fdbd2f11b97d12",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at SEA will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "SEA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 9
+  },
+  {
+    "sample_id": "airline_fecfb6585deedc85e0dbe65a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_925",
+    "parent_split": "validation",
+    "question": "Based on historical frequencies up to 2016-01-14, how many flights arriving at BOS will fall into Arrival Delay Group 12 (>= 180 mins) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BOS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 14
+  },
+  {
+    "sample_id": "airline_017f2c78241021437d42c2e5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier NK will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_086a5d0d86c2ac543b2fe1cc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier AS will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 72
+  },
+  {
+    "sample_id": "airline_9b0a9c5fc80282376ce8fcef",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier HA will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 55
+  },
+  {
+    "sample_id": "airline_d509d47ed7aff61e77c49527",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier B6 will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 78
+  },
+  {
+    "sample_id": "airline_f08c9b35ecdc78f2754c4959",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier EV will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_fef697fbc764e6979a3df4ba",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_928",
+    "parent_split": "validation",
+    "question": "How many long-haul flights of 2500 miles or more operated by carrier OO will arrive at least 15 minutes late in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_distance_group_250",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_400cd056fa4cd5ded39af411",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier EV have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "EV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_52cc29511fe8a28ebe8063cf",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier NK have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "NK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_854fad13f944772c1a9ff65f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier B6 have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_a180b49d0af3f5939c0f0e21",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier DL have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_c019e75d21bff03045f53322",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier WN have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "WN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_c4776ba161541fe13c962171",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier F9 have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "F9"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_d56a3007e51f8369058e80c8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier AA have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_dc3bf8c566e6c1cd790eff0a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier AS have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e48a8895a94897e83fd465d4",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier HA have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ee343f33b9883b465e46b908",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_938",
+    "parent_split": "validation",
+    "question": "Based on historical routing anomalies up to 2016-01-14, will carrier OO have any diverted flights that land at more than one diverted airport in the next 7 days?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "OO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_139966e6ae9b883a4ffed6fe",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at STX exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "STX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_1c03216e2de50fcb44d2dcdd",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at CID exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CID"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_2ad7b160e85dedcb5c6259f7",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at PIT exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PIT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_94caed365c2c44670921f187",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at ACY exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ACY"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_9f7b764f0b119db8d950f7b6",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at TYR exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "TYR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_a239ebc80457f921561e32ea",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at JNU exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "JNU"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_bc590f7bc5694f88240e2764",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at MIA exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MIA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_c386cfcdf9e976bad631a8d8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at MFR exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MFR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_dca1e3bb8ab904c8098eddcf",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at GJT exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GJT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ef88e38261bdb79021b51be5",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_942",
+    "parent_split": "validation",
+    "question": "Looking at historical ground congestion before 2016-01-14, will the maximum taxi-out time at PHX exceed 120 minutes in the upcoming week?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PHX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_15107acf5bac850c7d288f77",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier DL be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "DL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_233121d13356a8edf3d581c8",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier B6 be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "B6"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_5e8dd29f2bcaf85459f4dcf2",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier AS be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_84756e4568e2a8d3042ad06f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier UA be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "UA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_87cf6178d01c427a29742043",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier HA be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "HA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_b984a66a1b2b0d17722a272e",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier AA be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "AA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ddee94ccb011add3507e0071",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_952",
+    "parent_split": "validation",
+    "question": "Based on long-haul operational history before 2016-01-14, will the average airtime for carrier VX be greater than 200 minutes in the period from 2016-01-15 through 2016-01-21?",
+    "anchor": {
+      "table": "l_unique_carriers",
+      "key": "code",
+      "value": "VX"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_2e88d69a3f5c75ae2007d6bc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport DVL accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "DVL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 23.0
+  },
+  {
+    "sample_id": "airline_390167082f5dc39d4431aa4f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport GRR accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GRR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 157.0
+  },
+  {
+    "sample_id": "airline_4baa64b3224768d559a90e9d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport GSP accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GSP"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 91.0
+  },
+  {
+    "sample_id": "airline_7d4f98280a1080d39019a851",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport STT accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "STT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 219.0
+  },
+  {
+    "sample_id": "airline_9254d76a10b29023a07532a1",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport MSP accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MSP"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 3191.0
+  },
+  {
+    "sample_id": "airline_93b427cbd3bcc14a0555aa1d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport CHO accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CHO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 42.0
+  },
+  {
+    "sample_id": "airline_948744c5dbe085275570bced",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport TUS accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "TUS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 84.0
+  },
+  {
+    "sample_id": "airline_aaf4cc66999bb7c8cee56f56",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport IND accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IND"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 277.0
+  },
+  {
+    "sample_id": "airline_bcbf02a03844fae0b459076b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport LAW accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "LAW"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 17.0
+  },
+  {
+    "sample_id": "airline_bd72226cbd0e648201e79b34",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_961",
+    "parent_split": "validation",
+    "question": "How many total National Air System delay minutes will weekday flights arriving at airport COS accumulate in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "COS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "l_weekdays",
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 48.0
+  },
+  {
+    "sample_id": "airline_28975995426a5e51e23cef69",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at KOA in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "KOA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_2ffafaabedb015cef0ee2054",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at STT in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "STT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_5419739d15c00af3fa41c4fc",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at MMH in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MMH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_5442a81a3b20e228d58ea840",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at GSO in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GSO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_6de4e75167d4d3ae941e48d3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at PSP in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PSP"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_7022f434c3677201d46491f3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at COS in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "COS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_a4601a007a59d6ffe3ce65bb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at MGM in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "MGM"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_c2750527759f0673f4956c64",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at OKC in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "OKC"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_db715b9ca935cb4ffd3f444c",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at HOU in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "HOU"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_e13d675ad39088d3ba33aea3",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_972",
+    "parent_split": "validation",
+    "question": "Based on historical ground bottlenecks up to 2016-01-14, will any incoming flight experience a taxi-in time longer than 60 minutes at AUS in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "AUS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_20e37f255625f4e74ccf6bf6",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport SGF in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "SGF"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 6.415094339622642
+  },
+  {
+    "sample_id": "airline_2e5937acfd9d616d254d77de",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport ITH in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ITH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 3.8333333333333335
+  },
+  {
+    "sample_id": "airline_4b9c9a50d2dafa8963b88a69",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport IAG in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IAG"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 6.5
+  },
+  {
+    "sample_id": "airline_7db537c604f59ba9ced2d04d",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport UST in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "UST"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0.0
+  },
+  {
+    "sample_id": "airline_8be70c4c08a3450f3d54fc17",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport FAT in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "FAT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 5.007462686567164
+  },
+  {
+    "sample_id": "airline_aecbcabc929f384d8459a1d9",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport JMS in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "JMS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.294117647058823
+  },
+  {
+    "sample_id": "airline_c2675d139f595a9da3cfe775",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport DRO in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "DRO"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.136363636363637
+  },
+  {
+    "sample_id": "airline_df41c8defdcacd327dfe575f",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport ANC in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ANC"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.169741697416974
+  },
+  {
+    "sample_id": "airline_ea0b4d8c37e8d5bd03993ef9",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport TPA in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "TPA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.806621519939805
+  },
+  {
+    "sample_id": "airline_f4edc2340cd8912143b2eacb",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_979",
+    "parent_split": "validation",
+    "question": "What will be the average taxi-in time for flights arriving at airport AUS in the 7 days after 2016-01-14?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "AUS"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 4.967540574282148
+  },
+  {
+    "sample_id": "airline_146eb77a2c5e315f9228688a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at CPR have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CPR"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_206450b61387147f9e758526",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at IAH have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "IAH"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_343e794ec87abe38a00ab8d2",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at CAK have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "CAK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_36145f74e9159e59c0098187",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at DHN have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "DHN"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_745e1637c8b2c93de3b27de6",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at GNV have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GNV"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_b43f717c529d02429bc735f2",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at GUM have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "GUM"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_bbf8e7e8ab2a0f5403976131",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at PIT have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "PIT"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_ca1dc0221aea7bcc0a2ac242",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at ILM have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ILM"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 1
+  },
+  {
+    "sample_id": "airline_e7e1cf2be677f828158b6e5a",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at ADK have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ADK"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_f8428b92af0df50c3ef0ec6b",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_983",
+    "parent_split": "validation",
+    "question": "In the 7 days after 2016-01-14, will more than 20% of all recorded flights scheduled to arrive at BNA have arrdel15=1 (arrival delay of at least 15 minutes), counting every matching record in the denominator and counting only an observed arrdel15=1 in the numerator?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "BNA"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Classification",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 0
+  },
+  {
+    "sample_id": "airline_d7703031c76661bcead9c050",
+    "domain": "airline",
+    "parent_question_id": "RDB_FIN_999",
+    "parent_split": "validation",
+    "question": "Based on the cancellation trends at major hubs prior to 2016-01-14, how many flights are expected to be cancelled among flights scheduled to depart from Atlanta, GA: Hartsfield-Jackson Atlanta International (ATL) in the next 7 days?",
+    "anchor": {
+      "table": "l_airport",
+      "key": "code",
+      "value": "ATL"
+    },
+    "reference_time": "2016-01-14 00:00:00",
+    "task_type": "Regression",
+    "relevant_tables": [
+      "on_time_on_time_performance_2016_1"
+    ],
+    "label": 15
+  }
+]

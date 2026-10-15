@@ -1,0 +1,16 @@
+{
+  "version": "support_test_strict_future_evaluation_v1",
+  "minimum_reference_time": "1996-06-29 00:00:00",
+  "label_observation_cutoff": "1999-01-01 00:00:00",
+  "purpose": "evaluation_only; never use these labels for adaptation",
+  "time_policy": "reference_time >= all eligible support/train and support/validation label availability; full source SQL window observed",
+  "overlap_policy": "task + anchor + observation + original window semantics; exclude all train/validation support and all original QA instances",
+  "label_policy": "actual executed scalar; preserve source SQL aggregates, thresholds, boundaries and native empty-set behavior; reject undefined",
+  "instance_count": 310,
+  "audit_path": "provenance/support/financial.jsonl",
+  "selection_uses_outcomes": true,
+  "population": "diagnostic candidates, not a random population sample",
+  "classification_outcome_stratified": false,
+  "regression_value_diversity_selected": true,
+  "audit_path_base": "package root"
+}

@@ -1,0 +1,4942 @@
+[
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_001",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_003",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_006",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_008",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_009",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_010",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_012",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_013",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_015",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_018",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_019",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_020",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_021",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_022",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_028",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_029",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_030",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_031",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_032",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_034",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_037",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_038",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_039",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_040",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_043",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_044",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_045",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_049",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_050",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_055",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_057",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_058",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_059",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_065",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_066",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_068",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_070",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_072",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_073",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_075",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_077",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_078",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_079",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_082",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_084",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_086",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_088",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_089",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_090",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_091",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_092",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_095",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_096",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_097",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_099",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_100",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_101",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_103",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_104",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_106",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_107",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_108",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_113",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_114",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_116",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_117",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_118",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_120",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_121",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_122",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_124",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_125",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_127",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_128",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_130",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_131",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_133",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_134",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_136",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_137",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_138",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_140",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_141",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_143",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_145",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_146",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_148",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_149",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_150",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_151",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_152",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_153",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_154",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_155",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_157",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_158",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_159",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_161",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_162",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_165",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_169",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_170",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_173",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_175",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_177",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_178",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_181",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_184",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_185",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_186",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_187",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_188",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_189",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_190",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_191",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_194",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_196",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_198",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_200",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_204",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_19503ae33fa344a4a0b8e3b3",
+      "financial_273133a8d0a37bb82f75acd6",
+      "financial_306405c14556e26cdeb15831",
+      "financial_32561741398d49c4f12f5b74",
+      "financial_3c8c56734358de915504e993",
+      "financial_53b0962d9680ace3b92dd4d6",
+      "financial_890ebfca33e9198720a2033f",
+      "financial_89efe20e249d5e4b00cb2bec",
+      "financial_c9c763f5730a3e6aa2fe1156",
+      "financial_dae0aa721d9060a2fd1cdb4d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_205",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_051b9e1261b7dfcaeaa72f12",
+      "financial_32eec8f6264e46d1d144dac5",
+      "financial_364402e563e5e3cf7cea6371",
+      "financial_45ead0b2589ea5901cb4c76e",
+      "financial_4a2c70860dbddcbdae02784d",
+      "financial_6ff9f937746ecb198c444981",
+      "financial_75c6f9e7c4a1b26d204bd0aa",
+      "financial_7f47916320c1e53afc2892bd",
+      "financial_c9416dccf23803d42dc49b9c",
+      "financial_f2b74d0bd322608293ba543c"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_206",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_00fa8241592f25267725c78f",
+      "financial_5770a79c11819da55bc701e7",
+      "financial_61368ecf9315d94e273bd0c3",
+      "financial_6299c49a5e66b12df23ef5d1",
+      "financial_7eb1af1f546a00d9abef5e18",
+      "financial_9a85addf3b34b046c713b38a",
+      "financial_b6210593c9c91a0ff6652313",
+      "financial_b80d87fc0a94551e0e9e96c9",
+      "financial_c07096c08d850b74c999c17e",
+      "financial_f606968541e1eb07bf86b3b7"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_209",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_10ffee77bb3d02522b887e82",
+      "financial_4e4cc0289a60a52320715a25",
+      "financial_58ea6d65a4abcc69fb5c0a66",
+      "financial_5dcb59eec9ed2391eef67d47",
+      "financial_6d61bf6021990ff55aef8ba4",
+      "financial_7ef451841e0fb84dfdefa431",
+      "financial_97e611e3fe26425363a24e97",
+      "financial_c0efd49fb022761a76e28c9f",
+      "financial_e439e09e707e98b81f02b41b",
+      "financial_f25b68506389b4a26df33ef6"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_212",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_3d7b62e20bb6aa45992204c6",
+      "financial_4969f690b2e9328eb1b0d3d8",
+      "financial_510959cddce5de60022419e3",
+      "financial_5e2de7e208a78a4c082726a7",
+      "financial_82e843a3de0d9e7be7df84be",
+      "financial_9f8998e70ca1b6afcc7afa3c",
+      "financial_b4e09d14a07fc065128d431b",
+      "financial_c0f639d016cb816c467f9495",
+      "financial_d3135b40d7a573c782f9f779",
+      "financial_d654d0d2482f7cd1b87ba5a2"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_214",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0894ea80e01c967b08664459",
+      "financial_117f8047ae58bd4c40bf3f30",
+      "financial_47066fdcd66927815c311b69",
+      "financial_692b98d6d51e1493c9384635",
+      "financial_73facf1e12e94a8a877772a6",
+      "financial_9573cc6c1064b7819208529d",
+      "financial_ba018af26e984d2451146a0c",
+      "financial_d6aecee97fa67b41b4bbb402",
+      "financial_e9f9f26ccf07677d23de4a30",
+      "financial_f5052966c8de70f8ee7403f3"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_217",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_083bf42fe60e76d7451d6398",
+      "financial_2d8fe4fefbb37ae2a72258cc",
+      "financial_34d5e42f564a8b79092d9b80",
+      "financial_4be81c8d4576c68f35c3f230",
+      "financial_85f09e47cad184cd2dd79d38",
+      "financial_b87448ee955b1dfa63b5244a",
+      "financial_c9e44da6b82d3b18fa5187fd",
+      "financial_d89af38237c8121bb30cba1f",
+      "financial_dec0ea44b4767efb5936a82a",
+      "financial_e2374172384ba20ae26d75ae"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_221",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_14bdb3651f53b29cc9bbb0dc",
+      "financial_2bf081bb973875b76c6ce4d4",
+      "financial_4aa7929af143768c7f7340c9",
+      "financial_585e6d6b7c3759ad17d35016",
+      "financial_92deef21f5ba46441cea1cf0",
+      "financial_941e7d2742cd6de34f40137d",
+      "financial_9e73c3e61f5ad7d7751cd361",
+      "financial_a28555c33f7c6ef98f2b105d",
+      "financial_c772d0cbaed0edba834ae63e",
+      "financial_e7f7035c96cf7b6ccbba2f06"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_222",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_023afee2e92a2767dd47f231",
+      "financial_499aa460eb218e7e78921f28",
+      "financial_5834ae766f896d2d6e86801f",
+      "financial_62d716b8aef0f2f6ebc13c09",
+      "financial_63353245fdd529b040358ad2",
+      "financial_6c62b43834fcdc23ba8ffe3d",
+      "financial_a91b227a6a63681886410746",
+      "financial_b9736ab341e7a2077121fcf3",
+      "financial_cfbe8f7542651f1a80909949",
+      "financial_f48a52a37127e54744213f89"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_224",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_088f5f2980d942ef0d0de078",
+      "financial_0cb63e6eb15005707aa65932",
+      "financial_717308fc1c8866c60bc8f74b",
+      "financial_798f9e6962b7e6929b853232",
+      "financial_86f31ea160a4f26a4e053c5b",
+      "financial_8eeee18bfad6d93bf2efb580",
+      "financial_c0c484475b04ad11ef6d2b48",
+      "financial_c8f1863ba6fe7c15a0f8b01f",
+      "financial_d09dc292303d718dd5b3c941",
+      "financial_e7790b534dde617546f3f56f"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_225",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1e22fe5912b6aa3cd2bbd8eb",
+      "financial_2e4fe9cfd4c61da837517534",
+      "financial_664b5f00c8f78b9474020c2d",
+      "financial_669dfd1168feb52b5a82e50f",
+      "financial_91ff4367146ae2192cc07c4a",
+      "financial_99ba83cb692d259951c0804c",
+      "financial_a1aea193a372501e94c78ebc",
+      "financial_e1dd8fa5bf3b223f96e8327c",
+      "financial_f751fa528dde3e23b62a2ff7",
+      "financial_fbe530fd05ae73a76eac08f9"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_230",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_204b1d1395ef45754077ccbd",
+      "financial_60cd98fe8f062a6943068921",
+      "financial_6c86bf806c758d58cdbdedc2",
+      "financial_8f9e0314651efaf453f978ea",
+      "financial_bc47b8ece52d2c17d3bea7ac",
+      "financial_cb4bf37c158193f94aaa50f5",
+      "financial_dcd0908539ed21f36ca677d6",
+      "financial_df9e5f819a9b50c2cf5b4606",
+      "financial_e44a0a157debb6788b2e78ab",
+      "financial_eca61e6b82d5d52a6d52795d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_232",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_10a9d74184d51a6cee2b2b05",
+      "financial_17e6cfae7c6db41725f14cde",
+      "financial_19df140df1c8fb4249af28ec",
+      "financial_35fe9084bfcec86a04a67274",
+      "financial_8413f59ff04b84e5f2061132",
+      "financial_8736ca77682f96717c209a34",
+      "financial_aa0c322a1a73b2ab109f3bd1",
+      "financial_b303d65ccc9461cced4f94c0",
+      "financial_f6d09b20e4f1d13ebd1dbf4c",
+      "financial_f827b32a78bd4bbcf90722e0"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_233",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_18f93387e775ce412c920167",
+      "financial_214e30307956af58dcab2c51",
+      "financial_2c3f51a32289a394525a849d",
+      "financial_487bb261ed2589b76996584c",
+      "financial_6372b8c300fe89060fbc83ef",
+      "financial_69ae39448ef1871efa0d4582",
+      "financial_6d2073a2b4fa04c715f581cd",
+      "financial_b06661a0a1fb8c2f397150aa",
+      "financial_cae9328d572049dee14fcd0b",
+      "financial_df70284338fa6c1909e394c5"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_235",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_13518896701daae17e74bc84",
+      "financial_2b5459d62eecc19d806ca2a7",
+      "financial_480b9ca335596f12c5629584",
+      "financial_7f67f871c346cd7388216d48",
+      "financial_8a77f0403579cc83e2cb357a",
+      "financial_94c7da694d9ff2743479a9ce",
+      "financial_ad29a93e87eec5154cdf52ab",
+      "financial_de88bde7b7f355e4efe6757f",
+      "financial_e3427f9422e8260f631aca71",
+      "financial_e7efc0123bec28c0b539d2af"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_236",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_09920534057719d077dac5f4",
+      "financial_3cd5a3f4efbd1e54e31bd6e1",
+      "financial_3e47b53e2391ba2236528e86",
+      "financial_779469f46fff342a2e1f2ecd",
+      "financial_8344be51b55d6933d46d3215",
+      "financial_948a8d2aad83728528c0d08c",
+      "financial_aba8334100c9d8480f60e4e5",
+      "financial_ad96d984cd9ad1882a54b11d",
+      "financial_b363f83a31f42aa7feba7045",
+      "financial_b61b2a3dd10705fd5a9cd5ed"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_237",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1c90fa4c3f6300d06da41792",
+      "financial_78437175061204788c0ea068",
+      "financial_7ad10b0cbc8da1bc561cbbe0",
+      "financial_8c61a7fef8cbec6f1af9d999",
+      "financial_8ddce92e2fbacbeab452eaf4",
+      "financial_adb79de6de3566fe2d514af8",
+      "financial_bf0111d514afd07b92179bda",
+      "financial_cadc4f589bf98bb9fcbbe2e1",
+      "financial_e624e2bfe43b9f430beb3887",
+      "financial_ffb5349229c3a971e016e2b2"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_239",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_26d659b8575fb58139e95ad1",
+      "financial_2f5cd396a83a769a6f19cb97",
+      "financial_3a02e5c4aab02ddc38321802",
+      "financial_40303388e4e6bacf359903f3",
+      "financial_92502875ff4859736c19165b",
+      "financial_a76f94dbb31f2829b1fd945c",
+      "financial_ae6d2a5dde1d0c18d5cbbeff",
+      "financial_c184da8a081143ff170b8dd5",
+      "financial_c5fb151b35bf76c37a988481",
+      "financial_cbf6fefd2e13991f3d2bedc8"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_241",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_343b29ebc1aca8339a7e1128",
+      "financial_6240e08640f4bbe8ba25494c",
+      "financial_6271c6768f02a055a099f08d",
+      "financial_67288cd50b0dbd1192fb2d0d",
+      "financial_7e1fbdd530d8b9c9140a458a",
+      "financial_8e904821165c4e311122e5a2",
+      "financial_925d5fc38361b71e651a8c18",
+      "financial_c83d59fee0fe7db9196dc7ce",
+      "financial_dbaa1b5c9131a1b6cc4f459b",
+      "financial_ff3bb5574c803f265bec1ffc"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_242",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1118dd91a4c79d8e064d205f",
+      "financial_501581c5230890e749d34fa9",
+      "financial_563cd70b6eac45362dbfe561",
+      "financial_56aa672d062d084289f99b1c",
+      "financial_63ca932b80230d753872e864",
+      "financial_7b273e5c5fa2e13e30950838",
+      "financial_8bc79da65c64c60f9d59740f",
+      "financial_9ae2b2c98755664ba98db131",
+      "financial_9ec1f034fe6fb38dc6bd6f6a",
+      "financial_a7e7c5f5981ddffa3e39b103"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_244",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_01526f04e82baebf55f6e4e0",
+      "financial_21df9701be49d1dccc9ef191",
+      "financial_3474c366f3a3fab7c2c53de9",
+      "financial_50bbba872baf4ed725014357",
+      "financial_7349d76e3297673a0e161beb",
+      "financial_75917dd6bff69dead83eb745",
+      "financial_88b887dd716294edd075dd0a",
+      "financial_c0a27458cd3f36f6614ac27c",
+      "financial_d0eb6b9a2f9e49cecd683433",
+      "financial_eb169ed654b2acefb0d38677"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_245",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_00ea3ddb4718d67d5695cd87",
+      "financial_1a019fc155630eee61f21680",
+      "financial_20fe65fd8d8187e265bd9f9b",
+      "financial_4ed3a7aa6acb84184e289525",
+      "financial_79b749b8dc5cd67dbea6ab60",
+      "financial_7bb4e15b52b95d4c65100380",
+      "financial_b1814215fba2833b903bfc79",
+      "financial_b28e8524872cf535bb1bf79a",
+      "financial_d5af8c923b7187d43987c407",
+      "financial_ea075c635eb1ffd3d57b803a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_246",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0771a15ef95bf00042ee12b8",
+      "financial_0c2ca7e95ee8540944aff185",
+      "financial_1bb15ad14233c4c7e9d1ffe4",
+      "financial_21abd1eb73a38d679934e336",
+      "financial_27eae2d86e88f04ae82b5fee",
+      "financial_3b124db2d657d25810431330",
+      "financial_73c2cbe118cf0249abd968fd",
+      "financial_7ddb6977b5ffb79740530c3c",
+      "financial_91b247a25d1ff928c891429a",
+      "financial_f21787821e0fdb24836da4cb"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_247",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0f7701c45766293d0c14b9c1",
+      "financial_3471e6dbcd9660d3db05f54f",
+      "financial_84a8b00d71404ea0cf092b76",
+      "financial_84eaf74afd1e7f4f7a3fd1d2",
+      "financial_a2c2ec3aef2c1497f86c805e",
+      "financial_af5d7629dce3420a78d0e465",
+      "financial_b92975f40ddeaac9cfc7017b",
+      "financial_ddb8c4f0e0f3a1d899b0cd76",
+      "financial_ead77fb51fdcf7e403260165",
+      "financial_f557de8e5c1404f7d3810958"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_248",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_01b02520ba02c07c65a010b1",
+      "financial_184854e9fc29967a1e9ba18c",
+      "financial_49c2070160ba1f88b2ab71aa",
+      "financial_5e739f9fb00853ec98b3d6d1",
+      "financial_68896b4b962542742e147e9c",
+      "financial_755e0253af4b2f760d267dc6",
+      "financial_8bdc0201d2bdb706e2130f82",
+      "financial_b0b261521b72ef12fccc066a",
+      "financial_fd40b113fdd24b1d29d249f9",
+      "financial_fe259fd06488097c573a90b3"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_251",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_037b1e98c315a43bb0e44ac3",
+      "financial_176595c577b92b04c741f29f",
+      "financial_2b598565aa1845429dd41530",
+      "financial_484c44627cd611b0e19bb46a",
+      "financial_4b57a97d34fc727d9a78bc2c",
+      "financial_58fee03d374bd0864a077b6c",
+      "financial_7722a7258be976958e452b8d",
+      "financial_8e747b81311f6d55c031cb91",
+      "financial_98b351874eed907408e132d5",
+      "financial_bb352b8bda5ca40ec364bc66"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_253",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2835609de6fd45a84bf7277e",
+      "financial_3e503c9f103102793e31fe85",
+      "financial_470f0b77c62b6fd829f87aaf",
+      "financial_9047737c6e4958aab5baae88",
+      "financial_9b97c52a26465d00e55da359",
+      "financial_9c48e5f2bb72961b8782f42f",
+      "financial_b040d9607681ba9d20b5c540",
+      "financial_c4b756cdf372779a63cafb8d",
+      "financial_e5404845ee916264f937aa32",
+      "financial_fa2fdc9a1ba1c01646465160"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_256",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1f7bda6e08f6b46d5350d76d",
+      "financial_54d2f5879c7a57719dac1fad",
+      "financial_63044947c66b78fabfe63a51",
+      "financial_631773050cc43773b8f194a8",
+      "financial_63d84b874417c490715fa42c",
+      "financial_93abc6853dc864a986f99a6a",
+      "financial_d6d927b84cbc0dedd1e29d9e",
+      "financial_f6e4a5ee47d0cc1a60e6efa2",
+      "financial_f818e7508cc90b4af79237b9",
+      "financial_fb039b2eeebda36349a24999"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_258",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_075662842b5b73c15db835d2",
+      "financial_0c41efd6dfb67969ede2845e",
+      "financial_144e801a343eb6f27b316914",
+      "financial_245764d6b07ccb1a5f123931",
+      "financial_4a6cac22c0285abff7e811df",
+      "financial_8e51adc81924d805750b5049",
+      "financial_a9efcb9eebc1c4de26a9e763",
+      "financial_d41e1870f968f3625e993e56",
+      "financial_ed788ec4d12eace9340ca91b",
+      "financial_f215045893f3cab6d74073c6"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_260",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_6cf965eec5e3cc2adc407177",
+      "financial_8387dd892dce51fb5e8a5298",
+      "financial_a2e7043c11e89e20fede4b7b",
+      "financial_a3e0cc9a722f48d6f963cfb8",
+      "financial_af2fa5d1e83f1bf0f16cf971",
+      "financial_baab5268f3617eb5954c08e2",
+      "financial_cb36d829335a3483e3ae1b94",
+      "financial_db34158d7fcc2c821c48ef97",
+      "financial_e490a849f4eeb450072f5aed",
+      "financial_ff76bdb3370e1caa012b3d2e"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_261",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_31b89cf3163eacefd28e463e",
+      "financial_34aaf75117c79372e0f8d13e",
+      "financial_40e8ab35033c3b861d653de2",
+      "financial_4d5f7b39a8ff95615fca8261",
+      "financial_807d71aa54c4c462274d2b33",
+      "financial_9ae0d32286239144dd08b257",
+      "financial_9d233590b92d7bc5f52de811",
+      "financial_a74368d4fcc5810589509014",
+      "financial_f5e82f64ec77566dc96b180c",
+      "financial_f98398cb739b93c6acca0cbe"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_263",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_13967df358b4e5945fc1ba8f",
+      "financial_26b463faafcf271713263a6e",
+      "financial_2936d717a7045485272f3583",
+      "financial_8c2356222c5e3cbe12fe930e",
+      "financial_a19485a40ec3899bd97c0c88",
+      "financial_b68a008b7d2d74b3343413bd",
+      "financial_b7e391a2242176adf31db96b",
+      "financial_cb5f65228a9e3905057562c8",
+      "financial_cf97367bf7f990dea848e7c5",
+      "financial_d04492ad172ad130e3075c22"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_264",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0485849be41690143926b2bc",
+      "financial_27e5650ae7125da890cdda9d",
+      "financial_6e505a8bc2cd7ee8732b054e",
+      "financial_a3ca5542042cff01d575a50e",
+      "financial_aaa5adc05785874d9655adc9",
+      "financial_bc5544147c0f97cf18f914de",
+      "financial_cdcdfe1aa6bb9f55059df7f4",
+      "financial_d4bdcfbfa0d6cd123b1b3de1",
+      "financial_d9574b18dae35afc77588cf9",
+      "financial_e97b5606f1036c9f41b3092d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_265",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0882af6096b20325b4dde836",
+      "financial_2a03771e50c28ba85ccf53b4",
+      "financial_3f7cf206d5486558fa5213df",
+      "financial_448a3bed375af0ced0549c94",
+      "financial_4bc669200aaeef6892200a8d",
+      "financial_a5e3ad02697d9a4a41bb927c",
+      "financial_c5097f66651243137f6a7c90",
+      "financial_ef9140bb1f21e30e39525012",
+      "financial_fb9a99b9a4884efd446ef91c",
+      "financial_fca9432829cf70e23c46142b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_266",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0c94ebcc2e31c854961cf5ba",
+      "financial_359360b168650aab1aabf37c",
+      "financial_424763580a89769a31d1c3ca",
+      "financial_4b79ccaf2a0f6be5d4f7aea6",
+      "financial_507673013efdb7ad7d820d93",
+      "financial_5de60c61af7fb96b936f700a",
+      "financial_64bee9c046973f8ccda83b42",
+      "financial_6ea7d25a6413fef18315ff97",
+      "financial_8cd8bd3762b1103606b091a4",
+      "financial_d3f181be07ad4c0f86d4c239"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_270",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_111758aff80ce8ce31c92acb",
+      "financial_3cf3f40bf5809875beec70e2",
+      "financial_4ac01fbf4a14246eff169e50",
+      "financial_5c4549a9260384e4308cf3d6",
+      "financial_8174f8b003b4b904b12296ab",
+      "financial_904d28ab4998399c6ad01d3b",
+      "financial_a725937f0a3184f6c5121672",
+      "financial_d05d4afc3deff49433d66e75",
+      "financial_de48105f2f75bafd5657a484",
+      "financial_e3201aa525b5f9059f68f4a7"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_272",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_342183de7df96515671de630",
+      "financial_48d09c3ef425eee5d58b2b75",
+      "financial_64ffa089993cc590207cec02",
+      "financial_67afa5c651288dc0bf400c46",
+      "financial_7c3ff2e644a1d0e9e58827a0",
+      "financial_c8644d9e43491410ab1e83f8",
+      "financial_cb89dc3759c17b98adac2db8",
+      "financial_cb90624a7e03132c625e56db",
+      "financial_df86cdc3129fe4b634497cf0",
+      "financial_ea305be144381b4dba4dc27d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_273",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_4da6a6976e2174bc490a1de7",
+      "financial_5bd13e03607ec673a9beb01b",
+      "financial_65fe634ae0f1a7069f507d91",
+      "financial_82e2a776a1da62af33c10c98",
+      "financial_86535206c13d8fa3a5022306",
+      "financial_937d622879e60630f7f6ab94",
+      "financial_965f1d8b740c5923407d8d67",
+      "financial_a38c012e920eb1eccf42d05e",
+      "financial_ab9e8dbbffae30153163f492",
+      "financial_fe6df182859f012604154e4f"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_275",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_18702b63ca2b308c52047cdb",
+      "financial_319c51d7605d5f083af92afe",
+      "financial_3ada63b8d53edc606c1f383d",
+      "financial_4d548c47585595de6e31a271",
+      "financial_5e43e1efbd863c5cb1b3dca8",
+      "financial_6742d21597834f25b19519d6",
+      "financial_925da6dbef8132f070001967",
+      "financial_a47a87aa448cbda4d519c417",
+      "financial_c028d1f055fb44cfd170abf1",
+      "financial_db6377793d4be76ee3466010"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_279",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_10a4a3d6b41e2a3143ac46b0",
+      "financial_1ce479f1d89974ec4ca84be5",
+      "financial_2e7187687cb60981ed62d7ab",
+      "financial_316a85cc267631e9aa508821",
+      "financial_780baeb011cba7628b53da7b",
+      "financial_abd175dbb8cf1f410d15ba3e",
+      "financial_b055b1b0f5fd0990610036b3",
+      "financial_d77891b44e53e411200c9e68",
+      "financial_e9867f31042ef386cfe44af8",
+      "financial_f37109d3dda4d1a024304d60"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_280",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2120d974724efa981f5c2220",
+      "financial_2f93e6d1c12daccfe7df99d1",
+      "financial_406f01545b2bcd5b2f568775",
+      "financial_6233b471fa418499b2b040c9",
+      "financial_66ba0888696bb7a817e28e12",
+      "financial_7018ddd772ff69a2c600e5a1",
+      "financial_72c7a7e76a03d1281fe0cccd",
+      "financial_ae0ca73d80533fd5c766cbe7",
+      "financial_c74d85c1cb5742e8e4116a90",
+      "financial_f71aedad2812e0df47508bca"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_281",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_27a3d802278e6d1bcf91e880",
+      "financial_32478c4213739314b16621c5",
+      "financial_50ee8d36758385d763d8817b",
+      "financial_7a05d6d6d66181072c221dcd",
+      "financial_7bd19e437cb1c5b18e801270",
+      "financial_7dc1ed3c071f81406cb1b29b",
+      "financial_d22211161e7af88315b8d254",
+      "financial_d92a3b2fe2d3bf6d8c4e5ccd",
+      "financial_f16ec28207a234348077c0f0",
+      "financial_fe6920d69023d65a53626012"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_282",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_07c0ff6978168a918cb21e06",
+      "financial_2d57fc17cf483491a267786f",
+      "financial_34c7c847135df629bfc3a80d",
+      "financial_4b4e43e403202ab7767b99d0",
+      "financial_84b3796bbc89502a7da199dd",
+      "financial_993a70564304525f4a92392a",
+      "financial_b863e2300d0a349654c529ca",
+      "financial_bfd05281ab101eb6ba16e592",
+      "financial_c49fdc880ef368c690381c6c",
+      "financial_d64641967650978bd8286d73"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_283",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2e3690b45f541be60d3b9eee",
+      "financial_4a0e27e0a08ec6b6ff94059b",
+      "financial_826c694714a65cf5f246e0d1",
+      "financial_8b18897a3f043d88afd794b3",
+      "financial_a085b91b28f093549185c50d",
+      "financial_b5b07433a9064cd3673fce83",
+      "financial_d1e3b49778ff8ee47dd2b45e",
+      "financial_d55eb8c4eeeacf9cf59ba71f",
+      "financial_d973c1f84f3619521385b9a0",
+      "financial_dbe903f0ffe67d6fe60908a4"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_284",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0015a6f4459cbac2cb9ff0d2",
+      "financial_0aee984b69c927505946e978",
+      "financial_582c29a439d8c4c2fbf30f85",
+      "financial_7ed6460004ba8a7a5ee223a9",
+      "financial_833836f255613aafd7b0d8a1",
+      "financial_93139cfc7581590cb6faf40e",
+      "financial_96ec6aac4c94f1a38bd8acab",
+      "financial_a60ef7b466da52d2b762a9df",
+      "financial_d7829fca489dfe4101143cc2",
+      "financial_f6d7a3dbac23c9087c70fd88"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_285",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_108735d1e6e385ff4fec9388",
+      "financial_1c67c1cf29272140fda32322",
+      "financial_26c3afabd2200ed75227c807",
+      "financial_30abfcb40f79bdfcbf937d43",
+      "financial_3639cd8a4a822a985df07db5",
+      "financial_615c14ff5842c066495d746f",
+      "financial_7205ef80360cdb4d8c53414f",
+      "financial_91b3895c9b02b9f277aa59cc",
+      "financial_d7353c7f04d10a6a0bbc6fb0",
+      "financial_e75e36ada144f72da62812c1"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_287",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_01fb63a4497ff85532ed6e5b",
+      "financial_079e69d941f526a9ae414cf2",
+      "financial_16b41edb24a1eea2ecdf9590",
+      "financial_2442d266899808972965a3c6",
+      "financial_446410359ff661b11429645e",
+      "financial_8d268895e10a89045764600f",
+      "financial_9d7b780f129afc351531c2d6",
+      "financial_a05e01f55af46d3ed2c72d71",
+      "financial_bda5da18d312e079138a4174",
+      "financial_d7441fd6aed196b2cfe843d1"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_288",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_11e049a44818616e6da05b14",
+      "financial_3351d3c184b5d2b8f81aae06",
+      "financial_5cce2cfa27a0d694b0417847",
+      "financial_6c05e3b44126d7db7d095dc9",
+      "financial_789aa44733b1e40866c1e19d",
+      "financial_7fbf7da5295f102fc8a15716",
+      "financial_891356f8fee1b76b51658f6c",
+      "financial_9ffe2d296851a9d6587ca6f6",
+      "financial_d0b8cf516f53a009ba4318c1",
+      "financial_eff325e7867c24b501a0eb82"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_289",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_30226d170dcdd2e14de8ec75",
+      "financial_3a90105d3e690db94992ed37",
+      "financial_540d639f0a5a639ffa771842",
+      "financial_56e8bd2184f78b9bc0b33eed",
+      "financial_7ca9897c89230e0c8cb3ce58",
+      "financial_9f825435b0f6832f0ac12c6f",
+      "financial_a4cdb76535930536759acf54",
+      "financial_c0496c477f84890b6b957c77",
+      "financial_d2bd49030d0ebb047d78042a",
+      "financial_f86fabdf2073ed61c457a658"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_290",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_12d33f838bb1f677b61f2d6d",
+      "financial_21f5f30d9d5e4492d60ea2dc",
+      "financial_462792521e2e5e8b8d1d5739",
+      "financial_8b1e10ff78a324df53e32554",
+      "financial_a25119e032e35d3213a11b71",
+      "financial_abcb647115b991ec793b803d",
+      "financial_ade128f158da104f49b8512e",
+      "financial_b171fea7d31b4b9e4f668928",
+      "financial_c0598dcff967cd8f77bd36ef",
+      "financial_c700af9349f3f233f32f122e"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_292",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_02cee7948628a75b9f886930",
+      "financial_2aef57684712104662cd1f5b",
+      "financial_4949ba572c53e0b877d678cf",
+      "financial_716f7363a63e5b725bc85faf",
+      "financial_8b450edb17664930da531e3c",
+      "financial_ab31c5eafd7562506643601b",
+      "financial_c792d8c3440f3b038cf5eea5",
+      "financial_d9eccb236014f99baee5dacd",
+      "financial_e7f2680bc4a4b2d234abf679",
+      "financial_f993ed36c3349579bf85847b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_293",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_01b6ab783d43e8b9c1c9563e",
+      "financial_0cea80a0dac4f593929ee41e",
+      "financial_0d6c98abda82b13eb579ebeb",
+      "financial_14e808e39737d8997216e731",
+      "financial_707727994e7859cf2885a908",
+      "financial_81cca96c28c3b3030043fdf6",
+      "financial_a8a57c67c5dbb46246ab3df5",
+      "financial_b1907c482e793156874160dd",
+      "financial_d6c1af1fcfcdc5256f9718a1",
+      "financial_fbd4641900d5a54c37344bd1"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_295",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1d79602a6fef5c9cdbd0b3f0",
+      "financial_22f9b867fc2b271bdcbc7063",
+      "financial_31f222cd0214b0d0aa0281f1",
+      "financial_651aac9fb17d1ad03f8a9d55",
+      "financial_7262c84f1cec2ce441f5c9f1",
+      "financial_787bb0661ea4c8cf1503bc4f",
+      "financial_9301ec43526672f6a54babe3",
+      "financial_9669fac1ff391151d098b13e",
+      "financial_afba59e9fb977d1205241bfc",
+      "financial_f453cbfa4543c998a1aec2a6"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_296",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1a699881f43516ab4b1536af",
+      "financial_2b05ca51c50c5572ec5ec57b",
+      "financial_45a76bb93ade738b3ec6f602",
+      "financial_61c3ca3d3b970d1f8bf478d6",
+      "financial_9287a54f300591420b3c7df7",
+      "financial_c827f2f5ad969d044dd3264a",
+      "financial_cfe1313f14740e08b7434311",
+      "financial_d988ffb981303553a9790915",
+      "financial_dcb85e67d2681f8b3afc0061",
+      "financial_fa66b197fe139e88dc4813ac"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_299",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_22ae37fe08acc9420eecbb8d",
+      "financial_4afcb47ae5856b35e680e834",
+      "financial_731ab124a61e719ee0a3c913",
+      "financial_7fbe9c08d794cbe960012aef",
+      "financial_89d6458086911adba92f2bae",
+      "financial_99785b51979aec2e5742a5e1",
+      "financial_a7bd43401cc461f6c7b692ce",
+      "financial_bbd6f73bad7ee2ad577de185",
+      "financial_d4fde78acd76d4590f007c21",
+      "financial_f49342cf23cf55cd8f7e9c46"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_300",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1a8d24dbccf09bac916412a5",
+      "financial_1f6b2801b8f87939881e6a92",
+      "financial_4c1117682c5adc677e27e50e",
+      "financial_5ce58d0d734fd7fd87a61fbf",
+      "financial_60b21464d032961ba3b8cea1",
+      "financial_7ba3565863101467bf919574",
+      "financial_83253e8073b3e2973fbfb895",
+      "financial_9f897a12be6bcf9c69c5e0ab",
+      "financial_a52018917969ddd766ec52b6",
+      "financial_ce90b9a5b29b5cf60599e58b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_301",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_04d6dd8b38ac9a45f6a1f928",
+      "financial_0ad9b1290549d1dd90229dca",
+      "financial_3c8aa42abfac7e81e6ae6089",
+      "financial_56babe356f4f752668539b7f",
+      "financial_601086f369142810048a354c",
+      "financial_8beaf887cf26e6873b595b3e",
+      "financial_a803ecdd7e6c51e45e03227f",
+      "financial_dd9c173f91a7371e8ae3ba18",
+      "financial_e5c8a0340712f4cffb98d51c",
+      "financial_e8ed840f43d150dba02405c2"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_302",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2cb053f284cf443de6cfdffe",
+      "financial_382a04e04dc4febf6dbeaf5d",
+      "financial_6356b4d1e67c85713767af6a",
+      "financial_a3e69ba6f6232a2e9634e0f9",
+      "financial_b4852c23298738f766b70584",
+      "financial_cb4777301617aad2f9608c9f",
+      "financial_d296e19c42d58dcf5baf123b",
+      "financial_ddab184515523518a4984bc7",
+      "financial_dff15f5653f015fe32d1ead7",
+      "financial_eb8cef36d31c815bad9b4106"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_304",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_014a9c9e75cde2188eb3831e",
+      "financial_07f6aefa37bc1619398066b6",
+      "financial_6f3a02b2437dbd2d9e1f2945",
+      "financial_9665f1e57f276b089ca12159",
+      "financial_bd337309606e015413cae1f3",
+      "financial_c1874ab45467077f86f0fbf0",
+      "financial_c4ab7f0103ecf38911ce48a4",
+      "financial_eec5e9571a92b5f122edfb10",
+      "financial_f3fe6c29bb73e03673af7f0f",
+      "financial_f6574b810c826f25cc1e6a8d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_305",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_378ae13d1f1ac8237c5c06ef",
+      "financial_429d48d97989cbcd024f19df",
+      "financial_4eb1c33966228faa8860ecfb",
+      "financial_5a77adc5494836b679645250",
+      "financial_5aa49d38421189b2fcf5b59d",
+      "financial_73fc4dbe4c517970268c22a9",
+      "financial_82b23d1151b4fec5fd473608",
+      "financial_a6872a1ed407e303ab126d31",
+      "financial_ebfee80f6b17a7dd62030931",
+      "financial_ff9955590daf44843da955b8"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_306",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0e7feaa77c1ecf55791518db",
+      "financial_612bdca0bcb08c18effebbdb",
+      "financial_75183dbf2dbcbfb9672af968",
+      "financial_751a33cb93b252af3a00ea08",
+      "financial_8a5e425f62c4c00f638324d1",
+      "financial_a60573f0efa3bec1a2660fed",
+      "financial_b59941dfb66d7776b69a4354",
+      "financial_c4635bf5af700065462685f3",
+      "financial_c6e6e061d7f8d12eb359edde",
+      "financial_ea3f1c20f2e4a58ebee22098"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_307",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_4fb5058a87b635da13623653",
+      "financial_8f6b291500d4dd7c301b1e21",
+      "financial_9479fbcdf97c6c65c27ceb9f",
+      "financial_94d5a6a86d69a3073129a0f1",
+      "financial_9546a8b31bb76b2b8c6d2bcf",
+      "financial_ccb6e134d73f49c69a8b5214",
+      "financial_d160695bf3bd2e46dbda945a",
+      "financial_e8079a1f4ba8b64a5e9e407e",
+      "financial_e99f26083c7bc1fd98d4f268",
+      "financial_f2eda16f631e9fad4b00ff1c"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_308",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_066b17222f178579cec30314",
+      "financial_40b070fb9093b3f3228d308c",
+      "financial_4348a1a875e4fed112399c89",
+      "financial_8dacc87938ea8a9f83464a11",
+      "financial_a0f3df841802a4c802e27ea6",
+      "financial_afd639c649b4dca3a91080db",
+      "financial_ba99d27cd96c5e36bd2b5cd6",
+      "financial_bcd12131d2ffccb5c8d65a6b",
+      "financial_ccbb3ba56b2d205cd60860ec",
+      "financial_f681a61f59149ce37140713a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_310",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0d425a23ac763743c9eeff5b",
+      "financial_15b1905337472372312e87f1",
+      "financial_17e0fd807d402685a9a3be5a",
+      "financial_492bf1d5982ef39e6342ba57",
+      "financial_5060db225510647103f3550b",
+      "financial_8c223d41c762e16d24c7b248",
+      "financial_a3504bd1e1c61b3d48b80802",
+      "financial_bf2c1f86ca9425b769ba7fe4",
+      "financial_cd39827e448e7c9867226239",
+      "financial_fc5e3d480751b6459d089bb6"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_312",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1cdffdb074eb313ae0119a1e",
+      "financial_3ed3e2bcf5f570264142e30a",
+      "financial_4a8b367ae4f1069b65ff7746",
+      "financial_7180b35ddef8db88a34aba3a",
+      "financial_8c4036e542934ce62479ae40",
+      "financial_97751eb6197f5c62f90abb92",
+      "financial_a627048a5d4ef66a37e5caad",
+      "financial_acab8655dbd3543daa81b307",
+      "financial_dceba4fe08c3fd9867ff4d7a",
+      "financial_eea1012a30bcb3d39efb840f"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_316",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2fe2e72a0d8394eeefde3628",
+      "financial_3cce7b4142cb192d9fbf54b1",
+      "financial_3ef717d7fc49c76a69383f13",
+      "financial_8356a893f11b67cc3a56e1f6",
+      "financial_875947c196f494c86a59532b",
+      "financial_8e8eaef2b06b4c9c46f6b407",
+      "financial_e30a247c83adf1fff85adef9",
+      "financial_e55a62ea2ff6cf89112fbd73",
+      "financial_f29373bc3dc50ab7e6f3e5a6",
+      "financial_f4054fc672fdc1ac3d1b8553"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_318",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1172beec9bc893a80f87fe66",
+      "financial_3c0a745a913968ed0fcce63d",
+      "financial_4229bbcadc336e11cf4b174b",
+      "financial_970aa5b19045beb4686d17fe",
+      "financial_a3fa0281771c2f0281204421",
+      "financial_b588e090da94fd5038dd74e1",
+      "financial_c171ec75b0132737e00dc9bf",
+      "financial_d0be1ce01f59d4502ca7311b",
+      "financial_ddd3f4fe137ff77044fa960d",
+      "financial_edcd88ac4abc7904fb0eb246"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_319",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_25c97eb110e1109e92fd8187",
+      "financial_34668d92c637fb41e73d27d2",
+      "financial_415f19a0ab8be68e485aa136",
+      "financial_4452f725a95a5188b47f5aa2",
+      "financial_4fb727cc4a02ce9a76508eab",
+      "financial_7991393723b95789e706c020",
+      "financial_8256d1c9a97de3b9a5954fba",
+      "financial_c4d39a71d2ff9fa301a96f48",
+      "financial_d13bd8514d4bc897ea50614b",
+      "financial_fb2d23a98c3d64d626ab2e7a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_321",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2b8b3b1dd0dda309c0a1dc8b",
+      "financial_3259a536ccfefb2706bd3d1a",
+      "financial_41b469a8fdd56a8b56e28551",
+      "financial_6ab5fdd4e1ad1d13dc850624",
+      "financial_8a982fbcd70015c39d3286e7",
+      "financial_8e8bf9f7f62a4ab95e2f859b",
+      "financial_9ec397cff12827a0fcd42b1e",
+      "financial_b5639d2dca00b27d7322e7d0",
+      "financial_cca9a41e83777007fc260cbd",
+      "financial_cf4ca5d75a87f8c728f273b1"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_323",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_093cd8d9eb77a5bc7cf25357",
+      "financial_0f248d3490a4af7ca9fde169",
+      "financial_1ec5e5f780b5813aa16018c1",
+      "financial_46cd88a9f24be2c10da6d526",
+      "financial_5ae74ade006ba253ccae6b3a",
+      "financial_680bd77b73c3c3adac177b64",
+      "financial_89b4f0ad6ecd0a7537e7cdd3",
+      "financial_900ec8d092f7acb5a37f166a",
+      "financial_ee1ee435d6c71cb3bce02757",
+      "financial_ef9aa3daf818e648ed1cd4df"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_324",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_403ad6654ded12795eafb293",
+      "financial_48b5e837067f05ba6eab5594",
+      "financial_63bd8fa034e7ebff56d6824f",
+      "financial_7f5ecb64f5f14aa3feb71332",
+      "financial_a9c2ef64e6cf21ae6535cb28",
+      "financial_c599310fd231ceb783f597d8",
+      "financial_ca5e7f6f8d346a92bb4ac663",
+      "financial_d5f790bb1edb6251a7d116b3",
+      "financial_ea7189a14fc04c931439dede",
+      "financial_f09f112035a58bcd27fb4933"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_328",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_02a67e1031616582a166c744",
+      "financial_1b257ca5405c2d61c78bbad8",
+      "financial_3755f1ab4661b4b65c05f4d6",
+      "financial_5f8a0e4614843ea86bef98a2",
+      "financial_7eca81e9630cb52c529c5df8",
+      "financial_918f13719c20114ce2b91bab",
+      "financial_9784bdcdedab34d47c987d75",
+      "financial_a47286189487da6b812ad7b5",
+      "financial_ab40c9b926e1a0a6677a47eb",
+      "financial_d46cfb33fd43805f90ed243f"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_329",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0043d3e4b19f31e6c6df01c3",
+      "financial_02a591130836e30ce67a7791",
+      "financial_41fa621b9fdf1d26cc44731d",
+      "financial_57f599567c989579502bc81f",
+      "financial_59bf47e155ee253f2b4adf3c",
+      "financial_7711e3f30ebf37c99b1e72a0",
+      "financial_9a8103334f97337818559bc2",
+      "financial_c928d7579985fab24e736169",
+      "financial_d8301abab33445bc5962ab53",
+      "financial_f6c8c5fe826a2320111e9f45"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_331",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1882668cc633599d6cac78ce",
+      "financial_33db6cbd7129feba33f177d4",
+      "financial_3e1be817aa14a04196c3337b",
+      "financial_3eaedc50270cbba2c2ce82a3",
+      "financial_4af7f242ee0322f238d9e604",
+      "financial_9c027c7ac634c6bd676ecc01",
+      "financial_a802e3a19920daa921276eff",
+      "financial_c083fb4ff3b677e9b134d46b",
+      "financial_cdd2c2db1d317cd30ae8deab",
+      "financial_fc490cb02d89d0c58184af9b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_332",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_04daad516002776cf90d9cc8",
+      "financial_0bc5c7d73024251e06c5e8fc",
+      "financial_2f5753d33c8c89ff3d8e5191",
+      "financial_3f6271ddb7a1da49a0779751",
+      "financial_7b5edb02c1923fd58c4a664f",
+      "financial_80466e507b45e7662c42fdc7",
+      "financial_cf41d69c5364df176782328f",
+      "financial_d95fdd725e0acf05280e2db5",
+      "financial_dba8cf54868b1c18c1ef7aff",
+      "financial_e4596763fa6d20d18ac44789"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_334",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1cebce8bd8165c3333e839ab",
+      "financial_429cab29caa0e547ad5644c4",
+      "financial_7de10c77a374f8215be968bf",
+      "financial_855a5cef2aca489e67067041",
+      "financial_92917030452f27979a442798",
+      "financial_a0b97ab94acca4254ae0ef51",
+      "financial_b6b1e4dbbbf74f618b096ba7",
+      "financial_c0a12fc0285595181dde5158",
+      "financial_ca7e44a06c91b70b3feddd2f",
+      "financial_f620595f0e25be97ac0dce51"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_335",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_273081cbbf8d470601f2171e",
+      "financial_32f26fc3ebcb702eb131e270",
+      "financial_449b954bb755690682e243fc",
+      "financial_8de0fca1bd7cf865e2de9801",
+      "financial_916f2a13c94cca7698ea78b9",
+      "financial_b000a58f23c1b26a980f6840",
+      "financial_ba090da0135229f7f4661cdf",
+      "financial_d38d264294be6edfc4e0f14e",
+      "financial_f6aaaab0f8d0ed0576470d0f",
+      "financial_fd511db8fd4599f90889694f"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_336",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_37ee0a68e4e9c8579e88ab3a",
+      "financial_5a579ec93c50fd075ab43b70",
+      "financial_7766a4457674776396a0ce9f",
+      "financial_78def03f452a4ea8577e74d0",
+      "financial_7ea34b34f0cb60cbae071363",
+      "financial_9a6e18036bef1e8a224c2bf2",
+      "financial_a4eba3da83088d9cac8d7bc6",
+      "financial_b13ce9ae6c050a4c54b8603c",
+      "financial_fc249391dfa2662992ddf192",
+      "financial_fc8b0a471e2d190fd22b4e9a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_337",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_229083af1b6ff4b9b15828a3",
+      "financial_31d40f3e9361d1e15b2e0b5f",
+      "financial_32568fe0c63bc51e9b4f6162",
+      "financial_335981a532493da5990c7d55",
+      "financial_69b3484ae63fc1bed0610e3d",
+      "financial_6d84674fabd18d1a333a808e",
+      "financial_96b37609466bfa6f864e0f65",
+      "financial_bf5a9271bb19b1469ae796e4",
+      "financial_d9252acffe47cae3084be277",
+      "financial_e67ab26276752f9d95730505"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_339",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_078f355ed37931ecc6c939f1",
+      "financial_08259312b930daee46f33c5c",
+      "financial_0891fb7b109822510f57b772",
+      "financial_2eec5ed6fbc9d76528324cb2",
+      "financial_4f1a9ea6feb396eac36f76cc",
+      "financial_5c5a2c51cbc6dac5f68e797a",
+      "financial_743bbcb08c90b648d920f3f0",
+      "financial_9cc77018c1bd29404a799398",
+      "financial_c716159dc5d5196ba610c206",
+      "financial_e638210ea89815ff3d7e7402"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_340",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_018d206339a675b0a12fdbbc",
+      "financial_1d88a9e8f21e1f7e7d44b89f",
+      "financial_3a474091928dd1a4e9c0c091",
+      "financial_6a871d89393b57b7127fe7cf",
+      "financial_6dc8efe7f645cdf597398ffd",
+      "financial_74383926d1889a663e677005",
+      "financial_b7f334ccc262e1dc7d5db74c",
+      "financial_bdbe5378bc43120f93874178",
+      "financial_d557d76c07d6c915addc3c1d",
+      "financial_dc4c02325b78806c663c18ae"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_341",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_205c8a518e3582530877369a",
+      "financial_2555f9ff11517c187e548358",
+      "financial_369237234d8ba1544e652fb3",
+      "financial_552a2d054b4ff297b9ae4315",
+      "financial_5bbc3bf41faff179b7dc1c4c",
+      "financial_6c2dc5d366b19be8e8dbd560",
+      "financial_87826e8bc5977b8af41e39b0",
+      "financial_93719bd2d708ae4dcee73f57",
+      "financial_b2e4c536c37d00123ccd7e58",
+      "financial_b495b9ef9b707cf2d14fe2df"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_342",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0f1194d82ef60506f1b33d95",
+      "financial_23a8a58aaf2c86688c078279",
+      "financial_33e1f3ff1f9bcbe0038a73ac",
+      "financial_51b350ea7c576424a9a3630b",
+      "financial_5fcc2b0b4a30a153a2fc9a55",
+      "financial_64bd5157b14a2e24d1299857",
+      "financial_6afc560172c932d46c74b5e2",
+      "financial_89eca3f3a7dd8df7e547b631",
+      "financial_b1f9c8edc7b059567eeea0ab",
+      "financial_b9a3a4441e41931227828afe"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_345",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0e3b0360acb8595c9360933a",
+      "financial_12442022cbd97c81c370d24a",
+      "financial_2c3614c330d7c00f7b411c5f",
+      "financial_4d7d6524e757f04b8e5d5cc5",
+      "financial_59b144ad11f559b60cbadc3a",
+      "financial_629d096debf466339469c52f",
+      "financial_640287d7f63ae7d4162f9626",
+      "financial_715b2db1d0771e6189818f84",
+      "financial_cff56275a561ac5f95d8cff8",
+      "financial_d5ef96517790c03872582d1d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_347",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_33843a0ea02c7bad891ec423",
+      "financial_5513fb69c5e784cc801a800c",
+      "financial_69136e8c6d10424560b8866a",
+      "financial_7c0fd853d1c37fde2b976e60",
+      "financial_a153542868e8b75aec30286d",
+      "financial_a1a76e5fae404fbae7720aea",
+      "financial_b306d9b10a54f845096e35fd",
+      "financial_b87511b13e8b99cc2694f639",
+      "financial_daa1e95a15636acfaf395d0a",
+      "financial_e6e82a037c8eb1095c51c473"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_348",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_046aeddac647835e21da2caa",
+      "financial_1a5ec9ce16bd96c41bb762c5",
+      "financial_20e92e77350cbb418bc76644",
+      "financial_329918950c1f6d8e18c4f311",
+      "financial_a8a79dc8dd6423f2a5546e52",
+      "financial_bc95b738076c34eea5838c76",
+      "financial_dc30e5d6509d53c29f63876e",
+      "financial_df90df695002b974c21d10e0",
+      "financial_ee45f228a858fb7c394e1a7f",
+      "financial_f8c52ecd1884b68f1547250b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_350",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0d1fd868c8484c34c802fbfd",
+      "financial_189bd719ba6334567fb58c80",
+      "financial_1b00a2ea14340bd8c47e8d3c",
+      "financial_25c4b2612a74cf909b770be3",
+      "financial_64792cdc0ee70dc13db20362",
+      "financial_795659f1dc5cef483b6b08b8",
+      "financial_8215643f6ec779609b2918cf",
+      "financial_bd05a33e578ea90cef47e389",
+      "financial_e3da3a93a353259a13836b53",
+      "financial_fb4c77348b2898d9945a6570"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_351",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0b1d0dd3095ba14cac1699b2",
+      "financial_5b6747ba5bb74c3fb50234a0",
+      "financial_5cecc5406e0600f1a63ff03e",
+      "financial_a506d7c9a43e2b7a82859e23",
+      "financial_a6cb729784937ea4ec468a80",
+      "financial_a777a97b18d3a85333e4d061",
+      "financial_b7d8d56253067f830ec252d6",
+      "financial_cceded7aae4fe11aea5b3b4b",
+      "financial_d08cb1c18ba77ca912b7e417",
+      "financial_d3e86525b2c42dffc83ba60d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_352",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_465a3fa89d16675afc9d25f6",
+      "financial_4843217128d7b4c97203d920",
+      "financial_4d36a804f4aba56c0079f4e2",
+      "financial_62248f33cba6987ed1524715",
+      "financial_759373411bb96a84860d184c",
+      "financial_923db0281b206fb43192f14f",
+      "financial_9bd8e7542845504eff2cba6f",
+      "financial_b667f1539113e9b6eb5ca23b",
+      "financial_c843adf3677034ac72c1e314",
+      "financial_d70764c2ccb8ccf92986bb96"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_354",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1e92351a09bd51a6f42e6895",
+      "financial_2cd92e0a92e7cff43c4187fc",
+      "financial_3be8547353665595e9225988",
+      "financial_47325009423733db4b105821",
+      "financial_5db3404b2a6b34b777c42ad9",
+      "financial_65a045c29d164f28e0fdab6b",
+      "financial_68abc8d7a6483eccf9f08ff5",
+      "financial_6b97250198b6238e01100a53",
+      "financial_8703a00dc1b4acf33b39e671",
+      "financial_e0b06b28a5c7a912946815b1"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_355",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0e04f8121cddf5ab220ede79",
+      "financial_19b765cb680923324b2d71ff",
+      "financial_47528c8a111423d4c02b1fbd",
+      "financial_58782d83e773cbb207c3b4bd",
+      "financial_6eef2e314d68bbcbfa9342ca",
+      "financial_7976c1f9542b81e94d6f9ea0",
+      "financial_9eec02350faefb7c8cc510fd",
+      "financial_d2e6ebb6c45449005ddc4f51",
+      "financial_d3b58af7d8654ed4e667bfeb",
+      "financial_d5f5db2c1e797fe31084fde7"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_356",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_119599c4d51b36ae7a1276ac",
+      "financial_369d6e03fd58199dd4ee3080",
+      "financial_7a954edd108e903603988863",
+      "financial_ba984e755d00331b78fd2373",
+      "financial_cd6daf9318c2ef7e9b9cc02d",
+      "financial_d3772ee3eea86255a79ced63",
+      "financial_da1eeb447d6752dfbae434e2",
+      "financial_dadea785da45ff640dddd0e5",
+      "financial_e1c76c52a53ec9ac74308fae",
+      "financial_fd280f3286d3c07838e4dfd9"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_357",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0900768803e212821347cc3b",
+      "financial_2545e80ba026b1ba4ab5fdc7",
+      "financial_68dc5046ed9d691ea9efc621",
+      "financial_825d5916789cfeec3b8151d8",
+      "financial_8c4431d593ea7e09df7edab5",
+      "financial_8d5b78d1c837152ce557900c",
+      "financial_a4fa8e0948fc17522ede5eda",
+      "financial_eae307e7c6e9312551ad1491",
+      "financial_ec551fd9d944313fd89760cb",
+      "financial_f57ddcf15d1af37d334290d2"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_358",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0a311b1529a1902ed2a5d1b1",
+      "financial_1c728bc9d834e3db1c00585d",
+      "financial_4020afc62b30d5f46f353055",
+      "financial_4cd35b818322cfd9bbbd9a4e",
+      "financial_4f7cec1e3da76172a0f3f3d2",
+      "financial_793cede29a4c7837cfa3aa4f",
+      "financial_7b68f85a0de1f05b08a4dd74",
+      "financial_88ea0abcee806ab0ff56c528",
+      "financial_8b09540d7fc06714e4be1c87",
+      "financial_c824a932d9dd55544f296a70"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_360",
+    "parent_split": "train",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_25f64ebe1a610a02be105bd9",
+      "financial_38ea903f8ec2788c737e35de",
+      "financial_4fff5d08d739ea83380da1ad",
+      "financial_902bd5eedb611224c5a6673d",
+      "financial_9c446e4ee793c804cd66ec4a",
+      "financial_a9ce58374f9b172c61d5bcf8",
+      "financial_b7685f6886daa7bea9e71737",
+      "financial_c14dbbc89acd4c2ef62bd870",
+      "financial_c175ef2c0a03b8de3264f6b6",
+      "financial_d6a590223e2f8730b832c4fd"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_007",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_016",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_025",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_033",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_042",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_046",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_052",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_056",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_061",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_062",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_064",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_067",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_069",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_076",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_080",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_081",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_083",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_087",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_098",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_109",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_111",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_115",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_119",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_123",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_126",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_129",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_132",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_135",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_139",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_144",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_156",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_160",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_163",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_164",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_166",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_168",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_172",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_180",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_183",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_197",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_199",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_052077bff0ca713667f8652a",
+      "financial_1196a456f70d2c97f55857e4",
+      "financial_152ce53a4ddf41fade33ed5e",
+      "financial_545c74e48a57602ea441f4e7",
+      "financial_61e2f4effe8ef518071cf6df",
+      "financial_63b495cc3c333811bdf6017f",
+      "financial_7168351dbcaff3b649726b28",
+      "financial_b85316a3dba304c040be2bb2",
+      "financial_bdd9a025f5eda858f5defc60",
+      "financial_c91eeb42ec5420389fc33505"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_042e90675df58321288836b9",
+      "financial_1deb8239fa533b7f7aa63c0e",
+      "financial_3081caa7503c8530c72a0d17",
+      "financial_605b4e0df2459e4846765f8f",
+      "financial_66538170755f26bb1bacb66a",
+      "financial_6b5533ce5d058d7c4f9088b2",
+      "financial_8729b871ee97c152452e622b",
+      "financial_cfd5a713cd83bd9da41d7a18",
+      "financial_e1bb3c37dd5ed15b3aed99b1",
+      "financial_f24239cc579bcf5e6b34470b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1c3d6c8ffb53309bc3dc3fa1",
+      "financial_372b7a25d56b3a2841ef6e35",
+      "financial_3838ebe6e04e12e85c5c62f4",
+      "financial_6989a22be4abd5578f1e4199",
+      "financial_997f31b105c6fc7c43b2d299",
+      "financial_a440056d87b4a1ce13959967",
+      "financial_a5284108bb1003b03ee0683f",
+      "financial_a794eddb19d16ef65933b72d",
+      "financial_bfb210024d95a10d8867ffde",
+      "financial_f1c07a5d306f78a11fcdde84"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0bd08dcd1bc18a937c2d7312",
+      "financial_450ef0029de3b0c684127420",
+      "financial_458c0c81815c37299d1751c8",
+      "financial_48010f5c6346511304a06a49",
+      "financial_52bd60b3a21e5db004c60f41",
+      "financial_7cdbbc38437eb9dea099a9fc",
+      "financial_921f5e0c5221c0f6d302a324",
+      "financial_9c01484a2565d1272a35e672",
+      "financial_b367c88deee7b208e19aa40e",
+      "financial_e046c9541ee136a7c66d0dbf"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_057a0389507d3f654cfbdfeb",
+      "financial_0df3f354f0640a54117b0900",
+      "financial_2b2666fd67b443c0656617ef",
+      "financial_5b4e776833f306caaf4aca1a",
+      "financial_a7910866704d7218a821354d",
+      "financial_b08eb225e7645d0fffc9d9af",
+      "financial_cb1fef7ef52b9361f661ac70",
+      "financial_cb7c56bc6633166a187f0b3c",
+      "financial_d46284fdbd6e1f1db5ddc7b6",
+      "financial_dce0e95cf70978d7743e68c3"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_03ead7cad873a73abfaf7918",
+      "financial_0dbe200cd9731bbdc0f833d9",
+      "financial_4341e04ce9113893556c9680",
+      "financial_56ba2437cbbb4320889cb293",
+      "financial_5fddebf97b7116cf7370ab55",
+      "financial_9110eaef9fed8379e46d1a5f",
+      "financial_adfe86afce3e8db38dd03429",
+      "financial_deef7b399f4409813ca52c3e",
+      "financial_ecc102677f9a7aa9b07b24ec",
+      "financial_fba454b5aac6369705418990"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_11a126411a5a17e02735201a",
+      "financial_13c8c61a3881dbbfd6f46b80",
+      "financial_5d3b5a2e13548e15c1c980a3",
+      "financial_5dafa6228b9c4a70f35fb833",
+      "financial_6c51df4b012fd34904ba6f63",
+      "financial_8314abcd100e59a3b64ec24e",
+      "financial_aaa4be5dfbde9996edfcd603",
+      "financial_bf1d53489e4fd3efd86a41f0",
+      "financial_cd34f7e08eb460f2be5a0a6d",
+      "financial_d583a06d4ff718e87b115558"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_21e9ede7791ac1631f55ff5d",
+      "financial_24a24a8ca4c630d6e8e673b8",
+      "financial_860b5aeb1df518f16647c4d0",
+      "financial_8989684ac7a2e175b9d31e45",
+      "financial_918c5aaff548df8760bf36fd",
+      "financial_9461b14fd1ea5b3957acd9b7",
+      "financial_a43a4ccf9912d429009677f5",
+      "financial_d46b31bac31fb9d159becda0",
+      "financial_dafd899999d795f4fd2220ef",
+      "financial_f0633886a62d5b894a2f73a3"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_3a9a51d14d6370fed29521fb",
+      "financial_62cb779cacd2a6bb4731fe2f",
+      "financial_8190fe13f0a2bd6d2845fb95",
+      "financial_8c8a7e0276faad083c595cf4",
+      "financial_9f0278a3abd6dd058e770633",
+      "financial_a965df8958bc30ab07c7a9a0",
+      "financial_be860e8a2fa110d0e46b745a",
+      "financial_d2c9191d5863005839909eda",
+      "financial_d64531e0aa55d06f2b7b2935",
+      "financial_f31d0653e51b31572552ead6"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_22367e264dbcb4a0f3e2d4b4",
+      "financial_355095a44c3cbbeb9218f25d",
+      "financial_3a4bfc6acaed8289fbe42fbd",
+      "financial_3b467ae79451ca5be9c3c8f7",
+      "financial_3b89ab3ac9d70b3fd5ff6f3d",
+      "financial_5f1bb110f590209ac5767c14",
+      "financial_7e52e0c503da5187d9ac0570",
+      "financial_85ae99664a3b0f8d2f2ef572",
+      "financial_885b525b577c0b513764320a",
+      "financial_b37f33cf62e9033d7b9426ec"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0f2c0f7c505b7559fbcf32d8",
+      "financial_78b8029c45b5ddee3d2db26d",
+      "financial_8f161248609d6457e5cd2613",
+      "financial_98f3665ebe9013990e3e69ae",
+      "financial_99c1fff35a65519291a090bf",
+      "financial_9cc2045bd18bee53b7f123f0",
+      "financial_a0c5115e240d7f037bb55d6b",
+      "financial_e5bbfa7f930cd614f6145993",
+      "financial_f53ba11a07717abe2ac53826",
+      "financial_fb5e057b0941405adb170cd5"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0d2b73854653acae55d73f62",
+      "financial_0feb14d89324f595d4cfdc6d",
+      "financial_33fedd8b74e4bead5245632e",
+      "financial_74259ac4b9ebfcb9b47f3347",
+      "financial_8dec8b89c988ef0d3d06652c",
+      "financial_9c96ce53ed76a422c86ffe3f",
+      "financial_ce94d5783e9d75abf41491f2",
+      "financial_d7fa8cf8883f60f4418e3260",
+      "financial_e73a6e4e68f51c9ebb7d3da6",
+      "financial_f5d516e067867dc67f69816a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_20316e34b90fcab9a1712c2f",
+      "financial_42267c39d8d8363b952cee9c",
+      "financial_5043d9795b8c599b699facd0",
+      "financial_9252f39e4d6cca471737b3bb",
+      "financial_96d5065f1bbfdee7c941be47",
+      "financial_9e1ac6a720b91f68c4fe3eec",
+      "financial_c4deee4bc5e8b229da4dc774",
+      "financial_fb149f02af05099ce9e2611b",
+      "financial_fccf3658187785a69f45c402",
+      "financial_fd40019f2c250a8091b33816"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_252",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_187a3445efa4a3b7baf5aa94",
+      "financial_27c2d0b98075f7279bf1690a",
+      "financial_6bb304145f872f997b166f6a",
+      "financial_7bf4b8cf0d033f611cad949f",
+      "financial_9923579a2bd0fd9b9e71588e",
+      "financial_b323bce0936a8d69420b85ef",
+      "financial_beb0a46ce39a9fb607e05b20",
+      "financial_e36d3f2ed95b042427528949",
+      "financial_ed889255719ff25785b6a717",
+      "financial_f4ca03444bc44e7ce682d38a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_255",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_08dc49aca6ba9b80f580732a",
+      "financial_1b62273cef60efb2ce79fc4f",
+      "financial_6e0f4e43ff40170c6d9862eb",
+      "financial_6f215fda487281f37603962a",
+      "financial_8b809f06ae9ddd8bb6323986",
+      "financial_976437f558574adf53c16282",
+      "financial_98ff2f1915e15b76da389e4f",
+      "financial_9c249b69b495419460625175",
+      "financial_d82ac205b25a2e9a7bfde7a5",
+      "financial_fd8bed225d9c0ea93a703832"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_262",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2f3d680d37751bc4c601995e",
+      "financial_3febf66408a99a9a747f9e2e",
+      "financial_720ab71445c53121b188c270",
+      "financial_957253084b1919024dfd497d",
+      "financial_a124a80471adf6fb1fbefef1",
+      "financial_b4a6df758c4890122565d04d",
+      "financial_d41bce6a37fc985f97e414d9",
+      "financial_dba7d5b29efdb03135a4eee7",
+      "financial_e577f89bdff8c1705fd58b84",
+      "financial_e9a524f664abaaa265149faf"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_269",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1c4f7107e54fbf793c38470f",
+      "financial_25362b97eeab8c31cd4db704",
+      "financial_3d6b3134216923c82d275a63",
+      "financial_5698ede6d85d612e63bb3da3",
+      "financial_72702f40ef030ae7060fee87",
+      "financial_7762166eea40f2f71aaddf03",
+      "financial_7e1be338f5558baaaa13d544",
+      "financial_ad1692842c677cb50dc3f850",
+      "financial_b0d891d2b74dd21c1e7a83d0",
+      "financial_c5c0c03a398107cad2e82cb3"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_276",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0e69aa2e0a82add7e49deab5",
+      "financial_4f54493edaba2765494e08fb",
+      "financial_565dd2940dcbf71057864fcf",
+      "financial_57b07fddba9b6b5e9dddf94e",
+      "financial_79fb2a1a6943d2359285012d",
+      "financial_91e0d63280ea802e70d37161",
+      "financial_95204594f49efdbedbe2cc9e",
+      "financial_a55eaac1a05f7b19fbfa4e3f",
+      "financial_a5fe583e07f1e2dc4de1dcdd",
+      "financial_d57eec7b8d05a713e9edfbf8"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_277",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_2c8c51430b24870eac70cf96",
+      "financial_7e546996c3dd549938fbebf6",
+      "financial_8d8f0de72a8e54d6e83d0c83",
+      "financial_9565e27c08b4d2b7f588acc6",
+      "financial_a90040ee1b8f2c6fda3cb7eb",
+      "financial_ade51b8d165084078b916ad4",
+      "financial_eaa21956110916deaf4b954a",
+      "financial_f56a60e136934ff16b058b79",
+      "financial_f654177e8ff574eed20b76b1",
+      "financial_fa7c35b609a4a8caf270bb15"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_278",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_098a9e3fb2b10c0384880726",
+      "financial_101f6b3a74a2cbda19f62364",
+      "financial_12b162a12439f0c4a1efb5a6",
+      "financial_2fe26544f7b3effd6880e0dd",
+      "financial_38b4e00d18798fabe5b9df2e",
+      "financial_65d8ee0ed16b2483b091652f",
+      "financial_9a900d6cbbb46e0d85710b7b",
+      "financial_a37de0ad48a0f81d565d9721",
+      "financial_cdcda355842188d1f36daeb5",
+      "financial_e514c4f4c66709955937516e"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_294",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0506ced476c8b7439d4e517f",
+      "financial_0f0dc6d8702338bd752d6fa5",
+      "financial_27439fe1fc017f93c4d952d1",
+      "financial_4f98fac59e8b5b379e0db120",
+      "financial_689a5b3de97621c922fa2583",
+      "financial_828e42406df53fb5f8adb137",
+      "financial_8710e27848d3c3f44d67ab6e",
+      "financial_a6b8bd058779f00f80876a7b",
+      "financial_d50fd28e5b07e5eaa3a93b57",
+      "financial_deaa14bfeeaf7668b5c1fcc2"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_303",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_342dcd1a51ab4f08b2d1e4a1",
+      "financial_4bd2b01f0913eafcd4cdc8fd",
+      "financial_59bafd09633a24eae3139634",
+      "financial_66c909d35730655c6f852e66",
+      "financial_907f63149a35d7908c8ec337",
+      "financial_a198f51f8da72b17f2e29993",
+      "financial_ae1cb7e9df5a6360e64ed6f6",
+      "financial_cd23911234f5c3c21176eb0c",
+      "financial_dcbf359b4803428e4969d696",
+      "financial_f41de6accd2927954b636212"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_313",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_301c06b12c05169756a16fc9",
+      "financial_32eaebc2c421f608376fbedb",
+      "financial_3a59c2e71eedfd3d2206d185",
+      "financial_901131d1148e2423f6488fd2",
+      "financial_93e4790dcb973c4f929f08d0",
+      "financial_9c0cd1176b06a84c6e5612e8",
+      "financial_ae7ed9712c36387bc0c91bbf",
+      "financial_c3452b31e708e9bd2471a138",
+      "financial_d31062157ecdf2a9b6ab0e17",
+      "financial_e65d0229e12d3650593deab0"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_315",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1410161cdccaf1d5f99c527f",
+      "financial_18bda0dc8232df31089f8846",
+      "financial_18cc62ffb0ad1855707fdea4",
+      "financial_45b67c25f5919e92be0a820f",
+      "financial_82a13b91d66c40fc8673a0df",
+      "financial_97d51ec9c083fc303a508816",
+      "financial_a979bc182662a5ff8090d0a5",
+      "financial_df2c0f2464226dc1684f459e",
+      "financial_ebe1428b7f185063d1f882df",
+      "financial_f582ab2d20d59264ffaf08ae"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_317",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_3505ed45fef443961e34de53",
+      "financial_48041256e887201e237b3102",
+      "financial_5c2bfc62275cdda6d81d8d81",
+      "financial_62f7ba7ff0451b3224ec1206",
+      "financial_79d478da9b4b9df870498c67",
+      "financial_9adfd2272a38df67b0fa1e86",
+      "financial_b18d409c0d02a6281a9394c1",
+      "financial_ba9ad3960fcd3ae03a77fd8f",
+      "financial_baede96237730321c7240ba3",
+      "financial_ff01d876022febe780df2222"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_320",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_1afc80144ed5c839efa02a31",
+      "financial_20ea4b0b1acc8e69f7081127",
+      "financial_45963e1716c3e5071375509c",
+      "financial_481152e0dbb189a7762ce6d1",
+      "financial_64232ef1f2acd6cbbc2566e9",
+      "financial_703797225041d22df2f54859",
+      "financial_71b45efe0ac67fcbed8b0365",
+      "financial_82da2df73876a95d9b855567",
+      "financial_a1ec1a6bfbda27de1fe0b708",
+      "financial_dd8c6b9e55061dac46442fe4"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_322",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_3bb1a9a257235627e418e31c",
+      "financial_53cdc986595f8abd8985f31f",
+      "financial_5eb8cd30523b1f4cee57b845",
+      "financial_6189cbd4c640a46df34caf29",
+      "financial_7550d5bb744cf3cf26db7029",
+      "financial_7b5c12170265fddfa5bbc8c5",
+      "financial_869489e9f516b4a128afdc58",
+      "financial_8a6b271dc034c84b3e885014",
+      "financial_aeeead1e68cd7574e11113db",
+      "financial_b3db4f49dc055a50d32dd82a"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_325",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_27edfd5c971a7f0663474e8a",
+      "financial_72cb1d021aec720f3f310379",
+      "financial_7a7bc52a45cef3d94f5d4724",
+      "financial_7e337001bacc1d136a4a124a",
+      "financial_8206e67650cd9bb9fc2b0713",
+      "financial_9761ccbd9a655d6f7e35fd38",
+      "financial_b951b9507a34627afe3f5e70",
+      "financial_cc13d25758dc5fc686330968",
+      "financial_d1036f825cfc8df3b2277e80",
+      "financial_e715f21cfce0558f0cf0c637"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_327",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0183b85523aa68794d5212fd",
+      "financial_0f4dd151f7d4b6c12379f969",
+      "financial_37e445678107870419f2ac22",
+      "financial_45fa21f23684c19eddaefbbc",
+      "financial_67259f54f401c49c5fe50f71",
+      "financial_ac35dc6d7c63b6c012a60232",
+      "financial_c0abb97590cfac6a4969be5b",
+      "financial_c4cb06f6aa7fdbc5f0051c92",
+      "financial_d056dcd084382f41147152d8",
+      "financial_d3d4be2c009c487b7905343b"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_338",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0c18a1982fba4fedfc2302ce",
+      "financial_1146291d443539033e4c2af7",
+      "financial_561349954476d11406eadcaf",
+      "financial_6e4d423720ab4ad8baf0524c",
+      "financial_6e5644aa4dcf1dcd3b69de80",
+      "financial_78042321495e18935de677eb",
+      "financial_7f1da2772a136023fff2ea13",
+      "financial_8f79b3499551b4e93cd6c9cb",
+      "financial_c6b4aac0d8cd6b0e28e2a6d7",
+      "financial_c9a1f571a08132eecabf700d"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_359",
+    "parent_split": "validation",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_0b7fce3a5026788cda6585bc",
+      "financial_1baf4ad0c16bd7feb152ac38",
+      "financial_4049203ae89e87c78f2d1055",
+      "financial_451616de9e2d367e205e06a9",
+      "financial_55bac01515c2785e1f609eff",
+      "financial_7554cd76881b2a830c278805",
+      "financial_9373a23a6ee8dce2f2b5147d",
+      "financial_a377db4ef3ff803519c80a9e",
+      "financial_eb0b67b433ef27ba5b0f5f7c",
+      "financial_eb6b48fcc0316a001fc1dfd5"
+    ],
+    "status": "supported"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_002",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_004",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_005",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_011",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_014",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_017",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_023",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_024",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_026",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_027",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_035",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_036",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_041",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_047",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_048",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_051",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_053",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_054",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_060",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_063",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_071",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_074",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_085",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_093",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_094",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_102",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_105",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_110",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_112",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_142",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_147",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_167",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_171",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_174",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_176",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_179",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_182",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_192",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_193",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_195",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_e24c345b5712b139b7623505",
+      "financial_futuretest_aa55d1e6ada70f0d18d64308",
+      "financial_futuretest_766fdd8ee7109647690e1542",
+      "financial_futuretest_8ec2018528667598c622a2f8",
+      "financial_futuretest_678fa3483133a728e4bfd2b7",
+      "financial_futuretest_6b42bb9de6d0b22b1a11adae",
+      "financial_futuretest_1dce874f9d5dbbbe8559bb0a",
+      "financial_futuretest_4173e85bc8566539d76ff5f5",
+      "financial_futuretest_5f9a3ccdbe152396024a7797",
+      "financial_futuretest_214c99b17c2665ca66b5061b"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_7326d4715762c3838e489a87",
+      "financial_futuretest_8c4395fd1ee89d5910cefe97",
+      "financial_futuretest_4bf41e3a930745d1d707f9e2",
+      "financial_futuretest_135745387f21e20306029593",
+      "financial_futuretest_c8401548af5068c04426d7a8",
+      "financial_futuretest_5aa4ddbbc3b4e4685cefe837",
+      "financial_futuretest_b53d7fef6a7a008290b5be47",
+      "financial_futuretest_cc9cbcc612dedf030961d983",
+      "financial_futuretest_0361a8229bfd1e2618ca7e71",
+      "financial_futuretest_1bbde21ff91abdd760f2d0d4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_4e97a15783f7c7be85530e29",
+      "financial_futuretest_daf50f9717d774fe034b34ae",
+      "financial_futuretest_43a645733f0737288b5c3369",
+      "financial_futuretest_5af72827139dfe68c19946a7",
+      "financial_futuretest_d14bb699cc4e5e7e3010b3b5",
+      "financial_futuretest_25e7508e4ee5d739a8526cf0",
+      "financial_futuretest_d7890c59e893e710e880cad8",
+      "financial_futuretest_1aba13b474b54d7aaa9e3253",
+      "financial_futuretest_75a0d2bb2d23e32171f19db2",
+      "financial_futuretest_41b0c8c81a63af8058d3a28d"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_1de787fdcbeaa07421b931f5",
+      "financial_futuretest_09a7d6db995d6e5c2b556965",
+      "financial_futuretest_9b4eac55b33b924419fb7bf4",
+      "financial_futuretest_e2a38a34bb2a48698f7136f6",
+      "financial_futuretest_6e9036500c25221ee16fbd0a",
+      "financial_futuretest_3a92ca31d904a370420d59a3",
+      "financial_futuretest_077f9b1e6818f1d7a730cda2",
+      "financial_futuretest_dd8098ce72206538a98200ce",
+      "financial_futuretest_99899f913dd93131062eeffe",
+      "financial_futuretest_149f9b8cb65cb9ff820f5fcf"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_f0da37b94598ca34301caf46",
+      "financial_futuretest_f3108f0c9d4401f4d4547526",
+      "financial_futuretest_4555999a6203253b9f0c2df8",
+      "financial_futuretest_0dc39c675e4348e94411cc03",
+      "financial_futuretest_c958663a774cd726ad408f61",
+      "financial_futuretest_6a9931790701c1f1a17724d0",
+      "financial_futuretest_214bc2fe3ac67ee51a9015d3",
+      "financial_futuretest_36e2cc285109376e39a5cad1",
+      "financial_futuretest_8178a09fdfa3df63aa0d3220",
+      "financial_futuretest_083043dbd06b12c9695e9b28"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_29b22599607dfcc6319e1ba2",
+      "financial_futuretest_2e42ca836943e27189172508",
+      "financial_futuretest_8d531cd9ad36c6cb080787ff",
+      "financial_futuretest_be4e100b29c6d2d841047d32",
+      "financial_futuretest_da414c2f73851bba9b7f3245",
+      "financial_futuretest_689bb75dbeba6746b2d5b324",
+      "financial_futuretest_dd8250a05bdb6fe63fd8729b",
+      "financial_futuretest_a341ff29697b74decbe7678a",
+      "financial_futuretest_b6fa92da10201ab289f15fd0",
+      "financial_futuretest_3ee94c7ec1f3406a13af85bb"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_df28c272fb980334d149d290",
+      "financial_futuretest_0cb5a8ba28a4037641932680",
+      "financial_futuretest_4c879e63f8acb3759f934d4f",
+      "financial_futuretest_e5b09455383c4e9db0870bb3",
+      "financial_futuretest_1ba8eb7a589bc718e370ae5c",
+      "financial_futuretest_83c9459779b22b4d0b8577c4",
+      "financial_futuretest_2c314adebbc1cb1448dbdeef",
+      "financial_futuretest_5bc1aff4178cb6a71c4d845b",
+      "financial_futuretest_fd0d665ec43cca3bc93fa8b1",
+      "financial_futuretest_edec7b1f1bd4b451044ed3a5"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_68608fddfd55717c6f9bae41",
+      "financial_futuretest_80690c5430b790cac7d72c04",
+      "financial_futuretest_232ddaee58e9817596222539",
+      "financial_futuretest_5a38171b940fe848338c901d",
+      "financial_futuretest_f199f4ee94bd04c39fddd1a8",
+      "financial_futuretest_51888476028634c876b2a4b5",
+      "financial_futuretest_88120e349b7524770e10ceb2",
+      "financial_futuretest_68e83e6cfa5d2e10bcc74c6f",
+      "financial_futuretest_4a847781fb35ac6334f20e9e",
+      "financial_futuretest_f7c49520cfc979b277bac405"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_a7072465e2e8dfbb957b61e6",
+      "financial_futuretest_8c6b9f0db77bbba323980df7",
+      "financial_futuretest_a9b175ddf0eadbb645ba5310",
+      "financial_futuretest_480e8e460557559c07158d06",
+      "financial_futuretest_7f7fa3f009705c61d5b45a41",
+      "financial_futuretest_8c0b6f4157459e7f5a398b4e",
+      "financial_futuretest_13ff8f51f8d16c2bd7b94adb",
+      "financial_futuretest_539a81ca558cee2a49800e2c",
+      "financial_futuretest_98a12f35ff01b375ad188fbd",
+      "financial_futuretest_1aa4d50b748092bb37dfe6fa"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_bc46e7fb90ed37823a89d94e",
+      "financial_futuretest_48278e15e9dbf8e298cb603a",
+      "financial_futuretest_dc1fd1164a6e810103a28be1",
+      "financial_futuretest_876ffb7077274c4d1452cf08",
+      "financial_futuretest_aa793c448810da035e715dae",
+      "financial_futuretest_2c724898de3f5c99cb6912f9",
+      "financial_futuretest_4bab08719dda3b230e5b5219",
+      "financial_futuretest_4488a3fd8bb6df127e26847a",
+      "financial_futuretest_fc748d25dc88984c8a025e51",
+      "financial_futuretest_c8b0520c88cace9dd957f384"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_15add6ed9af3ef903674bc7f",
+      "financial_futuretest_00fc336c0dde19e9aa2afcc5",
+      "financial_futuretest_5a9ee04b4cdae3b770348c8c",
+      "financial_futuretest_5f59d10fad6256f6a1adfdee",
+      "financial_futuretest_5533e46460a7c3499292f891",
+      "financial_futuretest_563825005f735e4934c40480",
+      "financial_futuretest_587c359642be6b37d37eefed",
+      "financial_futuretest_5c2b337ddfb03c3d2a794963",
+      "financial_futuretest_4b5d63296cf25cdd69a47ab5",
+      "financial_futuretest_f0cb682a84de5116df15ab58"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_1616d234e0251ad0d8ff56e2",
+      "financial_futuretest_d557ad412fd2af3c9f400a40",
+      "financial_futuretest_41e92ff3203c5457b3c29aee",
+      "financial_futuretest_b352767aa025ce780474fc80",
+      "financial_futuretest_21e24c1f7c07fb6b72fa83e9",
+      "financial_futuretest_8bd73342e95d8e0895937a34",
+      "financial_futuretest_33e1fe50c852443e223503eb",
+      "financial_futuretest_5230e1cb3a5e34decddb8a0c",
+      "financial_futuretest_5cdb9b698a2770e3767732ec",
+      "financial_futuretest_9124fdb93ebc78d96725c599"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_254",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_8e477bb1636d2987808a6343",
+      "financial_futuretest_026e916c6c01783c215e510b",
+      "financial_futuretest_c0c36072d935b51d5c57fe80",
+      "financial_futuretest_49fe90ddb57b940c0c2a886f",
+      "financial_futuretest_bcec3ce43c4e5d6fe173b703",
+      "financial_futuretest_5fc0297aac9118ac7bf141a7",
+      "financial_futuretest_f3b9eef7fc3cf32547fd80b0",
+      "financial_futuretest_e9806c21c2e51b47075ef66b",
+      "financial_futuretest_2eb3bb5efef16f579345781f",
+      "financial_futuretest_e46fdfcd32a484a05a5bdd93"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_257",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_ba2f8b6d345d99213d2f9af7",
+      "financial_futuretest_7e4770c4af3a53da05aa9c36",
+      "financial_futuretest_c84b35a839e09e75d39ca38d",
+      "financial_futuretest_7e84109f82bd26e93671e693",
+      "financial_futuretest_3c8237f354fcdc62e395c0e9",
+      "financial_futuretest_ec14c42229a619b2b201bcc9",
+      "financial_futuretest_a9decc449472f8d1cd4a0b0d",
+      "financial_futuretest_aec9781bb751594ab9b83eb2",
+      "financial_futuretest_f87a23541ba3e0c0d1ca3be1",
+      "financial_futuretest_ce638a5e76be831787c4c805"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_259",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_31e81faf2dab57a5eeac13b1",
+      "financial_futuretest_d409fc4c6ce12bab834f52fa",
+      "financial_futuretest_2d118c4caa0ce8f0b2a23b59",
+      "financial_futuretest_23ba6579f2560994960358b2",
+      "financial_futuretest_8b2068d6dd5970c351e684c9",
+      "financial_futuretest_62a9baba30e7659c39f82f18",
+      "financial_futuretest_b7cc8a3d903044b179ad88e6",
+      "financial_futuretest_1e9e29e296e728800edebd64",
+      "financial_futuretest_3fddf06de7bcc183f0dea53b",
+      "financial_futuretest_25b64adcf81335af6475dbbd"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_267",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_db3aa5689da745cd973a9792",
+      "financial_futuretest_bc9a0d561e8f2c6b6caca889",
+      "financial_futuretest_4af23f352c54246da78aa8cf",
+      "financial_futuretest_885f645db27a9c95dd42adb6",
+      "financial_futuretest_10eb0d3cc176663d82a4d3c3",
+      "financial_futuretest_348a4974f6fb637727f6fe65",
+      "financial_futuretest_5e1bf78b066c2c3cbaec1258",
+      "financial_futuretest_acac93b494e6f109ce4c5273",
+      "financial_futuretest_1fc5b476f08e57055f3ca37a",
+      "financial_futuretest_da8ac292d5204e96419c2678"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_268",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_20ff516f7deee111d3394d48",
+      "financial_futuretest_79787bf8ce00ba061df1e8c7",
+      "financial_futuretest_40a400583dfb27dc4eeed2b4",
+      "financial_futuretest_76bad48bc706317682e6d1de",
+      "financial_futuretest_d97abd74b30d240f6479fe74",
+      "financial_futuretest_f2efd38627bfcbfb4549943c",
+      "financial_futuretest_4c2e20fe0d28875d57271252",
+      "financial_futuretest_f6780aa08d32d66183560636",
+      "financial_futuretest_1b27f38b464cecb1e96306c3",
+      "financial_futuretest_1bf763aab295ce65ecf8f759"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_274",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_2270a439b1e7b2b8e4b89c0b",
+      "financial_futuretest_bc33f43ecdae1f2ce82bb223",
+      "financial_futuretest_5305138f00a9aef5e45a2a6e",
+      "financial_futuretest_4100885fbff988d55bffc853",
+      "financial_futuretest_ccc9bb393b27771802b0c938",
+      "financial_futuretest_9f61bf269a7a1b6595bb8eff",
+      "financial_futuretest_1aa402ecc8ac6a7cc6bbb345",
+      "financial_futuretest_df56e8eb1b33b405ed5d007d",
+      "financial_futuretest_637c21c0e2c60b9fa969c3e6",
+      "financial_futuretest_c57a0d72f0765fff0bd0913c"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_286",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_7d5a760a321c247e92b5d948",
+      "financial_futuretest_68c1ba8054d4f1134ee9a89f",
+      "financial_futuretest_873c43914a29968cebee751c",
+      "financial_futuretest_da4e811fb6b9fc64dfc97a1d",
+      "financial_futuretest_b1273f6f9aff8e4db5e3585e",
+      "financial_futuretest_41f0cdca4da78ab9fe672025",
+      "financial_futuretest_6748bc49bf22cf229e5a8af8",
+      "financial_futuretest_374d159416b19d5aa4b6819b",
+      "financial_futuretest_3a43476ff2cf91e188ee66bd",
+      "financial_futuretest_ef244a4e65e5dbe3957fcb27"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_291",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_4dcc11a54d023c1d9d77a88d",
+      "financial_futuretest_f5093cfcdb2ce79eeab043ef",
+      "financial_futuretest_6ef9928025f2266ed919c309",
+      "financial_futuretest_accd2b135d2fbd8b8168a723",
+      "financial_futuretest_d004d7784e30513b5ec95c66",
+      "financial_futuretest_2e3a54ffd86bb42bbe90a38e",
+      "financial_futuretest_0e208add4ba48854685158b6",
+      "financial_futuretest_df95f37f3a3c3f07cb5eecb0",
+      "financial_futuretest_050b72aa033e80cd4619cdb7",
+      "financial_futuretest_8ce56f6d6c246c9222466a4e"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_297",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_d409c442a29c8376bc5b184a",
+      "financial_futuretest_adbcbac2f3bd166d75fe1d5a",
+      "financial_futuretest_d64ca8982963f2344649b181",
+      "financial_futuretest_1d3fe703b5f05ceb615e0a8d",
+      "financial_futuretest_129f33825835b2796f12e5fc",
+      "financial_futuretest_19dcd1b80ec3b6fb373434aa",
+      "financial_futuretest_4754abce0326c64ab1818def",
+      "financial_futuretest_ccb8bf858b2b0d21b191dabd",
+      "financial_futuretest_bf916908eeb31ad569570c84",
+      "financial_futuretest_e398bc3985050a94b83438d1"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_309",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_57b1cd3037c7d7219bda4587",
+      "financial_futuretest_15c805e2ae492143aa273566",
+      "financial_futuretest_ae29a6fb140d1272c8ac4e4e",
+      "financial_futuretest_0242f003f654f447504af449",
+      "financial_futuretest_25e556ff47f65d6b4c4a6eb4",
+      "financial_futuretest_a9fcf1629ac19eacea29f3c5",
+      "financial_futuretest_8c0364e6dec0bf4ee23e9ec6",
+      "financial_futuretest_a4b993384067254c35a52d00",
+      "financial_futuretest_a79ba1697b83dbcab6e40df6",
+      "financial_futuretest_c7cf5ba2d1a62477869c7977"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_311",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_11950e27e89edfc590c7cd8a",
+      "financial_futuretest_bfb3909fb46907df889e6472",
+      "financial_futuretest_30e1cea8a86a9b6c0fb9c81d",
+      "financial_futuretest_b8efd74a39315cb7276ba7b6",
+      "financial_futuretest_79eba3735b6ef055f6417713",
+      "financial_futuretest_77cc25cbc3d2eca4c4d49200",
+      "financial_futuretest_b86be1f0a3ea1a3e42ef664f",
+      "financial_futuretest_8ad5325aa2b9528175752cc3",
+      "financial_futuretest_08a761cc1c112f13f9702c38",
+      "financial_futuretest_dc229f4e2461e117e742808b"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_314",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_4ab080a134851cbefeffb101",
+      "financial_futuretest_37373425686db6ef200dcbb5",
+      "financial_futuretest_ef5f7cce23b84d883f8c3f42",
+      "financial_futuretest_2b6b85875a320d080e668b38",
+      "financial_futuretest_b73d3d42cbd2fa8676d16312",
+      "financial_futuretest_4102c4b6d84fc7258cfee18c",
+      "financial_futuretest_05607b49d0ce739a9f00716d",
+      "financial_futuretest_013e57f4f4cbcf0c1d75bce3",
+      "financial_futuretest_23b92f49fac1fe9aa2c1a362",
+      "financial_futuretest_0d67cf2c109aa9ea69142ba4"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_326",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_7cf5ea50f57903f6bd78cd14",
+      "financial_futuretest_356bfc9e084de061fe1edbe7",
+      "financial_futuretest_d9c8e4484e51fbd4a800b9a3",
+      "financial_futuretest_0f61201c11e0f1144c1c5c85",
+      "financial_futuretest_e9ca776f1cc3d9710054da16",
+      "financial_futuretest_206b8176cac60f02d7d97cec",
+      "financial_futuretest_71d055b904db4e8abe4a2540",
+      "financial_futuretest_62f96b60c9b9ee7c591ea443",
+      "financial_futuretest_d66a591cc3c60c06e3bedb74",
+      "financial_futuretest_8bcf8f63bad1f2e1e2428477"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_330",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_2f5d6560cee0dfd5aa6ee6d7",
+      "financial_futuretest_3c185be294921d45c933c57a",
+      "financial_futuretest_d3993ed798b70deee5ca105c",
+      "financial_futuretest_552e61def7864963e9bcd107",
+      "financial_futuretest_3b567a0316c2c4f84acbdfb7",
+      "financial_futuretest_6f65f42efd1fe06d82178b15",
+      "financial_futuretest_97dcff818edc17e83603e843",
+      "financial_futuretest_218611bd1be506f48e885319",
+      "financial_futuretest_3d24a0a192b2e4c6f52eaa93",
+      "financial_futuretest_71545714a892fb693fc2dced"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_333",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_89b946bb11f891f888a54f52",
+      "financial_futuretest_c082d4858b9742bffa18491c",
+      "financial_futuretest_a8baf3b434d85f321ff38a4a",
+      "financial_futuretest_00eea07d73d2178ccf04cdba",
+      "financial_futuretest_fe55c9c8e4173c481e9b97b9",
+      "financial_futuretest_510b1ae993c1b000e7e67377",
+      "financial_futuretest_1c5ce4f7fd1d881f72cbcb78",
+      "financial_futuretest_071bceeb4534a759a6ee1f03",
+      "financial_futuretest_287d623a609f97ced2a684c1",
+      "financial_futuretest_124306f85625a869c9b01010"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_344",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_63542632de3141a51187920b",
+      "financial_futuretest_8de0c2702e66a87e8f0176f6",
+      "financial_futuretest_f837bc54a794c416c00ec8ce",
+      "financial_futuretest_f5b07b8490c7d274cab4821b",
+      "financial_futuretest_564ebe4dd078646c8bcb01e9",
+      "financial_futuretest_c5cf38ce99c388abca2aec65",
+      "financial_futuretest_5161f8ee5b24bc246ca8bfde",
+      "financial_futuretest_3f2ec8419cea4aa4f4b6af19",
+      "financial_futuretest_a8b80454f591d2d4ab1d2a58",
+      "financial_futuretest_db74d8c52f850c886d6f4eed"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_346",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_e7b440f59ce72b194bfaa7d8",
+      "financial_futuretest_a94d3986c32a1d6513bd676b",
+      "financial_futuretest_be0adc133d2649ddd83bd453",
+      "financial_futuretest_07f50a9ffedd6852f3cf7256",
+      "financial_futuretest_2f08939ec1a4e37281388c23",
+      "financial_futuretest_31d4112abbf961396c35fbb6",
+      "financial_futuretest_33ad79fdf0b2f487f30cb031",
+      "financial_futuretest_06a18b973d0da7cafd6648a8",
+      "financial_futuretest_f530d2994143305082f0e995",
+      "financial_futuretest_9cebc59c33a4ae31a79fa161"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_349",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_20c9c6418dea71bbbc146279",
+      "financial_futuretest_8878f3a3fbb98351ada2d92f",
+      "financial_futuretest_7cbd60be2272ff1175aad959",
+      "financial_futuretest_4084a2aa761b99264865e733",
+      "financial_futuretest_629029bb31bcd9dfb9acb7b1",
+      "financial_futuretest_f35c61cf75840a198564fec5",
+      "financial_futuretest_d4f27836d50fef3f4a537b9d",
+      "financial_futuretest_773ab5314c17b08e63b92552",
+      "financial_futuretest_dac20355b0cb46153b07c888",
+      "financial_futuretest_ececc2a9c6444b383056e26a"
+    ],
+    "status": "temporal_evaluation_ready"
+  },
+  {
+    "domain": "financial",
+    "parent_question_id": "RDB_FIN_353",
+    "parent_split": "test",
+    "is_predictive": true,
+    "support_count": 10,
+    "sample_ids": [
+      "financial_futuretest_8ba27fcf46400ea9f87b8f84",
+      "financial_futuretest_0d29c934e909c8a0b9a929d5",
+      "financial_futuretest_a97f6723573e2292f390969a",
+      "financial_futuretest_21ac95e1365e337cde6c5ff2",
+      "financial_futuretest_4de86c53c4dc1dbbbbd423d7",
+      "financial_futuretest_3e1492ebdb3e2197a80cc981",
+      "financial_futuretest_a0b08a06cef4b5583914c0b8",
+      "financial_futuretest_0c024622782e6cb3a990c5e3",
+      "financial_futuretest_12f6248d87c3bda266cf9a3d",
+      "financial_futuretest_458cc8f097ee0e35d8437805"
+    ],
+    "status": "temporal_evaluation_ready"
+  }
+]

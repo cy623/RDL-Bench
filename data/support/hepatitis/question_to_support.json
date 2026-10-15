@@ -1,0 +1,2252 @@
+[
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_001",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_002",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_003",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_008",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_009",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_010",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_012",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_013",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_015",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_018",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_021",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_028",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_029",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_031",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_032",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_033",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_034",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_035",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_037",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_038",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_039",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_040",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_044",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_045",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_049",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_050",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_051",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_054",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_055",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_058",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_059",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_060",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_061",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_064",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_065",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_066",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_067",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_068",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_069",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_072",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_073",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_075",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_077",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_078",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_079",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_082",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_084",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_086",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_087",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_088",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_089",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_090",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_091",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_092",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_095",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_096",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_097",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_099",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_100",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_101",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_103",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_104",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_105",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_106",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_116",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_117",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_118",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_121",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_122",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_125",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_127",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_128",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_129",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_131",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_132",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_133",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_134",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_135",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_136",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_138",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_139",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_140",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_141",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_143",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_145",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_146",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_149",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_150",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_151",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_152",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_154",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_157",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_158",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_161",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_162",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_163",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_164",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_166",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_167",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_169",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_170",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_172",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_173",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_176",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_178",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_181",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_183",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_184",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_185",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_186",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_187",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_188",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_189",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_191",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_192",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_194",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_195",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_196",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_199",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_200",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_201",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_202",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_203",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_206",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_209",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_210",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_212",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_214",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_215",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_217",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_219",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_220",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_221",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_222",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_223",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_224",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_225",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_227",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_230",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_232",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_233",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_234",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_236",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_237",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_241",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_242",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_246",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_247",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_248",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_250",
+    "parent_split": "train",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_004",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_006",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_007",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_016",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_024",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_025",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_030",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_041",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_043",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_046",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_052",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_053",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_056",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_057",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_070",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_071",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_074",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_080",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_081",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_083",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_085",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_093",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_109",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_111",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_112",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_115",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_119",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_120",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_123",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_126",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_137",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_144",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_148",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_160",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_168",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_177",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_179",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_182",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_197",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_198",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_205",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_207",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_208",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_211",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_213",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_226",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_228",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_235",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_238",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_244",
+    "parent_split": "validation",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_005",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_011",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_014",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_017",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_019",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_020",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_022",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_023",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_026",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_027",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_036",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_042",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_047",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_048",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_062",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_063",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_076",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_094",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_098",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_102",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_107",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_108",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_110",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_113",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_114",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_124",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_130",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_142",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_147",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_153",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_155",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_156",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_159",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_165",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_171",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_174",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_175",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_180",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_190",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_193",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_204",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_216",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_218",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_229",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_231",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_239",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_240",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_243",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_245",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  },
+  {
+    "domain": "hepatitis",
+    "parent_question_id": "RDB_FIN_249",
+    "parent_split": "test",
+    "is_predictive": false,
+    "support_count": 0,
+    "sample_ids": [],
+    "status": "not_applicable_to_reasoning"
+  }
+]
