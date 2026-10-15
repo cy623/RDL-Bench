@@ -4,10 +4,10 @@ RDL-Bench supports natural-language reasoning and prediction over seven relation
 
 ## Download
 
-Download [rdl-bench-v2.0-full.zip](https://github.com/cy623/RDL-Bench/releases/download/v2.0/rdl-bench-v2.0-full.zip) from the [v2.0 release](https://github.com/cy623/RDL-Bench/releases/tag/v2.0). The full archive includes all seven DuckDB database snapshots, QA, schema metadata, support instances, historical feature-view code, and a portable data reader. No separate DB.zip is needed for this version.
+Download dataset from the [v2.0 release](https://github.com/cy623/RDL-Bench/releases/tag/v2.0). The full archive includes all seven DuckDB database snapshots, QA, schema metadata, support instances, historical feature-view code, and a portable data reader. No separate DB.zip is needed for this version.
 
 ```bash
-unzip rdl-bench-v2.0-full.zip
+unzip rdl-bench-v2.0.zip
 cd rdl-bench-v2.0
 python -m pip install -r requirements.txt
 python load_data.py --summary
