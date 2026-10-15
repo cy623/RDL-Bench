@@ -1,30 +1,13 @@
-# Dataset Card: RDL-Bench
+# RDL-Bench Dataset Card
 
-## Overview
+RDL-Bench v2.0 contains 4,040 QA records across Olist, Stats, NCAA, Hepatitis, Financial, Dallas and Airline, with fixed training, validation and test splits. It includes 8,255 historical/evaluation support instances and seven DuckDB snapshots. The data supports relational QA, task understanding, SQL-based reasoning and question-conditioned predictive learning.
 
-RDL-Bench is a benchmark for question answering over relational databases. It covers reasoning tasks answered from observable database states and predictive tasks whose targets are constructed from future records under temporal constraints.
+## Supervision and evaluation populations
 
-## Data Components
+QA train/validation/test contain 2,425/810/805 questions. Historical support train/validation/test contain 5,052/1,616/1,587 labeled instances. The original QA test contains 618 Reasoning and 187 Prediction questions. The fixed expanded Prediction test has 1,774 instances: 187 original predictive QA questions and 1,587 additional evaluation-only instances. Hepatitis has no Prediction tasks. Statistics by domain are in `dataset_stats.csv`.
 
-- Natural-language questions and paraphrases
-- Task metadata
-- Schema information
-- SQL evidence or target-construction logic
-- Temporal context
-- Structured ground truth
+QA supervision is a question split; it must not be interpreted as chronological predictor-label supervision. Predictor fitting and adaptation use historical support/train, selection uses support/validation, and support/test is evaluation-only. Every support instance is linked to a parent question and an existing bound SQL execution record. Future outcomes, execution SQL, test labels and availability metadata are not model-input features. Gold Task Spec annotations are not generated Task Specs.
 
-## Domains
+## Intended use and source terms
 
-The benchmark includes multiple real-world relational database domains, including e-commerce, finance, sports, healthcare, transportation, social platforms, and government data.
-
-## Intended Use
-
-The dataset is intended for research on relational database question answering, task routing, text-to-SQL, table QA, and relational predictive modeling.
-
-## Evaluation
-
-Use task-appropriate metrics. Reasoning tasks should be evaluated against structured answers. Predictive classification and regression should be evaluated separately.
-
-## Limitations
-
-Results may depend on schema complexity, answer type, temporal signal strength, and domain-specific data distribution. Users should verify source data licenses before redistribution.
+The release supports research on relational reasoning and prediction. Source databases retain their upstream usage and redistribution terms. No additional blanket data license is assigned by this packaging step. RDL-Bench metadata and source attribution from the earlier repository remain available at https://github.com/cy623/RDL-Bench. Cite the associated work and identify the version used.

@@ -1,0 +1,9 @@
+domain,qa_train,support_train,qa_validation,support_validation,qa_test,support_test,prediction_test,prediction_qa_test
+olist,419,1100,140,366,140,370,407,37
+stats,437,850,146,290,146,280,308,28
+ncaa,325,980,107,230,105,213,242,29
+hepatitis,150,0,50,0,50,0,0,0
+financial,214,950,72,310,71,310,341,31
+dallas,244,520,82,180,81,165,198,33
+airline,636,652,213,240,212,249,278,29
+TOTAL,2425,5052,810,1616,805,1587,1774,187
