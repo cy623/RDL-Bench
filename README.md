@@ -1,106 +1,83 @@
 # RDL-Bench
 
-RDL-Bench is a benchmark for task-aware question answering over relational databases. It contains natural-language questions, task metadata, schema information, temporal context, executable evidence or target-construction logic, and structured ground-truth answers.
+RDL-Bench supports natural-language reasoning and prediction over seven relational databases. Version 2.0 adds historical training and validation support instances, publishes fixed QA splits.
 
-## Repository Contents
+## Download
+
+Download [rdl-bench-v2.0-full.zip](https://github.com/cy623/RDL-Bench/releases/download/v2.0/rdl-bench-v2.0-full.zip) from the [v2.0 release](https://github.com/cy623/RDL-Bench/releases/tag/v2.0). The full archive includes all seven DuckDB database snapshots, QA, schema metadata, support instances, historical feature-view code, and a portable data reader. No separate DB.zip is needed for this version.
+
+```bash
+unzip rdl-bench-v2.0-full.zip
+cd rdl-bench-v2.0
+python -m pip install -r requirements.txt
+python load_data.py --summary
+```
+
+
+## Dataset layout
 
 ```text
-.
+rdl-bench-v2.0/
+├── DB/                             # Seven read-only database snapshots
 ├── data/
-│   ├── instances/        # Released benchmark instances and metadata
-│   └── json/             # Cleaned JSON files and generation/profiling utilities
-├── scripts/              # Dataset construction and validation scripts
-├── DB_MANIFEST.txt       # File listing for DuckDB database files
-├── mysql_csv_MANIFEST.txt# File listing for source CSV files
-├── rdlbench/             # Evaluation pipeline in the RDL-Bench paper.  
-├── requirements.txt
-├── DATASET_CARD.md
-└── CITATION.cff
+│   ├── instances/<database>/       # Complete QA JSON and schema metadata
+│   ├── splits/<domain>.json        # Ordered QA IDs for each split
+│   └── support/<domain>/           # train/validation/test, config and parent mapping
+├── history_views/                  # Domain-specific historical feature policies
+├── dataset_stats.csv
+├── manifest.json
+└── load_data.py
 ```
 
-## Data Download
+The database folder names and complete QA filenames under `data/instances/` follow the earlier repository layout. File paths for every domain are listed in `manifest.json`. The `data/instances/` arrays contain the union of the three v2.0 QA splits.
 
-The lightweight repository contains benchmark metadata, instance files, and dataset construction scripts.
+## Dataset statistics
 
-Large files are provided through the GitHub Release:
+| Database | QA train | QA val | QA test | Support train | Support val | Support test | Prediction test |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Olist | 419 | 140 | 140 | 1100 | 366 | 370 | 407 |
+| stats | 437 | 146 | 146 | 850 | 290 | 280 | 308 |
+| NCAA | 325 | 107 | 105 | 980 | 230 | 213 | 242 |
+| hepatitis | 150 | 50 | 50 | 0 | 0 | 0 | 0 |
+| financial | 214 | 72 | 71 | 950 | 310 | 310 | 341 |
+| Dallas | 244 | 82 | 81 | 520 | 180 | 165 | 198 |
+| Airline | 636 | 213 | 212 | 652 | 240 | 249 | 278 |
 
-- Release page: [RDL-Bench](https://github.com/cy623/RDL-Bench/releases/tag/v1.0)
+Totals: 2,425 / 810 / 805 QA questions and 5,052 / 1,616 / 1,587 support instances in train / validation / test. Hepatitis contains only Reasoning tasks and has empty support arrays. Support counts measure labeled entity/time instances; they are not counts of independent tasks or independent future events.
 
-Please download the following assets from the release page:
+## Training and evaluation
 
-- `dataset.zip`: benchmark instance files
-- `DB.zip`: database files
-- `mysql_csv.zip`: CSV exports
-- `json_cleaned.zip`: cleaned JSON construction files
+Use QA train/validation to learn and select task-understanding models such as a Task Spec Generator. Original predictive QA answers are future outcomes; their question-level split is not a temporal split of predictor labels. Train predictive models on `support/train.json`, and select hyperparameters/checkpoints on `support/validation.json`. Target-domain few-shot and full-data adaptation also use `support/train.json`.
 
-After downloading, place the files under the corresponding directories described in `DATASET_CARD.md`.
+`support/test.json` contains evaluation-only prediction instances. Its labels must not be used for adaptation, prompt demonstrations or model selection. The fixed expanded Prediction test set combines 187 original predictive QA test questions with 1,587 evaluation-only support instances, following the recorded temporal and instance-identity protocol. Use `load_data.prediction_test()` to obtain exactly these 1,774 instances. The reader assembles this population directly from the existing QA and support/test arrays, without separate copies of the questions or labels. The original QA test contains 618 Reasoning and 187 Prediction questions. Use those 618 questions for Reasoning and the merged 1,774 instances for expanded Prediction evaluation; report which population is used.
 
-## Data Format
+Feature construction must use each instance's historical cutoff. Use the supplied historical views, including the published domain-specific availability assumptions. Full snapshots support execution of the SQL retained in QA evidence. 
 
-Each benchmark instance is represented as JSON with the following main components:
+```python
+from load_data import qa, support, prediction_test, open_history
 
-- `instance_id`: unique instance identifier.
-- `metadata`: task type, answer nature, complexity, involved tables, and temporal fields when available.
-- `question`: primary natural-language question and optional variants.
-- `evidence`: SQL evidence for reasoning tasks or target-construction logic for predictive tasks.
-- `ground_truth`: structured answer stored in `raw_value`.
+training_questions = qa("olist", "train")
+training_labels = support("olist", "train")
+test_inputs = prediction_test("olist")  # labels are omitted by default
 
-Primary evaluation should use the structured `raw_value` field rather than natural-language answer surface forms.
-
-## Setup
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+sample = training_labels[0]
+history = open_history("olist", sample["reference_time"])
+try:
+    rows = history.execute("SELECT COUNT(*) FROM olist_orders_dataset").fetchall()
+finally:
+    history.close()
 ```
 
-## Running
+## Data format
 
-```bash
-cd rdlbench_eval
-python run_eval.py --config config.yaml --dataset financial --method llm_schema
-python run_eval.py --config config.yaml --dataset financial --method llm_2hop
-python run_eval.py --config config.yaml --dataset financial --method llm_only
-python run_eval.py --config config.yaml --dataset financial --method llm_router
-```
+QA records retain `instance_id`, `metadata`, `question`, `evidence`, and `ground_truth`. Support records contain `sample_id`, `domain`, `parent_question_id`, `parent_split`, `question`, `anchor`, `reference_time`, `task_type`, `relevant_tables`, and `label`. Associate a support row with its QA using `(domain, parent_question_id)`; instance IDs are not globally unique across databases.
+
+Support labels are stored scalar database query results; Boolean results are represented as 0/1. Per-instance support execution records are not included in this distribution. QA evidence retains its `golden_sql`. For set-valued Reasoning answers, a stored `raw_value` can be truncated; execute the record's evidence SQL to reconstruct the complete answer.
 
 
-## Typical Workflow
+## Historical feature policy
 
-The scripts are organized by construction stage:
+`load_data.open_history(domain, reference_time)` opens historical views over a read-only database snapshot. Features follow each instance's own reference time; predictor fitting uses support/train, selection uses support/validation, and support/test is evaluation-only. The fixed merged test excludes duplicate instances and training/validation overlaps, and its observation times satisfy the recorded training/validation label-availability boundary. Its membership is determined directly by the published QA test split and support/test arrays; do not sample a replacement test set.
 
-```text
-1_data_install.py              # Export source relational tables to CSV
-2_data_2db.py                  # Convert CSV tables to DuckDB databases
-3_generate_metajson.py         # Generate metadata JSON files
-5_sample_Context.py            # Sample context information
-6_repeat_check.py              # Check duplicate or repeated instances
-7_generate_raw_value1.py       # Execute SQL and fill structured ground truth
-8_generate_nl_answer.py        # Generate formatted natural-language answers
-9_check.py                     # Run final consistency checks
-```
+Support anchors use table/key/value. `question_to_support.json` associates support rows with parent QA records. `prediction_test()` omits labels by default; `include_labels=True` adds them for scoring. It reads the predictive questions in the QA test split followed by support/test, with no additional index file or copied test arrays.
 
-Some scripts require setting the target domain name and paths before execution. Avoid committing machine-specific absolute paths.
-
-## Notes
-
-- Use only records before the reference time for predictive feature construction.
-- Evaluate reasoning tasks against structured ground truth.
-- For instances whose answer type is `set`, the answer stored in the released JSON files may be truncated for readability and file-size control. The truncated value should not be treated as the complete gold answer. To obtain the complete set-valued answer, users should reconstruct it from the `evidence` field. For reasoning instances, this usually means executing the provided SQL query against the corresponding database.
-
-## Configuration
-
-`config.yaml` controls all paths and hyperparameters:
-
-```yaml
-data_dir:   ../json          # directory with per-dataset JSON files
-db_dir:     ../DB            # directory with *.duckdb databases
-output_dir: results          # where result JSON files are written
-model_name: claude-sonnet-4-6
-api_key:    ""               # leave blank if using ANTHROPIC_API_KEY env var
-```
-
-## Citation
-
-If you use RDL-Bench, please cite the paper associated with this repository.
