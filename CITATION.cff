@@ -6,3 +6,6 @@ authors:
     given-names: Yao
   - family-names: Luo
     given-names: Siqiang
+
+version: "2.0"
+repository-code: "https://github.com/cy623/RDL-Bench"
