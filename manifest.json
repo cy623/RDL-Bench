@@ -1,0 +1,682 @@
+{
+  "dataset": "RDL-Bench",
+  "version": "2.0",
+  "prepared_utc": "2026-10-15T07:17:04.345067+00:00",
+  "domains": {
+    "olist": {
+      "display_name": "Olist",
+      "instances": "data/instances/Olist/Olist.json",
+      "metadata": "data/instances/Olist/metadata_Olist.json",
+      "splits": "data/splits/olist.json",
+      "support_dir": "data/support/olist",
+      "database": "DB/Olist.duckdb",
+      "support_sql": "provenance/support/olist.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 419,
+        "support_train": 1100,
+        "qa_validation": 140,
+        "support_validation": 366,
+        "qa_test": 140,
+        "support_test": 370,
+        "prediction_test": 407,
+        "prediction_qa_test": 37
+      }
+    },
+    "stats": {
+      "display_name": "stats",
+      "instances": "data/instances/stats/stats.json",
+      "metadata": "data/instances/stats/metadata_stats.json",
+      "splits": "data/splits/stats.json",
+      "support_dir": "data/support/stats",
+      "database": "DB/stats.duckdb",
+      "support_sql": "provenance/support/stats.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 437,
+        "support_train": 850,
+        "qa_validation": 146,
+        "support_validation": 290,
+        "qa_test": 146,
+        "support_test": 280,
+        "prediction_test": 308,
+        "prediction_qa_test": 28
+      }
+    },
+    "ncaa": {
+      "display_name": "NCAA",
+      "instances": "data/instances/NCAA/NCAA.json",
+      "metadata": "data/instances/NCAA/metadata_NCAA.json",
+      "splits": "data/splits/ncaa.json",
+      "support_dir": "data/support/ncaa",
+      "database": "DB/NCAA.duckdb",
+      "support_sql": "provenance/support/ncaa.jsonl",
+      "reference_times": "data/support/ncaa/qa_reference_times.json",
+      "counts": {
+        "qa_train": 325,
+        "support_train": 980,
+        "qa_validation": 107,
+        "support_validation": 230,
+        "qa_test": 105,
+        "support_test": 213,
+        "prediction_test": 242,
+        "prediction_qa_test": 29
+      }
+    },
+    "hepatitis": {
+      "display_name": "hepatitis",
+      "instances": "data/instances/hepatitis/hepatitis.json",
+      "metadata": "data/instances/hepatitis/metadata_hepatitis.json",
+      "splits": "data/splits/hepatitis.json",
+      "support_dir": "data/support/hepatitis",
+      "database": "DB/hepatitis.duckdb",
+      "support_sql": "provenance/support/hepatitis.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 150,
+        "support_train": 0,
+        "qa_validation": 50,
+        "support_validation": 0,
+        "qa_test": 50,
+        "support_test": 0,
+        "prediction_test": 0,
+        "prediction_qa_test": 0
+      }
+    },
+    "financial": {
+      "display_name": "financial",
+      "instances": "data/instances/financial/financial.json",
+      "metadata": "data/instances/financial/metadata_financial.json",
+      "splits": "data/splits/financial.json",
+      "support_dir": "data/support/financial",
+      "database": "DB/financial.duckdb",
+      "support_sql": "provenance/support/financial.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 214,
+        "support_train": 950,
+        "qa_validation": 72,
+        "support_validation": 310,
+        "qa_test": 71,
+        "support_test": 310,
+        "prediction_test": 341,
+        "prediction_qa_test": 31
+      }
+    },
+    "dallas": {
+      "display_name": "Dallas",
+      "instances": "data/instances/Dallas/Dallas.json",
+      "metadata": "data/instances/Dallas/metadata_Dallas.json",
+      "splits": "data/splits/dallas.json",
+      "support_dir": "data/support/dallas",
+      "database": "DB/Dallas.duckdb",
+      "support_sql": "provenance/support/dallas.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 244,
+        "support_train": 520,
+        "qa_validation": 82,
+        "support_validation": 180,
+        "qa_test": 81,
+        "support_test": 165,
+        "prediction_test": 198,
+        "prediction_qa_test": 33
+      }
+    },
+    "airline": {
+      "display_name": "Airline",
+      "instances": "data/instances/Airline/Airline.json",
+      "metadata": "data/instances/Airline/metadata_Airline.json",
+      "splits": "data/splits/airline.json",
+      "support_dir": "data/support/airline",
+      "database": "DB/Airline.duckdb",
+      "support_sql": "provenance/support/airline.jsonl",
+      "reference_times": null,
+      "counts": {
+        "qa_train": 636,
+        "support_train": 652,
+        "qa_validation": 213,
+        "support_validation": 240,
+        "qa_test": 212,
+        "support_test": 249,
+        "prediction_test": 278,
+        "prediction_qa_test": 29
+      }
+    }
+  },
+  "totals": {
+    "qa_train": 2425,
+    "support_train": 5052,
+    "qa_validation": 810,
+    "support_validation": 1616,
+    "qa_test": 805,
+    "support_test": 1587,
+    "prediction_test": 1774,
+    "prediction_qa_test": 187
+  },
+  "qa_total": 4040,
+  "files": {
+    "CHANGELOG.md": {
+      "bytes": 1011,
+      "sha256": "39b7265b76b9275915c0fd572c7f016b94973bd2571991c3d647d11cade99be8"
+    },
+    "CITATION.cff": {
+      "bytes": 283,
+      "sha256": "19079c42ccef8e7593a1dc631ac9ffab60b15e95a4cf0513d67def9b6c426dd0"
+    },
+    "DATASET_CARD.md": {
+      "bytes": 3581,
+      "sha256": "8352110e4db0bc8237531dea7f405e01fed147b21dc525bd34ce8ba3571a817a"
+    },
+    "DB/Airline.duckdb": {
+      "bytes": 74461184,
+      "sha256": "d319b82f82fac8bedb684b78106809ee2bfe901ef079831bbc0ff87e00447c05"
+    },
+    "DB/Dallas.duckdb": {
+      "bytes": 1323008,
+      "sha256": "bf0fcc5aec5c8b06a860d9645816d6768944d5ca93537d88a77ad3c5e29e5a11"
+    },
+    "DB/NCAA.duckdb": {
+      "bytes": 4730880,
+      "sha256": "23c3ece03f1875f24e0da04f4ddcf677b6e84f359323d52832674062f252a993"
+    },
+    "DB/Olist.duckdb": {
+      "bytes": 45625344,
+      "sha256": "a5e2781be17fb3a61bf529de4f78277f098570877bd25cd41b431d01b4288ddf"
+    },
+    "DB/financial.duckdb": {
+      "bytes": 21245952,
+      "sha256": "bbddac8a7481e593bfde9b859eab3ea7815277bab86f82221d0ea5b0bd4eaa91"
+    },
+    "DB/hepatitis.duckdb": {
+      "bytes": 2109440,
+      "sha256": "194d300b85161ea55b5f74b56ab357e18c1cfc38af96067c6795d3fd3101d79b"
+    },
+    "DB/stats.duckdb": {
+      "bytes": 758919168,
+      "sha256": "bc70f033a3ab91430046d721bebfef4fda1f4d5ec29b048f9494708c7ba58229"
+    },
+    "README.md": {
+      "bytes": 7568,
+      "sha256": "af138b24dd4ee1208c2a546946d028f6cfe3780ff3929f2521ec622fbe6b4d34"
+    },
+    "data/instances/Airline/Airline.json": {
+      "bytes": 2558069,
+      "sha256": "914068acfee220a7272c322c19e8ae8ed33a9217a6f2845ec198c37b20d45234"
+    },
+    "data/instances/Airline/metadata_Airline.json": {
+      "bytes": 23990,
+      "sha256": "c5d0e60c94a426761ac2d12e43222763fb23dc513c61b5f08f38cb642b3f68a4"
+    },
+    "data/instances/Dallas/Dallas.json": {
+      "bytes": 1025579,
+      "sha256": "24943b8c86c25e0cf269fe419d81634b8a3ef95c83492e3e80f1dfef61d2f0b7"
+    },
+    "data/instances/Dallas/metadata_Dallas.json": {
+      "bytes": 3840,
+      "sha256": "f016afdaaf814dd6158323d8239bdaeede58047d900878e2e4ebd479f409974a"
+    },
+    "data/instances/NCAA/NCAA.json": {
+      "bytes": 928273,
+      "sha256": "7bd1b0cc2426aab1fac6ab0d6a8d5b87d957bb7966f3fff56aacce0354a24e37"
+    },
+    "data/instances/NCAA/metadata_NCAA.json": {
+      "bytes": 12858,
+      "sha256": "c0262f131e6dab4a93d912ee18938a6ca30a5b22defcb5920d368fbea96337fa"
+    },
+    "data/instances/Olist/Olist.json": {
+      "bytes": 1997184,
+      "sha256": "03ac524aefea4674f2bdc9f7e33e2b159e1351f1ff1078859c06dadb4b49bbe4"
+    },
+    "data/instances/Olist/metadata_Olist.json": {
+      "bytes": 8858,
+      "sha256": "2829c592ba72d52aaefd5cefbd6988d19bb2d741e8fc29cd53a19b0c1438f65d"
+    },
+    "data/instances/financial/financial.json": {
+      "bytes": 718263,
+      "sha256": "7950284f693e89245f2949ec62ce4bbd38611885515a2c50f54b683b86a2ef3f"
+    },
+    "data/instances/financial/metadata_financial.json": {
+      "bytes": 6448,
+      "sha256": "10321d2e83c396924de7edadea1e78b5cbe03defc71e58272a036155d87ae5fe"
+    },
+    "data/instances/hepatitis/hepatitis.json": {
+      "bytes": 476800,
+      "sha256": "ab383e3357a32ab6deec580e974212adf75fa9642c3dd9f2365d8ee760da1d48"
+    },
+    "data/instances/hepatitis/metadata_hepatitis.json": {
+      "bytes": 6734,
+      "sha256": "ba1f5ba1344e515ee7340e3e30f57c4d72a423bf3b26d34fb63740033772ebaa"
+    },
+    "data/instances/stats/metadata_stats.json": {
+      "bytes": 14591,
+      "sha256": "8a6b3c62651f9a26816bf8fa5f3738963a7362b190afaab5fdcdb7c9390e0049"
+    },
+    "data/instances/stats/stats.json": {
+      "bytes": 1572272,
+      "sha256": "dd84d812b097138c1f579573256d415f8c4b59ca2e0823418202c2cbe6e2dc62"
+    },
+    "data/splits/airline.json": {
+      "bytes": 20290,
+      "sha256": "cb95d19ee28bfa1bcb4a3f0447755456b7800c2668b3f5fe8443fe8c45cedf33"
+    },
+    "data/splits/dallas.json": {
+      "bytes": 7791,
+      "sha256": "26504756a049daa8c65c8e69e76d2eb2b377fb682feb671e2ae327f95b61d28f"
+    },
+    "data/splits/financial.json": {
+      "bytes": 6841,
+      "sha256": "22777dc19910b11e0c0e85c7391041d075293f02257125473d5e36959aa35fe8"
+    },
+    "data/splits/hepatitis.json": {
+      "bytes": 4808,
+      "sha256": "ede4168c81e84c192cd856780ef688979dcbd62a1ec6ffe91c503c3c7c24cfe3"
+    },
+    "data/splits/ncaa.json": {
+      "bytes": 10261,
+      "sha256": "f18a80d2f52804d0a650a2eac3acc7453ad5c216e16d4ddb5dfa7ece5d60c3af"
+    },
+    "data/splits/olist.json": {
+      "bytes": 13535,
+      "sha256": "2caebdddaa779a061e7d33deed381f2e2852091276974f2c5f02bb0d8bed44a2"
+    },
+    "data/splits/stats.json": {
+      "bytes": 13909,
+      "sha256": "f7bf62e8ec77709a7f9a058ba9324a5b785193f71847eac21daac0ce21f0e7a4"
+    },
+    "data/support/airline/config.json": {
+      "bytes": 2948,
+      "sha256": "8f10f050473ee0f55560bdc0910c09bb2ed7d593d133818bbfae00e7a82a3d91"
+    },
+    "data/support/airline/question_to_support.json": {
+      "bytes": 285535,
+      "sha256": "46ab65505bb20699edd5a3cf9b1bd4db14a1d97b1630e65d6c9ddffdd6bc8138"
+    },
+    "data/support/airline/test.json": {
+      "bytes": 148001,
+      "sha256": "7a308ee4187a5c9150044cc551393c6f34a77df8c8dcd88b7d9647ff2bcc9fd4"
+    },
+    "data/support/airline/test_metadata.json": {
+      "bytes": 985,
+      "sha256": "49444cdcba1bb37da689f823ccc9e8b0d4b6f50fff8ac60f0ea219fbcce62566"
+    },
+    "data/support/airline/train.json": {
+      "bytes": 382628,
+      "sha256": "4868b7c98fd308de698933a292393b9f2b41e0c22961dd8287d58ab2709ea909"
+    },
+    "data/support/airline/validation.json": {
+      "bytes": 147236,
+      "sha256": "12383e412696b46d9b3accd1abdcdfbfaa52698ff40e9ac2be2f1f4c1d958c44"
+    },
+    "data/support/dallas/config.json": {
+      "bytes": 14585,
+      "sha256": "7eebc30617992b3729cea393e7be757b13c1c61d6c6e783339b8d7d059b45f1e"
+    },
+    "data/support/dallas/question_to_support.json": {
+      "bytes": 127452,
+      "sha256": "44fd0ddd483e1e61809a83ddbe29e03df94410bddbff0928cd4de7f746979d0d"
+    },
+    "data/support/dallas/test.json": {
+      "bytes": 96736,
+      "sha256": "8b5cbbcd967de08a4d0cf763eadb147947bf6675d0e1cf4cdbf64bdc538dce73"
+    },
+    "data/support/dallas/test_metadata.json": {
+      "bytes": 983,
+      "sha256": "1fb0cc83259c678245b444303436fc009552996493d96f46b7c4c712cf9ed057"
+    },
+    "data/support/dallas/train.json": {
+      "bytes": 302878,
+      "sha256": "6da548b98d5149acd95c8cb61d573e899a84114016b2236be1ec35206442f459"
+    },
+    "data/support/dallas/validation.json": {
+      "bytes": 105518,
+      "sha256": "f74194ead6f32de8fbca7e1f906767404af438df1aebac6f0ab826e82d38db92"
+    },
+    "data/support/financial/config.json": {
+      "bytes": 2390,
+      "sha256": "858db61d8899efe94a67705fb56aa3cccd900af1139767dfdbfab55ddbff8209"
+    },
+    "data/support/financial/question_to_support.json": {
+      "bytes": 151048,
+      "sha256": "6f16ed9471bd6aaf8a873e9151db31d4c207f10185b31e5c4ca7fa252b6ea575"
+    },
+    "data/support/financial/test.json": {
+      "bytes": 168847,
+      "sha256": "6af866cf5d213d56c94075efee3dfadced3ae629f3af77b92bb5a1e3063cb979"
+    },
+    "data/support/financial/test_metadata.json": {
+      "bytes": 987,
+      "sha256": "b5bb45896066792d830fa204cb24bc0410a1b0ba004ab0e5dba3d2c9b29a6346"
+    },
+    "data/support/financial/train.json": {
+      "bytes": 509949,
+      "sha256": "36bba8f1987acddd058b9c96ecf6b6635dc796e45ad6e415911dc48d4c825f23"
+    },
+    "data/support/financial/validation.json": {
+      "bytes": 165772,
+      "sha256": "674bb20075225b1c927485aec20e88fa08cf148ef75c3edfb823bda8ffcd552c"
+    },
+    "data/support/hepatitis/config.json": {
+      "bytes": 909,
+      "sha256": "d274a6c02496621bc94636e1e274cc27ea369423303a217cab59ff5affa1b63d"
+    },
+    "data/support/hepatitis/question_to_support.json": {
+      "bytes": 56203,
+      "sha256": "2f4fe43e621d796479b8af76bc90ab2992a8534848c5d84d5a50f1245fc21951"
+    },
+    "data/support/hepatitis/test.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data/support/hepatitis/train.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data/support/hepatitis/validation.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data/support/ncaa/config.json": {
+      "bytes": 2966,
+      "sha256": "16440a5b0e0c2b33b55ff7a6aee61f44a4e5d2fa81dab2342b102b0dafdf19e8"
+    },
+    "data/support/ncaa/qa_reference_times.json": {
+      "bytes": 55622,
+      "sha256": "fc0c8d06aad4d17e257629c2bf1b784c1eacf43ea87785d859644b04e0f18aa8"
+    },
+    "data/support/ncaa/question_to_support.json": {
+      "bytes": 175892,
+      "sha256": "3c909c6dab26a63b8cee2d73305d0bf881780b673a5e365636607fe3c12d14ac"
+    },
+    "data/support/ncaa/test.json": {
+      "bytes": 115050,
+      "sha256": "9e5793188d3859f694ab6015c19323ae80578bf0a9ee9d170c208a65e52081d5"
+    },
+    "data/support/ncaa/test_metadata.json": {
+      "bytes": 981,
+      "sha256": "bc95c6c885f284c97d8dadbee2441798a8f8809e6a2588ec494f5e84c130f3c5"
+    },
+    "data/support/ncaa/train.json": {
+      "bytes": 520645,
+      "sha256": "b172f4884013eba90ab7cd1f9b00987e3780db40a268a2a1c3be81214d27609d"
+    },
+    "data/support/ncaa/validation.json": {
+      "bytes": 123957,
+      "sha256": "6dea1abd11c43510575d7d1c0236fe7a48817e9b78b81490a2578d6bb6e99ee4"
+    },
+    "data/support/olist/config.json": {
+      "bytes": 2429,
+      "sha256": "656794ad6a226ba22a52d34cb3dc405222f51750ce4326f63f23cfa2c22e158e"
+    },
+    "data/support/olist/question_to_support.json": {
+      "bytes": 230041,
+      "sha256": "dc956d1e367b07f93d9ad0bd44da787b41bb3580079d1b6957547b35010c77c3"
+    },
+    "data/support/olist/test.json": {
+      "bytes": 248865,
+      "sha256": "47edad5f0d59a5c2b17314f660baddd2b6d1a89de06a03d977fb046ebbb7379c"
+    },
+    "data/support/olist/test_metadata.json": {
+      "bytes": 983,
+      "sha256": "7e00ee76441f601b863fdab88bb1f038d07be2803e00375b42e3ab0d6de64b5c"
+    },
+    "data/support/olist/train.json": {
+      "bytes": 743655,
+      "sha256": "63b56d66d9d0c84a5ecaa0d5ac209a54db09ce05a6c825f1d36c108801fb94a5"
+    },
+    "data/support/olist/validation.json": {
+      "bytes": 251952,
+      "sha256": "fdee8d9d8b875330bee0abf118a216d2ea7c6209da775ea6abfc2b9ba9e61074"
+    },
+    "data/support/stats/config.json": {
+      "bytes": 2536,
+      "sha256": "9e61b66a0ebcdc1e0fdeb493110afd166e44d8390e1c34f7af6a16b57e60b5da"
+    },
+    "data/support/stats/question_to_support.json": {
+      "bytes": 222613,
+      "sha256": "a1d2592566bbb93e0c984b712b852d92d52cbe29908ddc49bfbaafc6b7d44734"
+    },
+    "data/support/stats/test.json": {
+      "bytes": 146615,
+      "sha256": "f21d50874c48b749234d8931721616c4aa3277d6dfcc4c349d1329e3eb64427f"
+    },
+    "data/support/stats/test_metadata.json": {
+      "bytes": 982,
+      "sha256": "57c77980e20a9f3d7a56d0dc9a0bf74acf9eaa0eee8a3de63c5889015f165933"
+    },
+    "data/support/stats/train.json": {
+      "bytes": 444192,
+      "sha256": "f353d8dacaf97f9345890943251f4728164fb387855321444053fe822d884448"
+    },
+    "data/support/stats/validation.json": {
+      "bytes": 151293,
+      "sha256": "19ecee2c15eaa37549546bd43a4d4c589087e95f187500953461f72bd29a0cd5"
+    },
+    "dataset_stats.csv": {
+      "bytes": 426,
+      "sha256": "b9bdaf504da36c1d4b53b6984984e781b8a3dba56113258881e43c7c9ea24e5b"
+    },
+    "docs/DATA_FORMAT.md": {
+      "bytes": 2159,
+      "sha256": "28fa0be800ce7ac30c97e5213ad68333679fe2dcb760f72b12399494fd480c56"
+    },
+    "docs/GITHUB_RELEASE.md": {
+      "bytes": 1466,
+      "sha256": "d0238c58c351f30df60f73d427216ec99d91896bb25342377ae4b1d353faad2d"
+    },
+    "docs/SQL_PROVENANCE.md": {
+      "bytes": 1178,
+      "sha256": "7984617e78de57825d043cae5eb67fbf6e51caf8c5bec825a98496b3071d969e"
+    },
+    "docs/TEMPORAL_PROTOCOL.md": {
+      "bytes": 2093,
+      "sha256": "dbe3f9e36faca5df4b596d4231726087f11edd234b24df3cff70cdc86a550b35"
+    },
+    "evaluation/prediction/airline/inputs.json": {
+      "bytes": 257848,
+      "sha256": "eed820e4d2295b52b7ca2f7caf6ce011f12f80a172f3b791a2c6021923f5a943"
+    },
+    "evaluation/prediction/airline/labels.json": {
+      "bytes": 45075,
+      "sha256": "9b1fb915def32b5cb8633000daaee66e41f39d3af13c2b72f76c9865b2080964"
+    },
+    "evaluation/prediction/airline/protocol.json": {
+      "bytes": 1122,
+      "sha256": "9d262746f6b8ca7fefe84fc1e0beb4b2705dcc93cc9952acde439a03de3a28ca"
+    },
+    "evaluation/prediction/airline/task_definitions.json": {
+      "bytes": 49749,
+      "sha256": "be83f4bc92a87826656c5d2c7d570587d18cd2ba87b156db53397fb6973621a2"
+    },
+    "evaluation/prediction/dallas/inputs.json": {
+      "bytes": 180535,
+      "sha256": "eac94fde540686753a40768b8d79fe875ecf56ba0dca081affd0220682cd2324"
+    },
+    "evaluation/prediction/dallas/labels.json": {
+      "bytes": 31650,
+      "sha256": "0e7f0f16d8e339707352366c6d42e2c5ff1c09d6ce92e8fbf4cfc321d5ab550c"
+    },
+    "evaluation/prediction/dallas/protocol.json": {
+      "bytes": 1116,
+      "sha256": "b79ca27c71e10d256116c2e20ea6bc0c6f1b7fcd0ee1d59f2530c336a1456bcc"
+    },
+    "evaluation/prediction/dallas/task_definitions.json": {
+      "bytes": 9626,
+      "sha256": "4c58a0ade84e3896ad19205e1e84ef539cf5f0c4d8b3eb2e29a983fd20e7cf5b"
+    },
+    "evaluation/prediction/financial/inputs.json": {
+      "bytes": 302890,
+      "sha256": "ead068b19dde8a4802383bbf85d0097dae777296a0bc3119eed6406908c25c4a"
+    },
+    "evaluation/prediction/financial/labels.json": {
+      "bytes": 56175,
+      "sha256": "d561e236c1357f25eaafd2f23cfaa9ad0ac6bac45ea5b606cb79412e94f43d22"
+    },
+    "evaluation/prediction/financial/protocol.json": {
+      "bytes": 1130,
+      "sha256": "3b16d67c56944ab9869639fc24045946ab7e06d87a221eab0aaf623a0e4fbf76"
+    },
+    "evaluation/prediction/financial/task_definitions.json": {
+      "bytes": 59591,
+      "sha256": "d317f1190467e98d79c02f2b6610686231c647de2342e7731afae33a9ca1e9ff"
+    },
+    "evaluation/prediction/hepatitis/inputs.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "evaluation/prediction/hepatitis/labels.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "evaluation/prediction/hepatitis/protocol.json": {
+      "bytes": 72,
+      "sha256": "7656ea40056e2db4786fcf98a96bf381fa864682d883204eb6417da855ee6d04"
+    },
+    "evaluation/prediction/hepatitis/task_definitions.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "evaluation/prediction/ncaa/inputs.json": {
+      "bytes": 207049,
+      "sha256": "0ed6749725fb9b215ce07c73c938ad53ed4d2ad79062ba192dd0085980475ea2"
+    },
+    "evaluation/prediction/ncaa/labels.json": {
+      "bytes": 36256,
+      "sha256": "a494c259a157384b702c74e2aaf2640cd4a58926434db8fafaea66c5f4fa78c7"
+    },
+    "evaluation/prediction/ncaa/protocol.json": {
+      "bytes": 1110,
+      "sha256": "cce4f82abedbf0c6e5720ac3dfd7c53b2b04cc7aac7e949e2027a6da959e42f7"
+    },
+    "evaluation/prediction/ncaa/task_definitions.json": {
+      "bytes": 25192,
+      "sha256": "8f536e695d1a73cac4bc0b2acb4d4c978d5a47e0d3f25c844cfb6be0732a2ea0"
+    },
+    "evaluation/prediction/olist/inputs.json": {
+      "bytes": 406754,
+      "sha256": "6b75a4878dc7d2f735d315c4725d5dbb362192572e2c8ed51dcd231b57d868ab"
+    },
+    "evaluation/prediction/olist/labels.json": {
+      "bytes": 64370,
+      "sha256": "176e2dd0219d303154d0ea91293a9206164c4dd062be92ad52811f525ea0c673"
+    },
+    "evaluation/prediction/olist/protocol.json": {
+      "bytes": 1114,
+      "sha256": "02c63435c2a59cd5a1d1298472f8d44cacb77fde50fc2213af1fc30cb08ff111"
+    },
+    "evaluation/prediction/olist/task_definitions.json": {
+      "bytes": 14251,
+      "sha256": "96548cf2bc09eeb7001b6b9ac2ed21ba97304c9d62990d2f1fec38847012bc0e"
+    },
+    "evaluation/prediction/stats/inputs.json": {
+      "bytes": 262683,
+      "sha256": "4007a62fc7ec70b7e67cd13e5464e5d0965c45defda0a9686ae905067537c63b"
+    },
+    "evaluation/prediction/stats/labels.json": {
+      "bytes": 48545,
+      "sha256": "dc5cfb3f917c3bb5013877a40637fd88a5f0d43cab8be747f7498a8c2bb2c32d"
+    },
+    "evaluation/prediction/stats/protocol.json": {
+      "bytes": 1114,
+      "sha256": "5a81e135cd32276f77699f7af82c9c77416a0bac5a5a8b5212686d6c295790ca"
+    },
+    "evaluation/prediction/stats/task_definitions.json": {
+      "bytes": 26749,
+      "sha256": "6d7ab5e8ad47d351b0a3f5e793b7c9e0c2a1ce85e4e5df6f9003854ee7c8aa28"
+    },
+    "evaluation/prediction_test_ids.json": {
+      "bytes": 734227,
+      "sha256": "6af83011100f2f7fe73165c0eb56fcf8ea846ad6be3faa2641b6cfc1f8b4bd74"
+    },
+    "evaluation/qa_test_ids.json": {
+      "bytes": 145335,
+      "sha256": "5811fadc6143d7ed12c3ca4b511b0a4ef5aa145847555e5b9e6d8c0ea092e98e"
+    },
+    "evaluation/reasoning_test_ids.json": {
+      "bytes": 111651,
+      "sha256": "86d6897d00f4ba7bb855e8879738c53e409aee75beab220246f71c178a3587b0"
+    },
+    "history_views/__init__.py": {
+      "bytes": 58,
+      "sha256": "b17b89d9dd8aa904b10bef37d6f5f33ff82fa12fee50707049a47a1a21ebfd37"
+    },
+    "history_views/airline.py": {
+      "bytes": 1641,
+      "sha256": "024c1d454b6b94bf12c157fbfbca9dcc16c585306c2f567922f0b59628732fa7"
+    },
+    "history_views/common.py": {
+      "bytes": 243,
+      "sha256": "8bbf10b964c40b5a9c42fbade2d0300561c9171aecb5853875bad0003df3ec4f"
+    },
+    "history_views/dallas.py": {
+      "bytes": 1159,
+      "sha256": "2486169812c0870db026c761d0a931798d0aff1fd2de01b563a5018ba4538429"
+    },
+    "history_views/financial.py": {
+      "bytes": 2251,
+      "sha256": "bcaeffeaba30d986166765c9f66b9017c5a24014ab5dd9dca229dcac50eeddde"
+    },
+    "history_views/ncaa.py": {
+      "bytes": 1459,
+      "sha256": "3ec9f1885e60e3e6e3a37fcd1769a5c18d4de353193b4eaf62797103a963b08d"
+    },
+    "history_views/olist.py": {
+      "bytes": 2402,
+      "sha256": "a0a39fef0456949f5177c04b737a6c142e6936aa22cc4a1b75ed3f2caeb9d008"
+    },
+    "history_views/stats.py": {
+      "bytes": 2639,
+      "sha256": "dc2d134b4138301869bd3f93675d7e56f6900b7b0481770a70eb49b867c9991c"
+    },
+    "load_data.py": {
+      "bytes": 4986,
+      "sha256": "7a7b23474d010f413acf834e6000c42105db852a5bdb2da0e2a3d41d9aef646f"
+    },
+    "provenance/package_checks.json": {
+      "bytes": 1983,
+      "sha256": "1571d523101236daebe49a04b5332dae60edad925b9daa535b640d90faa73aaf"
+    },
+    "provenance/support/airline.jsonl": {
+      "bytes": 801928,
+      "sha256": "7c10969234e91a1b8716ccc00d5fcf8d29b89c252db43e2e73f169f9f6963772"
+    },
+    "provenance/support/dallas.jsonl": {
+      "bytes": 616943,
+      "sha256": "f7301500ded633a0fa58e09d6b4e8c26226fa98e3ff86cd4d2c362aa445fce8c"
+    },
+    "provenance/support/financial.jsonl": {
+      "bytes": 1043635,
+      "sha256": "0e8e11ee6f75dd79b87be7298dff2785187b74f3669ba4178cc41403eb9d7e57"
+    },
+    "provenance/support/hepatitis.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "provenance/support/ncaa.jsonl": {
+      "bytes": 923038,
+      "sha256": "a0b211a0d442c96fa48ac89e09a12dc8b6d520e8f0031c34b6f63a76a86dd145"
+    },
+    "provenance/support/olist.jsonl": {
+      "bytes": 1610560,
+      "sha256": "6a8d1e0577bd3afc4c80b4af940dd3480eb4c163ecec434a13d4422782eca86c"
+    },
+    "provenance/support/stats.jsonl": {
+      "bytes": 1113955,
+      "sha256": "f6ceb2cc855f68d4cf7254c90abb5488a2878110ef9ed017a86a71c2f75404ee"
+    },
+    "provenance/version_diff.json": {
+      "bytes": 510729,
+      "sha256": "4b9ed07081093d6353483db1de3592c62d7860e7ac8b752a6105be91b0fc5ce5"
+    },
+    "requirements.txt": {
+      "bytes": 14,
+      "sha256": "45918c31306c3614398a2a9f1672fae9ae318c31f3198f81df7e4feb9994c353"
+    }
+  },
+  "fingerprint_policy": "manifest.json excludes itself",
+  "databases_included": true,
+  "support_test_usage": "evaluation_only",
+  "prediction_evaluation": "evaluation/prediction_test_ids.json",
+  "historical_views": "history_views/",
+  "original_qa_content": "preserved; ordered split union, current curated v2.0 records"
+}
