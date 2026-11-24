@@ -109,3 +109,16 @@ The database snapshots are not relicensed.
 
 The Dallas database contains public records of police officer-involved shootings, including the names of officers and civilians, and it is not anonymized. Use it only for aggregate-level research, and follow the responsible-use statement in `DATA_SOURCES.md`.
 
+## Citation
+If you use RDL-Bench, please cite our paper:
+
+```bibtex
+@inproceedings{cheng2027rdl,
+  title={RDL-Bench: A Benchmark for Task-Aware Question Answering over Relational Databases},
+  author={Cheng, Yao and Luo, Siqiang},
+  booktitle={Proceedings of the IEEE International Conference on Data Engineering (ICDE)},
+  year={2027},
+  note={To appear. arXiv:2610.21382}
+}
+```
+
