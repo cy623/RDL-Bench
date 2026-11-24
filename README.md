@@ -25,7 +25,10 @@ rdl-bench-v2.0/
 │   └── support/<domain>/           # train/validation/test, config and parent mapping
 ├── history_views/                  # Domain-specific historical feature policies
 ├── dataset_stats.csv
-├── manifest.json
+├── manifest.json                   # Paths, counts, protocols, file sizes and checksums
+├── DATASET_CARD.md
+├── CHANGELOG.md
+├── CITATION.cff
 └── load_data.py
 ```
 
@@ -80,4 +83,29 @@ Support labels are stored scalar database query results; Boolean results are rep
 `load_data.open_history(domain, reference_time)` opens historical views over a read-only database snapshot. Features follow each instance's own reference time; predictor fitting uses support/train, selection uses support/validation, and support/test is evaluation-only. The fixed merged test excludes duplicate instances and training/validation overlaps, and its observation times satisfy the recorded training/validation label-availability boundary. Its membership is determined directly by the published QA test split and support/test arrays; do not sample a replacement test set.
 
 Support anchors use table/key/value. `question_to_support.json` associates support rows with parent QA records. `prediction_test()` omits labels by default; `include_labels=True` adds them for scoring. It reads the predictive questions in the QA test split followed by support/test, with no additional index file or copied test arrays.
+
+
+## Data sources, licences and responsible use
+
+All seven databases come from the [CTU Prague Relational Learning Repository](https://relational.fel.cvut.cz) and keep the terms of their original publishers:
+
+| Database | Original source | Upstream terms |
+|---|---|---|
+| Olist | Brazilian E-Commerce Public Dataset by Olist | CC BY-NC-SA 4.0 |
+| Stats | Stack Exchange data dump (Cross Validated) | CC BY-SA 2.5 / 3.0 |
+| Airline | U.S. Bureau of Transportation Statistics | U.S. government data |
+| Dallas | Dallas Police Department disclosures | Public records; responsible-use statement applies |
+| NCAA | Kaggle March Machine Learning Mania 2015 | Kaggle competition rules |
+| Hepatitis | ECML/PKDD Discovery Challenge (Chiba University Hospital) | Challenge release; no public licence found |
+| Financial | PKDD'99 Discovery Challenge (Berka) | Challenge release; no public licence found |
+
+See `DATA_SOURCES.md` for full provenance and attribution text. RDL-Bench's own contributions are licensed in `LICENSE.md`:
+
+- the code is under MIT;
+- the annotations are under CC BY-SA 4.0;
+- the Olist-derived annotations are under CC BY-NC-SA 4.0.
+
+The database snapshots are not relicensed.
+
+The Dallas database contains public records of police officer-involved shootings, including the names of officers and civilians, and it is not anonymized. Use it only for aggregate-level research, and follow the responsible-use statement in `DATA_SOURCES.md`.
 
